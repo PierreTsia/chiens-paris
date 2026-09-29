@@ -663,18 +663,48 @@ canines prélevées sur la voie publique.
    capacité à traiter un pic d'analyses, qualité du support juridique fourni à la collectivité
    (attestations exploitables devant un officier du ministère public).
 
-## Annexe C — Protocole de comptage des déjections (pièce manquante à Béziers)
+## Annexe C — Protocole de comptage citoyen des déjections (pièce manquante à Béziers)
 
-- Périmètre : définir des segments homogènes (par exemple 20 tronçons de 300 m dans le 20e),
+**Modèle de référence :** le comptage national des oiseaux des jardins, organisé par la LPO et le
+Muséum national d'histoire naturelle depuis 2012 — le plus important dispositif français de sciences
+participatives (près de 100 000 jardins en dix ans, 24 048 contributeurs pour la seule édition de
+janvier 2022). Trois règles en font un instrument fiable, et non une addition d'opinions :
+
+1. une règle de comptage qui interdit le double compte — « le nombre maximal d'individus vus en même
+   temps », et non la somme des observations successives ;
+2. des créneaux fixes et identiques d'une édition à l'autre : c'est la comparabilité qui fait la
+   valeur d'un comptage, pas son volume ;
+3. un point de collecte unique, où les données atterrissent et ressortent publiques.
+
+Ce que ce modèle change pour un comptage parisien des déjections :
+
+- **Périmètre :** des segments homogènes, par exemple 20 tronçons de 300 m dans le 20e,
   représentatifs des voies les plus fréquentées.
-- Fréquence : deux passages par semaine, sur six semaines minimum, aux mêmes heures, par deux
-  observateurs distincts.
-- Relevé : date, heure, tronçon, nombre de déjections, position (trottoir, chaussée, entrée
-  d'immeuble), photo horodatée, agent identifié.
-- Compléments : extractions DansMaRue sur le secteur, courriers de signalement d'habitants et de
-  commerçants.
-- Livrable : tableau avant/après, méthode publiée, résultat présentable au conseil d'arrondissement
-  et opposable en cas de contentieux. Coût : zéro euro, du temps bénévole.
+- **Zone témoin :** 5 tronçons comparables où rien ne change, comptés en parallèle pendant toute la
+  durée. Sans témoin, une baisse ne s'attribue pas au dispositif : c'est exactement l'erreur du
+  « −85 % » de Béziers, revendiqué par la mairie et jamais mesuré indépendamment.
+- **Pré-enregistrement du protocole :** tronçons, créneaux, règle de comptage et dates sont publiés
+  *avant* le premier passage. Un protocole dévoilé après coup est un protocole contestable — c'est la
+  différence entre un relevé et un argument.
+- **Fréquence et créneaux :** deux passages par semaine, six semaines minimum, mêmes heures, même
+  jour de la semaine, hors pluie et hors jour de collecte.
+- **Conditions relevées à chaque passage** (météo, passage de balayeuse, marché, vacances scolaires,
+  travaux) : ce sont les variables qui expliquent souvent une baisse avant qu'on l'attribue au
+  dispositif.
+- **Deux observateurs distincts par passage, dont au moins un qui n'est pas partie prenante** — un
+  sceptique, un commerçant, un élu d'opposition, un membre de PARC.C. Un comptage fait entre
+  convaincus est contesté avant même d'être discuté.
+- **Relevé :** date, heure, tronçon, nombre de déjections, position (trottoir, chaussée, entrée
+  d'immeuble), photo horodatée, observateur identifié.
+- **Compléments :** extractions DansMaRue sur le secteur, signalements d'habitants et de commerçants.
+- **Fin bornée et publication :** la campagne s'arrête à une date annoncée d'avance et produit un
+  tableau daté, la méthode publiée et les données brutes ouvertes à quiconque veut refaire le calcul.
+  Une campagne sans date de fin s'épuise en trois semaines.
+- **Livrable :** tableau avant/après avec zone témoin, méthode publiée, résultat présentable au
+  conseil d'arrondissement et opposable en cas de contentieux. Coût : zéro euro, du temps bénévole.
+
+Sources du modèle : https://www.lpo.fr/decouvrir-la-nature/loisirs-nature/grands-rendez-vous/comptage-des-oiseaux-des-jardins
+et https://www.lpo.fr/qui-sommes-nous/espace-presse/communiques/cp-2023/comptage-des-oiseaux-des-jardins-bilan-de-10-ans-de-sciences-citoyennes
 
 ## Annexe D — Sources (inventaire par organisme, sans URL ; les URL vérifiées sont à l'annexe E)
 

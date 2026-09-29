@@ -245,5 +245,45 @@ passe de vérification. Les affirmations qu'il introduit ont été vérifiées �
    800 M€ de propreté, Saint-Omer, Béziers, la répartition sociale des propriétaires) sont ceux de
    `PITCH-ET-RESUME.md` et `PITCH-CITOYEN.md`, déjà audités en sections 2 et 3.
 
-3. Le retrait de `PITCH-COLLAB-TECHNIQUE-IT.md` est une décision éditoriale, pas une correction :
+3. **Le comptage national des oiseaux des jardins comme modèle de comptage citoyen.**
+   `confirmé` : organisé par la LPO et l'équipe Vigie-nature (Muséum national d'histoire naturelle,
+   Office français de la biodiversité) depuis 2012 ; près de 100 000 jardins en dix ans, 24 048
+   contributeurs pour l'édition de janvier 2022 ; deux éditions par an, aux derniers week-ends de
+   janvier et de mai, précisément pour obtenir des périodes comparables ; règle de comptage
+   explicite (« le nombre maximal d'individus vus en même temps », pour éviter les doubles comptes).
+   Sert de référence à l'annexe C du rapport (zone témoin, pré-enregistrement du protocole,
+   créneaux fixes).
+
+   Sources :
+   https://www.lpo.fr/decouvrir-la-nature/loisirs-nature/grands-rendez-vous/comptage-des-oiseaux-des-jardins
+   https://www.lpo.fr/qui-sommes-nous/espace-presse/communiques/cp-2023/comptage-des-oiseaux-des-jardins-bilan-de-10-ans-de-sciences-citoyennes
+
+4. **Les motifs du jugement du 6 mai 2025 (TA Montpellier, arrêté ADN de Béziers)** ont été relus à
+   la source pour la note `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md`, qui cite l'extrait exact publié par
+   la LDH : aucune pièce du dossier ne corrobore l'atteinte invoquée pour 2020-2022, l'inefficacité
+   des mesures existantes n'est pas établie, et la mesure n'est « ni nécessaire, ni adaptée, ni
+   proportionnée ».
+   `confirmé` (citation reproduite telle que publiée par la LDH, reprise par la presse locale).
+
+   Sources :
+   https://www.ldh-france.org/beziers-lidentification-genetique-des-chiens/
+   https://www.20minutes.fr/justice/4153524-20250514-beziers-identification-chiens-adn-contre-dejections-annulee-robert-menard-persiste
+
+5. **Article 537 du code de procédure pénale** (les procès-verbaux ou rapports font foi jusqu'à
+   preuve contraire en matière contraventionnelle ; la preuve contraire ne peut être rapportée que
+   par écrit ou par témoins). `confirmé` : texte reproduit dans la question écrite du Sénat citée en
+   source ; la note renvoie au code sur Légifrance plutôt qu'à un identifiant d'article.
+
+   Source :
+   https://www.senat.fr/questions/base/2007/qSEQ070801568.html
+
+6. **Horodatage électronique qualifié** (présomption d'exactitude de la date et d'intégrité des
+   données, art. 41 § 2 et 42 du règlement eIDAS) : `confirmé` auprès de la page de l'ANSSI sur les
+   services de confiance, qui rappelle aussi qu'un horodatage non qualifié ne peut pas être écarté
+   au seul motif qu'il est électronique.
+
+   Source :
+   https://cyber.gouv.fr/reglementation/reglementation-identite-confiance-numerique/securite-echanges-voie-electronique/reglement-eidas/services-de-confiance/
+
+7. Le retrait de `PITCH-COLLAB-TECHNIQUE-IT.md` est une décision éditoriale, pas une correction :
    la pièce technique ne fait pas partie du dossier communiqué.

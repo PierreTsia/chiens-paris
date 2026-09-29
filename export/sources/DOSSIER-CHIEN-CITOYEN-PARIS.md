@@ -93,12 +93,20 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [3. La recette pour un arrêté qui survit à un recours (déduite du jugement de Béziers)](#3-la-recette-pour-un-arrêté-qui-survit-à-un-recours-déduite-du-jugement-de-béziers)
   - [4. Ce que ça implique pour le projet « chien citoyen »](#4-ce-que-ça-implique-pour-le-projet--chien-citoyen-)
   - [Sources](#sources)
-- [8. Tests ADN canins : coûts et faisabilité](#8-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) — `ADN-COUTS-FAISABILITE.md`
+- [8. Note juridique — la valeur juridique du comptage citoyen](#8-note-juridique--ce-qui-donne-une-valeur-juridique-au-comptage-citoyen) — `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md`
+  - [1. Ce que le juge a réellement reproché à Béziers](#1-ce-que-le-juge-a-réellement-reproché-à-béziers)
+  - [2. Les trois piliers d'un relevé qui tient](#2-les-trois-piliers-dun-relevé-qui-tient)
+  - [3. Le piège à ne pas recréer : les données personnelles](#3-le-piège-à-ne-pas-recréer--les-données-personnelles)
+  - [4. Ce qu'un comptage citoyen ne peut pas faire](#4-ce-quun-comptage-citoyen-ne-peut-pas-faire)
+  - [5. Les trois niveaux d'escalade](#5-les-trois-niveaux-descalade)
+  - [6. Ce que le comptage ne suffira pas à fermer](#6-ce-que-le-comptage-ne-suffira-pas-à-fermer)
+  - [Sources](#sources)
+- [9. Tests ADN canins : coûts et faisabilité](#9-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) — `ADN-COUTS-FAISABILITE.md`
   - [1. Combien coûte un test, concrètement](#1-combien-coûte-un-test-concrètement)
   - [2. Est-ce facile à faire ? Oui, techniquement. Les points durs sont ailleurs.](#2-est-ce-facile-à-faire--oui-techniquement-les-points-durs-sont-ailleurs)
   - [3. Chiffrage pour Paris](#3-chiffrage-pour-paris)
   - [4. Le test le moins cher à faire maintenant (pour aller vite sans argent)](#4-le-test-le-moins-cher-à-faire-maintenant-pour-aller-vite-sans-argent)
-- [9. Statut du chien citoyen — note de conception](#9-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) — `STATUT-CHIEN-CITOYEN.md`
+- [10. Statut du chien citoyen — note de conception](#10-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) — `STATUT-CHIEN-CITOYEN.md`
   - [0. Le verdict d'abord](#0-le-verdict-dabord)
   - [1. Le dispositif, brique par brique](#1-le-dispositif-brique-par-brique)
   - [2. Qui peut faire quoi (le vrai tableau de contraintes)](#2-qui-peut-faire-quoi-le-vrai-tableau-de-contraintes)
@@ -107,12 +115,12 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [5. Objections à anticiper (sinon elles tueront le projet)](#5-objections-à-anticiper-sinon-elles-tueront-le-projet)
   - [6. Positionnement : la formulation qui peut devenir majoritaire](#6-positionnement--la-formulation-qui-peut-devenir-majoritaire)
   - [7. Prochaines étapes (coût, délai)](#7-prochaines-étapes-coût-délai)
-- [10. Projet d'arrêté et règlement du statut](#10-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) — `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md`
+- [11. Projet d'arrêté et règlement du statut](#11-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) — `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md`
   - [A. Projet d'arrêté (expérimentation de 24 mois)](#a-projet-darrêté-expérimentation-de-24-mois)
   - [B. Règlement du statut](#b-règlement-du-statut)
   - [C. Le parcours propriétaire, en cinq étapes (le point qui décide du taux d'adhésion)](#c-le-parcours-propriétaire-en-cinq-étapes-le-point-qui-décide-du-taux-dadhésion)
   - [D. Maquette de données (à valider par le DPO de la Ville)](#d-maquette-de-données-à-valider-par-le-dpo-de-la-ville)
-- [11. Projet « chiens de Paris » — creusage](#11-projet--chiens-de-paris---creusage-du-29092026) — `PROJET-CHIENS-PARIS.md`
+- [12. Projet « chiens de Paris » — creusage](#12-projet--chiens-de-paris---creusage-du-29092026) — `PROJET-CHIENS-PARIS.md`
   - [1. État des lieux chiffré](#1-état-des-lieux-chiffré)
   - [2. La cible vaut-elle un électorat ? (le calcul qui décide de tout)](#2-la-cible-vaut-elle-un-électorat--le-calcul-qui-décide-de-tout)
   - [3. Le problème politique : le sujet est déjà occupé](#3-le-problème-politique--le-sujet-est-déjà-occupé)
@@ -121,7 +129,7 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [6. Ce qui peut tuer l'idée (hypothèses à tester d'abord)](#6-ce-qui-peut-tuer-lidée-hypothèses-à-tester-dabord)
   - [7. Pas suivants pas chers](#7-pas-suivants-pas-chers)
   - [Sources](#sources)
-- [12. Rapport complet et chiffrage](#12-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) — `RAPPORT-COMPLET-CHIENS-PARIS.md`
+- [13. Rapport complet et chiffrage](#13-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) — `RAPPORT-COMPLET-CHIENS-PARIS.md`
   - [1. Résumé exécutif](#1-résumé-exécutif)
   - [2. Le problème, en faits](#2-le-problème-en-faits)
   - [3. La cible : 100 000 chiens valent-ils un électorat ?](#3-la-cible--100-000-chiens-valent-ils-un-électorat-)
@@ -137,7 +145,7 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [12. Partenariats à l'échelle de Paris, et ce qu'un dispositif qui réussit peut financer](#12-partenariats-à-léchelle-de-paris-et-ce-quun-dispositif-qui-réussit-peut-financer)
   - [Annexe A — Projet d'arrêté et règlement du statut](#annexe-a--projet-darrêté-et-règlement-du-statut)
   - [Annexe B — Cahier des charges de consultation des laboratoires](#annexe-b--cahier-des-charges-de-consultation-des-laboratoires)
-  - [Annexe C — Protocole de comptage des déjections (pièce manquante à Béziers)](#annexe-c--protocole-de-comptage-des-déjections-pièce-manquante-à-béziers)
+  - [Annexe C — Protocole de comptage citoyen des déjections (pièce manquante à Béziers)](#annexe-c--protocole-de-comptage-citoyen-des-déjections-pièce-manquante-à-béziers)
   - [Annexe D — Sources (inventaire par organisme, sans URL ; les URL vérifiées sont à l'annexe E)](#annexe-d--sources-inventaire-par-organisme-sans-url--les-url-vérifiées-sont-à-lannexe-e)
   - [Annexe E — Sources vérifiées, avec URL](#annexe-e--sources-vérifiées-avec-url)
 
@@ -443,13 +451,13 @@ l'annonce des sanctions, jamais l'inverse.
 
 Tout est dans ce document :
 
-- [RAPPORT-COMPLET-CHIENS-PARIS.md](#12-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) pour le rapport détaillé, la jurisprudence, le coût poste par
+- [RAPPORT-COMPLET-CHIENS-PARIS.md](#13-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) pour le rapport détaillé, la jurisprudence, le coût poste par
   poste, les partenariats et les sources ;
-- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#10-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) pour l'arrêté et le règlement du statut, rédigés, avec le
+- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#11-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) pour l'arrêté et le règlement du statut, rédigés, avec le
   parcours du propriétaire et la maquette de données ;
 - [NOTE-JURIDIQUE-ARRETE-ADN.md](#7-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) pour ce qui a fait annuler Béziers et comment éviter la même chose ;
-- [ADN-COUTS-FAISABILITE.md](#8-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) pour les tarifs réels des laboratoires et les limites techniques ;
-- [STATUT-CHIEN-CITOYEN.md](#9-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) et [PROJET-CHIENS-PARIS.md](#11-projet--chiens-de-paris---creusage-du-29092026) pour les premières notes d'exploration.
+- [ADN-COUTS-FAISABILITE.md](#9-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) pour les tarifs réels des laboratoires et les limites techniques ;
+- [STATUT-CHIEN-CITOYEN.md](#10-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) et [PROJET-CHIENS-PARIS.md](#12-projet--chiens-de-paris---creusage-du-29092026) pour les premières notes d'exploration.
 
 ### Sources
 
@@ -977,9 +985,9 @@ Chaque chiffre de cette note est vérifié sur source, avec URL, dans
 
 Les pièces rédigées sont dans les fichiers :
 
-- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#10-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) (arrêté et règlement),
+- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#11-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) (arrêté et règlement),
 - [NOTE-JURIDIQUE-ARRETE-ADN.md](#7-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) (ce qui a fait annuler Béziers),
-- [ADN-COUTS-FAISABILITE.md](#8-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) (coûts et faisabilité),
+- [ADN-COUTS-FAISABILITE.md](#9-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) (coûts et faisabilité),
 - et la section 7 du rapport complet pour le coût unitaire détaillé.
 
 [↑ Sommaire](#sommaire)
@@ -1179,7 +1187,7 @@ qu'on nous reprend nos chiffres — y compris pour nous contredire.
 
 Sources et statut de chaque chiffre : `[AUDIT-SOURCES.md](#6-audit-anti-hallucination-du-dossier-chiens-paris)`. La superficie du parc Monceau (8,25 ha) :
 https://www.paris.fr/lieux/parc-monceau-1804 Le détail des coûts et des hypothèses :
-`[RAPPORT-COMPLET-CHIENS-PARIS.md](#12-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage)` (annexe E pour les URL).
+`[RAPPORT-COMPLET-CHIENS-PARIS.md](#13-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage)` (annexe E pour les URL).
 
 [↑ Sommaire](#sommaire)
 
@@ -1408,16 +1416,16 @@ verbalisations en un an.
 
 ### 5. Corrections appliquées aux fichiers
 
-- [RAPPORT-COMPLET-CHIENS-PARIS.md](#12-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) : densité incohérente signalée, poids moyen supprimé, Barcelone
+- [RAPPORT-COMPLET-CHIENS-PARIS.md](#13-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) : densité incohérente signalée, poids moyen supprimé, Barcelone
   requalifié, transports réécrits selon la RATP, réserve sur l'article L. 2512-16-1, -85 % attribué à
   la mairie, KARTES requalifié, annexe E ajoutée avec toutes les URL.
 - [PITCH-ET-RESUME.md](#1-le-statut-du-chien-citoyen-de-paris) : transports, densité, poids, Barcelone, -85 %, et la section « Sources » qui
   manquait alors que le texte l'annonçait.
-- [PROJET-CHIENS-PARIS.md](#11-projet--chiens-de-paris---creusage-du-29092026) : densité et poids, plafond de campagne corrigé, Berlin corrigé.
-- [STATUT-CHIEN-CITOYEN.md](#9-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) : Torrevieja retiré, règles de transport réécrites.
-- [NOTE-JURIDIQUE-ARRETE-ADN.md](#7-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) et [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#10-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) : réserve sur la rédaction
+- [PROJET-CHIENS-PARIS.md](#12-projet--chiens-de-paris---creusage-du-29092026) : densité et poids, plafond de campagne corrigé, Berlin corrigé.
+- [STATUT-CHIEN-CITOYEN.md](#10-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) : Torrevieja retiré, règles de transport réécrites.
+- [NOTE-JURIDIQUE-ARRETE-ADN.md](#7-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) et [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#11-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) : réserve sur la rédaction
   de l'article L. 2512-16-1.
-- [ADN-COUTS-FAISABILITE.md](#8-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) : -85 % attribué à la mairie.
+- [ADN-COUTS-FAISABILITE.md](#9-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) : -85 % attribué à la mairie.
 
 ### 6. Ajouts postérieurs à l'audit
 
@@ -1436,7 +1444,47 @@ passe de vérification. Les affirmations qu'il introduit ont été vérifiées �
    800 M€ de propreté, Saint-Omer, Béziers, la répartition sociale des propriétaires) sont ceux de
    `[PITCH-ET-RESUME.md](#1-le-statut-du-chien-citoyen-de-paris)` et `[PITCH-CITOYEN.md](#2-le-chien-citoyen-de-paris--version-grand-public)`, déjà audités en sections 2 et 3.
 
-3. Le retrait de `PITCH-COLLAB-TECHNIQUE-IT.md` est une décision éditoriale, pas une correction :
+3. **Le comptage national des oiseaux des jardins comme modèle de comptage citoyen.**
+   `confirmé` : organisé par la LPO et l'équipe Vigie-nature (Muséum national d'histoire naturelle,
+   Office français de la biodiversité) depuis 2012 ; près de 100 000 jardins en dix ans, 24 048
+   contributeurs pour l'édition de janvier 2022 ; deux éditions par an, aux derniers week-ends de
+   janvier et de mai, précisément pour obtenir des périodes comparables ; règle de comptage
+   explicite (« le nombre maximal d'individus vus en même temps », pour éviter les doubles comptes).
+   Sert de référence à l'annexe C du rapport (zone témoin, pré-enregistrement du protocole,
+   créneaux fixes).
+
+   Sources :
+   https://www.lpo.fr/decouvrir-la-nature/loisirs-nature/grands-rendez-vous/comptage-des-oiseaux-des-jardins
+   https://www.lpo.fr/qui-sommes-nous/espace-presse/communiques/cp-2023/comptage-des-oiseaux-des-jardins-bilan-de-10-ans-de-sciences-citoyennes
+
+4. **Les motifs du jugement du 6 mai 2025 (TA Montpellier, arrêté ADN de Béziers)** ont été relus à
+   la source pour la note `[NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md](#8-note-juridique--ce-qui-donne-une-valeur-juridique-au-comptage-citoyen)`, qui cite l'extrait exact publié par
+   la LDH : aucune pièce du dossier ne corrobore l'atteinte invoquée pour 2020-2022, l'inefficacité
+   des mesures existantes n'est pas établie, et la mesure n'est « ni nécessaire, ni adaptée, ni
+   proportionnée ».
+   `confirmé` (citation reproduite telle que publiée par la LDH, reprise par la presse locale).
+
+   Sources :
+   https://www.ldh-france.org/beziers-lidentification-genetique-des-chiens/
+   https://www.20minutes.fr/justice/4153524-20250514-beziers-identification-chiens-adn-contre-dejections-annulee-robert-menard-persiste
+
+5. **Article 537 du code de procédure pénale** (les procès-verbaux ou rapports font foi jusqu'à
+   preuve contraire en matière contraventionnelle ; la preuve contraire ne peut être rapportée que
+   par écrit ou par témoins). `confirmé` : texte reproduit dans la question écrite du Sénat citée en
+   source ; la note renvoie au code sur Légifrance plutôt qu'à un identifiant d'article.
+
+   Source :
+   https://www.senat.fr/questions/base/2007/qSEQ070801568.html
+
+6. **Horodatage électronique qualifié** (présomption d'exactitude de la date et d'intégrité des
+   données, art. 41 § 2 et 42 du règlement eIDAS) : `confirmé` auprès de la page de l'ANSSI sur les
+   services de confiance, qui rappelle aussi qu'un horodatage non qualifié ne peut pas être écarté
+   au seul motif qu'il est électronique.
+
+   Source :
+   https://cyber.gouv.fr/reglementation/reglementation-identite-confiance-numerique/securite-echanges-voie-electronique/reglement-eidas/services-de-confiance/
+
+7. Le retrait de `PITCH-COLLAB-TECHNIQUE-IT.md` est une décision éditoriale, pas une correction :
    la pièce technique ne fait pas partie du dossier communiqué.
 
 [↑ Sommaire](#sommaire)
@@ -1555,7 +1603,133 @@ La chaîne « arrêté -> verbalisation » a donc un titulaire à Paris.
 
 ---
 
-## 8. Tests ADN canins : coûts réels, facilité de mise en œuvre, et chiffrage pour Paris (29/09/2026)
+## 8. Note juridique — ce qui donne une valeur juridique au comptage citoyen
+
+*Source : `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md`.*
+
+29 septembre 2026. Question posée : suffit-il d'une photo géodatée stockée sur un serveur, ou faut-il
+un protocole ? Réponse courte : non, une photo sur un serveur ne prouve rien — ce qui prouve, c'est
+la manière dont le relevé est préconstitué, contradictoire et daté. Détail ci-dessous. Rien n'a été
+voté.
+
+### 1. Ce que le juge a réellement reproché à Béziers
+
+C'est le point de départ, et il fixe tout le reste. Le tribunal administratif de Montpellier annule
+l'arrêté du 12 mai 2023 par jugement du 6 mai 2025, sur trois motifs, dans cet ordre :
+
+1. **L'atteinte n'est pas démontrée.** « Aucune pièce du dossier ne permet de corroborer les éléments
+   indiqués dans l'exposé des motifs de l'arrêté, notamment l'atteinte qui serait portée à la
+   sécurité et à la salubrité publique par le nombre de déjections canines ramassées au cours des
+   années 2020, 2021, 2022. »
+2. **L'inefficacité des mesures déjà prises n'est pas démontrée** — la mairie n'a pas non plus
+   établi que ce qu'elle faisait déjà ne suffisait pas.
+3. **La mesure n'est « ni nécessaire, ni adaptée, ni proportionnée »**, et l'identification
+   classique (tatouage ou marquage, obligatoire au titre de l'article L. 212-10 du code rural)
+   n'est pas démontrée insuffisante.
+
+Conséquence pour un comptage : **ce n'est pas un relevé, c'est un dossier de preuve**, et il doit
+répondre à ces trois points. Le premier exige un **volume daté sur plusieurs périodes** — le juge
+compare 2020, 2021, 2022, il ne compare pas une semaine à une autre. Un comptage unique ne ferme
+aucun de ces trous.
+
+### 2. Les trois piliers d'un relevé qui tient
+
+Un comptage citoyen est une preuve par témoins et par écrits : le juge administratif apprécie
+librement les moyens de preuve, mais il apprécie la crédibilité de leur fabrication. Trois mots
+comptent plus que la photo.
+
+**a. Préconstitué.** Le protocole — tronçons, créneaux, règle de comptage, dates de début et de fin —
+est publié avant le premier passage, et ne bouge plus. Un protocole connu après coup est réputé
+arrangé ; un protocole publié d'avance est opposable. C'est la même logique que le préenregistrement
+d'un essai clinique, et c'est ce qui distingue un relevé d'un argument.
+
+**b. Contradictoire.** Deux observateurs distincts par passage, dont un qui n'est pas partie prenante.
+Et surtout : la partie adverse est **informée par écrit et invitée** — courrier à la mairie, à la
+mairie d'arrondissement et au préfet, avec le protocole, les dates et l'invitation à désigner un
+observateur. Si elle ne vient pas, la preuve de l'invitation reste au dossier : c'est exactement ce
+qui prive l'autre partie du droit de contester la méthode. Sans cette pièce, tout relevé est
+« unilatéral ».
+
+**c. Daté et intègre.** C'est ici que le serveur lambda ne suffit pas. Un fichier photo, une date
+EXIF et un stockage quelconque ne prouvent ni la date ni la non-modification : les métadonnées se
+réécrivent en deux clics, et personne ne peut affirmer que le fichier conservé est celui qui a été
+pris. Ce qu'il faut, et ce qui est vérifiable par un tiers :
+
+- une **fiche de relevé** identique à chaque passage : tronçon, heure, nombre, position, conditions
+  (météo, balayeuse, marché, vacances, travaux), nom des deux observateurs, photo ;
+- une **empreinte SHA-256 de chaque fiche et de chaque photo**, imprimée dans le tableau publié ;
+- un **horodatage électronique** de ces empreintes, chaque semaine. Un horodatage **qualifié**
+  (règlement eIDAS n° 910/2014, art. 41 § 2 et 42, prestataire de services de confiance qualifié,
+  protocole RFC 3161) bénéficie d'une **présomption d'exactitude de la date et d'intégrité des
+  données** : c'est à celui qui conteste de démontrer la fausseté. Un horodatage simple reste
+  recevable mais n'emporte aucune présomption, et l'ancrage en chaîne de blocs, pratique et gratuit,
+  reste apprécié librement par le juge — utile parce que n'importe qui peut le vérifier, mais ce
+  n'est pas un service de confiance qualifié.
+- la **publication des données brutes** (fiches, photos, tableaux) : une preuve que l'adversaire peut
+  refaire est une preuve qu'il ne peut pas écarter.
+
+### 3. Le piège à ne pas recréer : les données personnelles
+
+Le dispositif est attaqué sur le fichage des propriétaires ; un comptage citoyen qui photographie la
+rue en grand angle et conserve des plaques d'immatriculation reconstitue l'argument de l'adversaire.
+Donc : cadrage serré sur la déjection, pas de visage ni de plaque, aucun fichier de personnes, aucune
+géolocalisation d'individus, une finalité écrite et une durée de conservation annoncée. Le registre
+du comptage enregistre des tronçons et des nombres, pas des gens.
+
+### 4. Ce qu'un comptage citoyen ne peut pas faire
+
+Il ne permet pas de verbaliser. La contravention est prouvée par procès-verbal ou rapport d'un agent
+habilité, et, pour les contraventions, l'article 537 du code de procédure pénale prévoit que ces
+rapports « font foi jusqu'à preuve contraire » et que la preuve contraire ne peut être rapportée que
+par écrit ou par témoins. Le comptage citoyen sert à **justifier la mesure devant le juge
+administratif**, pas à constater l'infraction. Les deux chaînes sont distinctes et ne doivent pas
+être mélangées dans le discours public — c'est le mélange qui fait dire « ils veulent nous ficher ».
+
+### 5. Les trois niveaux d'escalade
+
+1. **Comptage citoyen avec protocole publié et horodaté** (coût : du temps). Suffisant pour un
+   conseil d'arrondissement, un budget participatif et un premier article de presse.
+2. **Convention avec la mairie ou la mairie d'arrondissement**, les agents relayant le comptage :
+   le relevé change de nature et devient un document administratif.
+3. **Constat de commissaire de justice**, contradictoire, sur un échantillon de passages seulement :
+   c'est l'acte le plus difficile à contester, et il coûte cher — d'où l'intérêt de le réserver à la
+   démonstration finale, une fois le protocole rodé et les chiffres stabilisés.
+
+À faire en parallèle, et gratuitement : **demander les pièces de l'administration** (extractions
+DansMaRue sur le secteur, statistiques de propreté, marché de nettoiement, bilan des campagnes
+précédentes). Ce sont des documents administratifs communicables ; ils donnent la base officielle que
+le juge réclamait à Béziers, et ils obligent la Ville à prendre position par écrit.
+
+### 6. Ce que le comptage ne suffira pas à fermer
+
+Le motif n° 3 de Béziers — l'identification classique est-elle suffisante ? — ne se règle pas en
+comptant. Il se règle par un raisonnement : un tatouage ou un fichier I-CAD identifie un chien, mais
+ne relie pas une déjection à son propriétaire, faute de quoi aucune attribution n'est possible. C'est
+un argument juridique autonome, à écrire séparément, et la proportionnalité (périmètre réduit, durée
+bornée, gratuité de l'identification, alternatives) reste à démontrer — le juge administratif contrôle
+les trois, pas seulement l'utilité.
+
+### Sources
+
+- LDH, « Béziers : l'identification génétique des chiens » (citations du jugement du 6 mai 2025,
+  TA Montpellier) : https://www.ldh-france.org/beziers-lidentification-genetique-des-chiens/
+- Article 537 du code de procédure pénale (force probante des procès-verbaux et rapports en matière
+  contraventionnelle ; texte à lire dans le code, partie législative, livre II, titre III) :
+  https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006071154/
+- Sénat, question écrite rappelant le régime de l'article 537 (rapports faisant foi jusqu'à preuve
+  contraire, preuve contraire par écrit ou témoins) :
+  https://www.senat.fr/questions/base/2007/qSEQ070801568.html
+- ANSSI, les services de confiance (horodatage électronique qualifié, eIDAS) :
+  https://cyber.gouv.fr/reglementation/reglementation-identite-confiance-numerique/securite-echanges-voie-electronique/reglement-eidas/services-de-confiance/
+- Règlement (UE) n° 910/2014 (eIDAS), art. 41 et 42 ; articles 1366 et 1367 du code civil.
+- Le comptage national des oiseaux des jardins (LPO et Muséum national d'histoire naturelle) comme
+  modèle de comptage citoyen : voir l'annexe C du rapport complet.
+
+[↑ Sommaire](#sommaire)
+
+---
+
+## 9. Tests ADN canins : coûts réels, facilité de mise en œuvre, et chiffrage pour Paris (29/09/2026)
 
 *Source : `ADN-COUTS-FAISABILITE.md`.*
 
@@ -1679,7 +1853,7 @@ Prestataires français disponibles (tous font de l'identification génétique + 
 
 ---
 
-## 9. Statut « chien·ne citoyen·ne de Paris » — note de conception (29/09/2026)
+## 10. Statut « chien·ne citoyen·ne de Paris » — note de conception (29/09/2026)
 
 *Source : `STATUT-CHIEN-CITOYEN.md`.*
 
@@ -1895,7 +2069,7 @@ budget participatif, puis vendre le dispositif aux élus.
 
 ---
 
-## 10. Statut « chien·ne citoyen·ne de Paris » — projet d'arrêté et règlement (version de travail, 29/09/2026)
+## 11. Statut « chien·ne citoyen·ne de Paris » — projet d'arrêté et règlement (version de travail, 29/09/2026)
 
 *Source : `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md`.*
 
@@ -2094,7 +2268,7 @@ Effacement des correspondances détenues par la Ville à la fin du dispositif.
 
 ---
 
-## 11. Projet « chiens de Paris » — creusage du 29/09/2026
+## 12. Projet « chiens de Paris » — creusage du 29/09/2026
 
 *Source : `PROJET-CHIENS-PARIS.md`.*
 
@@ -2276,7 +2450,7 @@ Où tester en premier (densité canine + taille d'arrondissement) :
 
 ---
 
-## 12. RAPPORT — Un projet politique « chiens de Paris » : statut du chien citoyen, registre ADN, droits et chiffrage
+## 13. RAPPORT — Un projet politique « chiens de Paris » : statut du chien citoyen, registre ADN, droits et chiffrage
 
 *Source : `RAPPORT-COMPLET-CHIENS-PARIS.md`.*
 
@@ -2916,7 +3090,7 @@ dotation « Chiens citoyens de Paris » (ou une fondation abritée), avec :
 
 ### Annexe A — Projet d'arrêté et règlement du statut
 
-Voir le document complet : [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#10-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026)
+Voir le document complet : [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#11-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026)
 (10 articles d'arrêté, 6 articles de règlement, parcours du détenteur en 5 étapes, maquette de
 données RGPD).
 
@@ -2943,18 +3117,48 @@ canines prélevées sur la voie publique.
    capacité à traiter un pic d'analyses, qualité du support juridique fourni à la collectivité
    (attestations exploitables devant un officier du ministère public).
 
-### Annexe C — Protocole de comptage des déjections (pièce manquante à Béziers)
+### Annexe C — Protocole de comptage citoyen des déjections (pièce manquante à Béziers)
 
-- Périmètre : définir des segments homogènes (par exemple 20 tronçons de 300 m dans le 20e),
+**Modèle de référence :** le comptage national des oiseaux des jardins, organisé par la LPO et le
+Muséum national d'histoire naturelle depuis 2012 — le plus important dispositif français de sciences
+participatives (près de 100 000 jardins en dix ans, 24 048 contributeurs pour la seule édition de
+janvier 2022). Trois règles en font un instrument fiable, et non une addition d'opinions :
+
+1. une règle de comptage qui interdit le double compte — « le nombre maximal d'individus vus en même
+   temps », et non la somme des observations successives ;
+2. des créneaux fixes et identiques d'une édition à l'autre : c'est la comparabilité qui fait la
+   valeur d'un comptage, pas son volume ;
+3. un point de collecte unique, où les données atterrissent et ressortent publiques.
+
+Ce que ce modèle change pour un comptage parisien des déjections :
+
+- **Périmètre :** des segments homogènes, par exemple 20 tronçons de 300 m dans le 20e,
   représentatifs des voies les plus fréquentées.
-- Fréquence : deux passages par semaine, sur six semaines minimum, aux mêmes heures, par deux
-  observateurs distincts.
-- Relevé : date, heure, tronçon, nombre de déjections, position (trottoir, chaussée, entrée
-  d'immeuble), photo horodatée, agent identifié.
-- Compléments : extractions DansMaRue sur le secteur, courriers de signalement d'habitants et de
-  commerçants.
-- Livrable : tableau avant/après, méthode publiée, résultat présentable au conseil d'arrondissement
-  et opposable en cas de contentieux. Coût : zéro euro, du temps bénévole.
+- **Zone témoin :** 5 tronçons comparables où rien ne change, comptés en parallèle pendant toute la
+  durée. Sans témoin, une baisse ne s'attribue pas au dispositif : c'est exactement l'erreur du
+  « −85 % » de Béziers, revendiqué par la mairie et jamais mesuré indépendamment.
+- **Pré-enregistrement du protocole :** tronçons, créneaux, règle de comptage et dates sont publiés
+  *avant* le premier passage. Un protocole dévoilé après coup est un protocole contestable — c'est la
+  différence entre un relevé et un argument.
+- **Fréquence et créneaux :** deux passages par semaine, six semaines minimum, mêmes heures, même
+  jour de la semaine, hors pluie et hors jour de collecte.
+- **Conditions relevées à chaque passage** (météo, passage de balayeuse, marché, vacances scolaires,
+  travaux) : ce sont les variables qui expliquent souvent une baisse avant qu'on l'attribue au
+  dispositif.
+- **Deux observateurs distincts par passage, dont au moins un qui n'est pas partie prenante** — un
+  sceptique, un commerçant, un élu d'opposition, un membre de PARC.C. Un comptage fait entre
+  convaincus est contesté avant même d'être discuté.
+- **Relevé :** date, heure, tronçon, nombre de déjections, position (trottoir, chaussée, entrée
+  d'immeuble), photo horodatée, observateur identifié.
+- **Compléments :** extractions DansMaRue sur le secteur, signalements d'habitants et de commerçants.
+- **Fin bornée et publication :** la campagne s'arrête à une date annoncée d'avance et produit un
+  tableau daté, la méthode publiée et les données brutes ouvertes à quiconque veut refaire le calcul.
+  Une campagne sans date de fin s'épuise en trois semaines.
+- **Livrable :** tableau avant/après avec zone témoin, méthode publiée, résultat présentable au
+  conseil d'arrondissement et opposable en cas de contentieux. Coût : zéro euro, du temps bénévole.
+
+Sources du modèle : https://www.lpo.fr/decouvrir-la-nature/loisirs-nature/grands-rendez-vous/comptage-des-oiseaux-des-jardins
+et https://www.lpo.fr/qui-sommes-nous/espace-presse/communiques/cp-2023/comptage-des-oiseaux-des-jardins-bilan-de-10-ans-de-sciences-citoyennes
 
 ### Annexe D — Sources (inventaire par organisme, sans URL ; les URL vérifiées sont à l'annexe E)
 
@@ -3117,12 +3321,13 @@ Divers :
 | `PITCH-ELU.md` | Note pour un élu | 121 |
 | `PITCH-CABINET-TECHNIQUE.md` | Note technique pour un cabinet | 271 |
 | `PITCH-COM-PRESSE-RESEAUX.md` | Volet communication, presse et réseaux | 193 |
-| `AUDIT-SOURCES.md` | Audit anti-hallucination, corrections, sources vérifiées | 250 |
+| `AUDIT-SOURCES.md` | Audit anti-hallucination, corrections, sources vérifiées | 290 |
 | `NOTE-JURIDIQUE-ARRETE-ADN.md` | Ce qui a fait annuler Béziers, recette juridique | 106 |
+| `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md` | Ce qui fait qu'un comptage citoyen tient juridiquement | 120 |
 | `ADN-COUTS-FAISABILITE.md` | Coûts réels des tests ADN, faisabilité, chiffrage | 118 |
 | `STATUT-CHIEN-CITOYEN.md` | Note de conception du statut | 210 |
 | `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md` | Projet d'arrêté, règlement, parcours, maquette de données | 193 |
 | `PROJET-CHIENS-PARIS.md` | Première note d'exploration politique | 176 |
-| `RAPPORT-COMPLET-CHIENS-PARIS.md` | Rapport complet et chiffrage détaillé | 826 |
+| `RAPPORT-COMPLET-CHIENS-PARIS.md` | Rapport complet et chiffrage détaillé | 856 |
 
 Le brouillon antérieur à la passe de réécriture est conservé hors dossier sous `PITCH-ET-RESUME.avant-humanizer.md`.

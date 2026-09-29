@@ -19,6 +19,7 @@ PARTIES = [
     ("III — Les annexes vérifiées et triées", [
         ("AUDIT-SOURCES.md", "Audit anti-hallucination des sources"),
         ("NOTE-JURIDIQUE-ARRETE-ADN.md", "Note juridique — l'arrêté ADN canin"),
+        ("NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md", "Note juridique — la valeur juridique du comptage citoyen"),
         ("ADN-COUTS-FAISABILITE.md", "Tests ADN canins : coûts et faisabilité"),
         ("STATUT-CHIEN-CITOYEN.md", "Statut du chien citoyen — note de conception"),
         ("PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md", "Projet d'arrêté et règlement du statut"),
@@ -123,6 +124,7 @@ roles = {
     "PITCH-COM-PRESSE-RESEAUX.md": "Volet communication, presse et réseaux", 
     "AUDIT-SOURCES.md": "Audit anti-hallucination, corrections, sources vérifiées",
     "NOTE-JURIDIQUE-ARRETE-ADN.md": "Ce qui a fait annuler Béziers, recette juridique",
+    "NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md": "Ce qui fait qu'un comptage citoyen tient juridiquement", 
     "ADN-COUTS-FAISABILITE.md": "Coûts réels des tests ADN, faisabilité, chiffrage",
     "STATUT-CHIEN-CITOYEN.md": "Note de conception du statut",
     "PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md": "Projet d'arrêté, règlement, parcours, maquette de données",

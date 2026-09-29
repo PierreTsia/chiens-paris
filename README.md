@@ -36,6 +36,7 @@ Ordre de lecture conseillé :
 | `PITCH-COM-PRESSE-RESEAUX.md` | Volet communication, presse et réseaux |
 | `AUDIT-SOURCES.md` | Audit anti-hallucination : corrections et sources vérifiées (URL) |
 | `NOTE-JURIDIQUE-ARRETE-ADN.md` | Ce qui a fait annuler Béziers, et la recette pour un arrêté qui tient |
+| `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md` | Ce qui donne une valeur juridique à un comptage citoyen (préconstitué, contradictoire, horodaté) |
 | `ADN-COUTS-FAISABILITE.md` | Coûts réels des tests ADN, faisabilité, chiffrage |
 | `STATUT-CHIEN-CITOYEN.md` | Note de conception du statut |
 | `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md` | Projet d'arrêté, règlement, parcours, maquette de données |
