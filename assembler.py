@@ -127,7 +127,6 @@ for ptitle, plist in PARTIES:
     for f, label in plist:
         i += 1
         body = demote(docs[f])
-        out.append('<a id="s%d"></a>' % i)
         out.append("")
         started = False
         for ln in body:

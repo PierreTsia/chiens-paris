@@ -33,7 +33,6 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
 
 # Partie I — Le pitch général
 
-<a id="s1"></a>
 
 ## 1. Le statut du chien citoyen de Paris
 
@@ -294,7 +293,6 @@ https://www.parishabitat.fr/wp-content/uploads/2023/04/reglement-interieur-Paris
 
 # Partie II — Les pitchs spécifiques
 
-<a id="s2"></a>
 
 ## 2. Le chien citoyen de Paris — version grand public
 
@@ -381,7 +379,6 @@ rapport complet.
 
 ---
 
-<a id="s3"></a>
 
 ## 3. Note pour un élu — une page
 
@@ -479,7 +476,6 @@ source, avec les URL, dans [AUDIT-SOURCES.md](#6-audit-anti-hallucination-du-dos
 
 ---
 
-<a id="s4"></a>
 
 ## 4. Note technique à l'attention d'un collaborateur de cabinet
 
@@ -666,7 +662,6 @@ règlement), [NOTE-JURIDIQUE-ARRETE-ADN.md](#7-note-juridique--larrêté-adn-can
 
 ---
 
-<a id="s5"></a>
 
 ## 5. Pitch pour un collègue technique
 
@@ -757,7 +752,6 @@ Ce qui est prouvé, ville par ville : [AUDIT-SOURCES.md](#6-audit-anti-hallucina
 
 # Partie III — Les annexes vérifiées et triées
 
-<a id="s6"></a>
 
 ## 6. Audit anti-hallucination du dossier chiens-paris
 
@@ -942,7 +936,6 @@ verbalisations en un an.
 
 ---
 
-<a id="s7"></a>
 
 ## 7. Note juridique — l'arrêté ADN canin : ce qui a fait annuler Béziers, et la recette pour un arrêté qui tient (29/09/2026)
 
@@ -1051,7 +1044,6 @@ Chaque motif d'annulation indique ce qu'il faut prouver par pièces :
 
 ---
 
-<a id="s8"></a>
 
 ## 8. Tests ADN canins : coûts réels, facilité de mise en œuvre, et chiffrage pour Paris (29/09/2026)
 
@@ -1164,7 +1156,6 @@ Recettes et refacturations (modèle Saint-Omer) :
 
 ---
 
-<a id="s9"></a>
 
 ## 9. Statut « chien·ne citoyen·ne de Paris » — note de conception (29/09/2026)
 
@@ -1366,7 +1357,6 @@ le budget participatif, puis vendre le dispositif aux élus.
 
 ---
 
-<a id="s10"></a>
 
 ## 10. Statut « chien·ne citoyen·ne de Paris » — projet d'arrêté et règlement (version de travail, 29/09/2026)
 
@@ -1517,7 +1507,6 @@ Ville à la fin du dispositif.
 
 ---
 
-<a id="s11"></a>
 
 ## 11. Projet « chiens de Paris » — creusage du 29/09/2026
 
@@ -1692,7 +1681,6 @@ identifiés, 45 sièges), 10e (3 580 chiens, 19 sièges), 18e (44 sièges).
 
 ---
 
-<a id="s12"></a>
 
 ## 12. RAPPORT — Un projet politique « chiens de Paris » : statut du chien citoyen, registre ADN, droits et chiffrage
 
