@@ -303,17 +303,13 @@ passe de vérification. Les affirmations qu'il introduit ont été vérifiées �
    https://www.ici.fr/ile-de-france/paris-75/paris-13e/elections
    https://cdn.paris.fr/paris/2023/11/14/cpsa-13e_2-juin-2023-Mxbk.pdf
 
-8. **La petite ceinture du 13e (PC 13)** — vérification faite sur la fiche officielle du lieu, et
-   elle corrige une hypothèse du dossier : `confirmé` la surface de 12 234 m², l'ouverture au public
-   depuis 2016, la liaison avec les jardins Charles-Trenet, Moulin-de-la-Pointe et
-   Poterne-des-Peupliers, le label Ecojardin, les horaires (8 h – 20 h 30 en saison, **H24 du
-   troisième lundi d'avril au troisième dimanche de septembre**), et surtout **« Admission animaux :
-   non »**. La ligne du contrat de prévention et de sécurité du 13e (« Promenade de la petite
-   ceinture à la Poterne des Peupliers (SDF et chiens non tenus en laisse) »), déjà citée, a été
-   relue dans le texte intégral du document : `confirmé`.
-   Conséquence : le site ne peut pas être proposé comme espace de liberté pour chiens ; il est
-   requalifié en site de comptage d'usage, avec l'alternative d'un espace canin dans un jardin voisin.
-   `incertain` les ouvertures de nouveaux tronçons annoncées pour 2026 (presse, pas la Ville).
+8. **La petite ceinture du 13e (PC 13)** — vérifié sur la fiche officielle du lieu : `confirmé`
+   12 234 m², ouverte en 2016, reliant les jardins Charles-Trenet, Moulin-de-la-Pointe et
+   Poterne-des-Peupliers, label Ecojardin, horaires 8 h – 20 h 30 en saison et H24 du troisième lundi
+   d'avril au troisième dimanche de septembre, et **« Admission animaux : non »**. La ligne du contrat
+   de prévention et de sécurité du 13e (« SDF et chiens non tenus en laisse ») a été relue dans le
+   texte intégral : `confirmé`. Conséquence retenue dans le dossier : ce lieu ne peut pas être
+   proposé comme espace de liberté, seulement comme site de comptage d'usage.
 
    Sources :
    https://www.paris.fr/lieux/petite-ceinture-du-13e-pc-13-18089

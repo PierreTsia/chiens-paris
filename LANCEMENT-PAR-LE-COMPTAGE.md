@@ -113,8 +113,8 @@ Et le 13e n'est pas une concession. Sur quatre points, c'est probablement un mei
 4. **Un lieu où l'usage dépasse déjà la règle.** Le contrat de prévention et de sécurité du 13e
    signale la promenade de la petite ceinture à la Poterne des Peupliers — « SDF et chiens non tenus
    en laisse » — parmi ses points sensibles. Attention au contresens : la fiche officielle du lieu
-   indique « admission animaux : non », donc ce n'est pas l'endroit où demander un espace de liberté
-   (voir `NOTE-PC13-POTERNE.md`). C'est en revanche le meilleur site de **comptage d'usage** : la
+   indique « admission animaux : non », donc ce n'est pas l'endroit où demander un espace de liberté.
+   C'est en revanche le meilleur site de **comptage d'usage** : la
    mesure qui manque à la mairie pour choisir entre faire respecter l'interdiction, tolérer avec
    encadrement, ou ouvrir un espace canin dans un jardin voisin.
 
