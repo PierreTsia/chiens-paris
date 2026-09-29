@@ -34,6 +34,7 @@ Ordre de lecture conseillé :
 | `PITCH-ELU.md` | Note pour un élu |
 | `PITCH-CABINET-TECHNIQUE.md` | Note technique pour un collaborateur de cabinet |
 | `PITCH-COM-PRESSE-RESEAUX.md` | Volet communication, presse et réseaux |
+| `LANCEMENT-PAR-LE-COMPTAGE.md` | Lancer le projet par le comptage citoyen plutôt que par le statut |
 | `AUDIT-SOURCES.md` | Audit anti-hallucination : corrections et sources vérifiées (URL) |
 | `NOTE-JURIDIQUE-ARRETE-ADN.md` | Ce qui a fait annuler Béziers, et la recette pour un arrêté qui tient |
 | `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md` | Ce qui donne une valeur juridique à un comptage citoyen (préconstitué, contradictoire, horodaté) |

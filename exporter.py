@@ -411,6 +411,7 @@ PIECES = [
     ("PITCH-ELU.md", "Note pour un élu", "Ciblé"),
     ("PITCH-CABINET-TECHNIQUE.md", "Note technique pour un collaborateur de cabinet", "Ciblé"),
     ("PITCH-COM-PRESSE-RESEAUX.md", "Volet communication, presse et réseaux", "Ciblé"),
+    ("LANCEMENT-PAR-LE-COMPTAGE.md", "Lancer le projet par le comptage", "Stratégie"),
     ("AUDIT-SOURCES.md", "Audit anti-hallucination des sources", "Annexe"),
     ("NOTE-JURIDIQUE-ARRETE-ADN.md", "L'arrêté ADN canin : ce qui a fait annuler Béziers", "Annexe"),
     ("NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md", "Comptage citoyen : ce qui lui donne une valeur juridique", "Annexe"),
