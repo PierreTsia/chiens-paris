@@ -75,7 +75,9 @@ Prestataires français disponibles (tous font de l'identification génétique + 
 **Hypothèses** :
 
 - Paris ~100 000 chiens identifiés ;
-- périmètre pilote 20e + 10e = 9 713 chiens identifiés ;
+- périmètre pilote : **le 13e** (arbitrage du 29/09/2026) ; le chiffre de chiens identifiés du 13e est
+  à obtenir, donc les volumes ci-dessous utilisent le cas de référence déjà chiffré, 20e + 10e =
+  9 713 chiens identifiés ;
 - taux de couverture réaliste 50-60 % la première année ;
 - coût public 45 € par chien fiché la première année (référence Saint-Omer) ;
 - 30 € en volume si tout Paris y passe [E].
@@ -83,7 +85,7 @@ Prestataires français disponibles (tous font de l'identification génétique + 
 | Scénario | Chiens identifiés | Coût public 1re année |
 |---|---|---|
 | Journée d'identification gratuite (information + prélèvements) | 200-400 chiens par journée | 3 000-5 000 € par journée [E] |
-| Pilote périmètre 20e + 10e, obligatoire, gratuit | 4 800-5 800 chiens fichés | 220-260 k€ [E] |
+| Pilote (cas de référence 20e + 10e), obligatoire, gratuit | 4 800-5 800 chiens fichés | 220-260 k€ [E] |
 | Pilote + extension 18e (couverture 60 %) | ~10 000 chiens | 450-500 k€ [E] |
 | Paris entier, gratuit, étalé sur 4 ans | 100 000 chiens | 3,0-4,5 M€ [E] (le Parisien cite ~5 M€) |
 | Paris entier, identification payante par le propriétaire (38-48 €) | variable | quasi nul pour la Ville, mais couverture faible [E] |
@@ -112,6 +114,6 @@ Prestataires français disponibles (tous font de l'identification génétique + 
 2. Appel à la Ville de Saint-Omer (service Ville Propre) et à la Ville de Reims : demander les
    pièces du marché et le bilan écrit. Ce sont des documents administratifs communicables. Coût :
    0 €. C'est ce qui te donne les vrais coûts unitaires, pas les devis commerciaux.
-3. Comptage des déjections sur un périmètre test (20e), protocole simple, 3 semaines, avec des
+3. Comptage des déjections sur un périmètre test (13e), protocole simple, 3 semaines, avec des
    bénévoles et une fiche de relevé. Coût : 0 €. C'est la pièce qui manquait à Béziers, et c'est
    aussi l'argument public (le chiffre avant/après).

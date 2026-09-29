@@ -109,8 +109,9 @@ inverse.
 1. **Un seul premier passage** : la presse parisienne sur le comptage, pas sur l'idée. Un article,
    pas trois. Le comptage est ce qui a manqué à Béziers ; c'est aussi un angle neuf, ce qui est
    exactement ce qu'un journal cherche.
-2. **La réunion publique** dans l'arrondissement pilote (le 20e : 6 133 chiens identifiés, 45
-   conseillers d'arrondissement) — c'est là qu'un élu se déclare, ou pas.
+2. **La réunion publique** dans l'arrondissement pilote (le 13e : environ 180 000 habitants, 43
+   sièges au conseil d'arrondissement, majorité stable depuis mars 2026) — c'est là qu'un élu se
+   déclare, ou pas.
 3. **Le dépôt du dossier de budget participatif** : un document public est un canal de communication
    institutionnel, et il oblige la mairie à répondre par écrit.
 4. **La phase volontaire, non sanctionnante**, avec publication des chiffres avant/après. Le

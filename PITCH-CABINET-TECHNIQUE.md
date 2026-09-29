@@ -98,9 +98,9 @@ Trois options, par ordre de solidité :
 
 ## 3. La chaîne d'actes à produire
 
-1. Vœu ou délibération du conseil d'arrondissement (le 20e est le périmètre recommandé : 6 133
-   chiens identifiés, 45 conseillers d'arrondissement), qui vaut engagement politique et peut
-   servir de base à l'expérimentation.
+1. Vœu ou délibération du conseil d'arrondissement (le 13e est le périmètre retenu : des volontaires
+   y comptent déjà, 43 sièges au conseil d'arrondissement, majorité stable depuis mars 2026), qui
+   vaut engagement politique et peut servir de base à l'expérimentation.
 
 2. Comptage contradictoire des déjections avant toute réglementation, avec protocole écrit, deux
    compteurs, périodes et périmètres définis, résultat daté.
@@ -236,7 +236,8 @@ ce que le juge lira en premier.
 
 ## 8. Les trois arbitrages à demander au cabinet
 
-1. **Périmètre** : un arrondissement (le 20e, recommandé) ou deux.
+1. **Périmètre** : un arrondissement (le 13e, retenu : c'est là que vivent les volontaires qui
+   comptent) ou deux.
    Réponse recommandée : un seul, avec extension décidée après évaluation.
 
 2. **Sanction** : obligation d'identification seule, ou obligation assortie d'une sanction dès la

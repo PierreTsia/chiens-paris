@@ -152,8 +152,12 @@ D4. Couverture minimale : c'est LE paramètre critique. En dessous de ~50 % des 
     Malaga à ~50 % après deux ans). Il faut une campagne d'adhésion massive avant d'annoncer la
     sanction — sinon le premier billet de blog hostile tue le dispositif.
 
-D5. Le périmètre pilote : le 20e (6 133 chiens identifiés, 45 sièges de conseillers) ou le 10e
-    (3 580 chiens, 19 sièges) ; le 8e a déjà l'infrastructure mais peu de chiens.
+D5. Le périmètre pilote : **le 13e, arbitré le 29/09/2026** — c'est là que vivent les volontaires qui
+    comptent, et l'arrondissement tient tout le reste (environ 180 000 habitants, 43 sièges au conseil
+    d'arrondissement, majorité stable, 62 espaces verts ouverts au public, petite ceinture à la
+    Poterne des Peupliers déjà hors laisse). Alternatives : le 20e (6 133 chiens identifiés, 45
+    sièges) ou le 10e (3 580 chiens, 19 sièges) ; le 8e a l'infrastructure mais peu de chiens. Le
+    nombre de chiens identifiés dans le 13e reste à obtenir par demande écrite.
 
 ## 5. Objections à anticiper (sinon elles tueront le projet)
 
@@ -203,7 +207,7 @@ budget participatif, puis vendre le dispositif aux élus.
    par analyse à l'échelle 100 000 chiens — 0 €, 2 jours.
 3. Rédiger le projet d'arrêté + le règlement du statut (2-3 pages) + la maquette du parcours
    propriétaire — 0 €, je peux le produire.
-4. Entretien PARC.C + une réunion publique dans le 20e pour tester la formulation et la disposition
+4. Entretien PARC.C + une réunion publique dans le 13e pour tester la formulation et la disposition
    à adhérer — 0 €.
 5. Dossier budget participatif à la prochaine édition (2026 suspendue pour cause d'élections) pour
    financer un pilote d'identification : 0 € pour lui, effet de levier réel.

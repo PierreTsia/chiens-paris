@@ -83,7 +83,8 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [3. Les trois conditions de réussite](#3-les-trois-conditions-de-réussite)
   - [4. Les deux façons dont ça peut rater](#4-les-deux-façons-dont-ça-peut-rater)
   - [5. Où ça se branche dans le dossier existant](#5-où-ça-se-branche-dans-le-dossier-existant)
-  - [6. Critères d'arrêt, écrits à l'avance](#6-critères-darrêt-écrits-à-lavance)
+  - [6. Le périmètre : le 13e, et pourquoi ce n'est pas un compromis](#6-le-périmètre--le-13e-et-pourquoi-ce-nest-pas-un-compromis)
+  - [7. Critères d'arrêt, écrits à l'avance](#7-critères-darrêt-écrits-à-lavance)
 
 **Partie III — Les annexes vérifiées et triées**
 
@@ -447,15 +448,19 @@ l'annonce des sanctions, jamais l'inverse.
   plus modestes. Si cotisation, compensation obligatoire.
 - Couverture minimale avant de sanctionner : 50 % des chiens du périmètre. En dessous, le dispositif
   se retourne politiquement.
-- Périmètre du pilote : le 20e, 6 133 chiens identifiés et 45 conseillers d'arrondissement, ou le
-  10e, 3 580 chiens et 19 sièges. Le 8e a l'infrastructure mais peu de chiens.
+- Périmètre du pilote : le 13e, retenu le 29 septembre 2026 — c'est l'arrondissement des volontaires
+  qui comptent, et il tient le reste (environ 180 000 habitants, 116 196 inscrits, 43 sièges au
+  conseil d'arrondissement, 62 espaces verts ouverts au public). Alternatives : le 20e, 6 133 chiens
+  identifiés et 45 conseillers d'arrondissement, ou le 10e, 3 580 chiens et 19 sièges. Le 8e a
+  l'infrastructure mais peu de chiens. Le nombre de chiens identifiés dans le 13e est à demander à la
+  Ville.
 
 ### Les prochaines étapes
 
 - **Zéro euro, tout de suite** : demander les pièces du marché de Saint-Omer et le bilan écrit de
   Reims, ce sont des documents administratifs communicables ; demander des devis à trois
   laboratoires ; compter les déjections sur un périmètre test, le protocole est déjà écrit.
-- **Un à deux mois** : entretien avec PARC.C, réunion publique dans le 20e, questionnaire à
+- **Un à deux mois** : entretien avec PARC.C, réunion publique dans le 13e, questionnaire à
   300 détenteurs pour voir si l'adhésion prend.
 - **Deux à quatre mois** : dossier de budget participatif pour financer un pilote d'identification
   et un espace de liberté modèle, montage associatif.
@@ -714,8 +719,8 @@ sentiers, caniparcs labellisés) sans proposer le contrat qui le rend tenable.
 
 Trois choix, et je les recommande ainsi :
 
-- périmètre pilote sur le 20e arrondissement (6 133 chiens identifiés) plutôt que sur un
-  arrondissement central,
+- périmètre pilote sur le 13e arrondissement (des volontaires y comptent déjà, 43 sièges au conseil
+  d'arrondissement, majorité stable depuis mars 2026) plutôt que sur un arrondissement central,
 - obligation sur le périmètre et adhésion volontaire pour les droits,
 - gratuité de l'identification compensée si une cotisation est introduite.
 
@@ -835,9 +840,9 @@ Trois options, par ordre de solidité :
 
 ### 3. La chaîne d'actes à produire
 
-1. Vœu ou délibération du conseil d'arrondissement (le 20e est le périmètre recommandé : 6 133
-   chiens identifiés, 45 conseillers d'arrondissement), qui vaut engagement politique et peut
-   servir de base à l'expérimentation.
+1. Vœu ou délibération du conseil d'arrondissement (le 13e est le périmètre retenu : des volontaires
+   y comptent déjà, 43 sièges au conseil d'arrondissement, majorité stable depuis mars 2026), qui
+   vaut engagement politique et peut servir de base à l'expérimentation.
 
 2. Comptage contradictoire des déjections avant toute réglementation, avec protocole écrit, deux
    compteurs, périodes et périmètres définis, résultat daté.
@@ -973,7 +978,8 @@ ce que le juge lira en premier.
 
 ### 8. Les trois arbitrages à demander au cabinet
 
-1. **Périmètre** : un arrondissement (le 20e, recommandé) ou deux.
+1. **Périmètre** : un arrondissement (le 13e, retenu : c'est là que vivent les volontaires qui
+   comptent) ou deux.
    Réponse recommandée : un seul, avec extension décidée après évaluation.
 
 2. **Sanction** : obligation d'identification seule, ou obligation assortie d'une sanction dès la
@@ -1123,8 +1129,9 @@ inverse.
 1. **Un seul premier passage** : la presse parisienne sur le comptage, pas sur l'idée. Un article,
    pas trois. Le comptage est ce qui a manqué à Béziers ; c'est aussi un angle neuf, ce qui est
    exactement ce qu'un journal cherche.
-2. **La réunion publique** dans l'arrondissement pilote (le 20e : 6 133 chiens identifiés, 45
-   conseillers d'arrondissement) — c'est là qu'un élu se déclare, ou pas.
+2. **La réunion publique** dans l'arrondissement pilote (le 13e : environ 180 000 habitants, 43
+   sièges au conseil d'arrondissement, majorité stable depuis mars 2026) — c'est là qu'un élu se
+   déclare, ou pas.
 3. **Le dépôt du dossier de budget participatif** : un document public est un canal de communication
    institutionnel, et il oblige la mairie à répondre par écrit.
 4. **La phase volontaire, non sanctionnante**, avec publication des chiffres avant/après. Le
@@ -1297,7 +1304,53 @@ centième. C'est précisément ce sérieux qui rend le sujet impossible à balay
 - Il ouvre la porte du seul vrai produit possible à ce stade : une chaîne de preuve citoyenne
   réutilisable, pour tout ce que l'administration ne mesure pas.
 
-### 6. Critères d'arrêt, écrits à l'avance
+### 6. Le périmètre : le 13e, et pourquoi ce n'est pas un compromis
+
+Le critère qui décide n'est pas la densité canine, c'est **qui compte**. Les volontaires sont tous
+dans le 13e : c'est là que la balade des chiens a lieu. Un pilote où personne ne compte ne vaut rien,
+même avec trois fois plus de chiens identifiés — et un pilote avec trois couples de promeneurs
+motivés vaut mieux que n'importe quel arrondissement théoriquement idéal. Le dossier recommandait le
+20e ou le 10e sur deux critères seulement (densité canine, taille du conseil) : il en manquait un
+troisième, et c'est le premier en pratique.
+
+Et le 13e n'est pas une concession. Sur quatre points, c'est probablement un meilleur pilote :
+
+1. **Poids politique et durée.** Près de 180 000 habitants, 7,13 km², 116 196 inscrits, un conseil
+   d'arrondissement de 43 sièges (12 conseillers de Paris et 31 conseillers d'arrondissement). Le
+   maire, Jérôme Coumet, a été élu au premier tour en mars 2026 avec 51,52 % des suffrages et 35 des
+   43 sièges : majorité stable pour six ans, donc le temps d'une expérimentation, et un rapport de
+   force où une délibération d'arrondissement est atteignable.
+2. **Beaucoup d'espaces verts, peu de droits pour les chiens.** Le 13e compte 62 espaces verts
+   ouverts au public, soit 6 % de sa surface, et il est présenté comme l'un des arrondissements aux
+   plus grands parcs et jardins. Or la liste des jardins accessibles aux chiens, même en laisse, y
+   reste courte, et les espaces canins sont en nombre insuffisant. Le contraste local — tous ces
+   hectares et presque aucun droit — est plus parlant qu'un chiffre parisien global.
+3. **Le tissu social tue l'objection « péage pour riches ».** Logements sociaux nombreux
+   (Olympiades, Italie 13, parc de Paris Habitat), familles, ouvriers et employés, communauté
+   asiatique importante et commerces de rue très vivants. C'est exactement la population que le
+   statut doit convaincre s'il ne veut pas filtrer par l'argent : le meilleur terrain pour tester la
+   gratuité de l'identification, les exonérations et l'ouverture des jardins d'immeuble.
+4. **Un lieu où la règle ne s'applique déjà plus.** Le contrat de prévention et de sécurité du 13e
+   signale explicitement la promenade de la petite ceinture à la Poterne des Peupliers comme un
+   point où l'on rencontre des chiens non tenus en laisse. C'est le candidat naturel à un espace de
+   liberté encadré — et, avant/après, une mesure qui parle aux habitants comme aux élus.
+
+**Ce qui manque, et qu'il ne faut pas inventer :** le nombre de chiens identifiés dans le 13e. Le
+dossier retient 6 133 chiens pour le 20e et 3 580 pour le 10e, mais aucun chiffre fiable pour le 13e
+— et le nombre parisien lui-même est incertain (100 000 selon la Ville, jusqu'à 300 000 ailleurs).
+Trois demandes écrites à faire, gratuites, sur des documents administratifs communicables : le
+chiffre I-CAD à jour pour l'arrondissement (à la Ville et à la profession vétérinaire), la liste des
+espaces canins et des jardins accessibles aux chiens du 13e, et les statistiques de propreté du
+secteur. Tant qu'elles ne sont pas arrivées, le pilote s'écrit « 13e » et le chiffre reste vide.
+
+Sources : Ville de Paris, élus d'arrondissements (page mise à jour le 31/03/2026) ;
+https://www.paris.fr/pages/elus-d-arrondissements-2365 — résultats des municipales 2026 dans le 13e
+(12 conseillers de Paris, 31 conseillers d'arrondissement, 43 sièges, 51,52 % de suffrages exprimés,
+35 sièges, 116 196 inscrits) ; contrat de prévention et de sécurité du 13e arrondissement (62 espaces
+verts ouverts au public, petite ceinture à la Poterne des Peupliers) :
+https://cdn.paris.fr/paris/2023/11/14/cpsa-13e_2-juin-2023-Mxbk.pdf
+
+### 7. Critères d'arrêt, écrits à l'avance
 
 - Si le comptage **ne confirme pas** le problème (peu de déjections sur les tronçons tirés au sort),
   on publie le résultat tel quel et le projet change de sujet ou s'arrête : c'est honorable, c'est
@@ -1602,7 +1655,25 @@ passe de vérification. Les affirmations qu'il introduit ont été vérifiées �
    Source :
    https://cyber.gouv.fr/reglementation/reglementation-identite-confiance-numerique/securite-echanges-voie-electronique/reglement-eidas/services-de-confiance/
 
-7. Le retrait de `PITCH-COLLAB-TECHNIQUE-IT.md` est une décision éditoriale, pas une correction :
+7. **Le 13e comme périmètre pilote** (arbitrage du 29/09/2026). Chiffres vérifiés :
+   `confirmé` — 43 sièges au conseil d'arrondissement (12 conseillers de Paris + 31 conseillers
+   d'arrondissement) et maire élu au premier tour de mars 2026 avec 51,52 % des suffrages et 35 des
+   43 sièges, 116 196 inscrits (Ville de Paris, page « élus d'arrondissements » mise à jour le
+   31/03/2026 ; résultats des municipales 2026 dans le 13e).
+   `confirmé avec nuance` — 62 espaces verts ouverts au public, soit 6 % de la surface, et chiens non
+   tenus en laisse signalés sur la promenade de la petite ceinture à la Poterne des Peupliers :
+   source datée de 2023 (contrat de prévention et de sécurité du 13e), donc à rafraîchir.
+   `incertain` — population « près de 180 000 habitants » et 105 665 logements : annuaire et presse
+   locale, pas de source statistique officielle ouverte à ce jour.
+   **Non trouvé** : le nombre de chiens identifiés dans le 13e. Aucun chiffre fiable — à demander
+   (documents administratifs communicables) avant tout usage public, comme pour le total parisien.
+
+   Sources :
+   https://www.paris.fr/pages/elus-d-arrondissements-2365
+   https://www.ici.fr/ile-de-france/paris-75/paris-13e/elections
+   https://cdn.paris.fr/paris/2023/11/14/cpsa-13e_2-juin-2023-Mxbk.pdf
+
+8. Le retrait de `PITCH-COLLAB-TECHNIQUE-IT.md` est une décision éditoriale, pas une correction :
    la pièce technique ne fait pas partie du dossier communiqué.
 
 [↑ Sommaire](#sommaire)
@@ -2078,7 +2149,9 @@ Prestataires français disponibles (tous font de l'identification génétique + 
 **Hypothèses** :
 
 - Paris ~100 000 chiens identifiés ;
-- périmètre pilote 20e + 10e = 9 713 chiens identifiés ;
+- périmètre pilote : **le 13e** (arbitrage du 29/09/2026) ; le chiffre de chiens identifiés du 13e est
+  à obtenir, donc les volumes ci-dessous utilisent le cas de référence déjà chiffré, 20e + 10e =
+  9 713 chiens identifiés ;
 - taux de couverture réaliste 50-60 % la première année ;
 - coût public 45 € par chien fiché la première année (référence Saint-Omer) ;
 - 30 € en volume si tout Paris y passe [E].
@@ -2086,7 +2159,7 @@ Prestataires français disponibles (tous font de l'identification génétique + 
 | Scénario | Chiens identifiés | Coût public 1re année |
 |---|---|---|
 | Journée d'identification gratuite (information + prélèvements) | 200-400 chiens par journée | 3 000-5 000 € par journée [E] |
-| Pilote périmètre 20e + 10e, obligatoire, gratuit | 4 800-5 800 chiens fichés | 220-260 k€ [E] |
+| Pilote (cas de référence 20e + 10e), obligatoire, gratuit | 4 800-5 800 chiens fichés | 220-260 k€ [E] |
 | Pilote + extension 18e (couverture 60 %) | ~10 000 chiens | 450-500 k€ [E] |
 | Paris entier, gratuit, étalé sur 4 ans | 100 000 chiens | 3,0-4,5 M€ [E] (le Parisien cite ~5 M€) |
 | Paris entier, identification payante par le propriétaire (38-48 €) | variable | quasi nul pour la Ville, mais couverture faible [E] |
@@ -2115,7 +2188,7 @@ Prestataires français disponibles (tous font de l'identification génétique + 
 2. Appel à la Ville de Saint-Omer (service Ville Propre) et à la Ville de Reims : demander les
    pièces du marché et le bilan écrit. Ce sont des documents administratifs communicables. Coût :
    0 €. C'est ce qui te donne les vrais coûts unitaires, pas les devis commerciaux.
-3. Comptage des déjections sur un périmètre test (20e), protocole simple, 3 semaines, avec des
+3. Comptage des déjections sur un périmètre test (13e), protocole simple, 3 semaines, avec des
    bénévoles et une fiche de relevé. Coût : 0 €. C'est la pièce qui manquait à Béziers, et c'est
    aussi l'argument public (le chiffre avant/après).
 
@@ -2279,8 +2352,12 @@ D4. Couverture minimale : c'est LE paramètre critique. En dessous de ~50 % des 
     Malaga à ~50 % après deux ans). Il faut une campagne d'adhésion massive avant d'annoncer la
     sanction — sinon le premier billet de blog hostile tue le dispositif.
 
-D5. Le périmètre pilote : le 20e (6 133 chiens identifiés, 45 sièges de conseillers) ou le 10e
-    (3 580 chiens, 19 sièges) ; le 8e a déjà l'infrastructure mais peu de chiens.
+D5. Le périmètre pilote : **le 13e, arbitré le 29/09/2026** — c'est là que vivent les volontaires qui
+    comptent, et l'arrondissement tient tout le reste (environ 180 000 habitants, 43 sièges au conseil
+    d'arrondissement, majorité stable, 62 espaces verts ouverts au public, petite ceinture à la
+    Poterne des Peupliers déjà hors laisse). Alternatives : le 20e (6 133 chiens identifiés, 45
+    sièges) ou le 10e (3 580 chiens, 19 sièges) ; le 8e a l'infrastructure mais peu de chiens. Le
+    nombre de chiens identifiés dans le 13e reste à obtenir par demande écrite.
 
 ### 5. Objections à anticiper (sinon elles tueront le projet)
 
@@ -2330,7 +2407,7 @@ budget participatif, puis vendre le dispositif aux élus.
    par analyse à l'échelle 100 000 chiens — 0 €, 2 jours.
 3. Rédiger le projet d'arrêté + le règlement du statut (2-3 pages) + la maquette du parcours
    propriétaire — 0 €, je peux le produire.
-4. Entretien PARC.C + une réunion publique dans le 20e pour tester la formulation et la disposition
+4. Entretien PARC.C + une réunion publique dans le 13e pour tester la formulation et la disposition
    à adhérer — 0 €.
 5. Dossier budget participatif à la prochaine édition (2026 suspendue pour cause d'élections) pour
    financer un pilote d'identification : 0 € pour lui, effet de levier réel.
@@ -2695,8 +2772,11 @@ la Ville (11,7 Md€). Argument politique rare : « 15 M€ pour 145 000 électe
 - (c) Dossier budget participatif (prochaine édition) pour un espace canin modèle dans un
   arrondissement test : 0 € et ça donne de la crédibilité + des données matérielles.
 
-Où tester en premier (densité canine + taille d'arrondissement) :
+Où tester en premier (densité canine + taille d'arrondissement) — **arbitrage du 29/09/2026 : le 13e**,
+parce que c'est là que vivent les volontaires qui comptent (environ 180 000 habitants, 43 sièges au
+conseil d'arrondissement, majorité stable, 62 espaces verts ouverts au public) :
 
+- 13e (chiffre I-CAD à demander à la Ville),
 - 20e (6 133 chiens identifiés, 45 sièges),
 - 10e (3 580 chiens, 19 sièges),
 - 18e (44 sièges).
@@ -3062,7 +3142,7 @@ de marché de 25-35 € par chien est un objectif réaliste [E].
 | Scénario | Chiens | Coût public |
 |---|---|---|
 | Journée d'identification gratuite en arrondissement | 200-400 par journée | 3 000-5 000 € par journée [E] |
-| Périmètre pilote 20e + 10e, obligation gratuite, couverture 50-60 % | 4 800-5 800 fichés | 220-260 k€ [E] |
+| Périmètre pilote (cas de référence 20e + 10e ; le pilote retenu est le 13e), obligation gratuite, couverture 50-60 % | 4 800-5 800 fichés | 220-260 k€ [E] |
 | Pilote étendu au 18e (couverture 60 %) | ~10 000 fichés | 460 k€ [E] |
 | Paris entier, gratuit, étalé sur quatre ans | 100 000 chiens | 3,0-4,6 M€ [E] (le Parisien cite ~5 M€) |
 | Paris entier, identification payante par le détenteur (38-48 €) | variable | quasi nul pour la Ville, mais couverture faible |
@@ -3100,8 +3180,14 @@ entre 400 000 € et 700 000 € [E], soit moins de 1 % du budget annuel de prop
 - **D4.** Couverture minimale avant de sanctionner. En dessous de ~50 %, le dispositif se retourne
   politiquement : seuls les honnêtes sont tracés. La campagne d'identification doit précéder
   l'annonce de la sanction, jamais l'inverse.
-- **D5.** Périmètre pilote. Le 20e (6 133 chiens identifiés, 45 conseillers d'arrondissement) ou le
-  10e (3 580 chiens, 19 sièges) ; le 8e a déjà l'infrastructure (Monceau) mais peu de chiens.
+- **D5.** Périmètre pilote. **Arbitrée le 29/09/2026 : le 13e.** Le critère décisif est le nombre de
+  volontaires qui comptent réellement — ils sont tous dans le 13e — et l'arrondissement tient le
+  reste : environ 180 000 habitants, 116 196 inscrits, 43 sièges au conseil d'arrondissement, majorité
+  stable (maire élu au premier tour en 2026 avec 51,52 %), 62 espaces verts ouverts au public, et la
+  petite ceinture à la Poterne des Peupliers comme lieu où la laisse n'est déjà plus respectée. Les
+  alternatives restent le 20e (6 133 chiens identifiés, 45 sièges) et le 10e (3 580 chiens, 19 sièges) ;
+  le 8e a l'infrastructure (Monceau) mais peu de chiens. Le nombre de chiens identifiés dans le 13e
+  reste à obtenir (demande écrite à la Ville et à la profession vétérinaire).
 
 ---
 
@@ -3150,7 +3236,7 @@ et par le budget participatif, puis de vendre le dispositif aux élus.
   marché de Saint-Omer et du bilan de Reims (documents administratifs communicables) ; comptage
   des déjections sur un périmètre test.
 - **Étape 1** — 1 à 2 mois : test politique. Entretien avec PARC.C, une réunion publique dans le
-  20e, questionnaire à 300 détenteurs. Question à trancher : le statut intéresse-t-il sa cible ?
+  13e, questionnaire à 300 détenteurs. Question à trancher : le statut intéresse-t-il sa cible ?
 - **Étape 2** — 2 à 4 mois : dossier de budget participatif pour un pilote d'identification et un
   espace de liberté modèle ; montage associatif.
 - **Étape 3** — 6 à 12 mois : phase volontaire non sanctionnante dans un arrondissement pilote,
@@ -3276,7 +3362,7 @@ parisien, Ville, métropole, Région), et, à terme, une dotation du fonds.
 
 | Scénario | Adhésions (20 €) | Chiens assurés | Commission à 7 % | Mécénat | Total du fonds |
 |---|---|---|---|---|---|
-| An 1, pilote 20e + 10e : 5 000 chiens | 100 k€ | 500 (10 %) | 8 k€ | 50 k€ | **158 k€/an** |
+| An 1, pilote (cas de référence 20e + 10e) : 5 000 chiens | 100 k€ | 500 (10 %) | 8 k€ | 50 k€ | **158 k€/an** |
 | An 3, 30 000 enregistrés | 600 k€ | 4 500 (15 %) | 76 k€ | 150 k€ | **826 k€/an** |
 | An 6, 100 000 enregistrés | 2,0 M€ | 20 000 (20 %) | 336 k€ | 300 k€ | **2,64 M€/an** |
 
@@ -3402,7 +3488,7 @@ janvier 2022). Trois règles en font un instrument fiable, et non une addition d
 
 Ce que ce modèle change pour un comptage parisien des déjections :
 
-- **Périmètre :** des segments homogènes, par exemple 20 tronçons de 300 m dans le 20e,
+- **Périmètre :** des segments homogènes, par exemple 20 tronçons de 300 m dans le 13e,
   représentatifs des voies les plus fréquentées.
 - **Zone témoin :** 5 tronçons comparables où rien ne change, comptés en parallèle pendant toute la
   durée. Sans témoin, une baisse ne s'attribue pas au dispositif : c'est exactement l'erreur du
@@ -3586,20 +3672,20 @@ Divers :
 
 | Fichier | Rôle | Lignes |
 | --- | --- | --- |
-| `PITCH-ET-RESUME.md` | Pitch général (version longue) | 326 |
+| `PITCH-ET-RESUME.md` | Pitch général (version longue) | 330 |
 | `PITCH-CITOYEN.md` | Pitch grand public | 95 |
 | `PITCH-ELU.md` | Note pour un élu | 121 |
-| `PITCH-CABINET-TECHNIQUE.md` | Note technique pour un cabinet | 271 |
-| `PITCH-COM-PRESSE-RESEAUX.md` | Volet communication, presse et réseaux | 193 |
-| `LANCEMENT-PAR-LE-COMPTAGE.md` | Lancer le projet par le comptage citoyen | 96 |
-| `AUDIT-SOURCES.md` | Audit anti-hallucination, corrections, sources vérifiées | 290 |
+| `PITCH-CABINET-TECHNIQUE.md` | Note technique pour un cabinet | 272 |
+| `PITCH-COM-PRESSE-RESEAUX.md` | Volet communication, presse et réseaux | 194 |
+| `LANCEMENT-PAR-LE-COMPTAGE.md` | Lancer le projet par le comptage citoyen | 142 |
+| `AUDIT-SOURCES.md` | Audit anti-hallucination, corrections, sources vérifiées | 308 |
 | `NOTE-JURIDIQUE-ARRETE-ADN.md` | Ce qui a fait annuler Béziers, recette juridique | 106 |
 | `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md` | Ce qui fait qu'un comptage citoyen tient juridiquement | 120 |
 | `ARCHI-CHAINE-DE-PREUVE.md` | Chaîne de preuve outillée : photo en contexte, QR, registre horodaté | 146 |
-| `ADN-COUTS-FAISABILITE.md` | Coûts réels des tests ADN, faisabilité, chiffrage | 118 |
-| `STATUT-CHIEN-CITOYEN.md` | Note de conception du statut | 210 |
+| `ADN-COUTS-FAISABILITE.md` | Coûts réels des tests ADN, faisabilité, chiffrage | 120 |
+| `STATUT-CHIEN-CITOYEN.md` | Note de conception du statut | 214 |
 | `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md` | Projet d'arrêté, règlement, parcours, maquette de données | 193 |
-| `PROJET-CHIENS-PARIS.md` | Première note d'exploration politique | 176 |
-| `RAPPORT-COMPLET-CHIENS-PARIS.md` | Rapport complet et chiffrage détaillé | 856 |
+| `PROJET-CHIENS-PARIS.md` | Première note d'exploration politique | 179 |
+| `RAPPORT-COMPLET-CHIENS-PARIS.md` | Rapport complet et chiffrage détaillé | 862 |
 
 Le brouillon antérieur à la passe de réécriture est conservé hors dossier sous `PITCH-ET-RESUME.avant-humanizer.md`.

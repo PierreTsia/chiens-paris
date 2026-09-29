@@ -338,7 +338,7 @@ de marché de 25-35 € par chien est un objectif réaliste [E].
 | Scénario | Chiens | Coût public |
 |---|---|---|
 | Journée d'identification gratuite en arrondissement | 200-400 par journée | 3 000-5 000 € par journée [E] |
-| Périmètre pilote 20e + 10e, obligation gratuite, couverture 50-60 % | 4 800-5 800 fichés | 220-260 k€ [E] |
+| Périmètre pilote (cas de référence 20e + 10e ; le pilote retenu est le 13e), obligation gratuite, couverture 50-60 % | 4 800-5 800 fichés | 220-260 k€ [E] |
 | Pilote étendu au 18e (couverture 60 %) | ~10 000 fichés | 460 k€ [E] |
 | Paris entier, gratuit, étalé sur quatre ans | 100 000 chiens | 3,0-4,6 M€ [E] (le Parisien cite ~5 M€) |
 | Paris entier, identification payante par le détenteur (38-48 €) | variable | quasi nul pour la Ville, mais couverture faible |
@@ -376,8 +376,14 @@ entre 400 000 € et 700 000 € [E], soit moins de 1 % du budget annuel de prop
 - **D4.** Couverture minimale avant de sanctionner. En dessous de ~50 %, le dispositif se retourne
   politiquement : seuls les honnêtes sont tracés. La campagne d'identification doit précéder
   l'annonce de la sanction, jamais l'inverse.
-- **D5.** Périmètre pilote. Le 20e (6 133 chiens identifiés, 45 conseillers d'arrondissement) ou le
-  10e (3 580 chiens, 19 sièges) ; le 8e a déjà l'infrastructure (Monceau) mais peu de chiens.
+- **D5.** Périmètre pilote. **Arbitrée le 29/09/2026 : le 13e.** Le critère décisif est le nombre de
+  volontaires qui comptent réellement — ils sont tous dans le 13e — et l'arrondissement tient le
+  reste : environ 180 000 habitants, 116 196 inscrits, 43 sièges au conseil d'arrondissement, majorité
+  stable (maire élu au premier tour en 2026 avec 51,52 %), 62 espaces verts ouverts au public, et la
+  petite ceinture à la Poterne des Peupliers comme lieu où la laisse n'est déjà plus respectée. Les
+  alternatives restent le 20e (6 133 chiens identifiés, 45 sièges) et le 10e (3 580 chiens, 19 sièges) ;
+  le 8e a l'infrastructure (Monceau) mais peu de chiens. Le nombre de chiens identifiés dans le 13e
+  reste à obtenir (demande écrite à la Ville et à la profession vétérinaire).
 
 ---
 
@@ -426,7 +432,7 @@ et par le budget participatif, puis de vendre le dispositif aux élus.
   marché de Saint-Omer et du bilan de Reims (documents administratifs communicables) ; comptage
   des déjections sur un périmètre test.
 - **Étape 1** — 1 à 2 mois : test politique. Entretien avec PARC.C, une réunion publique dans le
-  20e, questionnaire à 300 détenteurs. Question à trancher : le statut intéresse-t-il sa cible ?
+  13e, questionnaire à 300 détenteurs. Question à trancher : le statut intéresse-t-il sa cible ?
 - **Étape 2** — 2 à 4 mois : dossier de budget participatif pour un pilote d'identification et un
   espace de liberté modèle ; montage associatif.
 - **Étape 3** — 6 à 12 mois : phase volontaire non sanctionnante dans un arrondissement pilote,
@@ -552,7 +558,7 @@ parisien, Ville, métropole, Région), et, à terme, une dotation du fonds.
 
 | Scénario | Adhésions (20 €) | Chiens assurés | Commission à 7 % | Mécénat | Total du fonds |
 |---|---|---|---|---|---|
-| An 1, pilote 20e + 10e : 5 000 chiens | 100 k€ | 500 (10 %) | 8 k€ | 50 k€ | **158 k€/an** |
+| An 1, pilote (cas de référence 20e + 10e) : 5 000 chiens | 100 k€ | 500 (10 %) | 8 k€ | 50 k€ | **158 k€/an** |
 | An 3, 30 000 enregistrés | 600 k€ | 4 500 (15 %) | 76 k€ | 150 k€ | **826 k€/an** |
 | An 6, 100 000 enregistrés | 2,0 M€ | 20 000 (20 %) | 336 k€ | 300 k€ | **2,64 M€/an** |
 
@@ -678,7 +684,7 @@ janvier 2022). Trois règles en font un instrument fiable, et non une addition d
 
 Ce que ce modèle change pour un comptage parisien des déjections :
 
-- **Périmètre :** des segments homogènes, par exemple 20 tronçons de 300 m dans le 20e,
+- **Périmètre :** des segments homogènes, par exemple 20 tronçons de 300 m dans le 13e,
   représentatifs des voies les plus fréquentées.
 - **Zone témoin :** 5 tronçons comparables où rien ne change, comptés en parallèle pendant toute la
   durée. Sans témoin, une baisse ne s'attribue pas au dispositif : c'est exactement l'erreur du

@@ -104,8 +104,8 @@ sentiers, caniparcs labellisés) sans proposer le contrat qui le rend tenable.
 
 Trois choix, et je les recommande ainsi :
 
-- périmètre pilote sur le 20e arrondissement (6 133 chiens identifiés) plutôt que sur un
-  arrondissement central,
+- périmètre pilote sur le 13e arrondissement (des volontaires y comptent déjà, 43 sièges au conseil
+  d'arrondissement, majorité stable depuis mars 2026) plutôt que sur un arrondissement central,
 - obligation sur le périmètre et adhésion volontaire pour les droits,
 - gratuité de l'identification compensée si une cotisation est introduite.
 

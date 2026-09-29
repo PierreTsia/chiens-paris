@@ -84,7 +84,53 @@ centième. C'est précisément ce sérieux qui rend le sujet impossible à balay
 - Il ouvre la porte du seul vrai produit possible à ce stade : une chaîne de preuve citoyenne
   réutilisable, pour tout ce que l'administration ne mesure pas.
 
-## 6. Critères d'arrêt, écrits à l'avance
+## 6. Le périmètre : le 13e, et pourquoi ce n'est pas un compromis
+
+Le critère qui décide n'est pas la densité canine, c'est **qui compte**. Les volontaires sont tous
+dans le 13e : c'est là que la balade des chiens a lieu. Un pilote où personne ne compte ne vaut rien,
+même avec trois fois plus de chiens identifiés — et un pilote avec trois couples de promeneurs
+motivés vaut mieux que n'importe quel arrondissement théoriquement idéal. Le dossier recommandait le
+20e ou le 10e sur deux critères seulement (densité canine, taille du conseil) : il en manquait un
+troisième, et c'est le premier en pratique.
+
+Et le 13e n'est pas une concession. Sur quatre points, c'est probablement un meilleur pilote :
+
+1. **Poids politique et durée.** Près de 180 000 habitants, 7,13 km², 116 196 inscrits, un conseil
+   d'arrondissement de 43 sièges (12 conseillers de Paris et 31 conseillers d'arrondissement). Le
+   maire, Jérôme Coumet, a été élu au premier tour en mars 2026 avec 51,52 % des suffrages et 35 des
+   43 sièges : majorité stable pour six ans, donc le temps d'une expérimentation, et un rapport de
+   force où une délibération d'arrondissement est atteignable.
+2. **Beaucoup d'espaces verts, peu de droits pour les chiens.** Le 13e compte 62 espaces verts
+   ouverts au public, soit 6 % de sa surface, et il est présenté comme l'un des arrondissements aux
+   plus grands parcs et jardins. Or la liste des jardins accessibles aux chiens, même en laisse, y
+   reste courte, et les espaces canins sont en nombre insuffisant. Le contraste local — tous ces
+   hectares et presque aucun droit — est plus parlant qu'un chiffre parisien global.
+3. **Le tissu social tue l'objection « péage pour riches ».** Logements sociaux nombreux
+   (Olympiades, Italie 13, parc de Paris Habitat), familles, ouvriers et employés, communauté
+   asiatique importante et commerces de rue très vivants. C'est exactement la population que le
+   statut doit convaincre s'il ne veut pas filtrer par l'argent : le meilleur terrain pour tester la
+   gratuité de l'identification, les exonérations et l'ouverture des jardins d'immeuble.
+4. **Un lieu où la règle ne s'applique déjà plus.** Le contrat de prévention et de sécurité du 13e
+   signale explicitement la promenade de la petite ceinture à la Poterne des Peupliers comme un
+   point où l'on rencontre des chiens non tenus en laisse. C'est le candidat naturel à un espace de
+   liberté encadré — et, avant/après, une mesure qui parle aux habitants comme aux élus.
+
+**Ce qui manque, et qu'il ne faut pas inventer :** le nombre de chiens identifiés dans le 13e. Le
+dossier retient 6 133 chiens pour le 20e et 3 580 pour le 10e, mais aucun chiffre fiable pour le 13e
+— et le nombre parisien lui-même est incertain (100 000 selon la Ville, jusqu'à 300 000 ailleurs).
+Trois demandes écrites à faire, gratuites, sur des documents administratifs communicables : le
+chiffre I-CAD à jour pour l'arrondissement (à la Ville et à la profession vétérinaire), la liste des
+espaces canins et des jardins accessibles aux chiens du 13e, et les statistiques de propreté du
+secteur. Tant qu'elles ne sont pas arrivées, le pilote s'écrit « 13e » et le chiffre reste vide.
+
+Sources : Ville de Paris, élus d'arrondissements (page mise à jour le 31/03/2026) ;
+https://www.paris.fr/pages/elus-d-arrondissements-2365 — résultats des municipales 2026 dans le 13e
+(12 conseillers de Paris, 31 conseillers d'arrondissement, 43 sièges, 51,52 % de suffrages exprimés,
+35 sièges, 116 196 inscrits) ; contrat de prévention et de sécurité du 13e arrondissement (62 espaces
+verts ouverts au public, petite ceinture à la Poterne des Peupliers) :
+https://cdn.paris.fr/paris/2023/11/14/cpsa-13e_2-juin-2023-Mxbk.pdf
+
+## 7. Critères d'arrêt, écrits à l'avance
 
 - Si le comptage **ne confirme pas** le problème (peu de déjections sur les tronçons tirés au sort),
   on publie le résultat tel quel et le projet change de sujet ou s'arrête : c'est honorable, c'est

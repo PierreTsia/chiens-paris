@@ -272,15 +272,19 @@ l'annonce des sanctions, jamais l'inverse.
   plus modestes. Si cotisation, compensation obligatoire.
 - Couverture minimale avant de sanctionner : 50 % des chiens du périmètre. En dessous, le dispositif
   se retourne politiquement.
-- Périmètre du pilote : le 20e, 6 133 chiens identifiés et 45 conseillers d'arrondissement, ou le
-  10e, 3 580 chiens et 19 sièges. Le 8e a l'infrastructure mais peu de chiens.
+- Périmètre du pilote : le 13e, retenu le 29 septembre 2026 — c'est l'arrondissement des volontaires
+  qui comptent, et il tient le reste (environ 180 000 habitants, 116 196 inscrits, 43 sièges au
+  conseil d'arrondissement, 62 espaces verts ouverts au public). Alternatives : le 20e, 6 133 chiens
+  identifiés et 45 conseillers d'arrondissement, ou le 10e, 3 580 chiens et 19 sièges. Le 8e a
+  l'infrastructure mais peu de chiens. Le nombre de chiens identifiés dans le 13e est à demander à la
+  Ville.
 
 ## Les prochaines étapes
 
 - **Zéro euro, tout de suite** : demander les pièces du marché de Saint-Omer et le bilan écrit de
   Reims, ce sont des documents administratifs communicables ; demander des devis à trois
   laboratoires ; compter les déjections sur un périmètre test, le protocole est déjà écrit.
-- **Un à deux mois** : entretien avec PARC.C, réunion publique dans le 20e, questionnaire à
+- **Un à deux mois** : entretien avec PARC.C, réunion publique dans le 13e, questionnaire à
   300 détenteurs pour voir si l'adhésion prend.
 - **Deux à quatre mois** : dossier de budget participatif pour financer un pilote d'identification
   et un espace de liberté modèle, montage associatif.

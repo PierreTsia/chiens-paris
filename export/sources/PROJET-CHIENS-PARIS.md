@@ -153,8 +153,11 @@ la Ville (11,7 Md€). Argument politique rare : « 15 M€ pour 145 000 électe
 - (c) Dossier budget participatif (prochaine édition) pour un espace canin modèle dans un
   arrondissement test : 0 € et ça donne de la crédibilité + des données matérielles.
 
-Où tester en premier (densité canine + taille d'arrondissement) :
+Où tester en premier (densité canine + taille d'arrondissement) — **arbitrage du 29/09/2026 : le 13e**,
+parce que c'est là que vivent les volontaires qui comptent (environ 180 000 habitants, 43 sièges au
+conseil d'arrondissement, majorité stable, 62 espaces verts ouverts au public) :
 
+- 13e (chiffre I-CAD à demander à la Ville),
 - 20e (6 133 chiens identifiés, 45 sièges),
 - 10e (3 580 chiens, 19 sièges),
 - 18e (44 sièges).
