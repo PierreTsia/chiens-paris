@@ -377,19 +377,19 @@ def add_sommaire(md):
     return "\n".join(lines[:first + 1] + som + lines[first + 1:])
 
 
-def md_of(pieces):
+def md_of(pieces, sommaire=True):
     md = "\n\n".join(open(os.path.join(SRC, f), encoding="utf-8").read().rstrip()
                      for f, _ in pieces)
-    return add_sommaire(md)
+    return add_sommaire(md) if sommaire else md
 
 
 def page_count(pdf_path):
     return len(re.findall(rb"/Type\s*/Page[^s]", open(pdf_path, "rb").read()))
 
 
-def build(name, pieces, title, kicker, subtitle, note, cover=True, site=True):
+def build(name, pieces, title, kicker, subtitle, note, cover=True, site=True, sommaire=True):
     """Produit html + docx + pdf pour un paquet, et éventuellement une page du site."""
-    blocks = parse(md_of(pieces))
+    blocks = parse(md_of(pieces, sommaire))
     os.makedirs(EXPORT, exist_ok=True)
     page = html_doc(title, blocks, kicker, subtitle, note, cover=cover)
     hp = os.path.join(EXPORT, "%s.html" % name)
@@ -482,6 +482,17 @@ if __name__ == "__main__":
             "Un statut pour les chiens de Paris : ce qu'on propose, ce que ça coûte, ce qui reste à décider.",
             "Document de travail, rien n'a été voté. Ce dossier décrit un projet, pas un "
             "dispositif en vigueur."))
+    if what in ("version-amis", "tout"):
+        made.append(build(
+            "Chien-citoyen-de-Paris-note-copains-balade",
+            [("PITCH-AMIS-BALADE.md", None)],
+            "Le chien citoyen de Paris",
+            "Note pour les copains de balade",
+            "Une note courte : ce dont on a parlé en promenade, ce qui est documenté, et ce qui "
+            "manque encore.",
+            "Document de travail du 29 septembre 2026, rien n'a été voté. Les chiffres viennent de "
+            "sources publiques listées dans l'annexe « audit anti-hallucination » du dossier.",
+            sommaire=False))
     if what in ("dossier-complet", "tout"):
         made.append(build(
             "Chien-citoyen-de-Paris-dossier-complet",
@@ -502,7 +513,8 @@ if __name__ == "__main__":
             piece_paths.append((p["html"], title, tag))
         shutil.rmtree(os.path.join(EXPORT, "sources"), ignore_errors=True)
         os.makedirs(os.path.join(EXPORT, "sources"), exist_ok=True)
-        for f in [f for f, _, _ in PIECES] + ["DOSSIER-CHIEN-CITOYEN-PARIS.md", "README.md"]:
+        for f in ([f for f, _, _ in PIECES] + ["DOSSIER-CHIEN-CITOYEN-PARIS.md", "README.md",
+                                               "PITCH-AMIS-BALADE.md"]):
             shutil.copy(os.path.join(SRC, f), os.path.join(EXPORT, "sources", f))
         build_site(made, piece_paths)
 

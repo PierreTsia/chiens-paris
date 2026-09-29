@@ -14,18 +14,21 @@ sommaire, pitch général, pitchs ciblés, annexes vérifiées.
 
 Ordre de lecture conseillé :
 
-1. `PITCH-CITOYEN.md` — la version grand public, une page, sans jargon.
-2. `PITCH-ET-RESUME.md` — le pitch général, la version longue et complète.
-3. `PITCH-ELU.md` / `PITCH-CABINET-TECHNIQUE.md` / `PITCH-COLLAB-TECHNIQUE-IT.md` — selon
+1. `PITCH-AMIS-BALADE.md` — la note courte pour un canal de copains promeneurs de chiens, à envoyer
+   telle quelle (`export/Chien-citoyen-de-Paris-note-copains-balade.pdf`, 3 pages).
+2. `PITCH-CITOYEN.md` — la version grand public, une page, sans jargon.
+3. `PITCH-ET-RESUME.md` — le pitch général, la version longue et complète.
+4. `PITCH-ELU.md` / `PITCH-CABINET-TECHNIQUE.md` / `PITCH-COLLAB-TECHNIQUE-IT.md` — selon
    l'interlocuteur.
-4. `AUDIT-SOURCES.md` — ce qui est prouvé, ce qui a été corrigé, ce qui reste incertain.
-5. `RAPPORT-COMPLET-CHIENS-PARIS.md` — le rapport détaillé et son chiffrage.
+5. `AUDIT-SOURCES.md` — ce qui est prouvé, ce qui a été corrigé, ce qui reste incertain.
+6. `RAPPORT-COMPLET-CHIENS-PARIS.md` — le rapport détaillé et son chiffrage.
 
 ## Contenu
 
 | Fichier | Rôle |
 | --- | --- |
 | `DOSSIER-CHIEN-CITOYEN-PARIS.md` | Dossier assemblé (sommaire + tout le reste) |
+| `PITCH-AMIS-BALADE.md` | Note courte pour les copains de balade (canal WhatsApp) |
 | `PITCH-ET-RESUME.md` | Pitch général, version longue |
 | `PITCH-CITOYEN.md` | Pitch grand public |
 | `PITCH-ELU.md` | Note pour un élu |
