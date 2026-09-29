@@ -101,12 +101,21 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [5. Les trois niveaux d'escalade](#5-les-trois-niveaux-descalade)
   - [6. Ce que le comptage ne suffira pas à fermer](#6-ce-que-le-comptage-ne-suffira-pas-à-fermer)
   - [Sources](#sources)
-- [9. Tests ADN canins : coûts et faisabilité](#9-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) — `ADN-COUTS-FAISABILITE.md`
+- [9. Architecture — chaîne de preuve outillée (photo en contexte, QR, registre horodaté)](#9-architecture--une-chaîne-de-preuve-outillée-photo-en-contexte-qr-registre-horodaté) — `ARCHI-CHAINE-DE-PREUVE.md`
+  - [1. Le partage à ne pas se tromper](#1-le-partage-à-ne-pas-se-tromper)
+  - [2. Le principe : un identifiant, deux chaînes](#2-le-principe--un-identifiant-deux-chaînes)
+  - [3. La photo en contexte, et à quoi sert vraiment le QR](#3-la-photo-en-contexte-et-à-quoi-sert-vraiment-le-qr)
+  - [4. Contradictoire outillé, sans le remplacer](#4-contradictoire-outillé-sans-le-remplacer)
+  - [5. Les chiffres, et comment ils résistent](#5-les-chiffres-et-comment-ils-résistent)
+  - [6. Ouvert : ce que « ouvert » doit vouloir dire](#6-ouvert--ce-que--ouvert--doit-vouloir-dire)
+  - [7. La séquence, et pourquoi il ne faut pas commencer par l'application](#7-la-séquence-et-pourquoi-il-ne-faut-pas-commencer-par-lapplication)
+  - [8. Ce que ça peut devenir](#8-ce-que-ça-peut-devenir)
+- [10. Tests ADN canins : coûts et faisabilité](#10-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) — `ADN-COUTS-FAISABILITE.md`
   - [1. Combien coûte un test, concrètement](#1-combien-coûte-un-test-concrètement)
   - [2. Est-ce facile à faire ? Oui, techniquement. Les points durs sont ailleurs.](#2-est-ce-facile-à-faire--oui-techniquement-les-points-durs-sont-ailleurs)
   - [3. Chiffrage pour Paris](#3-chiffrage-pour-paris)
   - [4. Le test le moins cher à faire maintenant (pour aller vite sans argent)](#4-le-test-le-moins-cher-à-faire-maintenant-pour-aller-vite-sans-argent)
-- [10. Statut du chien citoyen — note de conception](#10-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) — `STATUT-CHIEN-CITOYEN.md`
+- [11. Statut du chien citoyen — note de conception](#11-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) — `STATUT-CHIEN-CITOYEN.md`
   - [0. Le verdict d'abord](#0-le-verdict-dabord)
   - [1. Le dispositif, brique par brique](#1-le-dispositif-brique-par-brique)
   - [2. Qui peut faire quoi (le vrai tableau de contraintes)](#2-qui-peut-faire-quoi-le-vrai-tableau-de-contraintes)
@@ -115,12 +124,12 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [5. Objections à anticiper (sinon elles tueront le projet)](#5-objections-à-anticiper-sinon-elles-tueront-le-projet)
   - [6. Positionnement : la formulation qui peut devenir majoritaire](#6-positionnement--la-formulation-qui-peut-devenir-majoritaire)
   - [7. Prochaines étapes (coût, délai)](#7-prochaines-étapes-coût-délai)
-- [11. Projet d'arrêté et règlement du statut](#11-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) — `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md`
+- [12. Projet d'arrêté et règlement du statut](#12-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) — `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md`
   - [A. Projet d'arrêté (expérimentation de 24 mois)](#a-projet-darrêté-expérimentation-de-24-mois)
   - [B. Règlement du statut](#b-règlement-du-statut)
   - [C. Le parcours propriétaire, en cinq étapes (le point qui décide du taux d'adhésion)](#c-le-parcours-propriétaire-en-cinq-étapes-le-point-qui-décide-du-taux-dadhésion)
   - [D. Maquette de données (à valider par le DPO de la Ville)](#d-maquette-de-données-à-valider-par-le-dpo-de-la-ville)
-- [12. Projet « chiens de Paris » — creusage](#12-projet--chiens-de-paris---creusage-du-29092026) — `PROJET-CHIENS-PARIS.md`
+- [13. Projet « chiens de Paris » — creusage](#13-projet--chiens-de-paris---creusage-du-29092026) — `PROJET-CHIENS-PARIS.md`
   - [1. État des lieux chiffré](#1-état-des-lieux-chiffré)
   - [2. La cible vaut-elle un électorat ? (le calcul qui décide de tout)](#2-la-cible-vaut-elle-un-électorat--le-calcul-qui-décide-de-tout)
   - [3. Le problème politique : le sujet est déjà occupé](#3-le-problème-politique--le-sujet-est-déjà-occupé)
@@ -129,7 +138,7 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [6. Ce qui peut tuer l'idée (hypothèses à tester d'abord)](#6-ce-qui-peut-tuer-lidée-hypothèses-à-tester-dabord)
   - [7. Pas suivants pas chers](#7-pas-suivants-pas-chers)
   - [Sources](#sources)
-- [13. Rapport complet et chiffrage](#13-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) — `RAPPORT-COMPLET-CHIENS-PARIS.md`
+- [14. Rapport complet et chiffrage](#14-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) — `RAPPORT-COMPLET-CHIENS-PARIS.md`
   - [1. Résumé exécutif](#1-résumé-exécutif)
   - [2. Le problème, en faits](#2-le-problème-en-faits)
   - [3. La cible : 100 000 chiens valent-ils un électorat ?](#3-la-cible--100-000-chiens-valent-ils-un-électorat-)
@@ -451,13 +460,13 @@ l'annonce des sanctions, jamais l'inverse.
 
 Tout est dans ce document :
 
-- [RAPPORT-COMPLET-CHIENS-PARIS.md](#13-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) pour le rapport détaillé, la jurisprudence, le coût poste par
+- [RAPPORT-COMPLET-CHIENS-PARIS.md](#14-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) pour le rapport détaillé, la jurisprudence, le coût poste par
   poste, les partenariats et les sources ;
-- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#11-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) pour l'arrêté et le règlement du statut, rédigés, avec le
+- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#12-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) pour l'arrêté et le règlement du statut, rédigés, avec le
   parcours du propriétaire et la maquette de données ;
 - [NOTE-JURIDIQUE-ARRETE-ADN.md](#7-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) pour ce qui a fait annuler Béziers et comment éviter la même chose ;
-- [ADN-COUTS-FAISABILITE.md](#9-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) pour les tarifs réels des laboratoires et les limites techniques ;
-- [STATUT-CHIEN-CITOYEN.md](#10-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) et [PROJET-CHIENS-PARIS.md](#12-projet--chiens-de-paris---creusage-du-29092026) pour les premières notes d'exploration.
+- [ADN-COUTS-FAISABILITE.md](#10-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) pour les tarifs réels des laboratoires et les limites techniques ;
+- [STATUT-CHIEN-CITOYEN.md](#11-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) et [PROJET-CHIENS-PARIS.md](#13-projet--chiens-de-paris---creusage-du-29092026) pour les premières notes d'exploration.
 
 ### Sources
 
@@ -985,9 +994,9 @@ Chaque chiffre de cette note est vérifié sur source, avec URL, dans
 
 Les pièces rédigées sont dans les fichiers :
 
-- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#11-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) (arrêté et règlement),
+- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#12-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) (arrêté et règlement),
 - [NOTE-JURIDIQUE-ARRETE-ADN.md](#7-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) (ce qui a fait annuler Béziers),
-- [ADN-COUTS-FAISABILITE.md](#9-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) (coûts et faisabilité),
+- [ADN-COUTS-FAISABILITE.md](#10-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) (coûts et faisabilité),
 - et la section 7 du rapport complet pour le coût unitaire détaillé.
 
 [↑ Sommaire](#sommaire)
@@ -1187,7 +1196,7 @@ qu'on nous reprend nos chiffres — y compris pour nous contredire.
 
 Sources et statut de chaque chiffre : `[AUDIT-SOURCES.md](#6-audit-anti-hallucination-du-dossier-chiens-paris)`. La superficie du parc Monceau (8,25 ha) :
 https://www.paris.fr/lieux/parc-monceau-1804 Le détail des coûts et des hypothèses :
-`[RAPPORT-COMPLET-CHIENS-PARIS.md](#13-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage)` (annexe E pour les URL).
+`[RAPPORT-COMPLET-CHIENS-PARIS.md](#14-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage)` (annexe E pour les URL).
 
 [↑ Sommaire](#sommaire)
 
@@ -1416,16 +1425,16 @@ verbalisations en un an.
 
 ### 5. Corrections appliquées aux fichiers
 
-- [RAPPORT-COMPLET-CHIENS-PARIS.md](#13-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) : densité incohérente signalée, poids moyen supprimé, Barcelone
+- [RAPPORT-COMPLET-CHIENS-PARIS.md](#14-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) : densité incohérente signalée, poids moyen supprimé, Barcelone
   requalifié, transports réécrits selon la RATP, réserve sur l'article L. 2512-16-1, -85 % attribué à
   la mairie, KARTES requalifié, annexe E ajoutée avec toutes les URL.
 - [PITCH-ET-RESUME.md](#1-le-statut-du-chien-citoyen-de-paris) : transports, densité, poids, Barcelone, -85 %, et la section « Sources » qui
   manquait alors que le texte l'annonçait.
-- [PROJET-CHIENS-PARIS.md](#12-projet--chiens-de-paris---creusage-du-29092026) : densité et poids, plafond de campagne corrigé, Berlin corrigé.
-- [STATUT-CHIEN-CITOYEN.md](#10-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) : Torrevieja retiré, règles de transport réécrites.
-- [NOTE-JURIDIQUE-ARRETE-ADN.md](#7-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) et [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#11-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) : réserve sur la rédaction
+- [PROJET-CHIENS-PARIS.md](#13-projet--chiens-de-paris---creusage-du-29092026) : densité et poids, plafond de campagne corrigé, Berlin corrigé.
+- [STATUT-CHIEN-CITOYEN.md](#11-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) : Torrevieja retiré, règles de transport réécrites.
+- [NOTE-JURIDIQUE-ARRETE-ADN.md](#7-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) et [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#12-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) : réserve sur la rédaction
   de l'article L. 2512-16-1.
-- [ADN-COUTS-FAISABILITE.md](#9-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) : -85 % attribué à la mairie.
+- [ADN-COUTS-FAISABILITE.md](#10-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) : -85 % attribué à la mairie.
 
 ### 6. Ajouts postérieurs à l'audit
 
@@ -1729,7 +1738,159 @@ les trois, pas seulement l'utilité.
 
 ---
 
-## 9. Tests ADN canins : coûts réels, facilité de mise en œuvre, et chiffrage pour Paris (29/09/2026)
+## 9. Architecture — une chaîne de preuve outillée (photo en contexte, QR, registre horodaté)
+
+*Source : `ARCHI-CHAINE-DE-PREUVE.md`.*
+
+29 septembre 2026. Question posée : peut-on faire quelque chose de solide et d'ouvert — photo en
+contexte, QR code, données et chiffres — en respectant la chaîne de preuve (la « chaîne du froid »
+du prélèvement) ? Réponse : oui, et c'est même la bonne façon de faire, à condition de comprendre ce
+que l'outil peut apporter et ce qu'aucun outil ne peut produire. Note de conception. Rien n'a été
+voté.
+
+### 1. Le partage à ne pas se tromper
+
+**Ce que le logiciel peut faire, et qu'aucun humain ne fait proprement :** l'intégrité, la datation,
+la traçabilité des transferts, et la publication vérifiable. C'est le pilier « daté et intègre » de
+la note juridique du comptage, et c'est exactement là qu'un serveur quelconque ne vaut rien.
+
+**Ce qu'aucun logiciel ne peut produire :**
+
+- **L'autorité de constater.** Un procès-verbal n'a de force que par un agent habilité (art. 537 du
+  code de procédure pénale). Aucune application ne verbalise.
+- **Le contradictoire.** Il tient à une invitation écrite, datée, envoyée avant le premier passage, et
+  à deux observateurs dont un non partie prenante. Un logiciel peut *enregistrer* cette invitation et
+  *rendre visible* qui a compté ; il ne peut pas la remplacer.
+- **La représentativité.** Si les rues sont choisies parce qu'elles sont sales, aucun outil ne sauvera
+  le chiffre. D'où la zone témoin et le pré-enregistrement du protocole : c'est de la gouvernance,
+  pas du code.
+
+Corollaire de conception, et c'est la règle qui structure tout le reste : **l'outil ne doit jamais
+devenir la preuve.** Si le chiffre ne tient que parce que notre application l'affirme, l'adversaire
+n'a qu'un mot à dire — « votre serveur, vos chiffres » — et le dossier est mort. La vérification ne
+doit exiger de faire confiance à personne, nous compris.
+
+### 2. Le principe : un identifiant, deux chaînes
+
+Tout se tient sur une idée simple : **un identifiant unique lie l'objet physique et l'enregistrement
+numérique**, et chaque transfert de cet objet est un événement daté et signé.
+
+**Chaîne matérielle** (le prélèvement, la « chaîne du froid ») :
+
+1. L'agent ou l'observateur prélève la déjection, la place dans un tube et **appose un scellé
+   numéroté**, issu d'un carnet à séquence continue — comme un carnet d'exhibits. Un scellé manquant
+   dans la séquence est visible, donc un prélèvement fabriqué après coup laisse une trace.
+2. Relevé obligatoire au moment du prélèvement : horodatage, tronçon, position, **photo en
+   contexte**, conditions (météo, heure, température si la chaîne du froid s'applique au transport).
+3. Chaque remise (observateur → transporteur → laboratoire) est un **transfert à deux signatures** :
+   qui remet, qui reçoit, quand, dans quel état. Le laboratoire renvoie un accusé de réception.
+4. Conservation et délai : la date limite d'analyse et les conditions de transport sont inscrites
+   dans le protocole, pas improvisées. C'est aussi le point technique numéro un du dossier — la
+   robustesse de l'ADN environnemental sur un trottoir n'est documentée nulle part publiquement.
+
+**Chaîne numérique** (le même identifiant, côté données) :
+
+1. Chaque fiche de relevé produit un enregistrement immuable : identifiant, tronçon, créneau,
+   comptage, observateurs, empreinte de la photo, version du protocole.
+2. **Empreinte SHA-256** de chaque fiche et de chaque photo.
+3. **Arbre de Merkle par session**, dont la racine est horodatée par un service de confiance
+   qualifié (eIDAS, RFC 3161). Résultat : n'importe qui peut vérifier, des années plus tard, qu'une
+   photo donnée existait à cette date et n'a pas bougé — sans nous croire et sans accéder à nos
+   serveurs. Une variante gratuite et indépendamment vérifiable (ancrage en chaîne de blocs) est
+   utile en complément, mais reste appréciée librement par le juge : ce n'est pas un service qualifié.
+4. **Registre en ajout seul** : aucun enregistrement n'est modifiable. Une correction est un nouvel
+   enregistrement qui référence l'ancien, et les deux restent visibles. C'est ce qui rend un chiffre
+   inattaquable sur le terrain où toutes les administrations se font prendre : « vous avez ajusté
+   après coup ».
+5. **Divergence publiée, jamais lissée** : quand les deux observateurs d'un même passage ne comptent
+   pas la même chose, l'écart est publié avec sa raison. Un écart affiché crédibilise ; un écart
+   effacé se retrouve un jour en commentaire.
+
+### 3. La photo en contexte, et à quoi sert vraiment le QR
+
+Une photo seule ne dit pas où, quand, ni par qui — et ses métadonnées se réécrivent. Trois usages du
+QR, dans cet ordre d'utilité :
+
+1. **L'étiquette de passage, imprimée à l'avance et numérotée.** Elle porte un QR contenant :
+   identifiant du tronçon, numéro de session, date prévue, version du protocole, identifiant de
+   l'observateur. La règle photographique est : **l'étiquette et la déjection dans le même cadre**.
+   L'image porte alors son contexte, lisible par un humain sur la photo et par une machine dans le
+   QR. Les étiquettes sont émises en séquence continue : un manque dans la séquence est un signal.
+2. **Le lien de vérification** : le QR renvoie à la page publique de l'enregistrement — empreinte,
+   horodatage, statut. C'est ce qui permet à un journaliste, à un élu ou à un contradicteur de
+   vérifier sans rien nous demander.
+3. **La même étiquette pour le prélèvement** : le QR porte aussi le numéro de scellé du tube, ce qui
+   fait qu'un seul identifiant suit l'objet du trottoir jusqu'au résultat du laboratoire.
+
+### 4. Contradictoire outillé, sans le remplacer
+
+Ce que le logiciel ajoute au contradictoire, sans jamais s'y substituer :
+
+- **l'invitation est un enregistrement du registre** : courrier à la mairie, à la mairie
+  d'arrondissement, au préfet, daté et horodaté, avec le protocole et les dates ;
+- **la clé publique des observateurs** est publiée : chacun peut voir qui a compté, et un opposant
+  peut demander une clé de lecture, voire une clé d'écriture pour son propre observateur ;
+- **une reconstitution publique** : n'importe qui peut refaire le comptage sur les mêmes tronçons et
+  les mêmes créneaux, et déposer ses propres enregistrements.
+
+### 5. Les chiffres, et comment ils résistent
+
+- **Unité** : déjections pour 100 m de voie et par passage — jamais un total brut, qui ne veut rien
+  dire et se retourne contre celui qui le présente.
+- **Comparaison** : tronçons traités contre zone témoin, sur plusieurs périodes. C'est le motif exact
+  du jugement de Béziers : le juge compare des années, pas deux semaines.
+- **Conditions en covariables** : météo, jour de collecte, marché, vacances, travaux. Une baisse après
+  un passage de balayeuse n'est pas un effet du dispositif.
+- **Méthode d'agrégation écrite avant** : médiane par tronçon, intervalle par rééchantillonnage, seuil
+  de significativité. Écrite avant, elle n'est pas choisie pour le résultat.
+- **Données brutes publiées** : JSON, CSV et GeoJSON, plus les empreintes. Une preuve reproductible
+  est une preuve qu'on ne peut pas écarter.
+
+### 6. Ouvert : ce que « ouvert » doit vouloir dire
+
+Ouvrir le code ne suffit pas. Les quatre pièces qui rendent l'ensemble vérifiable par un tiers :
+
+1. **protocole versionné** (les versions successives restent consultables, on ne réécrit pas le
+   passé) ;
+2. **schéma de données publié** avec le format des enregistrements ;
+3. **code source ouvert**, exécutable par un tiers, sans dépendance à notre hébergement ;
+4. **jeu de données ouvert** sous licence claire, avec les empreintes et les jetons d'horodatage.
+
+### 7. La séquence, et pourquoi il ne faut pas commencer par l'application
+
+Le risque de ce genre de projet est connu : deux mois d'application, zéro comptage.
+
+1. **Semaine 1-2, à la main.** Fiche papier standardisée, téléphone, étiquettes imprimées, un
+   tronçon, une zone témoin. Export des photos et des fiches, une empreinte globale par semaine,
+   horodatée. Coût : du temps, quelques euros d'horodatage.
+2. **Semaine 3-6.** On teste ce qui casse : deux observateurs en désaccord, une pluie, un marché, un
+   tronçon où personne ne passe. C'est là qu'on apprend ce que doit gérer l'outil.
+3. **Après, seulement si l'échelle le justifie** (plus de dix compteurs, ou une mairie qui veut
+   reprendre l'instrument) : l'application hors ligne d'abord, clé par observateur, QR des étiquettes,
+   registre en ajout seul, publication automatique des agrégats.
+
+### 8. Ce que ça peut devenir
+
+Le même instrument sert à tout ce qu'une administration ne mesure pas : déjections, dépôts sauvages,
+bruit, chaleur de rue, bus qui ne passent pas, trottoirs impraticables. Une chaîne de preuve
+citoyenne réutilisable — protocole, outil, données ouvertes — est un actif qui se prête ou se vend à
+une association, une mairie, un journal, sans jamais vendre le dossier lui-même. Mais l'ordre compte :
+c'est le pilote qui donne le droit d'en faire un produit, pas l'inverse.
+
+Ce que cette architecture ne règle pas, et qu'il faut répéter : elle ne remplace ni l'invitation
+écrite à l'adversaire, ni la zone témoin, ni la démonstration que l'identification classique est
+insuffisante. Elle rend seulement les preuves que nous produisons impossibles à écarter pour de
+mauvaises raisons.
+
+Suite : écrire la fiche de relevé en une page, la règle photographique en une ligne (« l'étiquette et
+la déjection dans le même cadre »), et le protocole de transfert à deux signatures. Tout le reste est
+du logiciel, et le logiciel vient après.
+
+[↑ Sommaire](#sommaire)
+
+---
+
+## 10. Tests ADN canins : coûts réels, facilité de mise en œuvre, et chiffrage pour Paris (29/09/2026)
 
 *Source : `ADN-COUTS-FAISABILITE.md`.*
 
@@ -1853,7 +2014,7 @@ Prestataires français disponibles (tous font de l'identification génétique + 
 
 ---
 
-## 10. Statut « chien·ne citoyen·ne de Paris » — note de conception (29/09/2026)
+## 11. Statut « chien·ne citoyen·ne de Paris » — note de conception (29/09/2026)
 
 *Source : `STATUT-CHIEN-CITOYEN.md`.*
 
@@ -2069,7 +2230,7 @@ budget participatif, puis vendre le dispositif aux élus.
 
 ---
 
-## 11. Statut « chien·ne citoyen·ne de Paris » — projet d'arrêté et règlement (version de travail, 29/09/2026)
+## 12. Statut « chien·ne citoyen·ne de Paris » — projet d'arrêté et règlement (version de travail, 29/09/2026)
 
 *Source : `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md`.*
 
@@ -2268,7 +2429,7 @@ Effacement des correspondances détenues par la Ville à la fin du dispositif.
 
 ---
 
-## 12. Projet « chiens de Paris » — creusage du 29/09/2026
+## 13. Projet « chiens de Paris » — creusage du 29/09/2026
 
 *Source : `PROJET-CHIENS-PARIS.md`.*
 
@@ -2450,7 +2611,7 @@ Où tester en premier (densité canine + taille d'arrondissement) :
 
 ---
 
-## 13. RAPPORT — Un projet politique « chiens de Paris » : statut du chien citoyen, registre ADN, droits et chiffrage
+## 14. RAPPORT — Un projet politique « chiens de Paris » : statut du chien citoyen, registre ADN, droits et chiffrage
 
 *Source : `RAPPORT-COMPLET-CHIENS-PARIS.md`.*
 
@@ -3090,7 +3251,7 @@ dotation « Chiens citoyens de Paris » (ou une fondation abritée), avec :
 
 ### Annexe A — Projet d'arrêté et règlement du statut
 
-Voir le document complet : [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#11-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026)
+Voir le document complet : [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#12-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026)
 (10 articles d'arrêté, 6 articles de règlement, parcours du détenteur en 5 étapes, maquette de
 données RGPD).
 
@@ -3324,6 +3485,7 @@ Divers :
 | `AUDIT-SOURCES.md` | Audit anti-hallucination, corrections, sources vérifiées | 290 |
 | `NOTE-JURIDIQUE-ARRETE-ADN.md` | Ce qui a fait annuler Béziers, recette juridique | 106 |
 | `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md` | Ce qui fait qu'un comptage citoyen tient juridiquement | 120 |
+| `ARCHI-CHAINE-DE-PREUVE.md` | Chaîne de preuve outillée : photo en contexte, QR, registre horodaté | 146 |
 | `ADN-COUTS-FAISABILITE.md` | Coûts réels des tests ADN, faisabilité, chiffrage | 118 |
 | `STATUT-CHIEN-CITOYEN.md` | Note de conception du statut | 210 |
 | `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md` | Projet d'arrêté, règlement, parcours, maquette de données | 193 |

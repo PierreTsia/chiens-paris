@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chaîne de preuve outillée : photo en contexte, QR, registre horodaté — chien citoyen de Paris</title>
+<style>
+:root { --txt:#1b1b1b; --muted:#5b5b5b; --line:#dcdcdc; --accent:#1f4e79; --accent2:#8a5a00; }
+* { box-sizing: border-box; }
+body { margin:0; color:var(--txt); background:#fff;
+  font-family: Georgia, "Times New Roman", serif; font-size:16px; line-height:1.62; }
+main { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.4rem 4rem; }
+h1,h2,h3,h4 { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height:1.25; color:var(--accent); }
+h1 { font-size:1.9rem; margin:2.4rem 0 .8rem; padding-bottom:.4rem; border-bottom:2px solid var(--line); }
+h1:first-of-type { margin-top:0; }
+h2 { font-size:1.45rem; margin:2rem 0 .7rem; }
+h3 { font-size:1.15rem; margin:1.6rem 0 .5rem; color:#2c2c2c; }
+h4 { font-size:1rem; margin:1.3rem 0 .4rem; color:var(--muted); text-transform:none; }
+p { margin:.65rem 0; }
+ul, ol { margin:.6rem 0 .9rem; padding-left:1.4rem; }
+li { margin:.25rem 0; }
+strong { color:#111; }
+code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; font-size:.86em;
+  background:#f4f4f4; padding:.08em .3em; border-radius:3px; }
+a { color:var(--accent); text-decoration:none; border-bottom:1px solid #c9d6e4; }
+table { border-collapse: collapse; width:100%; margin:1rem 0; font-size:.93rem;
+  font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+th, td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+th { background:#f2f5f8; }
+blockquote { margin:1rem 0; padding:.6rem 1rem; border-left:4px solid var(--accent2);
+  background:#fbf8f1; font-style:normal; }
+hr { border:0; border-top:1px solid var(--line); margin:2.2rem 0; }
+.cover { max-width:46rem; margin:0 auto; padding:5rem 1.4rem 0; text-align:left; }
+.cover .kicker { font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  text-transform:uppercase; letter-spacing:.14em; font-size:.75rem; color:var(--muted); }
+.cover h1 { font-size:2.5rem; border:0; margin:.5rem 0 0; }
+.cover .sub { font-size:1.1rem; color:var(--muted); margin-top:.8rem; }
+.cover .meta { margin-top:2.5rem; font-size:.9rem; color:var(--muted); }
+.cover .warn { margin-top:1.2rem; padding:.8rem 1rem; border:1px solid var(--line);
+  background:#fafafa; font-size:.9rem; }
+.tw { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1rem 0; }
+.cover.small { padding: 2.5rem 1.4rem 0; }
+.cover.small h1 { font-size: 1.7rem; }
+@media (max-width: 600px) {
+  body { font-size: 17px; }
+  main { padding: 1.2rem .9rem 3rem; }
+  .cover, .cover.small { padding: 1.6rem .9rem 0; }
+  .cover h1 { font-size: 1.8rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+  h3 { font-size: 1.08rem; }
+  table { font-size: .88rem; }
+  th, td { padding: .35rem .45rem; }
+  ul, ol { padding-left: 1.1rem; }
+}
+@media print {
+  @page { size:A4; margin:20mm 18mm; }
+  html, body { font-size:10.8pt; }
+  main { max-width:none; padding:0; }
+  h1.partie { page-break-before: always; }
+  h2.section { page-break-before: always; }
+  table, blockquote, ul, ol { page-break-inside: avoid; }
+  h1, h2, h3 { page-break-after: avoid; }
+  a { color:#1b1b1b; border:0; }
+  .cover { padding:0; page-break-after: always; }
+}
+</style></head>
+<body>
+<section class="cover">
+<div class="kicker">Annexe</div>
+<h1>Chaîne de preuve outillée : photo en contexte, QR, registre horodaté</h1>
+<div class="sub">Pièce du dossier « chien citoyen de Paris ».</div>
+<div class="meta">Paris, 29 septembre 2026. Version assemblée le 2026-09-29.</div>
+<div class="warn">Document de travail du 29 septembre 2026. Rien n'a été voté.</div>
+</section>
+<main>
+<h1 id="architecture--une-chaîne-de-preuve-outillée-photo-en-contexte-qr-registre-horodaté">Architecture — une chaîne de preuve outillée (photo en contexte, QR, registre horodaté)</h1>
+<h2 id="sommaire">Sommaire</h2>
+<ul>
+<li><a href="#1-le-partage-à-ne-pas-se-tromper">1. Le partage à ne pas se tromper</a>
+</li>
+<li><a href="#2-le-principe--un-identifiant-deux-chaînes">2. Le principe : un identifiant, deux chaînes</a>
+</li>
+<li><a href="#3-la-photo-en-contexte-et-à-quoi-sert-vraiment-le-qr">3. La photo en contexte, et à quoi sert vraiment le QR</a>
+</li>
+<li><a href="#4-contradictoire-outillé-sans-le-remplacer">4. Contradictoire outillé, sans le remplacer</a>
+</li>
+<li><a href="#5-les-chiffres-et-comment-ils-résistent">5. Les chiffres, et comment ils résistent</a>
+</li>
+<li><a href="#6-ouvert--ce-que--ouvert--doit-vouloir-dire">6. Ouvert : ce que « ouvert » doit vouloir dire</a>
+</li>
+<li><a href="#7-la-séquence-et-pourquoi-il-ne-faut-pas-commencer-par-lapplication">7. La séquence, et pourquoi il ne faut pas commencer par l'application</a>
+</li>
+<li><a href="#8-ce-que-ça-peut-devenir">8. Ce que ça peut devenir</a>
+</li>
+</ul>
+<p>29 septembre 2026. Question posée : peut-on faire quelque chose de solide et d'ouvert — photo en contexte, QR code, données et chiffres — en respectant la chaîne de preuve (la « chaîne du froid » du prélèvement) ? Réponse : oui, et c'est même la bonne façon de faire, à condition de comprendre ce que l'outil peut apporter et ce qu'aucun outil ne peut produire. Note de conception. Rien n'a été voté.</p>
+<h2 class="section" id="1-le-partage-à-ne-pas-se-tromper">1. Le partage à ne pas se tromper</h2>
+<p><strong>Ce que le logiciel peut faire, et qu'aucun humain ne fait proprement :</strong> l'intégrité, la datation, la traçabilité des transferts, et la publication vérifiable. C'est le pilier « daté et intègre » de la note juridique du comptage, et c'est exactement là qu'un serveur quelconque ne vaut rien.</p>
+<p><strong>Ce qu'aucun logiciel ne peut produire :</strong></p>
+<ul>
+<li><strong>L'autorité de constater.</strong> Un procès-verbal n'a de force que par un agent habilité (art. 537 du code de procédure pénale). Aucune application ne verbalise.
+</li>
+<li><strong>Le contradictoire.</strong> Il tient à une invitation écrite, datée, envoyée avant le premier passage, et à deux observateurs dont un non partie prenante. Un logiciel peut <em>enregistrer</em> cette invitation et <em>rendre visible</em> qui a compté ; il ne peut pas la remplacer.
+</li>
+<li><strong>La représentativité.</strong> Si les rues sont choisies parce qu'elles sont sales, aucun outil ne sauvera le chiffre. D'où la zone témoin et le pré-enregistrement du protocole : c'est de la gouvernance, pas du code.
+</li>
+</ul>
+<p>Corollaire de conception, et c'est la règle qui structure tout le reste : <strong>l'outil ne doit jamais devenir la preuve.</strong> Si le chiffre ne tient que parce que notre application l'affirme, l'adversaire n'a qu'un mot à dire — « votre serveur, vos chiffres » — et le dossier est mort. La vérification ne doit exiger de faire confiance à personne, nous compris.</p>
+<h2 class="section" id="2-le-principe--un-identifiant-deux-chaînes">2. Le principe : un identifiant, deux chaînes</h2>
+<p>Tout se tient sur une idée simple : <strong>un identifiant unique lie l'objet physique et l'enregistrement numérique</strong>, et chaque transfert de cet objet est un événement daté et signé.</p>
+<p><strong>Chaîne matérielle</strong> (le prélèvement, la « chaîne du froid ») :</p>
+<ol>
+<li>L'agent ou l'observateur prélève la déjection, la place dans un tube et <strong>appose un scellé numéroté</strong>, issu d'un carnet à séquence continue — comme un carnet d'exhibits. Un scellé manquant dans la séquence est visible, donc un prélèvement fabriqué après coup laisse une trace.
+</li>
+<li>Relevé obligatoire au moment du prélèvement : horodatage, tronçon, position, <strong>photo en contexte</strong>, conditions (météo, heure, température si la chaîne du froid s'applique au transport).
+</li>
+<li>Chaque remise (observateur → transporteur → laboratoire) est un <strong>transfert à deux signatures</strong> : qui remet, qui reçoit, quand, dans quel état. Le laboratoire renvoie un accusé de réception.
+</li>
+<li>Conservation et délai : la date limite d'analyse et les conditions de transport sont inscrites dans le protocole, pas improvisées. C'est aussi le point technique numéro un du dossier — la robustesse de l'ADN environnemental sur un trottoir n'est documentée nulle part publiquement.
+</li>
+</ol>
+<p><strong>Chaîne numérique</strong> (le même identifiant, côté données) :</p>
+<ol>
+<li>Chaque fiche de relevé produit un enregistrement immuable : identifiant, tronçon, créneau, comptage, observateurs, empreinte de la photo, version du protocole.
+</li>
+<li><strong>Empreinte SHA-256</strong> de chaque fiche et de chaque photo.
+</li>
+<li><strong>Arbre de Merkle par session</strong>, dont la racine est horodatée par un service de confiance qualifié (eIDAS, RFC 3161). Résultat : n'importe qui peut vérifier, des années plus tard, qu'une photo donnée existait à cette date et n'a pas bougé — sans nous croire et sans accéder à nos serveurs. Une variante gratuite et indépendamment vérifiable (ancrage en chaîne de blocs) est utile en complément, mais reste appréciée librement par le juge : ce n'est pas un service qualifié.
+</li>
+<li><strong>Registre en ajout seul</strong> : aucun enregistrement n'est modifiable. Une correction est un nouvel enregistrement qui référence l'ancien, et les deux restent visibles. C'est ce qui rend un chiffre inattaquable sur le terrain où toutes les administrations se font prendre : « vous avez ajusté après coup ».
+</li>
+<li><strong>Divergence publiée, jamais lissée</strong> : quand les deux observateurs d'un même passage ne comptent pas la même chose, l'écart est publié avec sa raison. Un écart affiché crédibilise ; un écart effacé se retrouve un jour en commentaire.
+</li>
+</ol>
+<h2 class="section" id="3-la-photo-en-contexte-et-à-quoi-sert-vraiment-le-qr">3. La photo en contexte, et à quoi sert vraiment le QR</h2>
+<p>Une photo seule ne dit pas où, quand, ni par qui — et ses métadonnées se réécrivent. Trois usages du QR, dans cet ordre d'utilité :</p>
+<ol>
+<li><strong>L'étiquette de passage, imprimée à l'avance et numérotée.</strong> Elle porte un QR contenant : identifiant du tronçon, numéro de session, date prévue, version du protocole, identifiant de l'observateur. La règle photographique est : <strong>l'étiquette et la déjection dans le même cadre</strong>. L'image porte alors son contexte, lisible par un humain sur la photo et par une machine dans le QR. Les étiquettes sont émises en séquence continue : un manque dans la séquence est un signal.
+</li>
+<li><strong>Le lien de vérification</strong> : le QR renvoie à la page publique de l'enregistrement — empreinte, horodatage, statut. C'est ce qui permet à un journaliste, à un élu ou à un contradicteur de vérifier sans rien nous demander.
+</li>
+<li><strong>La même étiquette pour le prélèvement</strong> : le QR porte aussi le numéro de scellé du tube, ce qui fait qu'un seul identifiant suit l'objet du trottoir jusqu'au résultat du laboratoire.
+</li>
+</ol>
+<h2 class="section" id="4-contradictoire-outillé-sans-le-remplacer">4. Contradictoire outillé, sans le remplacer</h2>
+<p>Ce que le logiciel ajoute au contradictoire, sans jamais s'y substituer :</p>
+<ul>
+<li><strong>l'invitation est un enregistrement du registre</strong> : courrier à la mairie, à la mairie d'arrondissement, au préfet, daté et horodaté, avec le protocole et les dates ;
+</li>
+<li><strong>la clé publique des observateurs</strong> est publiée : chacun peut voir qui a compté, et un opposant peut demander une clé de lecture, voire une clé d'écriture pour son propre observateur ;
+</li>
+<li><strong>une reconstitution publique</strong> : n'importe qui peut refaire le comptage sur les mêmes tronçons et les mêmes créneaux, et déposer ses propres enregistrements.
+</li>
+</ul>
+<h2 class="section" id="5-les-chiffres-et-comment-ils-résistent">5. Les chiffres, et comment ils résistent</h2>
+<ul>
+<li><strong>Unité</strong> : déjections pour 100 m de voie et par passage — jamais un total brut, qui ne veut rien dire et se retourne contre celui qui le présente.
+</li>
+<li><strong>Comparaison</strong> : tronçons traités contre zone témoin, sur plusieurs périodes. C'est le motif exact du jugement de Béziers : le juge compare des années, pas deux semaines.
+</li>
+<li><strong>Conditions en covariables</strong> : météo, jour de collecte, marché, vacances, travaux. Une baisse après un passage de balayeuse n'est pas un effet du dispositif.
+</li>
+<li><strong>Méthode d'agrégation écrite avant</strong> : médiane par tronçon, intervalle par rééchantillonnage, seuil de significativité. Écrite avant, elle n'est pas choisie pour le résultat.
+</li>
+<li><strong>Données brutes publiées</strong> : JSON, CSV et GeoJSON, plus les empreintes. Une preuve reproductible est une preuve qu'on ne peut pas écarter.
+</li>
+</ul>
+<h2 class="section" id="6-ouvert--ce-que--ouvert--doit-vouloir-dire">6. Ouvert : ce que « ouvert » doit vouloir dire</h2>
+<p>Ouvrir le code ne suffit pas. Les quatre pièces qui rendent l'ensemble vérifiable par un tiers :</p>
+<ol>
+<li><strong>protocole versionné</strong> (les versions successives restent consultables, on ne réécrit pas le passé) ;
+</li>
+<li><strong>schéma de données publié</strong> avec le format des enregistrements ;
+</li>
+<li><strong>code source ouvert</strong>, exécutable par un tiers, sans dépendance à notre hébergement ;
+</li>
+<li><strong>jeu de données ouvert</strong> sous licence claire, avec les empreintes et les jetons d'horodatage.
+</li>
+</ol>
+<h2 class="section" id="7-la-séquence-et-pourquoi-il-ne-faut-pas-commencer-par-lapplication">7. La séquence, et pourquoi il ne faut pas commencer par l'application</h2>
+<p>Le risque de ce genre de projet est connu : deux mois d'application, zéro comptage.</p>
+<ol>
+<li><strong>Semaine 1-2, à la main.</strong> Fiche papier standardisée, téléphone, étiquettes imprimées, un tronçon, une zone témoin. Export des photos et des fiches, une empreinte globale par semaine, horodatée. Coût : du temps, quelques euros d'horodatage.
+</li>
+<li><strong>Semaine 3-6.</strong> On teste ce qui casse : deux observateurs en désaccord, une pluie, un marché, un tronçon où personne ne passe. C'est là qu'on apprend ce que doit gérer l'outil.
+</li>
+<li><strong>Après, seulement si l'échelle le justifie</strong> (plus de dix compteurs, ou une mairie qui veut reprendre l'instrument) : l'application hors ligne d'abord, clé par observateur, QR des étiquettes, registre en ajout seul, publication automatique des agrégats.
+</li>
+</ol>
+<h2 class="section" id="8-ce-que-ça-peut-devenir">8. Ce que ça peut devenir</h2>
+<p>Le même instrument sert à tout ce qu'une administration ne mesure pas : déjections, dépôts sauvages, bruit, chaleur de rue, bus qui ne passent pas, trottoirs impraticables. Une chaîne de preuve citoyenne réutilisable — protocole, outil, données ouvertes — est un actif qui se prête ou se vend à une association, une mairie, un journal, sans jamais vendre le dossier lui-même. Mais l'ordre compte : c'est le pilote qui donne le droit d'en faire un produit, pas l'inverse.</p>
+<p>Ce que cette architecture ne règle pas, et qu'il faut répéter : elle ne remplace ni l'invitation écrite à l'adversaire, ni la zone témoin, ni la démonstration que l'identification classique est insuffisante. Elle rend seulement les preuves que nous produisons impossibles à écarter pour de mauvaises raisons.</p>
+<p>Suite : écrire la fiche de relevé en une page, la règle photographique en une ligne (« l'étiquette et la déjection dans le même cadre »), et le protocole de transfert à deux signatures. Tout le reste est du logiciel, et le logiciel vient après.</p>
+</main>
+</body></html>

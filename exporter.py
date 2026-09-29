@@ -414,6 +414,7 @@ PIECES = [
     ("AUDIT-SOURCES.md", "Audit anti-hallucination des sources", "Annexe"),
     ("NOTE-JURIDIQUE-ARRETE-ADN.md", "L'arrêté ADN canin : ce qui a fait annuler Béziers", "Annexe"),
     ("NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md", "Comptage citoyen : ce qui lui donne une valeur juridique", "Annexe"),
+    ("ARCHI-CHAINE-DE-PREUVE.md", "Chaîne de preuve outillée : photo en contexte, QR, registre horodaté", "Annexe"),
     ("ADN-COUTS-FAISABILITE.md", "Tests ADN canins : coûts et faisabilité", "Annexe"),
     ("STATUT-CHIEN-CITOYEN.md", "Statut du chien citoyen : note de conception", "Annexe"),
     ("PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md", "Projet d'arrêté et règlement du statut", "Annexe"),
