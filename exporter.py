@@ -339,9 +339,48 @@ def pdf(html_path, pdf_path):
 
 # ---------------------------------------------------------------- paquets
 
+def slug_map(md_or_lines):
+    """slug GitHub de chaque titre, dans l'ordre du document, avec dédoublonnage."""
+    lines = md_or_lines.split("\n") if isinstance(md_or_lines, str) else md_or_lines
+    seen, out = {}, []
+    for ln in lines:
+        m = re.match(r"^(#{1,6})\s+(.*)$", ln.strip())
+        if m:
+            s = gh_slug(m.group(2))
+            n = seen.get(s, 0)
+            seen[s] = n + 1
+            out.append((len(m.group(1)), m.group(2).strip(), s if n == 0 else "%s-%d" % (s, n)))
+    return out
+
+
+def add_sommaire(md):
+    """Insère un sommaire cliquable après le premier titre, si le texte n'en a pas déjà un."""
+    if re.search(r"^##\s+Sommaire\s*$", md, re.M):
+        return md
+    lines = md.split("\n")
+    first = next((i for i, l in enumerate(lines) if re.match(r"^#\s+\S", l)), None)
+    if first is None:
+        return md
+    res = slug_map(lines)
+    entries = []
+    for idx, (level, text, slug) in enumerate(res):
+        if idx == 0:
+            continue                  # le titre du document lui-même
+        if level == 1:
+            entries.append("**%s**" % text)
+            entries.append("")
+        elif level == 2:
+            entries.append("- [%s](#%s)" % (text, slug))
+        elif level == 3:
+            entries.append("  - [%s](#%s)" % (text, slug))
+    som = ["", "## Sommaire", ""] + entries + [""]
+    return "\n".join(lines[:first + 1] + som + lines[first + 1:])
+
+
 def md_of(pieces):
-    return "\n\n".join(open(os.path.join(SRC, f), encoding="utf-8").read().rstrip()
-                       for f, _ in pieces)
+    md = "\n\n".join(open(os.path.join(SRC, f), encoding="utf-8").read().rstrip()
+                     for f, _ in pieces)
+    return add_sommaire(md)
 
 
 def page_count(pdf_path):
@@ -446,12 +485,7 @@ if __name__ == "__main__":
     if what in ("dossier-complet", "tout"):
         made.append(build(
             "Chien-citoyen-de-Paris-dossier-complet",
-            [(f, None) for f in [
-                "PITCH-ET-RESUME.md", "PITCH-CITOYEN.md", "PITCH-ELU.md",
-                "PITCH-CABINET-TECHNIQUE.md", "PITCH-COLLAB-TECHNIQUE-IT.md", "AUDIT-SOURCES.md",
-                "NOTE-JURIDIQUE-ARRETE-ADN.md", "ADN-COUTS-FAISABILITE.md", "STATUT-CHIEN-CITOYEN.md",
-                "PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md", "PROJET-CHIENS-PARIS.md",
-                "RAPPORT-COMPLET-CHIENS-PARIS.md"]],
+            [("DOSSIER-CHIEN-CITOYEN-PARIS.md", None)],
             "Dossier « chien citoyen de Paris »",
             "Dossier complet",
             "Pitch, notes juridiques, chiffrage, sources vérifiées.",
