@@ -39,6 +39,7 @@ Ordre de lecture conseillé :
 | `NOTE-JURIDIQUE-ARRETE-ADN.md` | Ce qui a fait annuler Béziers, et la recette pour un arrêté qui tient |
 | `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md` | Ce qui donne une valeur juridique à un comptage citoyen (préconstitué, contradictoire, horodaté) |
 | `ARCHI-CHAINE-DE-PREUVE.md` | Architecture ouverte : photo en contexte + QR, registre en ajout seul, horodatage qualifié |
+| `NOTE-PC13-POTERNE.md` | Le site de la Poterne des Peupliers : « admission animaux : non », comptage d'usage, espace canin voisin |
 | `ADN-COUTS-FAISABILITE.md` | Coûts réels des tests ADN, faisabilité, chiffrage |
 | `STATUT-CHIEN-CITOYEN.md` | Note de conception du statut |
 | `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md` | Projet d'arrêté, règlement, parcours, maquette de données |

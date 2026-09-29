@@ -416,6 +416,7 @@ PIECES = [
     ("NOTE-JURIDIQUE-ARRETE-ADN.md", "L'arrêté ADN canin : ce qui a fait annuler Béziers", "Annexe"),
     ("NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md", "Comptage citoyen : ce qui lui donne une valeur juridique", "Annexe"),
     ("ARCHI-CHAINE-DE-PREUVE.md", "Chaîne de preuve outillée : photo en contexte, QR, registre horodaté", "Annexe"),
+    ("NOTE-PC13-POTERNE.md", "La Poterne des Peupliers (PC 13) : usage réel, et l'alternative à proposer", "Site"),
     ("ADN-COUTS-FAISABILITE.md", "Tests ADN canins : coûts et faisabilité", "Annexe"),
     ("STATUT-CHIEN-CITOYEN.md", "Statut du chien citoyen : note de conception", "Annexe"),
     ("PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md", "Projet d'arrêté et règlement du statut", "Annexe"),

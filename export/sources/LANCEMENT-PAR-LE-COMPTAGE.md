@@ -110,10 +110,13 @@ Et le 13e n'est pas une concession. Sur quatre points, c'est probablement un mei
    asiatique importante et commerces de rue très vivants. C'est exactement la population que le
    statut doit convaincre s'il ne veut pas filtrer par l'argent : le meilleur terrain pour tester la
    gratuité de l'identification, les exonérations et l'ouverture des jardins d'immeuble.
-4. **Un lieu où la règle ne s'applique déjà plus.** Le contrat de prévention et de sécurité du 13e
-   signale explicitement la promenade de la petite ceinture à la Poterne des Peupliers comme un
-   point où l'on rencontre des chiens non tenus en laisse. C'est le candidat naturel à un espace de
-   liberté encadré — et, avant/après, une mesure qui parle aux habitants comme aux élus.
+4. **Un lieu où l'usage dépasse déjà la règle.** Le contrat de prévention et de sécurité du 13e
+   signale la promenade de la petite ceinture à la Poterne des Peupliers — « SDF et chiens non tenus
+   en laisse » — parmi ses points sensibles. Attention au contresens : la fiche officielle du lieu
+   indique « admission animaux : non », donc ce n'est pas l'endroit où demander un espace de liberté
+   (voir `NOTE-PC13-POTERNE.md`). C'est en revanche le meilleur site de **comptage d'usage** : la
+   mesure qui manque à la mairie pour choisir entre faire respecter l'interdiction, tolérer avec
+   encadrement, ou ouvrir un espace canin dans un jardin voisin.
 
 **Ce qui manque, et qu'il ne faut pas inventer :** le nombre de chiens identifiés dans le 13e. Le
 dossier retient 6 133 chiens pour le 20e et 3 580 pour le 10e, mais aucun chiffre fiable pour le 13e
