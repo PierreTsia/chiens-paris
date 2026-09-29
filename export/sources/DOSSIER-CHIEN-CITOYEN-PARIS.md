@@ -85,23 +85,34 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [5. Où ça se branche dans le dossier existant](#5-où-ça-se-branche-dans-le-dossier-existant)
   - [6. Le périmètre : le 13e, et pourquoi ce n'est pas un compromis](#6-le-périmètre--le-13e-et-pourquoi-ce-nest-pas-un-compromis)
   - [7. Critères d'arrêt, écrits à l'avance](#7-critères-darrêt-écrits-à-lavance)
+- [7. Note de terrain — le 13e arrondissement](#7-note-de-terrain--le-13e-arrondissement) — `NOTE-TERRAIN-13E.md`
+  - [1. Pourquoi cet arrondissement](#1-pourquoi-cet-arrondissement)
+  - [2. Ce qu'il est, en chiffres](#2-ce-quil-est-en-chiffres)
+  - [3. Le paysage politique et institutionnel](#3-le-paysage-politique-et-institutionnel)
+  - [4. La question canine locale : ce qu'on sait, ce qu'on ne sait pas](#4-la-question-canine-locale--ce-quon-sait-ce-quon-ne-sait-pas)
+  - [5. Où compter : la règle de sélection, puis le tirage au sort](#5-où-compter--la-règle-de-sélection-puis-le-tirage-au-sort)
+  - [6. Les deux sites particuliers de l'arrondissement](#6-les-deux-sites-particuliers-de-larrondissement)
+  - [7. La communication locale, ce qu'elle doit avoir de particulier](#7-la-communication-locale-ce-quelle-doit-avoir-de-particulier)
+  - [8. Les demandes écrites, à envoyer avant toute parole publique](#8-les-demandes-écrites-à-envoyer-avant-toute-parole-publique)
+  - [9. Le calendrier de lancement](#9-le-calendrier-de-lancement)
+  - [Sources](#sources)
 
 **Partie III — Les annexes vérifiées et triées**
 
-- [7. Audit anti-hallucination des sources](#7-audit-anti-hallucination-du-dossier-chiens-paris) — `AUDIT-SOURCES.md`
+- [8. Audit anti-hallucination des sources](#8-audit-anti-hallucination-du-dossier-chiens-paris) — `AUDIT-SOURCES.md`
   - [1. Ce qui était faux, et qui a été corrigé dans les documents](#1-ce-qui-était-faux-et-qui-a-été-corrigé-dans-les-documents)
   - [2. Ce que j'avais signalé à tort au premier passage](#2-ce-que-javais-signalé-à-tort-au-premier-passage)
   - [3. Affirmations confirmées, avec la source qui les porte](#3-affirmations-confirmées-avec-la-source-qui-les-porte)
   - [4. Ce qui reste incertain, à assumer tel quel](#4-ce-qui-reste-incertain-à-assumer-tel-quel)
   - [5. Corrections appliquées aux fichiers](#5-corrections-appliquées-aux-fichiers)
   - [6. Ajouts postérieurs à l'audit](#6-ajouts-postérieurs-à-laudit)
-- [8. Note juridique — l'arrêté ADN canin](#8-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) — `NOTE-JURIDIQUE-ARRETE-ADN.md`
+- [9. Note juridique — l'arrêté ADN canin](#9-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) — `NOTE-JURIDIQUE-ARRETE-ADN.md`
   - [1. Les faits de Béziers, précisément](#1-les-faits-de-béziers-précisément)
   - [2. Le point qui change tout pour Paris](#2-le-point-qui-change-tout-pour-paris)
   - [3. La recette pour un arrêté qui survit à un recours (déduite du jugement de Béziers)](#3-la-recette-pour-un-arrêté-qui-survit-à-un-recours-déduite-du-jugement-de-béziers)
   - [4. Ce que ça implique pour le projet « chien citoyen »](#4-ce-que-ça-implique-pour-le-projet--chien-citoyen-)
   - [Sources](#sources)
-- [9. Note juridique — la valeur juridique du comptage citoyen](#9-note-juridique--ce-qui-donne-une-valeur-juridique-au-comptage-citoyen) — `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md`
+- [10. Note juridique — la valeur juridique du comptage citoyen](#10-note-juridique--ce-qui-donne-une-valeur-juridique-au-comptage-citoyen) — `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md`
   - [1. Ce que le juge a réellement reproché à Béziers](#1-ce-que-le-juge-a-réellement-reproché-à-béziers)
   - [2. Les trois piliers d'un relevé qui tient](#2-les-trois-piliers-dun-relevé-qui-tient)
   - [3. Le piège à ne pas recréer : les données personnelles](#3-le-piège-à-ne-pas-recréer--les-données-personnelles)
@@ -109,7 +120,7 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [5. Les trois niveaux d'escalade](#5-les-trois-niveaux-descalade)
   - [6. Ce que le comptage ne suffira pas à fermer](#6-ce-que-le-comptage-ne-suffira-pas-à-fermer)
   - [Sources](#sources)
-- [10. Architecture — chaîne de preuve outillée (photo en contexte, QR, registre horodaté)](#10-architecture--une-chaîne-de-preuve-outillée-photo-en-contexte-qr-registre-horodaté) — `ARCHI-CHAINE-DE-PREUVE.md`
+- [11. Architecture — chaîne de preuve outillée (photo en contexte, QR, registre horodaté)](#11-architecture--une-chaîne-de-preuve-outillée-photo-en-contexte-qr-registre-horodaté) — `ARCHI-CHAINE-DE-PREUVE.md`
   - [1. Le partage à ne pas se tromper](#1-le-partage-à-ne-pas-se-tromper)
   - [2. Le principe : un identifiant, deux chaînes](#2-le-principe--un-identifiant-deux-chaînes)
   - [3. La photo en contexte, et à quoi sert vraiment le QR](#3-la-photo-en-contexte-et-à-quoi-sert-vraiment-le-qr)
@@ -118,12 +129,12 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [6. Ouvert : ce que « ouvert » doit vouloir dire](#6-ouvert--ce-que--ouvert--doit-vouloir-dire)
   - [7. La séquence, et pourquoi il ne faut pas commencer par l'application](#7-la-séquence-et-pourquoi-il-ne-faut-pas-commencer-par-lapplication)
   - [8. Ce que ça peut devenir](#8-ce-que-ça-peut-devenir)
-- [11. Tests ADN canins : coûts et faisabilité](#11-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) — `ADN-COUTS-FAISABILITE.md`
+- [12. Tests ADN canins : coûts et faisabilité](#12-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) — `ADN-COUTS-FAISABILITE.md`
   - [1. Combien coûte un test, concrètement](#1-combien-coûte-un-test-concrètement)
   - [2. Est-ce facile à faire ? Oui, techniquement. Les points durs sont ailleurs.](#2-est-ce-facile-à-faire--oui-techniquement-les-points-durs-sont-ailleurs)
   - [3. Chiffrage pour Paris](#3-chiffrage-pour-paris)
   - [4. Le test le moins cher à faire maintenant (pour aller vite sans argent)](#4-le-test-le-moins-cher-à-faire-maintenant-pour-aller-vite-sans-argent)
-- [12. Statut du chien citoyen — note de conception](#12-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) — `STATUT-CHIEN-CITOYEN.md`
+- [13. Statut du chien citoyen — note de conception](#13-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) — `STATUT-CHIEN-CITOYEN.md`
   - [0. Le verdict d'abord](#0-le-verdict-dabord)
   - [1. Le dispositif, brique par brique](#1-le-dispositif-brique-par-brique)
   - [2. Qui peut faire quoi (le vrai tableau de contraintes)](#2-qui-peut-faire-quoi-le-vrai-tableau-de-contraintes)
@@ -132,12 +143,12 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [5. Objections à anticiper (sinon elles tueront le projet)](#5-objections-à-anticiper-sinon-elles-tueront-le-projet)
   - [6. Positionnement : la formulation qui peut devenir majoritaire](#6-positionnement--la-formulation-qui-peut-devenir-majoritaire)
   - [7. Prochaines étapes (coût, délai)](#7-prochaines-étapes-coût-délai)
-- [13. Projet d'arrêté et règlement du statut](#13-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) — `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md`
+- [14. Projet d'arrêté et règlement du statut](#14-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) — `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md`
   - [A. Projet d'arrêté (expérimentation de 24 mois)](#a-projet-darrêté-expérimentation-de-24-mois)
   - [B. Règlement du statut](#b-règlement-du-statut)
   - [C. Le parcours propriétaire, en cinq étapes (le point qui décide du taux d'adhésion)](#c-le-parcours-propriétaire-en-cinq-étapes-le-point-qui-décide-du-taux-dadhésion)
   - [D. Maquette de données (à valider par le DPO de la Ville)](#d-maquette-de-données-à-valider-par-le-dpo-de-la-ville)
-- [14. Projet « chiens de Paris » — creusage](#14-projet--chiens-de-paris---creusage-du-29092026) — `PROJET-CHIENS-PARIS.md`
+- [15. Projet « chiens de Paris » — creusage](#15-projet--chiens-de-paris---creusage-du-29092026) — `PROJET-CHIENS-PARIS.md`
   - [1. État des lieux chiffré](#1-état-des-lieux-chiffré)
   - [2. La cible vaut-elle un électorat ? (le calcul qui décide de tout)](#2-la-cible-vaut-elle-un-électorat--le-calcul-qui-décide-de-tout)
   - [3. Le problème politique : le sujet est déjà occupé](#3-le-problème-politique--le-sujet-est-déjà-occupé)
@@ -146,7 +157,7 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [6. Ce qui peut tuer l'idée (hypothèses à tester d'abord)](#6-ce-qui-peut-tuer-lidée-hypothèses-à-tester-dabord)
   - [7. Pas suivants pas chers](#7-pas-suivants-pas-chers)
   - [Sources](#sources)
-- [15. Rapport complet et chiffrage](#15-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) — `RAPPORT-COMPLET-CHIENS-PARIS.md`
+- [16. Rapport complet et chiffrage](#16-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) — `RAPPORT-COMPLET-CHIENS-PARIS.md`
   - [1. Résumé exécutif](#1-résumé-exécutif)
   - [2. Le problème, en faits](#2-le-problème-en-faits)
   - [3. La cible : 100 000 chiens valent-ils un électorat ?](#3-la-cible--100-000-chiens-valent-ils-un-électorat-)
@@ -472,18 +483,18 @@ l'annonce des sanctions, jamais l'inverse.
 
 Tout est dans ce document :
 
-- [RAPPORT-COMPLET-CHIENS-PARIS.md](#15-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) pour le rapport détaillé, la jurisprudence, le coût poste par
+- [RAPPORT-COMPLET-CHIENS-PARIS.md](#16-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) pour le rapport détaillé, la jurisprudence, le coût poste par
   poste, les partenariats et les sources ;
-- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#13-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) pour l'arrêté et le règlement du statut, rédigés, avec le
+- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#14-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) pour l'arrêté et le règlement du statut, rédigés, avec le
   parcours du propriétaire et la maquette de données ;
-- [NOTE-JURIDIQUE-ARRETE-ADN.md](#8-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) pour ce qui a fait annuler Béziers et comment éviter la même chose ;
-- [ADN-COUTS-FAISABILITE.md](#11-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) pour les tarifs réels des laboratoires et les limites techniques ;
-- [STATUT-CHIEN-CITOYEN.md](#12-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) et [PROJET-CHIENS-PARIS.md](#14-projet--chiens-de-paris---creusage-du-29092026) pour les premières notes d'exploration.
+- [NOTE-JURIDIQUE-ARRETE-ADN.md](#9-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) pour ce qui a fait annuler Béziers et comment éviter la même chose ;
+- [ADN-COUTS-FAISABILITE.md](#12-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) pour les tarifs réels des laboratoires et les limites techniques ;
+- [STATUT-CHIEN-CITOYEN.md](#13-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) et [PROJET-CHIENS-PARIS.md](#15-projet--chiens-de-paris---creusage-du-29092026) pour les premières notes d'exploration.
 
 ### Sources
 
 Vérifiées le 29 septembre 2026, chaque page a été ouverte. Les citations exactes et les verdicts
-pour chaque affirmation sont dans [AUDIT-SOURCES.md](#7-audit-anti-hallucination-du-dossier-chiens-paris) ; la liste complète des URL
+pour chaque affirmation sont dans [AUDIT-SOURCES.md](#8-audit-anti-hallucination-du-dossier-chiens-paris) ; la liste complète des URL
 est à l'annexe E du rapport.
 
 Paris : https://www.paris.fr/pages/les-animaux-a-paris-6287 ; https://www.paris.fr/pages/les-chiens-a-paris-33527 ;
@@ -604,7 +615,7 @@ parce qu'il était illégal, mais parce que la ville n'avait pas réuni les preu
 
 C'est gratuit et ça vaut mieux que n'importe quel argument.
 
-Les détails chiffrés et les sources sont dans ce document : [AUDIT-SOURCES.md](#7-audit-anti-hallucination-du-dossier-chiens-paris) et le
+Les détails chiffrés et les sources sont dans ce document : [AUDIT-SOURCES.md](#8-audit-anti-hallucination-du-dossier-chiens-paris) et le
 rapport complet.
 
 [↑ Sommaire](#sommaire)
@@ -732,7 +743,7 @@ Pièces jointes :
 - chiffrage.
 
 Tout est dans , et chaque chiffre de cette note a été vérifié sur source, avec
-les URL, dans [AUDIT-SOURCES.md](#7-audit-anti-hallucination-du-dossier-chiens-paris).
+les URL, dans [AUDIT-SOURCES.md](#8-audit-anti-hallucination-du-dossier-chiens-paris).
 
 [↑ Sommaire](#sommaire)
 
@@ -1003,13 +1014,13 @@ ce que le juge lira en premier.
 - Traitement comptable de la refacturation des analyses et des frais de nettoiement.
 
 Chaque chiffre de cette note est vérifié sur source, avec URL, dans
-[AUDIT-SOURCES.md](#7-audit-anti-hallucination-du-dossier-chiens-paris).
+[AUDIT-SOURCES.md](#8-audit-anti-hallucination-du-dossier-chiens-paris).
 
 Les pièces rédigées sont dans les fichiers :
 
-- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#13-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) (arrêté et règlement),
-- [NOTE-JURIDIQUE-ARRETE-ADN.md](#8-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) (ce qui a fait annuler Béziers),
-- [ADN-COUTS-FAISABILITE.md](#11-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) (coûts et faisabilité),
+- [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#14-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) (arrêté et règlement),
+- [NOTE-JURIDIQUE-ARRETE-ADN.md](#9-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) (ce qui a fait annuler Béziers),
+- [ADN-COUTS-FAISABILITE.md](#12-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) (coûts et faisabilité),
 - et la section 7 du rapport complet pour le coût unitaire détaillé.
 
 [↑ Sommaire](#sommaire)
@@ -1208,9 +1219,9 @@ qu'on nous reprend nos chiffres — y compris pour nous contredire.
 - Faire la carte à l'échelle, arrondissement par arrondissement : c'est le seul actif visuel dont on
   ait besoin.
 
-Sources et statut de chaque chiffre : `[AUDIT-SOURCES.md](#7-audit-anti-hallucination-du-dossier-chiens-paris)`. La superficie du parc Monceau (8,25 ha) :
+Sources et statut de chaque chiffre : `[AUDIT-SOURCES.md](#8-audit-anti-hallucination-du-dossier-chiens-paris)`. La superficie du parc Monceau (8,25 ha) :
 https://www.paris.fr/lieux/parc-monceau-1804 Le détail des coûts et des hypothèses :
-`[RAPPORT-COMPLET-CHIENS-PARIS.md](#15-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage)` (annexe E pour les URL).
+`[RAPPORT-COMPLET-CHIENS-PARIS.md](#16-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage)` (annexe E pour les URL).
 
 [↑ Sommaire](#sommaire)
 
@@ -1367,9 +1378,166 @@ https://cdn.paris.fr/paris/2023/11/14/cpsa-13e_2-juin-2023-Mxbk.pdf
 
 ---
 
+## 7. Note de terrain — le 13e arrondissement
+
+*Source : `NOTE-TERRAIN-13E.md`.*
+
+29 septembre 2026. Tout ce qui concerne l'arrondissement pilote en un seul endroit : pourquoi lui, ce
+qu'il est en chiffres, qui compte politiquement, où compter, et ce qu'il faut demander par écrit avant
+de dire quoi que ce soit en public. Les chiffres sourcés viennent de l'INSEE via le contrat de
+prévention et de sécurité du 13e (2023) et de la page des élus d'arrondissements de la Ville (2026) ;
+ce qui est marqué [E] est une estimation de notre part. Rien n'a été voté.
+
+### 1. Pourquoi cet arrondissement
+
+Le critère qui a décidé n'est ni la densité canine ni la taille du conseil, mais **qui compte** : les
+volontaires qui feront le comptage vivent tous dans le 13e. Un pilote où personne ne compte ne vaut
+rien. Et le 13e tient le reste sur ses propres mérites — poids politique et durée, beaucoup d'espaces
+verts pour peu de droits des chiens, un tissu social qui neutralise l'objection « péage pour riches »,
+et un lieu où l'usage dépasse déjà la règle. Le détail du raisonnement est dans
+`[LANCEMENT-PAR-LE-COMPTAGE.md](#6-lancer-par-le-comptage)`, section 6.
+
+### 2. Ce qu'il est, en chiffres
+
+- **180 005 habitants** (INSEE, 2019), 8,3 % de la population parisienne pour 8,2 % de la surface ;
+  population stable, contrairement à la plupart des arrondissements.
+- **714,6 hectares** : troisième arrondissement le plus vaste de Paris.
+- **25 100 € de revenu médian**, contre 28 790 € à Paris ; **31 % d'employés et d'ouvriers** parmi les
+  actifs, contre 26 % à Paris ; 25,6 % de cadres, contre 29,8 %.
+- **17 % des habitants sous le seuil de pauvreté** (15,4 % à Paris) ; 9,6 % de chômage, troisième
+  arrondissement le plus touché après le 19e et le 20e.
+- **39,5 % de logements sociaux SRU** (35 583 logements), contre 21,4 % à Paris. Un habitant sur cinq
+  vit dans un quartier prioritaire de la politique de la ville, et l'arrondissement accueille le plus
+  grand nombre de places d'hébergement d'urgence de Paris.
+- **21 700 familles** (24 % des ménages, contre 22 % à Paris), ménages plus grands qu'ailleurs.
+- **62 espaces verts ouverts au public**, 61 parcs et jardins municipaux, soit 6 % de la surface de
+  l'arrondissement : un des arrondissements aux plus grands parcs et jardins.
+- **8 conseils de quartier** : Croulebarbe, Butte-aux-Cailles – Daviel – Boussingault, Italie –
+  Peupliers – Rungis, Salpêtrière – Austerlitz, Cœur du 13e, Olympiades – Choisy, Masséna – Jeanne
+  d'Arc, Biblioseine.
+
+### 3. Le paysage politique et institutionnel
+
+- **116 196 inscrits**, 57,49 % de participation au premier tour de mars 2026.
+- **43 sièges** au conseil d'arrondissement : 12 conseillers de Paris et 31 conseillers
+  d'arrondissement.
+- **Maire : Jérôme Coumet**, élu au premier tour avec 51,52 % des suffrages exprimés et 35 des 43
+  sièges. Majorité stable pour six ans — donc le temps d'une expérimentation, et un rapport de force
+  où une délibération d'arrondissement est atteignable.
+- Conséquence pratique : la mairie d'arrondissement est le bon interlocuteur, pas la Ville, pour un
+  vœu, une expérimentation ou un comptage présenté en séance. Les **conseils de quartier** sont le
+  premier lieu où faire exister le sujet auprès des habitants, et le premier réservoir de volontaires.
+
+### 4. La question canine locale : ce qu'on sait, ce qu'on ne sait pas
+
+- **On ne sait pas** combien de chiens sont identifiés dans le 13e. Le dossier a 6 133 chiens pour le
+  20e et 3 580 pour le 10e, rien de fiable ici.
+- **Ordre de grandeur [E]** : au ratio parisien d'un chien pour 21 habitants, le 13e compterait de
+  l'ordre de **8 500 chiens** — estimation à remplacer par le chiffre I-CAD dès qu'il est obtenu,
+  jamais à publier telle quelle.
+- **On ne connaît pas** la liste exacte des espaces canins du 13e ni celle des jardins où les chiens
+  sont admis, même en laisse. Des sites tiers citent cinq jardins accessibles dans l'arrondissement ;
+  seule la liste officielle par arrondissement vaut.
+- **On sait** que l'usage dépasse la règle à la Poterne des Peupliers : le contrat de prévention et de
+  sécurité du 13e signale la promenade de la petite ceinture — « SDF et chiens non tenus en laisse » —
+  parmi ses points sensibles. Or la fiche officielle du lieu indique « admission animaux : non » :
+  **ce n'est pas là qu'il faut demander un espace de liberté**, seulement là qu'il faut compter
+  l'usage réel (voir section 6).
+
+### 5. Où compter : la règle de sélection, puis le tirage au sort
+
+La faiblesse la plus facile à exploiter est « vous avez compté où vous vouliez ». La parade est
+écrite d'avance :
+
+1. **Liste des tronçons candidats établie selon une règle explicite**, avant tout comptage : une voie
+   bordant un marché de l'arrondissement, une voie bordant deux écoles, une sortie de métro, les
+   abords d'un jardin, un axe de promenade des chiens. La liste est construite à partir des données
+   publiques (carte scolaire, recensement des marchés, stations de métro), pas à la main.
+2. **Tirage au sort publié** parmi ces candidats : graine, date, témoin, résultat. Un tirage se
+   vérifie, une sélection se discute.
+3. **Zone témoin** de cinq tronçons comparables où rien ne change, comptés en parallèle pendant toute
+   la durée.
+4. Longueur de référence : tronçons de 300 m, comptage en déjections pour 100 m et par passage.
+
+### 6. Les deux sites particuliers de l'arrondissement
+
+- **Petite ceinture du 13e (PC 13), Poterne des Peupliers** — 12 234 m², ouverte depuis 2016, reliant
+  les jardins Charles-Trenet, Moulin-de-la-Pointe et Poterne-des-Peupliers, label Ecojardin, horaires
+  8 h – 20 h 30 en saison et ouverture H24 du troisième lundi d'avril au troisième dimanche de
+  septembre. « Admission animaux : non ». À traiter comme **site de comptage d'usage** : nombre de
+  chiens aux trois entrées, par créneaux d'une heure, en semaine et le week-end, part des chiens
+  détachés, conflits constatés. C'est la donnée qui manque à la mairie pour choisir entre faire
+  respecter l'interdiction, tolérer avec encadrement, ou ouvrir un espace canin à côté.
+- **Les jardins voisins** (Poterne des Peupliers, Charles-Trenet, Moulin-de-la-Pointe) — candidats
+  naturels à un **espace canin modèle**, sur le modèle de Monceau : 2 000 m², ouvert toute la journée,
+  éducateur canin payé par la mairie, accès réservé aux chiens identifiables et vaccinés. Cette
+  demande-là peut passer, parce qu'elle ajoute un équipement au lieu de revenir sur une interdiction.
+- **Rue Damesme, rue Augustin Mouchot, rue de l'Interne Loeb** — les trois rues d'accès portent le
+  comptage de déjections : c'est là que le problème se déplace quand le lieu est fermé ou plein.
+
+### 7. La communication locale, ce qu'elle doit avoir de particulier
+
+- **Trois langues au moins.** Dans le secteur Choisy / Ivry / Olympiades, les supports en chinois,
+  vietnamien et khmer comptent autant que le français. Un volet réseaux monolingue ratera une partie
+  de l'arrondissement, et précisément la population que le statut doit convaincre.
+- **Les conseils de quartier avant les réseaux sociaux** : c'est là que la parole publique locale se
+  construit dans cet arrondissement, et c'est là qu'on recrute les compteurs.
+- **Presse locale : Actu.fr Paris 13e, avant Le Parisien.** Le sujet de quartier d'abord, le sujet
+  parisien ensuite.
+- **Ton : constat, pas propreté-sanction.** Dans un arrondissement qui accueille le plus de places
+  d'hébergement d'urgence de Paris et où un habitant sur cinq vit en quartier prioritaire, un discours
+  de verbalisation se lit immédiatement comme un discours sur les personnes. Le comptage d'usage
+  plutôt que la dénonciation.
+
+### 8. Les demandes écrites, à envoyer avant toute parole publique
+
+Toutes gratuites, toutes sur des documents administratifs communicables :
+
+1. **Le nombre de chiens identifiés (I-CAD) dans le 13e**, à la Ville et à la profession vétérinaire.
+2. **La liste officielle des espaces canins et des jardins du 13e où les chiens sont admis**, avec le
+   règlement applicable.
+3. **Les statistiques de propreté du secteur** : passages, tonnages, signalements DansMaRue, nombre de
+   distributeurs de sachets et de canisites.
+4. **Les données de la police municipale et de la Direction des espaces verts** sur la Poterne des
+   Peupliers : passages, constats, plaintes d'habitants.
+5. **Le calendrier d'ouverture de nouveaux tronçons de petite ceinture dans le 13e** (des sources de
+   presse annoncent des ouvertures en 2026 ; à faire confirmer par la Ville). Si un tronçon s'ouvre,
+   c'est le moment exact où demander un espace canin dans l'aménagement.
+
+### 9. Le calendrier de lancement
+
+- **Semaine 1** : les cinq demandes écrites partent. La règle de sélection des tronçons est publiée,
+  le tirage au sort a lieu et son résultat est publié.
+- **Semaines 2-3** : premier comptage sur un tronçon et la zone témoin, à la main, fiche papier,
+  photos et empreintes horodatées.
+- **Semaine 4** : bilan de mi-parcours publié, même provisoire — c'est ce qui tient les volontaires.
+- **Semaines 5-7** : suite du comptage, puis tableau avant/après avec la méthode.
+- **Semaine 8** : présentation en conseil d'arrondissement, dépôt du dossier de budget participatif,
+  et le premier article de presse locale, sur la mesure et pas sur l'idée.
+
+### Sources
+
+- Contrat de prévention et de sécurité du 13e arrondissement (2023) : population, superficie,
+  revenus, logements sociaux, quartiers prioritaires, conseils de quartier, équipements, espaces
+  verts, et la ligne sur la petite ceinture à la Poterne des Peupliers.
+  https://cdn.paris.fr/paris/2023/11/14/cpsa-13e_2-juin-2023-Mxbk.pdf
+- Ville de Paris, élus d'arrondissements (page mise à jour le 31/03/2026) : 503 conseillers
+  d'arrondissement à Paris, répartition du 13e, maire.
+  https://www.paris.fr/pages/elus-d-arrondissements-2365
+- Résultats des élections municipales de mars 2026 dans le 13e : 43 sièges, 51,52 %, 35 sièges,
+  116 196 inscrits, participation.
+  https://www.ici.fr/ile-de-france/paris-75/paris-13e/elections
+- Ville de Paris, fiche du lieu « Petite Ceinture du 13e (PC 13) » : surface, horaires, label
+  Ecojardin, « admission animaux : non ».
+  https://www.paris.fr/lieux/petite-ceinture-du-13e-pc-13-18089
+
+[↑ Sommaire](#sommaire)
+
+---
+
 # Partie III — Les annexes vérifiées et triées
 
-## 7. Audit anti-hallucination du dossier chiens-paris
+## 8. Audit anti-hallucination du dossier chiens-paris
 
 *Source : `AUDIT-SOURCES.md`.*
 
@@ -1590,16 +1758,16 @@ verbalisations en un an.
 
 ### 5. Corrections appliquées aux fichiers
 
-- [RAPPORT-COMPLET-CHIENS-PARIS.md](#15-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) : densité incohérente signalée, poids moyen supprimé, Barcelone
+- [RAPPORT-COMPLET-CHIENS-PARIS.md](#16-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage) : densité incohérente signalée, poids moyen supprimé, Barcelone
   requalifié, transports réécrits selon la RATP, réserve sur l'article L. 2512-16-1, -85 % attribué à
   la mairie, KARTES requalifié, annexe E ajoutée avec toutes les URL.
 - [PITCH-ET-RESUME.md](#1-le-statut-du-chien-citoyen-de-paris) : transports, densité, poids, Barcelone, -85 %, et la section « Sources » qui
   manquait alors que le texte l'annonçait.
-- [PROJET-CHIENS-PARIS.md](#14-projet--chiens-de-paris---creusage-du-29092026) : densité et poids, plafond de campagne corrigé, Berlin corrigé.
-- [STATUT-CHIEN-CITOYEN.md](#12-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) : Torrevieja retiré, règles de transport réécrites.
-- [NOTE-JURIDIQUE-ARRETE-ADN.md](#8-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) et [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#13-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) : réserve sur la rédaction
+- [PROJET-CHIENS-PARIS.md](#15-projet--chiens-de-paris---creusage-du-29092026) : densité et poids, plafond de campagne corrigé, Berlin corrigé.
+- [STATUT-CHIEN-CITOYEN.md](#13-statut--chienne-citoyenne-de-paris---note-de-conception-29092026) : Torrevieja retiré, règles de transport réécrites.
+- [NOTE-JURIDIQUE-ARRETE-ADN.md](#9-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) et [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#14-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) : réserve sur la rédaction
   de l'article L. 2512-16-1.
-- [ADN-COUTS-FAISABILITE.md](#11-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) : -85 % attribué à la mairie.
+- [ADN-COUTS-FAISABILITE.md](#12-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) : -85 % attribué à la mairie.
 
 ### 6. Ajouts postérieurs à l'audit
 
@@ -1632,7 +1800,7 @@ passe de vérification. Les affirmations qu'il introduit ont été vérifiées �
    https://www.lpo.fr/qui-sommes-nous/espace-presse/communiques/cp-2023/comptage-des-oiseaux-des-jardins-bilan-de-10-ans-de-sciences-citoyennes
 
 4. **Les motifs du jugement du 6 mai 2025 (TA Montpellier, arrêté ADN de Béziers)** ont été relus à
-   la source pour la note `[NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md](#9-note-juridique--ce-qui-donne-une-valeur-juridique-au-comptage-citoyen)`, qui cite l'extrait exact publié par
+   la source pour la note `[NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md](#10-note-juridique--ce-qui-donne-une-valeur-juridique-au-comptage-citoyen)`, qui cite l'extrait exact publié par
    la LDH : aucune pièce du dossier ne corrobore l'atteinte invoquée pour 2020-2022, l'inefficacité
    des mesures existantes n'est pas établie, et la mesure n'est « ni nécessaire, ni adaptée, ni
    proportionnée ».
@@ -1695,7 +1863,7 @@ passe de vérification. Les affirmations qu'il introduit ont été vérifiées �
 
 ---
 
-## 8. Note juridique — l'arrêté ADN canin : ce qui a fait annuler Béziers, et la recette pour un arrêté qui tient (29/09/2026)
+## 9. Note juridique — l'arrêté ADN canin : ce qui a fait annuler Béziers, et la recette pour un arrêté qui tient (29/09/2026)
 
 *Source : `NOTE-JURIDIQUE-ARRETE-ADN.md`.*
 
@@ -1807,7 +1975,7 @@ La chaîne « arrêté -> verbalisation » a donc un titulaire à Paris.
 
 ---
 
-## 9. Note juridique — ce qui donne une valeur juridique au comptage citoyen
+## 10. Note juridique — ce qui donne une valeur juridique au comptage citoyen
 
 *Source : `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md`.*
 
@@ -1933,7 +2101,7 @@ les trois, pas seulement l'utilité.
 
 ---
 
-## 10. Architecture — une chaîne de preuve outillée (photo en contexte, QR, registre horodaté)
+## 11. Architecture — une chaîne de preuve outillée (photo en contexte, QR, registre horodaté)
 
 *Source : `ARCHI-CHAINE-DE-PREUVE.md`.*
 
@@ -2085,7 +2253,7 @@ du logiciel, et le logiciel vient après.
 
 ---
 
-## 11. Tests ADN canins : coûts réels, facilité de mise en œuvre, et chiffrage pour Paris (29/09/2026)
+## 12. Tests ADN canins : coûts réels, facilité de mise en œuvre, et chiffrage pour Paris (29/09/2026)
 
 *Source : `ADN-COUTS-FAISABILITE.md`.*
 
@@ -2211,7 +2379,7 @@ Prestataires français disponibles (tous font de l'identification génétique + 
 
 ---
 
-## 12. Statut « chien·ne citoyen·ne de Paris » — note de conception (29/09/2026)
+## 13. Statut « chien·ne citoyen·ne de Paris » — note de conception (29/09/2026)
 
 *Source : `STATUT-CHIEN-CITOYEN.md`.*
 
@@ -2431,7 +2599,7 @@ budget participatif, puis vendre le dispositif aux élus.
 
 ---
 
-## 13. Statut « chien·ne citoyen·ne de Paris » — projet d'arrêté et règlement (version de travail, 29/09/2026)
+## 14. Statut « chien·ne citoyen·ne de Paris » — projet d'arrêté et règlement (version de travail, 29/09/2026)
 
 *Source : `PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md`.*
 
@@ -2630,7 +2798,7 @@ Effacement des correspondances détenues par la Ville à la fin du dispositif.
 
 ---
 
-## 14. Projet « chiens de Paris » — creusage du 29/09/2026
+## 15. Projet « chiens de Paris » — creusage du 29/09/2026
 
 *Source : `PROJET-CHIENS-PARIS.md`.*
 
@@ -2815,7 +2983,7 @@ conseil d'arrondissement, majorité stable, 62 espaces verts ouverts au public) 
 
 ---
 
-## 15. RAPPORT — Un projet politique « chiens de Paris » : statut du chien citoyen, registre ADN, droits et chiffrage
+## 16. RAPPORT — Un projet politique « chiens de Paris » : statut du chien citoyen, registre ADN, droits et chiffrage
 
 *Source : `RAPPORT-COMPLET-CHIENS-PARIS.md`.*
 
@@ -3461,7 +3629,7 @@ dotation « Chiens citoyens de Paris » (ou une fondation abritée), avec :
 
 ### Annexe A — Projet d'arrêté et règlement du statut
 
-Voir le document complet : [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#13-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026)
+Voir le document complet : [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#14-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026)
 (10 articles d'arrêté, 6 articles de règlement, parcours du détenteur en 5 étapes, maquette de
 données RGPD).
 
@@ -3585,7 +3753,7 @@ et https://www.lpo.fr/qui-sommes-nous/espace-presse/communiques/cp-2023/comptage
 ### Annexe E — Sources vérifiées, avec URL
 
 Vérification du 29 septembre 2026. Toutes ces pages ont été ouvertes ; les citations exactes sont
-dans l'audit séparé ([AUDIT-SOURCES.md](#7-audit-anti-hallucination-du-dossier-chiens-paris)).
+dans l'audit séparé ([AUDIT-SOURCES.md](#8-audit-anti-hallucination-du-dossier-chiens-paris)).
 
 Paris et données municipales :
 
@@ -3693,6 +3861,7 @@ Divers :
 | `PITCH-CABINET-TECHNIQUE.md` | Note technique pour un cabinet | 272 |
 | `PITCH-COM-PRESSE-RESEAUX.md` | Volet communication, presse et réseaux | 194 |
 | `LANCEMENT-PAR-LE-COMPTAGE.md` | Lancer le projet par le comptage citoyen | 145 |
+| `NOTE-TERRAIN-13E.md` | Le 13e : chiffres, politique locale, sites et démarches | 151 |
 | `AUDIT-SOURCES.md` | Audit anti-hallucination, corrections, sources vérifiées | 320 |
 | `NOTE-JURIDIQUE-ARRETE-ADN.md` | Ce qui a fait annuler Béziers, recette juridique | 106 |
 | `NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md` | Ce qui fait qu'un comptage citoyen tient juridiquement | 120 |

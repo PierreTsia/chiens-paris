@@ -16,6 +16,7 @@ PARTIES = [
         ("PITCH-CABINET-TECHNIQUE.md", "Note technique — collaborateur de cabinet"),
         ("PITCH-COM-PRESSE-RESEAUX.md", "Volet communication, presse et réseaux"),
         ("LANCEMENT-PAR-LE-COMPTAGE.md", "Lancer le projet par le comptage"),
+        ("NOTE-TERRAIN-13E.md", "Note de terrain — le 13e arrondissement"),
     ]),
     ("III — Les annexes vérifiées et triées", [
         ("AUDIT-SOURCES.md", "Audit anti-hallucination des sources"),
@@ -124,7 +125,8 @@ roles = {
     "PITCH-ELU.md": "Note pour un élu",
     "PITCH-CABINET-TECHNIQUE.md": "Note technique pour un cabinet",
     "PITCH-COM-PRESSE-RESEAUX.md": "Volet communication, presse et réseaux",
-    "LANCEMENT-PAR-LE-COMPTAGE.md": "Lancer le projet par le comptage citoyen", 
+    "LANCEMENT-PAR-LE-COMPTAGE.md": "Lancer le projet par le comptage citoyen",
+    "NOTE-TERRAIN-13E.md": "Le 13e : chiffres, politique locale, sites et démarches", 
     "AUDIT-SOURCES.md": "Audit anti-hallucination, corrections, sources vérifiées",
     "NOTE-JURIDIQUE-ARRETE-ADN.md": "Ce qui a fait annuler Béziers, recette juridique",
     "NOTE-JURIDIQUE-COMPTAGE-CITOYEN.md": "Ce qui fait qu'un comptage citoyen tient juridiquement",
