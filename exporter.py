@@ -410,7 +410,7 @@ PIECES = [
     ("PITCH-ET-RESUME.md", "Le statut du chien citoyen de Paris, pitch général", "Vue d'ensemble"),
     ("PITCH-ELU.md", "Note pour un élu", "Ciblé"),
     ("PITCH-CABINET-TECHNIQUE.md", "Note technique pour un collaborateur de cabinet", "Ciblé"),
-    ("PITCH-COLLAB-TECHNIQUE-IT.md", "Pitch pour un collègue technique", "Ciblé"),
+    ("PITCH-COM-PRESSE-RESEAUX.md", "Volet communication, presse et réseaux", "Ciblé"),
     ("AUDIT-SOURCES.md", "Audit anti-hallucination des sources", "Annexe"),
     ("NOTE-JURIDIQUE-ARRETE-ADN.md", "L'arrêté ADN canin : ce qui a fait annuler Béziers", "Annexe"),
     ("ADN-COUTS-FAISABILITE.md", "Tests ADN canins : coûts et faisabilité", "Annexe"),

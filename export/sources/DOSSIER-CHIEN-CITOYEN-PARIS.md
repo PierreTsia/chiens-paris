@@ -1,6 +1,6 @@
 # Dossier « chien citoyen de Paris » — version assemblée
 
-Document unique rassemblant le dossier complet : le pitch général, les pitchs ciblés (grand public, élu, cabinet technique, collègue technique) puis les annexes vérifiées et triées (audit des sources, note juridique, coûts et faisabilité, arrêté et règlement, rapport complet).
+Document unique rassemblant le dossier complet : le pitch général, les notes ciblées (grand public, élu, cabinet technique, communication et presse) puis les annexes vérifiées et triées (audit des sources, note juridique, coûts et faisabilité, arrêté et règlement, rapport complet).
 
 ## En bref
 
@@ -64,13 +64,19 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [7. Risques contentieux, par ordre de vraisemblance](#7-risques-contentieux-par-ordre-de-vraisemblance)
   - [8. Les trois arbitrages à demander au cabinet](#8-les-trois-arbitrages-à-demander-au-cabinet)
   - [9. Points à confirmer avant rédaction](#9-points-à-confirmer-avant-rédaction)
-- [5. Pitch pour un collègue technique](#5-pitch-pour-un-collègue-technique) — `PITCH-COLLAB-TECHNIQUE-IT.md`
-  - [Le produit en trois couches](#le-produit-en-trois-couches)
-  - [Volumes, pour dimensionner](#volumes-pour-dimensionner)
-  - [Ce qu'il faut attaquer en premier, par ordre de risque](#ce-quil-faut-attaquer-en-premier-par-ordre-de-risque)
-  - [Ce qu'on ne sait pas, et qu'il faut dire avant de coder](#ce-quon-ne-sait-pas-et-quil-faut-dire-avant-de-coder)
-  - [Le test à trente jours, sans budget](#le-test-à-trente-jours-sans-budget)
-  - [Ce qu'il me faut de toi](#ce-quil-me-faut-de-toi)
+- [5. Volet communication, presse et réseaux](#5-volet-communication-presse-et-réseaux) — `PITCH-COM-PRESSE-RESEAUX.md`
+  - [Ce qu'on a, et ce qu'on n'a pas](#ce-quon-a-et-ce-quon-na-pas)
+  - [Les trois messages, et jamais plus](#les-trois-messages-et-jamais-plus)
+  - [Ce qu'on ne dit jamais](#ce-quon-ne-dit-jamais)
+  - [Les interlocuteurs, par ordre](#les-interlocuteurs-par-ordre)
+  - [Les réseaux, par nature de contenu](#les-réseaux-par-nature-de-contenu)
+  - [La séquence : la preuve d'abord, la presse ensuite](#la-séquence--la-preuve-dabord-la-presse-ensuite)
+  - [Le dossier de presse, pièce par pièce](#le-dossier-de-presse-pièce-par-pièce)
+  - [Les quatre attaques, et la réponse écrite](#les-quatre-attaques-et-la-réponse-écrite)
+  - [Crise : le scénario qu'il faut avoir écrit d'avance](#crise--le-scénario-quil-faut-avoir-écrit-davance)
+  - [Ce que ça coûte](#ce-que-ça-coûte)
+  - [Ce qui compte comme réussite](#ce-qui-compte-comme-réussite)
+  - [Suite](#suite)
 
 **Partie III — Les annexes vérifiées et triées**
 
@@ -80,6 +86,7 @@ Version du 2026-09-29. Les sources de chaque affirmation chiffrée sont dans l'a
   - [3. Affirmations confirmées, avec la source qui les porte](#3-affirmations-confirmées-avec-la-source-qui-les-porte)
   - [4. Ce qui reste incertain, à assumer tel quel](#4-ce-qui-reste-incertain-à-assumer-tel-quel)
   - [5. Corrections appliquées aux fichiers](#5-corrections-appliquées-aux-fichiers)
+  - [6. Ajouts postérieurs à l'audit](#6-ajouts-postérieurs-à-laudit)
 - [7. Note juridique — l'arrêté ADN canin](#7-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) — `NOTE-JURIDIQUE-ARRETE-ADN.md`
   - [1. Les faits de Béziers, précisément](#1-les-faits-de-béziers-précisément)
   - [2. Le point qui change tout pour Paris](#2-le-point-qui-change-tout-pour-paris)
@@ -979,144 +986,200 @@ Les pièces rédigées sont dans les fichiers :
 
 ---
 
-## 5. Pitch pour un collègue technique
+## 5. Volet communication, presse et réseaux
 
-*Source : `PITCH-COLLAB-TECHNIQUE-IT.md`.*
+*Source : `PITCH-COM-PRESSE-RESEAUX.md`.*
 
-Ce qu'on veut construire, ce qui est dur, et ce qu'on ne sait pas encore.
+Ce qu'on dit, à qui, dans quel ordre, et ce qu'on ne dit pas. Ce volet n'existait pas dans le
+dossier : c'est la pièce qui transforme un document de travail en campagne, ou qui évite de la
+rater. Note de travail, 29 septembre 2026. Rien n'a été voté.
 
-### Le produit en trois couches
+### Ce qu'on a, et ce qu'on n'a pas
 
-1. **Un registre des chiens parisiens.**
-   Une fiche par chien :
+On a : un dossier de quatorze pièces, chaque chiffre adossé à une source ouverte, un audit qui dit
+ce qui a été corrigé et ce qui reste incertain, trois villes et une jurisprudence à raconter, et une
+idée qui tient en deux phrases.
 
-   - identifiant I-CAD existant,
-   - empreinte génétique,
-   - propriétaire,
-   - adresse dans Paris,
-   - statut vaccinal,
-   - date d'enregistrement,
-   - statut (à jour / à renouveler / radié).
+On n'a pas : d'association, de mandat, de budget, d'élu derrière, de porte-parole légitime. Sauf à
+en inventer un, et c'est exactement ce qu'il ne faut pas faire.
 
-2. **Une chaîne de prélèvement et d'analyse.**
+La conséquence est le principe de tout ce volet : **on ne communique pas sur une idée, on publie une
+preuve.** Tant qu'il n'y a pas un comptage, il n'y a rien à annoncer — seulement une opinion de plus.
+Un dossier de preuve devient un dossier de presse par construction : les chiffres sourcés *sont* le
+matériau journalistique.
 
-   - Un agent ramasse une déjection non ramassée,
-   - la met dans un tube avec un numéro d'ordre,
-   - la chaîne part au laboratoire,
-   - le laboratoire renvoie un identifiant génétique,
-   - le système cherche la correspondance dans le registre et sort un nom.
+### Les trois messages, et jamais plus
 
-   Le laboratoire détient la base génétique, la Ville ne détient que la correspondance prélèvement
-   -> propriétaire, pour la durée de l'expérimentation.
+1. **Paris est la ville la plus dense en chiens et la plus pauvre en espaces.** Un chien pour vingt
+   et un habitants ; 45 espaces canins, environ 15 000 m² en tout, soit 0,15 m² de liberté par
+   chien. Image utilisable : **tous les espaces canins de Paris réunis font un peu moins d'un
+   cinquième du parc Monceau** (8,25 ha, source ci-dessous).
+2. **Un contrat, pas une revendication.** Le maître s'engage sur ce qui se vérifie — ramasser, tenir
+   en laisse, une séance d'éducation, une assurance — et obtient ce que personne n'a : les
+   transports, les espaces où on peut détacher, des jardins d'immeuble. Personne ne fait le lien
+   entre les deux bouts aujourd'hui.
+3. **On compte avant de sanctionner.** Béziers a fait baisser les déjections de 85 % selon la
+   mairie et a perdu devant le tribunal administratif, non pour illégalité mais faute de pièces
+   prouvant l'utilité. C'est la leçon du dossier, et c'est le meilleur angle de presse : un projet
+   d'arrêté qui commence par un comptage de trottoir à la main.
 
-   > C'est la contrainte d'architecture principale, pas un détail de conformité : elle décide où
-   > vivent les données et qui peut interroger quoi.
+Trois messages, parce qu'au-delà de trois, un message de campagne ne se retient pas. Les chiffres
+détaillés, les coûts, la jurisprudence, les objections : c'est la matière des questions, pas des
+titres.
 
-3. **Une application terrain.**
+### Ce qu'on ne dit jamais
 
-   - Pour l'agent : numéroter un prélèvement, géolocaliser, photographier, horodater, imprimer ou
-     transmettre l'étiquette.
-   - Pour le propriétaire : s'enregistrer, prendre rendez-vous, télécharger l'attestation, voir ses
-     droits (transports, espaces).
-   - Pour la mairie : compter, suivre les taux d'aboutissement, éditer les chiffres de l'évaluation.
+- **Jamais « amende » ni « verbalisation » dans un message de premier niveau.** On parle du contrat
+  et des droits ; la sanction arrive à la question, jamais à l'initiative.
+- **Jamais « ADN » tout seul.** Le mot convoque le fichage. La formulation complète, dès qu'on
+  l'emploie : « la base génétique reste chez le laboratoire, la Ville ne détient que la
+  correspondance entre un prélèvement et un nom, pour la durée de l'expérience ».
+- **Jamais un chiffre sans sa source, ni un chiffre qu'on sait contesté** — le nombre de chiens est
+  donné comme incertain (100 000 selon la Ville, jusqu'à 300 000 ailleurs) et cette incertitude
+  affichée crédibilise au lieu de fragiliser. Un chiffre présenté comme certain et démenti en
+  commentaire coûte une campagne entière.
+- **Jamais « police des trottoirs ».** On parle d'allègement de la dépense publique (800 millions
+  d'euros de propreté par an) et de contrat.
+- **Jamais de faux collectif.** Pas de page au nom d'une association qui n'existe pas, pas de
+  comptes multiples, pas de pétition gonflée. Le jour où un média vérifie, tout le dossier meurt
+  avec la pose — et ce dossier vaut mieux que ça.
 
-### Volumes, pour dimensionner
+### Les interlocuteurs, par ordre
 
-- **Pilote** : 2 ou 3 arrondissements, environ 9 700 chiens identifiés, 5 000 enregistrés en
-  année 1.
-- **Extension** : 100 000 chiens, soit 100 000 prélèvements buccaux étalés sur deux à quatre ans.
-- **Débit vétérinaire** : à 200 cabinets parisiens, 500 prélèvements par cabinet sur la durée
-  totale.
-  Ce n'est pas un problème de débit, c'est un problème de rendez-vous, de kit et de saisie.
-- **Analyses de déjections** : de l'ordre de 500 par an au démarrage, 2 000 à 3 000 en régime
-  établi.
-- **Coût unitaire vérifié** : 34,10 € HT facturés par le laboratoire de Saint-Omer pour une analyse
-  (source : FAQ de la Ville de Saint-Omer), 60,43 € HT tout compris au coût marginal dans notre
-  modèle.
-  À 500 analyses par an, le coût complet monte à 260 € l'unité ; à 2 000, il descend à 70 €.
+Presse, et dans cet ordre précis : on épuise la presse locale et spécialisée avant de viser le
+national, parce que le national ne vient qu'avec une baisse mesurée.
 
-### Ce qu'il faut attaquer en premier, par ordre de risque
+| Rang | Interlocuteur | Pourquoi lui | Angle |
+| --- | --- | --- | --- |
+| 1 | Le Parisien (édition 75) | couvre le sujet chien-parisien depuis Monceau | le comptage, la carte, l'arrondissement pilote |
+| 2 | 20 Minutes Paris | formats courts, gros trafic, aime les sujets de trottoir | 0,15 m² et un chien pour 21 habitants |
+| 3 | Actu.fr Paris (par arrondissement) | relais local, reprend souvent un dossier | la situation rue par rue |
+| 4 | France Bleu Paris | radio, écoute le terrain, bonne pénétration chez les propriétaires | témoignages et Saint-Omer |
+| 5 | BFM Paris Île-de-France | télévisuel, images de parc et de comptage | images fortes, un espace de 15 000 m² |
+| 6 | Presse spécialisée : 30 Millions d'Amis, Le Chien, Woopets | expertise canine, crédibilité auprès des propriétaires | faisabilité, éducation, assurance |
+| 7 | Le Journal du Grand Paris | institutionnel, lu par les cabinets | montage juridique et financement |
+| 8 | National après preuve : Le Monde (Paris), Libération | seulement avec des chiffres avant/après | l'expérimentation qui a marché |
 
-1. La **robustesse de l'ADN environnemental** sur un trottoir.
-   Une crotte ramassée reste-t-elle exploitable après une nuit de pluie, deux jours de soleil, un
-   passage de balayeuse ?
-   Personne ne le documente publiquement.
-   C'est le risque numéro un du projet et il se teste en trois semaines, avec un laboratoire et
-   vingt échantillons déposés dans des conditions contrôlées.
+Relais, à distinguer de la presse : PARC.C (onze associations fédérées, environ 50 000
+sympathisants) demandent des droits sans condition, donc **elles ne relaieront pas un dispositif
+conditionnel** : elles sont à rencontrer et à écouter, pas à instrumentaliser. Même règle avec la
+SPA, 30 Millions d'Amis, l'Ordre des vétérinaires et les syndicats vétérinaires, les éducateurs
+canins certifiés : on les informe, on ne leur demande pas d'endosser.
 
-2. **Le mélange et la contamination.**
-   Deux chiens sur le même trottoir, un prélèvement pris à la pince : quel taux de lecture, quel
-   taux de fausse attribution ?
-   La conséquence juridique d'une fausse attribution est un contentieux, pas une réclamation.
+### Les réseaux, par nature de contenu
 
-3. **La chaîne de preuve.**
+Le découpage utile n'est pas plateforme par plateforme, c'est : **quelle image ne fonctionne que
+là.**
 
-   > Un prélèvement qui n'est pas traçable ne vaut rien devant un juge.
+- **Instagram — les comptes de chiens parisiens.** Le format qui marche : la carte à l'échelle. Les
+  espaces canins dessinés en clair, la ville en gris, avec un carré de référence (Monceau). Une
+  image, légende courte, les 0,15 m². C'est le visuel que les gens reposteront.
+- **TikTok — le comptage filmé.** Une rue, deux compteurs, un chrono, deux semaines, un résultat
+  avant/après. C'est le contenu que personne d'autre ne peut faire, parce qu'il faut accepter de
+  compter à la main, deux fois par jour, pendant quinze jours. Aucun coût de production.
+- **Facebook et Nextdoor — les groupes de quartier.** C'est là que la conversation a lieu, et le
+  format n'est pas un post mais une question : la carte des espaces canins *de leur arrondissement*
+  et les trois questions ouvertes. Le support de terrain (une réunion, un questionnaire) se recrute
+  ici, pas sur Instagram.
+- **LinkedIn — les élus et les cabinets.** Pas pour convaincre les propriétaires, pour exister dans
+  le champ où circulent les notes de cabinet. Format : le dossier, pas l'opinion.
+- **X — en dernier, pour les journalistes parisiens.** Utile pour diffuser une pièce (le comptage,
+  la réponse écrite à une attaque), pas pour débattre.
+- **WhatsApp — le canal des copains promeneurs.** Il ne compte pas comme audience ; il compte comme
+  laboratoire. Ce qui fait réagir là, en bien ou en mal, est ce qui fera réagir ailleurs.
 
-   Il faut :
+### La séquence : la preuve d'abord, la presse ensuite
 
-   - un numéro unique,
-   - un scellé,
-   - un horodatage,
-   - un accusé de réception du laboratoire et une durée de conservation décidée à l'avance.
+L'ordre est le fond du sujet, pas une question de tactique médiatique. Béziers est tombé sur l'ordre
+inverse.
 
-4. **Le délai de rendu.**
-   Un propriétaire doit savoir dans quel délai la contravention peut tomber.
-   Si le laboratoire rend en six semaines, l'effet pédagogique disparaît.
+0. **À froid, sans parole publique** (zéro euro) : compter. Dix rues, deux semaines, matin et soir,
+   deux compteurs, protocole écrit. Demander les pièces du marché de Saint-Omer et le bilan de
+   Reims. Trois devis de laboratoires. Tant que ça n'est pas fait, on n'a pas de sujet, on a un avis.
+1. **Un seul premier passage** : la presse parisienne sur le comptage, pas sur l'idée. Un article,
+   pas trois. Le comptage est ce qui a manqué à Béziers ; c'est aussi un angle neuf, ce qui est
+   exactement ce qu'un journal cherche.
+2. **La réunion publique** dans l'arrondissement pilote (le 20e : 6 133 chiens identifiés, 45
+   conseillers d'arrondissement) — c'est là qu'un élu se déclare, ou pas.
+3. **Le dépôt du dossier de budget participatif** : un document public est un canal de communication
+   institutionnel, et il oblige la mairie à répondre par écrit.
+4. **La phase volontaire, non sanctionnante**, avec publication des chiffres avant/après. Le
+   deuxième article vient de lui-même : « ça a baissé de X % et personne n'a été verbalisé ».
+5. **Le national, et seulement là** : après une baisse mesurée dans un périmètre, avec les chiffres,
+   le protocole et la réponse aux objections déjà publiés. C'est à ce moment que le dossier devient
+   une référence, et il la reste quand le débat revient.
 
-5. **La conformité.**
+### Le dossier de presse, pièce par pièce
 
-   - Analyse d'impact relative à la protection des données,
-   - registre des traitements,
-   - durée de conservation,
-   - information des personnes,
-   - et la question du fichier de personnes morales ou physiques qui n'existe pas encore.
+Un dossier de presse normal empile des affirmations. Un dossier de presse sourcé, personne n'en
+reçoit : c'est l'argument de vente auprès d'un journaliste qui a cinq minutes.
 
-   Béziers a perdu sur la preuve de nécessité, pas sur la technique, mais la LDH attaque aussi sur
-   les données.
+1. Le texte d'une page, sans jargon (`[PITCH-CITOYEN.md](#2-le-chien-citoyen-de-paris--version-grand-public)` sert de base).
+2. Les quatre chiffres qui portent : 100 000 chiens, 45 espaces, 0,15 m², 800 M€ de propreté — avec
+   la source en note de bas de page.
+3. La carte à l'échelle des espaces canins, par arrondissement.
+4. Saint-Omer et Béziers : ce qui a marché, ce qui a été annulé et pourquoi.
+5. Ce qui n'est pas réglé, écrit noir sur blanc : le nombre réel de chiens, Île-de-France Mobilités,
+   le régime des données.
+6. Le comptage : protocole, dates, compteurs, résultats.
+7. Une page de réponses préparées aux quatre attaques (ci-dessous), pour qu'un journaliste n'ait pas
+   à nous appeler pour ça.
 
-### Ce qu'on ne sait pas, et qu'il faut dire avant de coder
+### Les quatre attaques, et la réponse écrite
 
-- Combien de chiens vivent réellement à Paris : 100 000 selon la Ville, 300 000 selon le chiffre
-  qui circule.
-  Tout le dimensionnement change d'un facteur trois.
-- Quel taux d'aboutissement est atteignable.
-  Notre seuil d'autofinancement est de 20 % des analyses abouties pour couvrir le coût marginal,
-  33 % pour le coût complet.
-  Ce sont des calculs.
-- Le temps agent par prélèvement (20 minutes dans notre modèle, 8 € au coût marginal) : à mesurer.
-- Les capacités réelles des laboratoires sur ce volume, et leurs délais.
+À écrire une fois, à réutiliser mot pour mot. Une réponse improvisée sur une plateforme coûte plus
+cher qu'une réponse lente et écrite.
 
-### Le test à trente jours, sans budget
+- **« C'est du fichage. »** La base génétique reste au laboratoire, la Ville ne détient que la
+  correspondance prélèvement → propriétaire, pour la durée bornée de l'expérimentation, sans
+  vidéosurveillance permanente ni croisement de fichiers. Réponse publique, sources à l'appui, et
+  l'avis de la CNIL publié dès qu'il existe.
+- **« C'est un péage pour riches. »** Sur la cible, c'est faux : 39 % des ouvriers et 42 % des
+  indépendants ont un chien, contre 34 % des cadres. Sur la barrière, c'est vrai : d'où
+  l'identification gratuite, les exonérations, les journées de quartier, l'assurance de groupe.
+- **« Ça ne sert qu'à verbaliser. »** Les amendes ne financent rien — à Saint-Omer, trois
+  déjections ont pu être attribuées. Le résultat cherché est la baisse mesurée, pas le rendement.
+- **« Vous êtes qui, au juste ? »** La question la plus dangereuse, et elle se répond par la
+  transparence : ni association ni mandat, un dossier de travail documenté, un comptage fait à la
+  main, et les sources publiques pour que n'importe qui refasse le calcul.
 
-1. Compter les déjections sur un périmètre de dix rues pendant deux semaines, matin et soir, avec un
-   protocole écrit et deux compteurs.
-   C'est ce que le tribunal a reproché à Béziers de ne pas avoir.
+### Crise : le scénario qu'il faut avoir écrit d'avance
 
-2. Demander des devis à trois laboratoires (Antagene, Genindexe, Animagene) sur 500, 2 000 et 5 000
-   analyses, avec délai, taux de réussite annoncé et conditions de conservation.
+Si un média part sur « on veut ficher l'ADN des chiens de Paris », la réponse est toujours la même,
+et elle n'est jamais émotionnelle : les données, le laboratoire, la durée bornée, le comptage, et
+l'offre de transmettre les pièces. Deux règles : on ne répond jamais dans le fil de commentaires
+d'une plateforme (on publie une réponse écrite et on la lie), et on ne corrige jamais un chiffre sans
+publier la correction visiblement — la crédibilité du dossier est son seul actif, et une correction
+publiée coûte moins cher qu'une erreur défendue.
 
-3. Demander les pièces du marché de Saint-Omer et le bilan de Reims : documents administratifs
-   communicables, réponse en un mois.
+### Ce que ça coûte
 
-4. Déposer vingt échantillons témoins dans trois conditions (soleil, pluie simulée, deux jours
-   d'attente) et faire analyser.
+Zéro euro au départ : du temps, un comptage, trois devis, des courriers administratifs. Ensuite, si
+quelque chose doit être payé : la carte imprimée pour les réunions, la salle, un site d'une page. Le
+seul poste qui compte vraiment est le comptage — et il se fait à pied.
 
-### Ce qu'il me faut de toi
+### Ce qui compte comme réussite
 
-Deux personnes et un cahier des charges de données :
+Pas les likes, pas les partages. Trois signaux, dans l'ordre :
 
-- quelqu'un qui sait interroger un laboratoire de génétique et lire un protocole de prélèvement,
-- quelqu'un qui sait faire un registre avec des droits d'accès et une analyse d'impact.
+1. **une question posée par un relais** qui n'est pas un copain : un journaliste, une association,
+   un éducateur ;
+2. **une contribution au comptage** : quelqu'un qui compte dans sa rue sans qu'on le lui demande ;
+3. **un rendez-vous obtenu** chez un élu, un cabinet ou une mairie d'arrondissement.
 
-Le reste, comptage, dossier, courriers administratifs, je m'en occupe.
+Le reste est du bruit agréable. Et le meilleur signe qu'une campagne de ce type fonctionne, c'est
+qu'on nous reprend nos chiffres — y compris pour nous contredire.
 
-Le budget d'entrée du test est de zéro euro ; le premier vrai poste de dépense est le laboratoire,
-et il n'a lieu qu'après le comptage et les devis.
+### Suite
 
-Détail des coûts : [ADN-COUTS-FAISABILITE.md](#8-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) et section 7 du rapport complet.
+- Écrire le protocole de comptage en une page, exécutable par quelqu'un d'autre que nous.
+- Préparer les quatre réponses et le dossier de presse en pièces séparées.
+- Faire la carte à l'échelle, arrondissement par arrondissement : c'est le seul actif visuel dont on
+  ait besoin.
 
-Ce qui est prouvé, ville par ville : [AUDIT-SOURCES.md](#6-audit-anti-hallucination-du-dossier-chiens-paris).
+Sources et statut de chaque chiffre : `[AUDIT-SOURCES.md](#6-audit-anti-hallucination-du-dossier-chiens-paris)`. La superficie du parc Monceau (8,25 ha) :
+https://www.paris.fr/lieux/parc-monceau-1804 Le détail des coûts et des hypothèses :
+`[RAPPORT-COMPLET-CHIENS-PARIS.md](#12-rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage)` (annexe E pour les URL).
 
 [↑ Sommaire](#sommaire)
 
@@ -1355,6 +1418,26 @@ verbalisations en un an.
 - [NOTE-JURIDIQUE-ARRETE-ADN.md](#7-note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026) et [PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md](#10-statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026) : réserve sur la rédaction
   de l'article L. 2512-16-1.
 - [ADN-COUTS-FAISABILITE.md](#8-tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026) : -85 % attribué à la mairie.
+
+### 6. Ajouts postérieurs à l'audit
+
+Le volet communication, presse et réseaux (`[PITCH-COM-PRESSE-RESEAUX.md](#5-volet-communication-presse-et-réseaux)`) a été ajouté après la
+passe de vérification. Les affirmations qu'il introduit ont été vérifiées à part :
+
+1. **Les 45 espaces canins réunis font un peu moins d'un cinquième du parc Monceau.**
+   `confirmé` : le dossier retient ~15 000 m² d'espaces canins [E], le parc Monceau mesure 8,25 ha,
+   soit 82 500 m². Le rapport donne 18 %.
+
+   Sources :
+   https://www.paris.fr/lieux/parc-monceau-1804
+   https://fr.wikipedia.org/wiki/Parc_Monceau
+
+2. Les autres chiffres employés par le volet communication (100 000 chiens, 0,15 m² par chien,
+   800 M€ de propreté, Saint-Omer, Béziers, la répartition sociale des propriétaires) sont ceux de
+   `[PITCH-ET-RESUME.md](#1-le-statut-du-chien-citoyen-de-paris)` et `[PITCH-CITOYEN.md](#2-le-chien-citoyen-de-paris--version-grand-public)`, déjà audités en sections 2 et 3.
+
+3. Le retrait de `PITCH-COLLAB-TECHNIQUE-IT.md` est une décision éditoriale, pas une correction :
+   la pièce technique ne fait pas partie du dossier communiqué.
 
 [↑ Sommaire](#sommaire)
 
@@ -3033,8 +3116,8 @@ Divers :
 | `PITCH-CITOYEN.md` | Pitch grand public | 95 |
 | `PITCH-ELU.md` | Note pour un élu | 121 |
 | `PITCH-CABINET-TECHNIQUE.md` | Note technique pour un cabinet | 271 |
-| `PITCH-COLLAB-TECHNIQUE-IT.md` | Pitch pour un profil technique | 137 |
-| `AUDIT-SOURCES.md` | Audit anti-hallucination, corrections, sources vérifiées | 230 |
+| `PITCH-COM-PRESSE-RESEAUX.md` | Volet communication, presse et réseaux | 193 |
+| `AUDIT-SOURCES.md` | Audit anti-hallucination, corrections, sources vérifiées | 250 |
 | `NOTE-JURIDIQUE-ARRETE-ADN.md` | Ce qui a fait annuler Béziers, recette juridique | 106 |
 | `ADN-COUTS-FAISABILITE.md` | Coûts réels des tests ADN, faisabilité, chiffrage | 118 |
 | `STATUT-CHIEN-CITOYEN.md` | Note de conception du statut | 210 |

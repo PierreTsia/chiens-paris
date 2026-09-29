@@ -227,3 +227,23 @@ verbalisations en un an.
 - NOTE-JURIDIQUE-ARRETE-ADN.md et PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md : réserve sur la rédaction
   de l'article L. 2512-16-1.
 - ADN-COUTS-FAISABILITE.md : -85 % attribué à la mairie.
+
+## 6. Ajouts postérieurs à l'audit
+
+Le volet communication, presse et réseaux (`PITCH-COM-PRESSE-RESEAUX.md`) a été ajouté après la
+passe de vérification. Les affirmations qu'il introduit ont été vérifiées à part :
+
+1. **Les 45 espaces canins réunis font un peu moins d'un cinquième du parc Monceau.**
+   `confirmé` : le dossier retient ~15 000 m² d'espaces canins [E], le parc Monceau mesure 8,25 ha,
+   soit 82 500 m². Le rapport donne 18 %.
+
+   Sources :
+   https://www.paris.fr/lieux/parc-monceau-1804
+   https://fr.wikipedia.org/wiki/Parc_Monceau
+
+2. Les autres chiffres employés par le volet communication (100 000 chiens, 0,15 m² par chien,
+   800 M€ de propreté, Saint-Omer, Béziers, la répartition sociale des propriétaires) sont ceux de
+   `PITCH-ET-RESUME.md` et `PITCH-CITOYEN.md`, déjà audités en sections 2 et 3.
+
+3. Le retrait de `PITCH-COLLAB-TECHNIQUE-IT.md` est une décision éditoriale, pas une correction :
+   la pièce technique ne fait pas partie du dossier communiqué.

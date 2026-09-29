@@ -14,7 +14,7 @@ PARTIES = [
         ("PITCH-CITOYEN.md", "Pitch grand public"),
         ("PITCH-ELU.md", "Note pour un élu"),
         ("PITCH-CABINET-TECHNIQUE.md", "Note technique — collaborateur de cabinet"),
-        ("PITCH-COLLAB-TECHNIQUE-IT.md", "Pitch pour un collègue technique"),
+        ("PITCH-COM-PRESSE-RESEAUX.md", "Volet communication, presse et réseaux"),
     ]),
     ("III — Les annexes vérifiées et triées", [
         ("AUDIT-SOURCES.md", "Audit anti-hallucination des sources"),
@@ -120,7 +120,7 @@ roles = {
     "PITCH-CITOYEN.md": "Pitch grand public",
     "PITCH-ELU.md": "Note pour un élu",
     "PITCH-CABINET-TECHNIQUE.md": "Note technique pour un cabinet",
-    "PITCH-COLLAB-TECHNIQUE-IT.md": "Pitch pour un profil technique",
+    "PITCH-COM-PRESSE-RESEAUX.md": "Volet communication, presse et réseaux", 
     "AUDIT-SOURCES.md": "Audit anti-hallucination, corrections, sources vérifiées",
     "NOTE-JURIDIQUE-ARRETE-ADN.md": "Ce qui a fait annuler Béziers, recette juridique",
     "ADN-COUTS-FAISABILITE.md": "Coûts réels des tests ADN, faisabilité, chiffrage",
@@ -172,8 +172,8 @@ today = datetime.date.today().isoformat()
 head = [
     "# Dossier « chien citoyen de Paris » — version assemblée",
     "",
-    "Document unique rassemblant le dossier complet : le pitch général, les pitchs ciblés "
-    "(grand public, élu, cabinet technique, collègue technique) puis les annexes vérifiées et "
+    "Document unique rassemblant le dossier complet : le pitch général, les notes ciblées "
+    "(grand public, élu, cabinet technique, communication et presse) puis les annexes vérifiées et "
     "triées (audit des sources, note juridique, coûts et faisabilité, arrêté et règlement, "
     "rapport complet).",
     "",
