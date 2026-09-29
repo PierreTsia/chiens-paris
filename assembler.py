@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-# Assemble le dossier chiens-paris en un seul markdown avec sommaire et ancres.
+# Assemble le dossier chiens-paris en un seul markdown : sommaire imbriqué avec ancres
+# vérifiées contre le moteur de GitHub, navigation retour-sommaire, index des fichiers.
 import re, unicodedata, datetime, os
 
 SRC = "/root/chiens-paris"
 OUT = os.path.join(SRC, "DOSSIER-CHIEN-CITOYEN-PARIS.md")
 
-# (fichier, label court du sommaire)
 PARTIES = [
     ("I — Le pitch général", [
         ("PITCH-ET-RESUME.md", "Le pitch général"),
@@ -28,26 +28,38 @@ PARTIES = [
 ]
 
 FILES = [f for _, docs in PARTIES for f, _ in docs]
-SLUG_ID = {}
-AUTO_ID = {}
+
+EN_BREF = [
+    ("Le problème", "100 000 chiens à Paris pour 45 espaces canins, les bus et tramways fermés aux "
+                    "chiens, et 800 M€ de propreté par an qui ne règlent pas la crotte sur le trottoir."),
+    ("L'idée", "Un statut de « chien·ne citoyen·ne » : le maître identifie son chien, ramasse, le "
+               "tient en laisse, le fait éduquer et assurer ; en échange le chien obtient des droits "
+               "qui n'existent aujourd'hui pour personne."),
+    ("Ce que ça coûte", "Identification et enregistrement gratuits, cotisation possible autour de "
+                        "20 € par an et par chien, exonération pour les propriétaires modestes. "
+                        "Décision encore ouverte."),
+    ("Le point juridique", "L'arrêté ADN de Béziers a été annulé faute de preuves de son utilité, non "
+                           "pour illégalité : avant de sanctionner, il faut compter, mesurer et publier."),
+    ("Ce qui n'est pas réglé", "Le nombre réel de chiens à Paris (100 000 à 300 000 selon les "
+                               "sources), l'accord d'Île-de-France Mobilités pour les transports, et "
+                               "le régime des données génétiques."),
+    ("Statut", "Rien n'a été voté. Dossier de travail du 29 septembre 2026."),
+]
+
 
 def gh_slug(text):
     """Slug des ancres telles que GitHub les génère depuis un titre."""
     t = unicodedata.normalize("NFC", text).strip().lower()
-    out = []
-    for ch in t:
-        if ch.isalnum() or ch in "-_":
-            out.append(ch)
-        elif ch.isspace():
-            out.append("-")
-    return "".join(out)
+    t = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", t)     # [texte](lien) -> texte
+    t = re.sub(r"[*`~]", "", t)                        # gras, italique, code
+    return "".join(ch if (ch.isalnum() or ch in "-_") else ("-" if ch.isspace() else "")
+                   for ch in t)
 
-def demote(text, first_is_section=True):
-    """Décale d'un niveau tous les titres, le premier devenant le titre de section."""
-    lines = text.split("\n")
+
+def demote(text):
+    """Le premier titre devient le titre de section, les suivants descendent d'un niveau."""
     out, title_used = [], False
-    counts = {}
-    for ln in lines:
+    for ln in text.split("\n"):
         m = re.match(r"^(#{1,6})(\s+)(.*)$", ln)
         if not m:
             out.append(ln)
@@ -60,95 +72,49 @@ def demote(text, first_is_section=True):
             out.append("#" * min(len(hashes) + 1, 6) + " " + txt)
     return out
 
+
+docs = {f: open(os.path.join(SRC, f), encoding="utf-8").read() for f in FILES}
+
+section_titles = {}
+for i, f in enumerate(FILES, 1):
+    section_titles[f] = "%d. %s" % (i, docs[f].split("\n", 1)[0].lstrip("# ").strip())
+
+# les titres de section portent un numéro, donc leur ancre est stable et sans collision
+SLUG = {f: gh_slug(section_titles[f]) for f in FILES}
+
+
 def relink(text):
-    """Transforme les mentions de fichiers du dossier en liens vers les sections."""
-    def repl(m):
-        name = m.group(0)
-        if name in SLUG_ID:
-            return "[%s](#%s)" % (name, AUTO_ID[name])
-        return name
+    """Mentions de fichiers du dossier -> liens vers les sections ; nettoyage des chemins."""
     text = text.replace("/root/chiens-paris/", "")
     text = text.replace("Tout est dans  :", "Tout est dans ce document :")
     text = text.replace("sont dans le dossier :", "sont dans ce document :")
-    return re.sub(r"(?<![\w/-])(" + "|".join(re.escape(f) for f in FILES) + r")", repl, text)
+    text = re.sub(r"(?<![\w/-])(" + "|".join(re.escape(f) for f in FILES) + r")",
+                  lambda m: "[%s](#%s)" % (m.group(0), SLUG[m.group(0)]), text)
+    return text
 
-docs = {}
-for f in FILES:
-    with open(os.path.join(SRC, f), encoding="utf-8") as fh:
-        docs[f] = fh.read()
 
-# slugs GitHub calculés sur les titres de section définitifs (numéro + titre d'origine)
-section_titles = {}
-for i, f in enumerate(FILES, 1):
-    raw_title = docs[f].split("\n", 1)[0].lstrip("# ").strip()
-    section_titles[f] = "%d. %s" % (i, raw_title)
-
-# dédoublonnage des slugs auto (GitHub suffixe -1, -2...)
-seen = {}
-for f in FILES:
-    s = gh_slug(section_titles[f])
-    n = seen.get(s, 0)
-    seen[s] = n + 1
-    AUTO_ID[f] = s if n == 0 else "%s-%d" % (s, n)
-    SLUG_ID[f] = "s%d" % FILES.index(f)
-
-today = datetime.date.today().isoformat()
-out = []
-out.append("# Dossier « chien citoyen de Paris » — version assemblée")
-out.append("")
-out.append("Document unique rassemblant le dossier complet : le pitch général, les pitchs ciblés "
-           "(grand public, élu, cabinet technique, collègue technique) puis les annexes vérifiées et "
-           "triées (audit des sources, note juridique, coûts et faisabilité, arrêté et règlement, "
-           "rapport complet).")
-out.append("")
-out.append("Version du %s. Les sources de chaque affirmation chiffrée sont dans l'annexe 6 "
-           "(audit anti-hallucination), qui indique aussi ce qui a été corrigé et ce qui reste "
-           "incertain. Ce qui est marqué [E] dans le texte est une estimation, pas un chiffre sourcé. "
-           "Rien n'a été voté : le dossier décrit un projet, pas un dispositif en vigueur." % today)
-out.append("")
-out.append("## Sommaire")
-out.append("")
+# ---------- corps du document (hors sommaire) ----------
+body = []
+toc_entries = []          # (niveau 0/1/2, libellé du sommaire, titre cible, fichier)
 for ptitle, plist in PARTIES:
-    out.append("**Partie %s**" % ptitle)
-    out.append("")
+    body += ["# Partie %s" % ptitle, ""]
+    toc_entries.append((0, "Partie %s" % ptitle, None, None))
     for f, label in plist:
         n = FILES.index(f) + 1
-        out.append("- [%d. %s](#%s) — `%s`" % (n, label, AUTO_ID[f], f))
-    out.append("")
-out.append("- [Fichiers du dossier](#fichiers-du-dossier)")
-out.append("")
-out.append("---")
-out.append("")
-
-i = 0
-for ptitle, plist in PARTIES:
-    out.append("# Partie %s" % ptitle)
-    out.append("")
-    for f, label in plist:
-        i += 1
-        body = demote(docs[f])
-        out.append("")
+        body += ["", "## " + section_titles[f], "", "*Source : `%s`.*" % f, ""]
+        toc_entries.append((1, "%d. %s" % (n, label), section_titles[f], f))
         started = False
-        for ln in body:
+        for ln in demote(docs[f]):
             if isinstance(ln, tuple):
-                out.append("## " + section_titles[f])
-                out.append("")
-                out.append("*Source : `%s`.*" % f)
-                out.append("")
                 started = True
-            else:
-                out.append(relink(ln) if started else ln)
-        out.append("")
-        out.append("---")
-        out.append("")
+                continue
+            if started and re.match(r"^###\s", ln):
+                toc_entries.append((2, ln.lstrip("# ").strip(), ln.lstrip("# ").strip(), f))
+            body.append(relink(ln) if started else ln)
+        body += ["", "[↑ Sommaire](#sommaire)", "", "---", ""]
 
-# index des fichiers
-out.append('<a id="fichiers-du-dossier"></a>')
-out.append("")
-out.append("## Fichiers du dossier")
-out.append("")
-out.append("| Fichier | Rôle | Lignes |")
-out.append("| --- | --- | --- |")
+body += ["", "## Fichiers du dossier", ""]
+body += ["| Fichier | Rôle | Lignes |", "| --- | --- | --- |"]
 roles = {
     "PITCH-ET-RESUME.md": "Pitch général (version longue)",
     "PITCH-CITOYEN.md": "Pitch grand public",
@@ -164,16 +130,77 @@ roles = {
     "RAPPORT-COMPLET-CHIENS-PARIS.md": "Rapport complet et chiffrage détaillé",
 }
 for f in FILES:
-    n = len(docs[f].split("\n"))
-    out.append("| [%s](#%s) | %s | %d |" % (f, AUTO_ID[f], roles.get(f, ""), n))
-out.append("")
-out.append("Le brouillon antérieur à la passe de réécriture est conservé hors dossier sous "
-           "`PITCH-ET-RESUME.avant-humanizer.md`.")
-out.append("")
+    body.append("| `%s` | %s | %d |" % (f, roles.get(f, ""), len(docs[f].split("\n"))))
+body += ["", "Le brouillon antérieur à la passe de réécriture est conservé hors dossier sous "
+             "`PITCH-ET-RESUME.avant-humanizer.md`.", ""]
 
+# ---------- slugs : ordre réel des titres dans le document, dédoublonnage global ----------
+seen = {}
+heading_slug = {}
+for idx, ln in enumerate(body):
+    m = re.match(r"^(#{1,6})\s+(.*)$", ln)
+    if m:
+        s = gh_slug(m.group(2))
+        n = seen.get(s, 0)
+        seen[s] = n + 1
+        heading_slug[idx] = s if n == 0 else "%s-%d" % (s, n)
+
+# titre -> slug de sa première occurrence (les sous-titres peuvent se répéter d'une pièce à l'autre)
+first_of = {}
+for idx, ln in enumerate(body):
+    m = re.match(r"^(#{1,6})\s+(.*)$", ln)
+    if m:
+        first_of.setdefault(m.group(2).strip(), heading_slug[idx])
+
+SLUG = {f: first_of.get(section_titles[f], gh_slug(section_titles[f])) for f in FILES}
+
+# ---------- sommaire ----------
+toc = ["## Sommaire", ""]
+for level, label, target, f in toc_entries:
+    if level == 0:
+        toc += ["", "**%s**" % label, ""]
+    elif level == 1:
+        toc.append("- [%s](#%s) — `%s`" % (label, SLUG[f], f))
+    else:
+        s = first_of.get(target)
+        if s:
+            toc.append("  - [%s](#%s)" % (label, s))
+toc += ["", "- [Fichiers du dossier](#fichiers-du-dossier)", ""]
+
+# ---------- document final ----------
+today = datetime.date.today().isoformat()
+head = [
+    "# Dossier « chien citoyen de Paris » — version assemblée",
+    "",
+    "Document unique rassemblant le dossier complet : le pitch général, les pitchs ciblés "
+    "(grand public, élu, cabinet technique, collègue technique) puis les annexes vérifiées et "
+    "triées (audit des sources, note juridique, coûts et faisabilité, arrêté et règlement, "
+    "rapport complet).",
+    "",
+    "## En bref",
+    "",
+]
+head += ["- **%s** — %s" % (label, txt) for label, txt in EN_BREF]
+head += [
+    "",
+    "Version du %s. Les sources de chaque affirmation chiffrée sont dans l'annexe 6 "
+    "(audit anti-hallucination), qui indique aussi ce qui a été corrigé et ce qui reste incertain. "
+    "Ce qui est marqué [E] dans le texte est une estimation, pas un chiffre sourcé. Rien n'a été "
+    "voté : le dossier décrit un projet, pas un dispositif en vigueur." % today,
+    "",
+    "## Sommaire",
+    "",
+]
+
+out = head + [l for l in toc[2:]] + ["", "---", ""] + body
+text = "\n".join(out)
+text = re.sub(r"\n{3,}", "\n\n", text)
+text = re.sub(r"[ \t]+\n", "\n", text)
 with open(OUT, "w", encoding="utf-8") as fh:
-    fh.write("\n".join(out))
+    fh.write(text.rstrip("\n") + "\n")
 
 print("écrit :", OUT)
-print("lignes :", len(out))
-print("section auto-ids :", AUTO_ID)
+print("lignes :", text.count("\n") + 1)
+print("sections :", len([e for e in toc_entries if e[0] == 1]),
+      "| sous-entrées :", len([e for e in toc_entries if e[0] == 2]))
+print("ancres de section :", SLUG)

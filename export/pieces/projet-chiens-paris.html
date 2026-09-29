@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projet « chiens de Paris » : creusage — chien citoyen de Paris</title>
+<style>
+:root { --txt:#1b1b1b; --muted:#5b5b5b; --line:#dcdcdc; --accent:#1f4e79; --accent2:#8a5a00; }
+* { box-sizing: border-box; }
+body { margin:0; color:var(--txt); background:#fff;
+  font-family: Georgia, "Times New Roman", serif; font-size:16px; line-height:1.62; }
+main { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.4rem 4rem; }
+h1,h2,h3,h4 { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height:1.25; color:var(--accent); }
+h1 { font-size:1.9rem; margin:2.4rem 0 .8rem; padding-bottom:.4rem; border-bottom:2px solid var(--line); }
+h1:first-of-type { margin-top:0; }
+h2 { font-size:1.45rem; margin:2rem 0 .7rem; }
+h3 { font-size:1.15rem; margin:1.6rem 0 .5rem; color:#2c2c2c; }
+h4 { font-size:1rem; margin:1.3rem 0 .4rem; color:var(--muted); text-transform:none; }
+p { margin:.65rem 0; }
+ul, ol { margin:.6rem 0 .9rem; padding-left:1.4rem; }
+li { margin:.25rem 0; }
+strong { color:#111; }
+code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; font-size:.86em;
+  background:#f4f4f4; padding:.08em .3em; border-radius:3px; }
+a { color:var(--accent); text-decoration:none; border-bottom:1px solid #c9d6e4; }
+table { border-collapse: collapse; width:100%; margin:1rem 0; font-size:.93rem;
+  font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+th, td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+th { background:#f2f5f8; }
+blockquote { margin:1rem 0; padding:.6rem 1rem; border-left:4px solid var(--accent2);
+  background:#fbf8f1; font-style:normal; }
+hr { border:0; border-top:1px solid var(--line); margin:2.2rem 0; }
+.cover { max-width:46rem; margin:0 auto; padding:5rem 1.4rem 0; text-align:left; }
+.cover .kicker { font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  text-transform:uppercase; letter-spacing:.14em; font-size:.75rem; color:var(--muted); }
+.cover h1 { font-size:2.5rem; border:0; margin:.5rem 0 0; }
+.cover .sub { font-size:1.1rem; color:var(--muted); margin-top:.8rem; }
+.cover .meta { margin-top:2.5rem; font-size:.9rem; color:var(--muted); }
+.cover .warn { margin-top:1.2rem; padding:.8rem 1rem; border:1px solid var(--line);
+  background:#fafafa; font-size:.9rem; }
+.tw { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1rem 0; }
+.cover.small { padding: 2.5rem 1.4rem 0; }
+.cover.small h1 { font-size: 1.7rem; }
+@media (max-width: 600px) {
+  body { font-size: 17px; }
+  main { padding: 1.2rem .9rem 3rem; }
+  .cover, .cover.small { padding: 1.6rem .9rem 0; }
+  .cover h1 { font-size: 1.8rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+  h3 { font-size: 1.08rem; }
+  table { font-size: .88rem; }
+  th, td { padding: .35rem .45rem; }
+  ul, ol { padding-left: 1.1rem; }
+}
+@media print {
+  @page { size:A4; margin:20mm 18mm; }
+  html, body { font-size:10.8pt; }
+  main { max-width:none; padding:0; }
+  h1.partie { page-break-before: always; }
+  h2.section { page-break-before: always; }
+  table, blockquote, ul, ol { page-break-inside: avoid; }
+  h1, h2, h3 { page-break-after: avoid; }
+  a { color:#1b1b1b; border:0; }
+  .cover { padding:0; page-break-after: always; }
+}
+</style></head>
+<body>
+<section class="cover">
+<div class="kicker">Annexe</div>
+<h1>Projet « chiens de Paris » : creusage</h1>
+<div class="sub">Pièce du dossier « chien citoyen de Paris ».</div>
+<div class="meta">Paris, 29 septembre 2026. Version assemblée le 2026-09-29.</div>
+<div class="warn">Document de travail du 29 septembre 2026. Rien n'a été voté.</div>
+</section>
+<main>
+<h1 id="projet--chiens-de-paris---creusage-du-29092026">Projet « chiens de Paris » — creusage du 29/09/2026</h1>
+<p>Demande :</p>
+<ul>
+<li>problème = Paris et les chiens ;
+</li>
+<li>cible = propriétaires de chiens parisiens ;
+</li>
+<li>objet = projet politique (à définir) ;
+</li>
+<li>livrables = positionnement + chiffrage.
+</li>
+</ul>
+<p>Toutes les lignes marquées [E] sont mes estimations/calculs, pas des chiffres sourcés.</p>
+<h2 class="section" id="1-état-des-lieux-chiffré">1. État des lieux chiffré</h2>
+<ul>
+<li><strong>100 000 chiens</strong> identifiés à Paris (chiffre de la Ville de Paris et du fichier I-CAD). ~1 chien pour 21 habitants.
+</li>
+<li>Attention : la densité de ~2 857 chiens/km² qui circule (ProtectMyPaws 2023) est calculée sur ~300 000 chiens, pas sur 100 000 — les deux ne peuvent pas être vrais ensemble, à trancher.
+</li>
+<li>Poids moyen : aucune source (le poids moyen national I-CAD est de 19,8 kg) ; seule la sur-représentation des petites races en ville est documentée.
+</li>
+<li>Paris : 105,4 km², 2 103 778 habitants, 1 379 084 électeurs inscrits (INSEE/REU 2026) ; 1 405 432 inscrits au 1er tour des municipales 2026, 815 448 suffrages exprimés.
+</li>
+<li>Espaces canins : 45 au total (paris.fr, 2026), ~15 000 m² cumulés [E] -&gt; ~0,15 m² de liberté par chien. Repère Barcelone : &gt;100 zones pour chiens, dont ~la moitié d'aires de 300-400 m²,
+<ul>
+<li>des « zones d'usage partagé » où le lâcher est autorisé par créneaux.
+</li></ul>
+<li>Règles actuelles : laisse obligatoire partout hors espaces canins ; lâcher = contravention 38 € (1re classe), jusqu'à 150 € si chien catégorisé ; bus et tram interdits au chien non transporté dans un sac.
+</li>
+<li>Accès parcs : chiens en laisse dans les jardins sans aire de jeux depuis l'article 11 du règlement (2018).
+</li>
+<li>Déjections : 135 € de contravention à Paris (les campagnes de la Ville affichent ce montant ; une source commerciale parle de 68 €). Dati proposait 300 € + port obligatoire des sacs (janvier 2026). Signalement via DansMaRue.
+</li>
+<li>Budget : propreté Paris ≈ 800 M€/an, 6 300 agents de terrain, 3 000 t de déchets/jour. Budget 2026 de la Ville : 11,72 Md€ dont 917,8 M€ « Environnement » (8,3 %).
+</li>
+<li>Dépense liée aux chiens : &gt;15 M€/an selon une source privée (KARTES) — non confirmé officiellement, à prendre avec des pincettes.
+</li>
+<li>Oct. 2025 : un vœu « place du chien à Paris » voté à l'unanimité au Conseil de Paris.
+</li>
+</ul>
+<h2 class="section" id="2-la-cible-vaut-elle-un-électorat--le-calcul-qui-décide-de-tout">2. La cible vaut-elle un électorat ? (le calcul qui décide de tout)</h2>
+<ul>
+<li>100 000 chiens ≈ 85 000-95 000 foyers propriétaires [E, ~1,1 chien/foyer] ≈ 145 000-160 000 électeurs [E, 1,7 électeur/foyer] ≈ 10-11 % du corps électoral parisien.
+</li>
+<li>Seuil qui compte : 5 % des suffrages exprimés ≈ 41 000 voix (base 815 448 au T1 2026) = ticket d'entrée pour avoir des sièges ET un remboursement de campagne.
+</li>
+<li>Conclusion dure : la cible est ~3,5 fois plus large que le seuil. Mais « possède un chien » ≠ « vote chien » (piège classique de tout vote catégoriel).
+</li>
+</ul>
+<h2 class="section" id="3-le-problème-politique--le-sujet-est-déjà-occupé">3. Le problème politique : le sujet est déjà occupé</h2>
+<ul>
+<li>PARC.C – Paris Condition Canine, créée en octobre 2025 : 11 associations parisiennes, ~50 000 sympathisants, couvre 12 arrondissements + 2 bois ; demande : 1 espace canin sécurisé par quartier, accès généralisé aux parcs avec laisse, accès aux transports.
+</li>
+<li>Assos historiques par arrondissement (Nous les Chiens de Paris, Monceau Dog Club, Les Chiens du Canal, Les Truffes des Batignolles, Les Poilus de la Butte, etc.).
+</li>
+<li>Municipales 2026 : TOUS les candidats avaient un volet chien.
+<ul>
+<li>Grégoire (élu) : parcs ouverts aux chiens en laisse + consultations vétérinaires solidaires.
+</li>
+<li>Dati : amende 300 €, port de sacs obligatoire, « sentiers Paris 4 pattes », caniparcs labellisés.
+</li>
+<li>Bournazel : 1 000 distributeurs de sachets.
+</li>
+<li>Mariani : plus de fontaines à eau, transports plus tolérants.
+</li>
+<li>Chikirou : espaces sans laisse + charte + rapport annuel.
+</li></ul>
+<li>Conséquence : il n'y a plus de vide. Il y a un conflit de propriété du sujet. Un nouveau projet doit choisir : s'adosser à PARC.C, la challenger (plus radical), ou changer d'échelle (national).
+</li>
+</ul>
+<h2 class="section" id="4-trois-positionnements-à-trancher-avant-tout-chiffrage">4. Trois positionnements (à trancher AVANT tout chiffrage)</h2>
+<p>A. Pression / usagers — pas d'élection. ONG locale + lobby parisien face à la majorité Grégoire (mandat 2026-2032) et aux mairies d'arrondissement. Budget : 20-60 k€/an [E]. Délai : immédiat. Plafond de verre : un siège à la table, aucun pouvoir propre.</p>
+<p>B. Liste électorale canine — Paris ville entière (163 sièges au Conseil de Paris) en 2032, ou test plus petit (un arrondissement, ou une municipale partielle) avant. Budget campagne : 60-500 k€ [E]. Contraintes : plafond légal ≈ 2,4-2,7 M€ au T1, remboursement 47,5 % si ≥5 % [E, à vérifier calculette ministère], dons ≤4 600 € par personne physique, 150 € max en espèces, pas de personnes morales. Délai : 6 ans (moins si partielle). Plafond : ~6-10 conseillers de Paris à 5 % [E]. Risque : &lt;5 % = zéro siège, zéro remboursement, effet ridicule.</p>
+<p>C. Véhicule national « condition animale » (2027 : présidentielle + législatives, puis européennes 2029). C'est la seule échelle où les vrais leviers existent : taxe chien (loi nationale), transports, fourrières, élevage. Budget : 1-2 M€ [E]. Délai : 7 mois si 2027. Plafond : le Parti animaliste plafonne ~2-3 % en France depuis des années.</p>
+<p>D. Hors politique (service/association économique pour propriétaires) : non traité ici.</p>
+<h2 class="section" id="5-chiffrage">5. Chiffrage</h2>
+<h3 id="51-ce-que-coûterait-le-programme-ce-que-la-ville-paierait">5.1 Ce que coûterait le programme (ce que la Ville paierait)</h3>
+<div class="tw"><table>
+<thead><tr><th>Mesure</th><th>Coût unitaire</th><th>Volume</th><th>Investissement</th><th>Fonctionnement/an</th></tr></thead>
+<tbody>
+<tr><td>Espace canin clos type PARC.C (300-500 m² : clôture 1 m, sas double porte, sol stabilisé/copeaux, point d'eau, 2 poubelles, bancs, signalétique)</td><td>60-150 k€ [E]</td><td>45 -&gt; 80 (1/quartier) = +35</td><td>2,1-5,2 M€</td><td>150-350 k€</td></tr>
+<tr><td>Distributeurs de sacs</td><td>plusieurs centaines d'€/an/unité [E]</td><td>+1 000 (prop. Bournazel)</td><td>~0</td><td>300-500 k€</td></tr>
+<tr><td>Fichage ADN des chiens</td><td>Saint-Omer : 42 k€ sur 2 ans pour 14 000 hab.</td><td>Paris extrapolé</td><td>~5 M€ (chiffre Le Parisien)</td><td>inclus</td></tr>
+<tr><td>Accès parcs en laisse</td><td>décision réglementaire</td><td>—</td><td>~0</td><td>~0</td></tr>
+<tr><td>Accès bus/tram</td><td>compétence Île-de-France Mobilités, pas la Ville</td><td>—</td><td>~0</td><td>~0</td></tr>
+</tbody></table></div>
+<p><strong>Repères externes</strong> : caniparc de 400 m² à Cannes (clôturé, 2 zones, fontaine, canipoches) ; parc canin de Labelle (Québec) 49 697 $ CAD tout compris ; provision de renouvellement 8-12 %/an de la valeur d'investissement.</p>
+<p>Total volet « chien » du mandat [E] : 5-15 M€ d'investissement étalés, 1-2 M€/an de fonctionnement — soit ~0,1-0,2 % du budget propreté (800 M€/an) et ~0,05 % du budget total de la Ville (11,7 Md€). Argument politique rare : « 15 M€ pour 145 000 électeurs ».</p>
+<h3 id="52-comment-le-financer-et-ce-qui-est-légalement-possible">5.2 Comment le financer (et ce qui est légalement possible)</h3>
+<ul>
+<li>Redéploiement propreté (800 M€/an) : légal sans changer de loi, pur arbitrage politique. C'est le levier réaliste à Paris.
+</li>
+<li>Budget participatif parisien : ~5 % du budget d'investissement. Édition 2024 : 142 938 votants, 121 projets, ~83 M€ ; enveloppe par arrondissement jusqu'à 5,22 M€ (17e). Édition 2026 suspendue pour cause d'élections -&gt; la suivante est la fenêtre. Coût pour toi : 0 €, juste un dossier à porter.
+</li>
+<li>Taxe chien : ILLÉGALE aujourd'hui en France (abrogée par la loi 71-411 du 7 juin 1971). Il faut une loi nationale. Rendement d'un modèle allemand : Berlin compte environ 130 000 chiens et a encaissé 12,6 M€ en 2023, avec une taxe de 120 € pour le premier chien et 180 € pour les suivants. Transposé à Paris à 120 €, cela donnerait de l'ordre de 12 M€/an pour 100 000 chiens déclarés, mais la base déclarative est justement ce qui manque.
+</li>
+<li>Amendes : rendement faible et non pilotable (verbalisation rare, 135 €).
+</li>
+</ul>
+<h3 id="53-le-coût-de-la-machine-politique-elle-même">5.3 Le coût de la machine politique elle-même</h3>
+<ul>
+<li>Plafond de dépenses électorales : vérifié sur la calculette officielle de la préfecture d'Île-de-France pour Paris : 2 062 183 € sur les deux tours et 1 457 245 € au premier tour seul ; remboursement forfaitaire 47,5 % du plafond si la liste atteint 5 % au premier tour, soit 979 537 € (deux tours) ou 692 192 € (premier tour). Donc pas 2,4-2,7 M€ : la calculette tranche.
+</li>
+<li>Campagne réaliste non plafonnée : 60-150 k€ (militaire sérieuse) à 300-500 k€ (crédible, professionnelle, sur Paris) [E]. Plus mandataire financier, compte de campagne, expert-comptable : 2-5 k€.
+</li>
+<li>Coût non monétaire : 2-6 ans de militantisme (20-30 h/semaine) et ton exposition publique (ta parole, ta vie privée, ton nom sur les bulletins).
+</li>
+</ul>
+<h2 class="section" id="6-ce-qui-peut-tuer-lidée-hypothèses-à-tester-dabord">6. Ce qui peut tuer l'idée (hypothèses à tester d'abord)</h2>
+<ol>
+<li>Les propriétaires de chiens votent-ils en bloc ? Aucune donnée : aucune liste canine ne s'est présentée en 2026. Le Parti animaliste plafonne ~2-3 % au national. Test à faire.
+</li>
+<li>Propriété du sujet : PARC.C et les 11 assos ont la légitimité terrain. Si elles refusent un véhicule politique (elles veulent rester non partisanes), ton projet doit être autre chose qu'un parti.
+</li>
+<li>Intérêts contradictoires : ce sont les NON-propriétaires qui veulent la propreté, et les propriétaires qui ne veulent pas payer de taxe. On ne peut pas promettre les deux. Positionnement à trancher : « plus de droits pour les chiens » (cible propriétaires) ou « la propreté payée par les propriétaires » (cible majoritaire).
+</li>
+</ol>
+<h2 class="section" id="7-pas-suivants-pas-chers">7. Pas suivants pas chers</h2>
+<ul>
+<li>(a) Entretien de cadrage avec PARC.C (Aline Meynard / Loïc Amiot) : 1 h, 0 €. Question : qu'est-ce qui manque, et veulent-ils d'un véhicule politique ?
+</li>
+<li>(b) Test de demande : questionnaire 10 questions sur 300 propriétaires parisiens via les assos et les vétérinaires — disposition à voter pour une liste canine. ~2 jours, 0 €.
+</li>
+<li>(c) Dossier budget participatif (prochaine édition) pour un espace canin modèle dans un arrondissement test : 0 € et ça donne de la crédibilité + des données matérielles.
+</li>
+</ul>
+<p>Où tester en premier (densité canine + taille d'arrondissement) :</p>
+<ul>
+<li>20e (6 133 chiens identifiés, 45 sièges),
+</li>
+<li>10e (3 580 chiens, 19 sièges),
+</li>
+<li>18e (44 sièges).
+</li>
+</ul>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>paris.fr « Les animaux à Paris » (100 000 chiens, 45 espaces canins, charte 2021)
+</li>
+<li>Le Parisien 13/10/2025 (densité, 11,6 kg, dépenses) ; 15/01/2026 (Dati) ; 27/02/2026 (budget propreté 800 M€) ; 12/03/2026 (mesures chiens des candidats, ADN, Saint-Omer, Malaga)
+</li>
+<li>INSEE/REU 2026 (électeurs) ; Wikipédia « Élections municipales de 2026 à Paris » (résultats)
+</li>
+<li>vie-publique.fr + CNCCFP + préfectures (plafonds et remboursement de campagne)
+</li>
+<li>paris.fr mode de scrutin PLM (163 sièges, prime 25 %, seuil 5 %)
+</li>
+<li>lumpmedia.fr / LinkedIn Amiot (PARC.C, 11 assos, 50 000 sympathisants)
+</li>
+<li>nousleschiensdeparis.com (demande détaillée, amendes 38 €/150 €)
+</li>
+<li>Barcelona Ajuntament espais verds (aires pour chiens)
+</li>
+<li>lejournaldugrandparis.fr + franceopendata + qipu (budget 2026 de Paris)
+</li>
+<li>KARTES (15 M€/an propreté canine à Paris — source privée, non confirmée)
+</li>
+<li>animalert / data.gouv (8 896 distributeurs recensés en France)
+</li>
+</ul>
+</main>
+</body></html>

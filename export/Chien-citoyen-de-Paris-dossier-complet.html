@@ -1,0 +1,2309 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dossier « chien citoyen de Paris » — chien citoyen de Paris</title>
+<style>
+:root { --txt:#1b1b1b; --muted:#5b5b5b; --line:#dcdcdc; --accent:#1f4e79; --accent2:#8a5a00; }
+* { box-sizing: border-box; }
+body { margin:0; color:var(--txt); background:#fff;
+  font-family: Georgia, "Times New Roman", serif; font-size:16px; line-height:1.62; }
+main { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.4rem 4rem; }
+h1,h2,h3,h4 { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height:1.25; color:var(--accent); }
+h1 { font-size:1.9rem; margin:2.4rem 0 .8rem; padding-bottom:.4rem; border-bottom:2px solid var(--line); }
+h1:first-of-type { margin-top:0; }
+h2 { font-size:1.45rem; margin:2rem 0 .7rem; }
+h3 { font-size:1.15rem; margin:1.6rem 0 .5rem; color:#2c2c2c; }
+h4 { font-size:1rem; margin:1.3rem 0 .4rem; color:var(--muted); text-transform:none; }
+p { margin:.65rem 0; }
+ul, ol { margin:.6rem 0 .9rem; padding-left:1.4rem; }
+li { margin:.25rem 0; }
+strong { color:#111; }
+code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; font-size:.86em;
+  background:#f4f4f4; padding:.08em .3em; border-radius:3px; }
+a { color:var(--accent); text-decoration:none; border-bottom:1px solid #c9d6e4; }
+table { border-collapse: collapse; width:100%; margin:1rem 0; font-size:.93rem;
+  font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+th, td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left; vertical-align:top; }
+th { background:#f2f5f8; }
+blockquote { margin:1rem 0; padding:.6rem 1rem; border-left:4px solid var(--accent2);
+  background:#fbf8f1; font-style:normal; }
+hr { border:0; border-top:1px solid var(--line); margin:2.2rem 0; }
+.cover { max-width:46rem; margin:0 auto; padding:5rem 1.4rem 0; text-align:left; }
+.cover .kicker { font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  text-transform:uppercase; letter-spacing:.14em; font-size:.75rem; color:var(--muted); }
+.cover h1 { font-size:2.5rem; border:0; margin:.5rem 0 0; }
+.cover .sub { font-size:1.1rem; color:var(--muted); margin-top:.8rem; }
+.cover .meta { margin-top:2.5rem; font-size:.9rem; color:var(--muted); }
+.cover .warn { margin-top:1.2rem; padding:.8rem 1rem; border:1px solid var(--line);
+  background:#fafafa; font-size:.9rem; }
+.tw { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1rem 0; }
+.cover.small { padding: 2.5rem 1.4rem 0; }
+.cover.small h1 { font-size: 1.7rem; }
+@media (max-width: 600px) {
+  body { font-size: 17px; }
+  main { padding: 1.2rem .9rem 3rem; }
+  .cover, .cover.small { padding: 1.6rem .9rem 0; }
+  .cover h1 { font-size: 1.8rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+  h3 { font-size: 1.08rem; }
+  table { font-size: .88rem; }
+  th, td { padding: .35rem .45rem; }
+  ul, ol { padding-left: 1.1rem; }
+}
+@media print {
+  @page { size:A4; margin:20mm 18mm; }
+  html, body { font-size:10.8pt; }
+  main { max-width:none; padding:0; }
+  h1.partie { page-break-before: always; }
+  h2.section { page-break-before: always; }
+  table, blockquote, ul, ol { page-break-inside: avoid; }
+  h1, h2, h3 { page-break-after: avoid; }
+  a { color:#1b1b1b; border:0; }
+  .cover { padding:0; page-break-after: always; }
+}
+</style></head>
+<body>
+<section class="cover">
+<div class="kicker">Dossier complet</div>
+<h1>Dossier « chien citoyen de Paris »</h1>
+<div class="sub">Pitch, notes juridiques, chiffrage, sources vérifiées.</div>
+<div class="meta">Paris, 29 septembre 2026. Version assemblée le 2026-09-29.</div>
+<div class="warn">Document de travail, rien n'a été voté. Chaque chiffre renvoie à l'annexe « audit anti-hallucination », qui dit ce qui est prouvé, corrigé, ou encore incertain.</div>
+</section>
+<main>
+<h1 id="le-statut-du-chien-citoyen-de-paris">Le statut du chien citoyen de Paris</h1>
+<p>Note de projet, 29 septembre 2026. Le début s'adresse à quelqu'un qui n'a jamais entendu parler du sujet. Ce qui est marqué [E] est une estimation de ma part, le reste vient des sources listées à la fin.</p>
+<h2 id="le-résumé">Le résumé</h2>
+<p>Paris a environ 100 000 chiens identifiés, un pour vingt et un habitants, la plus forte densité canine qu'on revendique au monde. Pour ça, la ville offre <strong>45 espaces canins</strong> et à peu près 15 000 m² au total. Faites le calcul : 0,15 m² de liberté par chien.</p>
+<p>Partout ailleurs c'est la laisse, les bus et les tramways sont fermés aux chiens (seuls les petits animaux dans un sac fermé y sont admis), et la crotte sur le trottoir reste ce que la Ville n'arrive pas à faire disparaître avec huit cents millions d'euros de propreté par an.</p>
+<p>Petit sujet en surface, gros budget, embêtement quotidien.</p>
+<p>Personne n'a encore relié les deux bouts.</p>
+<p>D'un côté onze associations de propriétaires fédérées depuis 2025 dans Paris Condition Canine, environ cinquante mille sympathisants, qui demandent plus de droits. De l'autre des élus qui promettent des équipements : tous les candidats de mars 2026 avaient leur volet chien.</p>
+<p>Mais aucun dispositif ne relie ce que fait le maître à ce qu'il obtient. Chacun réclame des espaces et des transports sans dire qui y a droit ni comment on finance.</p>
+<p>L'idée : un statut de chien citoyen de Paris. Un registre des chiens parisiens, avec puce, identification génétique et propriétaire domicilié à Paris, adossé à un contrat.</p>
+<p>Le maître s'engage sur des choses vérifiables :</p>
+<ul>
+<li>ramasser,
+</li>
+<li>tenir en laisse hors des zones autorisées,
+</li>
+<li>faire valider une séance d'éducation canine,
+</li>
+<li>assurer son chien en responsabilité civile.
+</li>
+</ul>
+<p>En échange le chien obtient ce que personne n'a aujourd'hui :</p>
+<ul>
+<li>tous les transports, bus et tram inclus,
+</li>
+<li>l'accès aux zones où on peut le détacher,
+</li>
+<li>des jardins d'immeuble à ouvrir,
+</li>
+<li>et un paquet d'avantages négociés, assurance de groupe, éducation, toilettage, garde.
+</li>
+</ul>
+<p>Le bâton existe déjà, on ne l'invente pas. À Saint-Omer, un arrêté municipal impose l'identification génétique des chiens dans un périmètre du centre-ville : on prélève sur la déjection abandonnée, on analyse, on retrouve le propriétaire, on verbalise.</p>
+<p>Ils annoncent 60 % de déjections en moins en six mois, 868 chiens fichés, et ils ont étendu le dispositif à toute la ville en août 2026. Une crotte analysée leur coûte une soixantaine d'euros hors taxes dont 34,10 € de laboratoire, le reste étant du temps humain.</p>
+<p>À Béziers le même type de dispositif a fait baisser les déjections de 85 % selon la mairie, mais l'arrêté a été annulé par le tribunal administratif. Pas parce que le fichage serait illégal : parce que la ville n'a pas produit les pièces qui prouvaient son utilité.</p>
+<blockquote>La méthode tient donc, à condition de la traiter comme un dossier de preuve.</blockquote>
+<p>La carotte est déjà esquissée. Au parc Monceau, un espace sans laisse de 2 000 m², ouvert sur toutes les heures du parc, avec un éducateur canin payé par la mairie, réservé aux chiens sociables, identifiables et vaccinés. C'est un statut qui ne dit pas son nom.</p>
+<p>L'Allemagne fait ça depuis 2013 en Basse-Saxe et depuis juillet 2026 à Brême : le détenteur passe un examen et récupère des droits, réduction de la taxe canine à Munich, dispense de laisse à Hambourg. Une limite qu'il faut dire tout de suite : l'accès des chiens aux bus et aux tramways ne dépend pas de la Ville mais d'Île-de-France Mobilités. On peut négocier, pas décréter.</p>
+<p>Le chiffrage tient debout politiquement. Un pilote sur deux ou trois arrondissements, identification gratuite, un espace de liberté modèle et le traitement administratif des analyses, ça coûte entre 400 000 et 700 000 euros sur deux ans. Moins de 1 % du budget annuel de propreté.</p>
+<p>Étendu à tout Paris et étalé sur quatre ans, trois à quatre millions et demi d'euros [E]. Et la carotte peut se payer elle-même : 20 € par chien et par an, une commission sur un contrat d'assurance de groupe, un peu de mécénat, et on obtient 158 000 euros la première année, 826 000 la troisième, 2,6 millions la sixième [E]. De quoi financer les espaces sans lever un euro d'impôt en plus.</p>
+<p>L'électoral va dans le même sens : 100 000 chiens, c'est à peu près 145 000 à 160 000 électeurs, un dixième du corps électoral parisien, alors qu'il faut 5 % des voix, environ 41 000 suffrages, pour compter au Conseil de Paris.</p>
+<blockquote>Le sujet est faisable, finançable, et personne ne l'a pris.</blockquote>
+<h2 id="le-problème-en-chiffres">Le problème, en chiffres</h2>
+<p>100 000 chiens identifiés à Paris, un pour 21 habitants.</p>
+<p>Attention à un chiffre qui circule partout : la densité de 2 857 chiens au kilomètre carré, présentée comme un record mondial, suppose 300 000 chiens et non 100 000. Les deux ne peuvent pas être vrais ensemble, et toute la suite du raisonnement dépend de ce nombre.</p>
+<p>Quant au profil des bêtes, Paris aurait des chiens plus petits qu'ailleurs, mais aucune source ne donne de poids moyen (la moyenne nationale du fichier I-CAD est de 19,8 kg).</p>
+<p>45 espaces canins, 15 000 m² en tout [E]. Barcelone en a beaucoup plus : 116 espaces clôturés, dont une majorité d'enclos de moins de 400 m², plus une centaine de zones d'usage partagé où on peut détacher par créneaux horaires.</p>
+<p>Règles actuelles :</p>
+<ul>
+<li>laisse obligatoire hors espaces canins,
+</li>
+<li>38 € si le chien est détaché et jusqu'à 150 € s'il est catégorisé,
+</li>
+<li>135 € pour une déjection non ramassée.
+</li>
+</ul>
+<p>Dans les transports, les petits animaux voyagent gratuitement en contenant fermé mais les chiens de taille moyenne et grande sont interdits dans les bus et les tramways, et sur le réseau ferré ils doivent être muselés.</p>
+<p>La propreté parisienne coûte environ 800 millions d'euros par an et emploie 6 300 agents de terrain. Le budget total de la Ville en 2026 est de 11,72 milliards d'euros.</p>
+<p>En octobre 2025, le Conseil de Paris a voté à l'unanimité un vœu sur la place du chien.</p>
+<h2 id="pourquoi-le-sujet-est-libre">Pourquoi le sujet est libre</h2>
+<p>Onze associations parisiennes se sont fédérées en octobre 2025 sous le nom de PARC.C, Paris Condition Canine. Environ 50 000 sympathisants, 12 arrondissements couverts. Elles demandent des droits sans condition, et c'est exactement ce qui laisse la place à une proposition conditionnelle.</p>
+<p>Pendant la campagne de mars 2026, tout le monde avait son volet chien :</p>
+<ul>
+<li>ouverture des parcs en laisse,
+</li>
+<li>amende à 300 €,
+</li>
+<li>port du sac obligatoire,
+</li>
+<li>caniparcs labellisés,
+</li>
+<li>mille distributeurs de sachets,
+</li>
+<li>plus de fontaines.
+</li>
+</ul>
+<p>La droite parisienne a déjà proposé la moitié du bâton. Personne n'a proposé le contrat complet.</p>
+<p>Le prochain rendez-vous municipal est en 2032, mais rien n'oblige à attendre :</p>
+<ul>
+<li>budget participatif,
+</li>
+<li>expérimentation dans un arrondissement,
+</li>
+<li>interpellation publique.
+</li>
+</ul>
+<p>Trois ans de marge, pas plus.</p>
+<h2 id="le-dispositif">Le dispositif</h2>
+<p>Ce qu'on demande au maître :</p>
+<ul>
+<li>Identifier le chien, puce ou tatouage, c'est déjà obligatoire, et l'enregistrer dans le registre parisien par identification génétique, gratuitement.
+</li>
+<li>Ramasser, et avoir de quoi ramasser en promenade.
+</li>
+<li>Tenir en laisse hors des zones autorisées.
+</li>
+<li>Passer une séance d'éducation canine validée.
+</li>
+<li>Assurer le chien en responsabilité civile.
+</li>
+<li>Signer une charte.
+</li>
+</ul>
+<p>Si rien de tout ça n'est fait : dans le périmètre d'expérimentation, obligation de justifier de l'identification génétique, 72 heures pour se mettre en règle, contravention à défaut. Et pour une déjection non ramassée, un agent prélève sur place, le laboratoire analyse, on identifie le propriétaire, il paie la contravention et les frais.</p>
+<p>Ce qu'il obtient en échange :</p>
+<ul>
+<li>L'accès aux espaces de liberté de la Ville, réservés aux titulaires du statut.
+</li>
+<li>L'accès à tous les transports en commun avec laisse courte et muselière, à négocier avec Île-de-France Mobilités.
+</li>
+<li>Des jardins d'immeuble chez les bailleurs sociaux de la Ville.
+</li>
+<li>Des avantages négociés : assurance de groupe avec remise, éducation canine, toilettage, garde, accès prioritaire aux animations de la Maison de l'animal en ville.
+</li>
+<li>Et des équipements, fontaines adaptées, canisites, distributeurs de sachets.
+</li>
+</ul>
+<p>Sur les données, qui est le point où le projet peut se faire démolir : la base génétique reste au laboratoire. La Ville ne détient que la correspondance entre un prélèvement et un propriétaire, pour la durée de l'expérimentation.</p>
+<p>Pas d'ADN dans les serveurs municipaux, pas de vidéosurveillance permanente, pas de croisement de fichiers. C'est la différence entre un dispositif de civisme et un fichage de personnes.</p>
+<h2 id="ce-qui-a-déjà-été-essayé">Ce qui a déjà été essayé</h2>
+<ul>
+<li><strong>Saint-Omer</strong>, depuis juin 2025 : identification ADN obligatoire et verbalisation. 60 % de déjections en moins en six mois, 868 chiens fichés, extension à toute la ville en août 2026.
+</li>
+<li><strong>Béziers</strong>, 2023 à 2025 : 85 % de déjections en moins selon la mairie, et un arrêté annulé le 6 mai 2025 faute de preuves au dossier.
+</li>
+<li><strong>Parc Monceau</strong>, 8e : 2 000 m² clôturés ouverts de 7 h à 22 h, éducateur canin payé par la mairie, accès réservé aux chiens identifiables et vaccinés.
+</li>
+<li><strong>Allemagne</strong> : permis canin en Basse-Saxe depuis 2013, 162 800 personnes formées ; à Brême et en Autriche depuis juillet 2026. Réductions de taxe ou dispenses de laisse en échange.
+</li>
+<li><strong>Paris</strong> : le code général des collectivités territoriales charge le maire de Paris de la police municipale en matière de salubrité sur la voie publique. C'est la base juridique de tout le reste.
+</li>
+</ul>
+<h2 id="ce-que-ça-coûte">Ce que ça coûte</h2>
+<p>Analyser une déjection sur un trottoir : 60,43 € HT, environ 72 € TTC, au coût marginal. Dedans il y a 34,10 € de laboratoire, 8 € de temps agent, 15 € de traitement administratif et 3 € d'envoi.</p>
+<p>Avec les frais fixes, l'unité coûte 260 € si on n'en fait que cent par an, et 70 € si on en fait 2 000 [E]. Une identification qui aboutit vraiment, c'est-à-dire une crotte attribuée à un chien du registre, revient à 108 à 336 € HT selon la couverture du registre [E].</p>
+<p>Identifier un chien : environ 46 € la première année tout compris dans le cas de Saint-Omer, 38 à 48 € au tarif public, 25 à 35 € visés en volume de marché [E].</p>
+<p>Le pilote sur deux ou trois arrondissements, deux ans, identification gratuite et espace de liberté modèle inclus : 400 000 à 700 000 € [E]. Tout Paris étalé sur quatre ans : 3,0 à 4,6 millions [E].</p>
+<h2 id="ce-que-ça-rapporte">Ce que ça rapporte</h2>
+<p>Les amendes ne financent rien. À Saint-Omer, trois déjections ont pu être attribuées, et il faudrait que 20 % des analyses aboutissent juste pour couvrir le coût marginal. Le gain est ailleurs : 60 % de déjections en moins pour quelques dizaines de milliers d'euros par an.</p>
+<p>La carotte, elle, peut se payer.</p>
+<div class="tw"><table>
+<thead><tr><th>Année</th><th>Adhérents</th><th>Cotisations</th><th>Commissions</th><th>Mécénat</th><th>Total</th></tr></thead>
+<tbody>
+<tr><td>Première année</td><td>5 000</td><td>100 000 €</td><td>8 000 €</td><td>50 000 €</td><td>158 000 €</td></tr>
+<tr><td>Troisième année</td><td>30 000</td><td>600 000 €</td><td>76 000 €</td><td>150 000 €</td><td>826 000 €</td></tr>
+<tr><td>Sixième année</td><td>100 000</td><td>2 millions</td><td>336 000 €</td><td>300 000 €</td><td>2,64 millions par an</td></tr>
+</tbody></table></div>
+<p>Avec 2,64 millions par an, on finance une vingtaine d'espaces canins annuels, les éducateurs, les fontaines, les campagnes d'identification et des bourses pour les propriétaires modestes.</p>
+<p>Je préfère que ça passe par un fonds de dotation, Chiens citoyens de Paris, plutôt que par le budget municipal :</p>
+<ul>
+<li>la Ville minoritaire,
+</li>
+<li>les associations au conseil,
+</li>
+<li>un comité scientifique,
+</li>
+<li>aucun financeur au-delà de 20 % des ressources,
+</li>
+<li>et un compte rendu public chaque année.
+</li>
+</ul>
+<h2 id="qui-peut-le-porter">Qui peut le porter</h2>
+<ul>
+<li><strong>La Ville de Paris</strong>, qui a la base juridique et le pouvoir d'arrêté. C'est le porteur naturel.
+</li>
+<li><strong>Une mairie d'arrondissement</strong>, pour un pilote voté en conseil d'arrondissement.
+</li>
+<li><strong>Les associations</strong>, PARC.C et les collectifs locaux. Leur refus de la conditionnalité est précisément ce qui laisse la place libre.
+</li>
+<li><strong>Un acteur privé</strong> ou une association nouvelle, pour porter le pilote par le budget participatif, produire les comptages qui manquent et vendre ensuite le dispositif aux élus. Coût d'entrée : zéro euro, du temps.
+</li>
+</ul>
+<h2 id="les-objections-et-ce-que-jy-réponds">Les objections, et ce que j'y réponds</h2>
+<p>« C'est un péage pour riches. »</p>
+<p>Sur la cible, c'est faux : 39 % des ouvriers et 42 % des indépendants ont un chien contre 34 % des cadres. Sur la barrière financière, c'est vrai, un vétérinaire plus une assurance plus une cotisation, ça filtre. D'où la gratuité de l'identification, les journées de quartier, les exonérations et l'assurance de groupe.</p>
+<p>« C'est du fichage. »</p>
+<p>La base génétique reste au laboratoire, la Ville ne garde que la correspondance, la durée est bornée, pas de vidéosurveillance permanente.</p>
+<p>« Les chiens prennent la place des enfants. »</p>
+<p>Monceau a perdu la moitié de sa zone en saison 2. Réponse : encadrement par un éducateur, horaires, zones tournantes, et le modèle barcelonais d'usage partagé.</p>
+<p>« Le bâton ne frappe que les honnêtes. »</p>
+<p>Vrai si le registre couvre moins de la moitié des chiens. La campagne d'identification passe avant l'annonce des sanctions, jamais l'inverse.</p>
+<p>« C'est une police des trottoirs. »</p>
+<p>À présenter comme un allègement de la dépense publique et un contrat, pas comme une surveillance.</p>
+<h2 id="les-cinq-décisions-qui-restent">Les cinq décisions qui restent</h2>
+<ul>
+<li>Obligation par arrêté sur un périmètre, ou statut volontaire ? Les deux, à mon avis : obligation sur le périmètre pilote, adhésion volontaire pour les droits.
+</li>
+<li>Quels droits d'abord ? Ceux que la Ville décide seule, avant ce qui se négocie avec Île-de-France Mobilités.
+</li>
+<li>Gratuit ou payant ? La gratuité remplit le registre, la cotisation l'autofinance mais exclut les plus modestes. Si cotisation, compensation obligatoire.
+</li>
+<li>Couverture minimale avant de sanctionner : 50 % des chiens du périmètre. En dessous, le dispositif se retourne politiquement.
+</li>
+<li>Périmètre du pilote : le 20e, 6 133 chiens identifiés et 45 conseillers d'arrondissement, ou le 10e, 3 580 chiens et 19 sièges. Le 8e a l'infrastructure mais peu de chiens.
+</li>
+</ul>
+<h2 id="les-prochaines-étapes">Les prochaines étapes</h2>
+<ul>
+<li><strong>Zéro euro, tout de suite</strong> : demander les pièces du marché de Saint-Omer et le bilan écrit de Reims, ce sont des documents administratifs communicables ; demander des devis à trois laboratoires ; compter les déjections sur un périmètre test, le protocole est déjà écrit.
+</li>
+<li><strong>Un à deux mois</strong> : entretien avec PARC.C, réunion publique dans le 20e, questionnaire à 300 détenteurs pour voir si l'adhésion prend.
+</li>
+<li><strong>Deux à quatre mois</strong> : dossier de budget participatif pour financer un pilote d'identification et un espace de liberté modèle, montage associatif.
+</li>
+<li><strong>Six à douze mois</strong> : phase volontaire non sanctionnante dans un arrondissement, avec comptage avant/après publié. C'est le dossier de preuve que le juge a reproché à Béziers de ne pas avoir.
+</li>
+<li><strong>Douze à vingt-quatre mois</strong> : arrêté d'expérimentation borné.
+</li>
+</ul>
+<h2 id="où-lire-le-détail">Où lire le détail</h2>
+<p>Tout est dans /root/chiens-paris/ :</p>
+<ul>
+<li>RAPPORT-COMPLET-CHIENS-PARIS.md pour le rapport détaillé, la jurisprudence, le coût poste par poste, les partenariats et les sources ;
+</li>
+<li>PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md pour l'arrêté et le règlement du statut, rédigés, avec le parcours du propriétaire et la maquette de données ;
+</li>
+<li>NOTE-JURIDIQUE-ARRETE-ADN.md pour ce qui a fait annuler Béziers et comment éviter la même chose ;
+</li>
+<li>ADN-COUTS-FAISABILITE.md pour les tarifs réels des laboratoires et les limites techniques ;
+</li>
+<li>STATUT-CHIEN-CITOYEN.md et PROJET-CHIENS-PARIS.md pour les premières notes d'exploration.
+</li>
+</ul>
+<h2 id="sources">Sources</h2>
+<p>Vérifiées le 29 septembre 2026, chaque page a été ouverte. Les citations exactes et les verdicts pour chaque affirmation sont dans /root/chiens-paris/AUDIT-SOURCES.md ; la liste complète des URL est à l'annexe E du rapport.</p>
+<p>Paris : https://www.paris.fr/pages/les-animaux-a-paris-6287 ; https://www.paris.fr/pages/les-chiens-a-paris-33527 ; https://www.insee.fr/fr/statistiques/8276873?geo=COM-75056 ; https://www.prefectures-regions.gouv.fr/ile-de-france/irecontenu/telechargement/134548/985594/file/MUN26%20-%20Outil%20calcul%20plafonds%20Paris%20Lyon%20Marseille.pdf ; https://www.facco.fr/chiffres-cles/les-chiffres-de-la-population-animale-2/ Saint-Omer : https://www.ville-saint-omer.fr/sites/default/files/2025-09/FAQ%20ADN%20CANIN.pdf ; https://www.ville-saint-omer.fr/actualite/stop-aux-dejections-canines ; https://www.ouest-france.fr/hauts-de-france/saint-omer-62500/a-saint-omer-contre-les-dejections-les-chiens-sont-desormais-fiches-eb64c5f0-d694-11f0-8fa7-06f366a2f70b Béziers : https://www.ldh-france.org/beziers-lidentification-genetique-des-chiens/ ; https://blog.landot-avocats.net/2025/05/20/fichage-le-droit-est-il-fait-pour-les-chiens/ Monceau : https://mairie08.paris.fr/pages/parc-monceau-l-espace-de-liberte-canin-est-de-nouveau-accessible-35784 ; https://www.leparisien.fr/paris-75/paris-les-chiens-peuvent-gambader-toute-la-journee-sans-laisse-au-parc-monceau-08-07-2026-PPI4NMBIZJAFDPWCW5QQ56YSM4.php ADN et transports : https://antagene.com/pdf/ANTAGENE_tarifs.pdf ; https://support.centrale-canine.fr/hc/fr/articles/20693460947613-Combien-co%C3%BBte-l-identification-ADN ; https://www.ratp.fr/aide-contact/questions/preparer-mon-trajet/voyage-en-regle/voyager-animal Partenariats : https://www.assuranceslabs.com/assurance-animaux/guide ; https://www.culture.gouv.fr/thematiques/mecenat/qu-est-ce-que-le-mecenat/la-loi-aillagon-inciter-l-engagement-des-particuliers-et-des-entreprises ; https://parishabitat.fr/nous-connaitre/about-us ; https://www.parishabitat.fr/wp-content/uploads/2023/04/reglement-interieur-Paris-Habitat.pdf</p>
+<h1 id="le-chien-citoyen-de-paris--version-grand-public">Le chien citoyen de Paris — version grand public</h1>
+<p>Une page pour comprendre de quoi on parle, sans jargon.</p>
+<h2 id="le-problème-tel-quon-le-vit">Le problème, tel qu'on le vit</h2>
+<p>Paris a environ 100 000 chiens pour 45 espaces où on peut les lâcher. Partout ailleurs, laisse.</p>
+<p>Dans le bus et le tramway, un chien de taille moyenne n'a pas le droit de monter, même en laisse et muselé. Et la crotte sur le trottoir reste ce qui énerve tout le monde, y compris les propriétaires de chiens, alors que la Ville dépense huit cents millions d'euros par an pour la propreté.</p>
+<h2 id="lidée">L'idée</h2>
+<p>Créer un statut de chien citoyen de Paris, c'est-à-dire un contrat simple : votre chien est identifié, vous ramassez, vous le tenez en laisse là où il faut, vous avez suivi une séance d'éducation canine et il est assuré.</p>
+<p>En échange, votre chien obtient des droits qui n'existent aujourd'hui pour personne.</p>
+<h2 id="ce-que-vous-auriez-à-faire-concrètement">Ce que vous auriez à faire, concrètement</h2>
+<ul>
+<li>Ramasser, ce que vous faites déjà, en ayant de quoi ramasser sur vous, ce qui n'est pas toujours possible faute de distributeurs.
+</li>
+<li>Faire identifier votre chien, ce qui est déjà obligatoire, et l'enregistrer dans le registre parisien, gratuitement.
+</li>
+<li>Suivre une séance d'éducation canine validée, gratuite ou à prix réduit selon vos moyens.
+</li>
+<li>Avoir une assurance responsabilité civile, souvent déjà incluse dans votre assurance habitation.
+</li>
+<li>Et signer une charte de quelques lignes.
+</li>
+</ul>
+<h2 id="ce-que-votre-chien-y-gagnerait">Ce que votre chien y gagnerait</h2>
+<ul>
+<li>L'accès à tous les transports en commun, bus et tramways compris, tenu en laisse courte et muselé.
+</li>
+<li>L'accès aux espaces où on peut le détacher, réservés aux chiens enregistrés, comme l'espace de liberté du parc Monceau, qui a rouvert cet été.
+</li>
+<li>L'ouverture de jardins d'immeuble chez les bailleurs sociaux, où les animaux sont aujourd'hui interdits même en laisse dans les espaces verts.
+</li>
+<li>Et des avantages négociés : une remise sur une assurance de groupe, des tarifs chez des éducateurs, des toiletteurs et des gardes partenaires.
+</li>
+</ul>
+<h2 id="combien-ça-vous-coûte">Combien ça vous coûte</h2>
+<p>L'identification et l'enregistrement sont gratuits.</p>
+<p>Le statut, lui, pourrait reposer sur une cotisation d'environ 20 € par an et par chien pour financer les espaces, avec exonération pour les propriétaires modestes. L'idée est que ce ne soient pas les impôts de tout le monde qui paient les espaces pour chiens, mais ceux qui s'en servent, plus une part de mécénat et de partenariats.</p>
+<p>Ce point est encore une décision politique ouverte, pas une évidence.</p>
+<h2 id="et-si-on-ne-sinscrit-pas">Et si on ne s'inscrit pas</h2>
+<p>Dans un premier temps, rien : la campagne d'enregistrement passe avant toute sanction, sinon le dispositif ne frappe que les gens honnêtes.</p>
+<p>Ensuite, dans le ou les arrondissements où l'expérimentation est votée, il faudra pouvoir justifier que son chien est enregistré quand on promène dans un périmètre donné, avec 72 heures pour se mettre en règle.</p>
+<p>Pour une crotte non ramassée, un agent prélève, le laboratoire analyse, et le propriétaire identifié reçoit la contravention et les frais de nettoyage. C'est ce qui se passe déjà à Saint-Omer, où les déjections ont baissé de 60 % en six mois.</p>
+<h2 id="ce-que-devient-ladn-de-votre-chien">Ce que devient l'ADN de votre chien</h2>
+<p>Il reste chez le laboratoire qui fait l'analyse. La mairie ne détient que le lien entre un prélèvement et un nom, pour la durée de l'expérimentation, pas le patrimoine génétique de votre chien, et il n'y a pas de vidéosurveillance permanente ni de croisement de fichiers.</p>
+<blockquote>C'est le point sur lequel le projet peut être attaqué, donc c'est celui qu'on doit verrouiller par écrit avant de commencer.</blockquote>
+<h2 id="ce-qui-nest-pas-réglé">Ce qui n'est pas réglé</h2>
+<p>Le nombre de chiens à Paris est incertain, entre 100 000 et 300 000 selon les sources, et cela change tout. Rien n'a été voté.</p>
+<p>Le transport en bus et en tramway ne dépend pas de la mairie de Paris mais d'Île-de-France Mobilités, qui doit accepter. Et une ville voisine, Béziers, a vu son dispositif annulé par la justice, non parce qu'il était illégal, mais parce que la ville n'avait pas réuni les preuves de son utilité.</p>
+<blockquote>C'est la leçon principale : avant de sanctionner, il faut compter, mesurer, et publier.</blockquote>
+<h2 id="comment-vous-pouvez-y-prendre-part">Comment vous pouvez y prendre part</h2>
+<ul>
+<li>Une réunion publique dans les arrondissements pilotes,
+</li>
+<li>un questionnaire à trois cents propriétaires pour savoir si le contrat intéresse,
+</li>
+<li>et un comptage des déjections dans les rues, fait par des habitants, avant et après.
+</li>
+</ul>
+<p>C'est gratuit et ça vaut mieux que n'importe quel argument.</p>
+<p>Les détails chiffrés et les sources sont dans le dossier : /root/chiens-paris/AUDIT-SOURCES.md et le rapport complet.</p>
+<h1 id="note-pour-un-élu--une-page">Note pour un élu — une page</h1>
+<p>Objet : rendre la propreté canine mesurable et financer les droits des propriétaires de chiens sans argent public supplémentaire.</p>
+<h2 id="le-constat-en-quatre-lignes">Le constat, en quatre lignes</h2>
+<p>Paris compte environ 100 000 chiens identifiés, un pour vingt et un habitants, pour 45 espaces canins et 15 000 m² cumulés [E]. La laisse est obligatoire partout ailleurs, les chiens de taille moyenne et grande sont interdits dans les bus et les tramways, et la propreté coûte environ 800 millions d'euros par an à la Ville.</p>
+<p>En octobre 2025, le Conseil de Paris a voté à l'unanimité un vœu pour plus de place pour les chiens dans les espaces verts. Depuis, rien n'a été mis en œuvre, et toutes les listes avaient un volet chien en mars 2026.</p>
+<h2 id="ce-que-la-loi-vous-permet-et-que-personne-na-utilisé">Ce que la loi vous permet, et que personne n'a utilisé</h2>
+<p>Le maire de Paris est chargé de la police municipale en matière de salubrité sur la voie publique (CGCT, article L. 2512-13, II, 1°). C'est une base plus explicite que celle du droit commun utilisée par Béziers ou Saint-Omer.</p>
+<p>Un arrêté d'expérimentation borné dans le temps et dans l'espace, avec identification gratuite et phase volontaire préalable, est donc à votre main, sans loi nouvelle.</p>
+<h2 id="ce-qui-a-déjà-été-fait-ailleurs">Ce qui a déjà été fait ailleurs</h2>
+<p><strong>Saint-Omer</strong>, arrêté de juin 2025 validé par le contrôle de légalité :</p>
+<ul>
+<li>identification génétique obligatoire dans un périmètre du centre-ville,
+</li>
+<li>prélèvement sur les déjections abandonnées,
+</li>
+<li>868 chiens fichés en décembre 2025,
+</li>
+<li>60 % de déjections en moins en six mois,
+</li>
+<li>extension à tout le linéaire urbain en août 2026.
+</li>
+</ul>
+<p>Le marché de laboratoire coûte 40 000 € sur deux ans, soit 2 % du budget propreté de la ville.</p>
+<p>Béziers a obtenu, selon la mairie, 85 % de baisse, mais son arrêté a été annulé le 6 mai 2025 par le tribunal administratif : trois motifs, tous procéduraux. Le juge a reproché :</p>
+<ul>
+<li>le manque de preuves au dossier,
+</li>
+<li>l'absence de démonstration que la puce ou le tatouage ne suffisaient pas,
+</li>
+<li>et le caractère disproportionné de la mesure.
+</li>
+</ul>
+<h2 id="la-conséquence-pratique-et-cest-la-seule-chose-qui-compte">La conséquence pratique, et c'est la seule chose qui compte</h2>
+<p>Le dispositif tient si le dossier de preuve est constitué avant l'arrêté :</p>
+<ul>
+<li>comptage contradictoire des déjections avant toute réglementation,
+</li>
+<li>démonstration écrite de l'insuffisance de l'identification classique,
+</li>
+<li>périmètre réduit,
+</li>
+<li>durée bornée,
+</li>
+<li>identification gratuite,
+</li>
+<li>72 heures pour se mettre en règle.
+</li>
+</ul>
+<p>Nous avons le protocole de comptage et le projet d'arrêté rédigés, article par article.</p>
+<h2 id="ce-que-je-vous-demande">Ce que je vous demande</h2>
+<p>Un mandat d'expérimentation de dix-huit mois sur un arrondissement, avec trois engagements :</p>
+<ul>
+<li>gratuité de l'identification,
+</li>
+<li>comptage avant et après publié,
+</li>
+<li>et évaluation présentée au conseil d'arrondissement avant toute extension.
+</li>
+</ul>
+<h2 id="ce-que-ça-coûte-et-qui-paie">Ce que ça coûte, et qui paie</h2>
+<ul>
+<li>Pilote sur deux arrondissements, deux ans, identification gratuite incluse : 400 000 à 700 000 € au total [E], soit moins de 1 % du budget annuel de propreté.
+</li>
+<li>Le fonctionnement courant se compte en dizaines de milliers d'euros par an, contre une baisse constatée de 60 % des déjections là où le dispositif est en place.
+</li>
+<li>Les amendes ne financent rien : à Saint-Omer, trois déjections ont pu être attribuées. Ne pas vendre le dispositif comme une recette.
+</li>
+<li>En face, un fonds alimenté par une cotisation volontaire de 20 € par chien et par an, des commissions sur un contrat d'assurance de groupe et du mécénat : 158 000 € la première année, 826 000 € la troisième, 2,6 millions la sixième [E]. De quoi financer les espaces canins sans lever d'impôt supplémentaire. Le montage recommandé passe par un fonds de dotation, pas par le budget municipal, pour éviter tout conflit d'intérêts avec les assureurs et rester hors commande publique.
+</li>
+</ul>
+<h2 id="lenjeu-politique-dit-sans-détour">L'enjeu politique, dit sans détour</h2>
+<p>100 000 chiens, ce sont à peu près 145 000 à 160 000 électeurs, un dixième du corps électoral parisien, pour un seuil d'existence au Conseil de Paris de 5 % des voix, environ 41 000 suffrages.</p>
+<p>Mesures à l'appui, la droite parisienne a proposé la moitié du bâton en mars 2026 (amende à 300 €, sentiers, caniparcs labellisés) sans proposer le contrat qui le rend tenable.</p>
+<blockquote>Le sujet est libre, et il ne le restera pas longtemps.</blockquote>
+<h2 id="les-objections-et-les-réponses">Les objections, et les réponses</h2>
+<ul>
+<li>« <strong>C'est un péage pour riches</strong> » : sur la cible, c'est faux, 39 % des ouvriers et 42 % des indépendants ont un chien contre 34 % des cadres ; sur la barrière financière, c'est réel, d'où la gratuité, les journées de quartier et les exonérations.
+</li>
+<li>« <strong>C'est du fichage</strong> » : la base génétique reste au laboratoire, la Ville ne détient que la correspondance prélèvement-propriétaire, la durée est bornée, pas de vidéosurveillance permanente.
+</li>
+<li>« <strong>Ça ne frappe que les honnêtes</strong> » : vrai sous 50 % de couverture, donc la campagne d'identification précède l'annonce des sanctions.
+</li>
+<li>« <strong>Les chiens prennent la place des enfants</strong> » : Monceau a réduit la zone de moitié en saison 2 et étendu les horaires ; c'est l'encadrement qui achète la tolérance, pas la surface.
+</li>
+</ul>
+<h2 id="la-décision-qui-vous-revient">La décision qui vous revient</h2>
+<p>Trois choix, et je les recommande ainsi :</p>
+<ul>
+<li>périmètre pilote sur le 20e arrondissement (6 133 chiens identifiés) plutôt que sur un arrondissement central,
+</li>
+<li>obligation sur le périmètre et adhésion volontaire pour les droits,
+</li>
+<li>gratuité de l'identification compensée si une cotisation est introduite.
+</li>
+</ul>
+<p>Pièces jointes :</p>
+<ul>
+<li>projet d'arrêté et règlement du statut,
+</li>
+<li>note juridique,
+</li>
+<li>protocole de comptage,
+</li>
+<li>chiffrage.
+</li>
+</ul>
+<p>Tout est dans /root/chiens-paris/, et chaque chiffre de cette note a été vérifié sur source, avec les URL, dans AUDIT-SOURCES.md.</p>
+<h1 id="note-technique-à-lattention-dun-collaborateur-de-cabinet">Note technique à l'attention d'un collaborateur de cabinet</h1>
+<p><strong>Objet :</strong> expérimentation d'une identification génétique canine obligatoire dans un périmètre parisien, adossée à un statut donnant des droits.</p>
+<p><strong>Nature de l'acte envisagé :</strong> arrêté du maire de Paris portant expérimentation de police municipale, d'une durée bornée, complété par un règlement du statut hors arrêté.</p>
+<p><strong>Ce que cette note contient :</strong></p>
+<ul>
+<li>la base légale article par article,
+</li>
+<li>la chaîne d'actes à produire,
+</li>
+<li>le régime des données,
+</li>
+<li>le montage financier et comptable,
+</li>
+<li>les partenariats à contractualiser,
+</li>
+<li>les risques contentieux et les points à faire trancher avant rédaction.
+</li>
+</ul>
+<h2 class="section" id="1-base-légale-article-par-article">1. Base légale, article par article</h2>
+<ul>
+<li><strong>CGCT, article L. 2512-13, II, 1°</strong> : le maire de Paris est chargé de la police municipale en matière de salubrité sur la voie publique. C'est la base d'habilitation du maire de Paris, plus explicite que celle utilisée à Béziers et à Saint-Omer, qui repose sur le droit commun (L. 2212-2). Texte vérifié sur Légifrance : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041587012
+</li>
+</ul>
+<ul>
+<li><strong>CGCT, article L. 2212-2</strong> : définition générale de la police municipale, utile pour la motivation de l'arrêté (bon ordre, sûreté, sécurité, salubrité publiques), même si l'habilitation parisienne spécifique prévaut ici.
+</li>
+</ul>
+<ul>
+<li><strong>CGCT, article L. 2512-16-1</strong> (verbalisation par les agents de surveillance de Paris) : la rédaction citée habituellement date de la loi du 15 novembre 2001 et ne figure plus dans le chapitre en vigueur du code (L. 2512-13 à L. 2512-16). La rédaction actuelle des compétences des agents de surveillance de Paris et le renvoi au code de la sécurité intérieure doivent être vérifiés à la source avant d'être visés dans l'arrêté. Point de vigilance numéro un pour la rédaction.
+</li>
+</ul>
+<ul>
+<li><strong>Code rural et de la pêche maritime, article L. 212-10</strong> : identification obligatoire des carnivores domestiques par tatouage ou puce. C'est le texte sur lequel le juge de Béziers s'est appuyé pour exiger la démonstration que ce dispositif classique était insuffisant.
+</li>
+</ul>
+<ul>
+<li><strong>Code rural, article L. 212-2</strong> : finalité du fichier national d'identification. C'est le point juridique le plus fragile du projet, voir section 2.
+</li>
+</ul>
+<ul>
+<li><strong>Code de la commande publique</strong> : passation du marché de laboratoire (à Saint-Omer, marché de 40 000 € sur deux ans, soit 2 % du budget propreté de la commune). Procédure adaptée, seuils à vérifier au code en vigueur à la date de passation.
+</li>
+</ul>
+<ul>
+<li><strong>Protection des données</strong> : la qualification du traitement est à trancher, c'est la première question à poser au délégué à la protection des données. Deux lectures possibles : traitement de police administrative, donc régime de la directive (UE) 2016/680, ou traitement ordinaire au sens du RGPD. La Ligue des droits de l'homme, à Béziers, a attaqué sur le terrain de l'article 27 et de l'article 28 de la directive 2016/680, c'est-à-dire sur l'absence d'analyse d'impact et d'encadrement du fichier.
+</li>
+</ul>
+<p>Il faut donc, en toute hypothèse :</p>
+<ul>
+<li>produire l'analyse d'impact,
+</li>
+<li>tenir le registre des traitements,
+</li>
+<li>désigner les responsables,
+</li>
+<li>fixer la durée de conservation,
+</li>
+<li>informer les personnes et prévoir les droits d'accès.
+</li>
+</ul>
+<ul>
+<li><strong>Loi n° 78-17 du 6 janvier 1978 et textes de transposition de la directive 2016/680</strong> : références précises à confirmer avec le délégué à la protection des données avant visa.
+</li>
+</ul>
+<h2 class="section" id="2-le-point-juridique-quil-faut-faire-trancher-dabord">2. Le point juridique qu'il faut faire trancher d'abord</h2>
+<p>Le dispositif suppose de passer d'un prélèvement à un nom, donc d'interroger le fichier national d'identification (I-CAD), qui est régi par son propre texte de finalité. Or ce texte n'a pas été écrit pour verbaliser une déjection.</p>
+<blockquote>C'est exactement le moyen que la LDH a soulevé à Béziers : consultation du fichier national dans un but autre que celui de l'article L. 212-10 du code rural.</blockquote>
+<p>Saint-Omer fonctionne aujourd'hui en constituant son propre registre de correspondances (868 chiens en décembre 2025), ce qui limite l'interrogation du fichier national mais ne supprime pas la question.</p>
+<p>Trois options, par ordre de solidité :</p>
+<ol>
+<li>N'interroger le fichier national qu'après avoir recueilli le consentement des propriétaires au moment de l'enregistrement, et pour la seule finalité de l'expérimentation, avec mention explicite dans le formulaire. Le coût de la solidité est un taux de couverture plus faible au départ.
+</li>
+</ol>
+<ol>
+<li>Faire confirmer par écrit, par la direction des affaires juridiques et, si nécessaire, par la direction générale des collectivités locales, que l'interrogation pour un motif de salubrité publique entre dans les finalités du traitement, sur le fondement des missions de police municipale. À obtenir avant la signature de l'arrêté, car c'est le fondement d'une éventuelle annulation.
+</li>
+</ol>
+<ol>
+<li>Porter une évolution législative ou réglementaire nationale, ce qui n'est pas de la compétence de la Ville mais peut être porté par un parlementaire. À traiter en parallèle, pas en préalable.
+</li>
+</ol>
+<h2 class="section" id="3-la-chaîne-dactes-à-produire">3. La chaîne d'actes à produire</h2>
+<ol>
+<li>Vœu ou délibération du conseil d'arrondissement (le 20e est le périmètre recommandé : 6 133 chiens identifiés, 45 conseillers d'arrondissement), qui vaut engagement politique et peut servir de base à l'expérimentation.
+</li>
+</ol>
+<ol>
+<li>Comptage contradictoire des déjections avant toute réglementation, avec protocole écrit, deux compteurs, périodes et périmètres définis, résultat daté. C'est la pièce qui manquait à Béziers et qui a provoqué l'annulation.
+</li>
+</ol>
+<ol>
+<li>Note d'opportunité et d'impact, démonstration écrite de l'insuffisance du marquage ou de la puce pour identifier l'auteur d'une déjection, et démonstration de la proportionnalité :
+</li>
+</ol>
+<ul>
+<li>périmètre réduit,
+</li>
+<li>durée bornée,
+</li>
+<li>gratuité,
+</li>
+<li>délai de mise en règle.
+</li>
+</ul>
+<ol>
+<li>Analyse d'impact relative à la protection des données :
+</li>
+</ol>
+<ul>
+<li>registre,
+</li>
+<li>information des personnes,
+</li>
+<li>nomination du référent.
+</li>
+</ul>
+<ol>
+<li>Projet d'arrêté motivé, avec :
+</li>
+</ol>
+<ul>
+<li>visas,
+</li>
+<li>périmètre,
+</li>
+<li>durée,
+</li>
+<li>obligation,
+</li>
+<li>délai de 72 heures,
+</li>
+<li>sanction applicable,
+</li>
+<li>modalités de contrôle,
+</li>
+<li>dispositions de publicité.
+</li>
+</ul>
+<p>Projet rédigé disponible.</p>
+<ol>
+<li>Marché de laboratoire, procédure adaptée, avec clauses de conservation, de délai de rendu, de taux de réussite et de traçabilité des échantillons.
+</li>
+</ol>
+<ol>
+<li>Convention avec les vétérinaires (ordre régional) pour le prélèvement buccal, kit et remontée des données.
+</li>
+</ol>
+<ol>
+<li>Transmission au contrôle de légalité. Point à confirmer auprès de la direction des affaires juridiques : à Paris, l'articulation entre le préfet de Paris et le préfet de police sur les arrêtés de police municipale de la Ville. À Saint-Omer, le contrôle a été exercé par le préfet du Pas-de-Calais et l'arrêté est passé sans remarque, ce qui prouve la faisabilité mais ne règle pas la question francilienne.
+</li>
+</ol>
+<ol>
+<li>Publicité au recueil des actes administratifs, information des habitants, phase volontaire préalable d'une durée suffisante, puis entrée en vigueur de l'obligation.
+</li>
+</ol>
+<ol>
+<li>Évaluation publiée avant toute extension, avec comptage après, taux d'identification, nombre de contraventions, coût réel par analyse.
+</li>
+</ol>
+<h2 class="section" id="4-régime-des-données-ce-que-larrêté-doit-dire">4. Régime des données, ce que l'arrêté doit dire</h2>
+<p>La base génétique des chiens reste détenue par le laboratoire.</p>
+<p>La Ville ne détient qu'un registre de correspondance entre un numéro de prélèvement et un propriétaire, pour la durée de l'expérimentation, sans conservation de l'empreinte.</p>
+<p>Aucun rapprochement avec d'autres fichiers municipaux, aucune vidéosurveillance permanente, aucune conservation au-delà de la durée prévue.</p>
+<p>Ces éléments doivent figurer dans les considérants et non seulement dans l'analyse d'impact : c'est ce que le juge lira en premier.</p>
+<h2 class="section" id="5-montage-financier-et-comptable">5. Montage financier et comptable</h2>
+<ul>
+<li><strong>Identification et enregistrement</strong> à la charge de la Ville, gratuits pour le propriétaire, donc imputation en fonctionnement sur la ligne propreté, environ 46 € par chien la première année.
+</li>
+</ul>
+<ul>
+<li><strong>Analyses de déjections</strong> : la pratique de Saint-Omer est que les frais sont facturés directement aux propriétaires par le laboratoire, ce qui évite à la commune de porter le coût marginal. À faire confirmer par la direction des finances : facturation directe par le laboratoire, ou titre de recettes émis par la Ville après constat. Le second suppose une base de liquidation solide.
+</li>
+</ul>
+<ul>
+<li><strong>Frais de nettoiement refacturés</strong> : 132 € à Saint-Omer en plus de la contravention de 135 €.
+</li>
+</ul>
+<ul>
+<li><strong>Marché de laboratoire</strong> : 40 000 € sur deux ans à Saint-Omer.
+</li>
+</ul>
+<ul>
+<li>Fonds destiné à financer les espaces et les droits : structure associative ou fonds de dotation, alimenté par une cotisation volontaire, des commissions d'assurance et du mécénat. Aucun flux ne doit passer par le budget municipal s'il vient d'assureurs, pour éviter le conflit d'intérêts et les règles de la commande publique. Le mécénat relève de la loi du 1er août 2003 et de l'article 238 bis du code général des impôts, avec publicité et certification des comptes au-delà de 153 000 € de dons annuels. Les conventions types du ministère de la Culture couvrent le cas. Toute contrepartie commerciale sur un équipement public relève, elle, d'une autorisation d'occupation du domaine public, et non du mécénat.
+</li>
+</ul>
+<h2 class="section" id="6-partenariats-à-contractualiser">6. Partenariats à contractualiser</h2>
+<ul>
+<li><strong>Île-de-France Mobilités</strong> : l'accès des chiens aux bus et aux tramways ne dépend pas de la Ville. Aujourd'hui les chiens de taille moyenne et grande sont admis gratuitement, muselés et en laisse, uniquement dans le métro et le RER, jamais dans les bus ni les tramways. C'est donc un objet de convention, à porter au titre des droits du statut.
+</li>
+</ul>
+<ul>
+<li><strong>Bailleurs sociaux de la Ville</strong> : leur règlement intérieur interdit l'accès des animaux, même tenus en laisse, aux espaces verts, aux aires de jeux et aux cours (article 3 du règlement de Paris Habitat). L'ouverture de jardins d'immeuble suppose une modification du règlement et une convention, ce qui est faisable puisque la Ville est actionnaire de ces bailleurs.
+</li>
+</ul>
+<ul>
+<li><strong>Ordre régional des vétérinaires</strong> : protocole de prélèvement, kit, traçabilité.
+</li>
+</ul>
+<ul>
+<li><strong>Éducateurs canins agréés</strong> : cahier des charges de la séance validée, tarif conventionné, gratuité pour les publics en difficulté.
+</li>
+</ul>
+<ul>
+<li><strong>Assurance</strong> : contrat de groupe porté par la structure partenaire, remise pour les titulaires du statut, libre choix de l'assureur pour éviter la vente liée.
+</li>
+</ul>
+<ul>
+<li><strong>Académiques et scientifiques</strong> : validation de la méthode et de la mesure (école vétérinaire, biodiversité pour les bois), utile en contentieux.
+</li>
+</ul>
+<h2 class="section" id="7-risques-contentieux-par-ordre-de-vraisemblance">7. Risques contentieux, par ordre de vraisemblance</h2>
+<ol>
+<li><strong>Recours au fond</strong> contre l'arrêté, sur la nécessité, l'insuffisance du dispositif classique et la proportionnalité. C'est le scénario Béziers, et il se neutralise par le dossier de preuve.
+</li>
+</ol>
+<ol>
+<li><strong>Référé-suspension.</strong> À Béziers, il a été rejeté pour défaut d'urgence, sans que la légalité soit examinée : ce n'est donc pas une protection, seulement un répit.
+</li>
+</ol>
+<ol>
+<li><strong>Contentieux sur les données</strong>, sur le fondement du fichage non encadré et de l'absence d'analyse d'impact.
+</li>
+</ol>
+<ol>
+<li><strong>Contentieux indemnitaire</strong> en cas de fausse attribution, qui suppose une chaîne de preuve et une procédure de contestation écrites.
+</li>
+</ol>
+<ol>
+<li><strong>Risque d'inexécution</strong> : un arrêté sans agents formés, sans kits et sans capacité de laboratoire disponible est politiquement plus coûteux qu'une absence d'arrêté.
+</li>
+</ol>
+<h2 class="section" id="8-les-trois-arbitrages-à-demander-au-cabinet">8. Les trois arbitrages à demander au cabinet</h2>
+<ol>
+<li><strong>Périmètre</strong> : un arrondissement (le 20e, recommandé) ou deux. Réponse recommandée : un seul, avec extension décidée après évaluation.
+</li>
+</ol>
+<ol>
+<li><strong>Sanction</strong> : obligation d'identification seule, ou obligation assortie d'une sanction dès la première année. Réponse recommandée : année 1 sans sanction, sanction à partir de l'année 2, après publication du taux de couverture.
+</li>
+</ol>
+<ol>
+<li><strong>Financement des droits</strong> : gratuité totale, ou cotisation modique avec exonérations. Réponse recommandée : gratuité la première année, cotisation ensuite, avec exonération automatique pour les bénéficiaires de minima sociaux.
+</li>
+</ol>
+<h2 class="section" id="9-points-à-confirmer-avant-rédaction">9. Points à confirmer avant rédaction</h2>
+<ul>
+<li>Rédaction en vigueur des textes relatifs aux agents de surveillance de Paris et aux contraventions qu'ils constatent.
+</li>
+<li>Autorité compétente pour le contrôle de légalité des arrêtés de police municipale du maire de Paris.
+</li>
+<li>Fondement et périmètre de l'interrogation du fichier national d'identification.
+</li>
+<li>Qualification du traitement de données et régime applicable.
+</li>
+<li>Seuils de la commande publique applicables au marché de laboratoire.
+</li>
+<li>Traitement comptable de la refacturation des analyses et des frais de nettoiement.
+</li>
+</ul>
+<p>Chaque chiffre de cette note est vérifié sur source, avec URL, dans /root/chiens-paris/AUDIT-SOURCES.md.</p>
+<p>Les pièces rédigées sont dans les fichiers :</p>
+<ul>
+<li>PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md (arrêté et règlement),
+</li>
+<li>NOTE-JURIDIQUE-ARRETE-ADN.md (ce qui a fait annuler Béziers),
+</li>
+<li>ADN-COUTS-FAISABILITE.md (coûts et faisabilité),
+</li>
+<li>et la section 7 du rapport complet pour le coût unitaire détaillé.
+</li>
+</ul>
+<h1 id="pitch-pour-un-collègue-technique">Pitch pour un collègue technique</h1>
+<p>Ce qu'on veut construire, ce qui est dur, et ce qu'on ne sait pas encore.</p>
+<h2 id="le-produit-en-trois-couches">Le produit en trois couches</h2>
+<ol>
+<li><strong>Un registre des chiens parisiens.</strong> Une fiche par chien :
+</li>
+</ol>
+<ul>
+<li>identifiant I-CAD existant,
+</li>
+<li>empreinte génétique,
+</li>
+<li>propriétaire,
+</li>
+<li>adresse dans Paris,
+</li>
+<li>statut vaccinal,
+</li>
+<li>date d'enregistrement,
+</li>
+<li>statut (à jour / à renouveler / radié).
+</li>
+</ul>
+<ol>
+<li><strong>Une chaîne de prélèvement et d'analyse.</strong>
+</li>
+</ol>
+<ul>
+<li>Un agent ramasse une déjection non ramassée,
+</li>
+<li>la met dans un tube avec un numéro d'ordre,
+</li>
+<li>la chaîne part au laboratoire,
+</li>
+<li>le laboratoire renvoie un identifiant génétique,
+</li>
+<li>le système cherche la correspondance dans le registre et sort un nom.
+</li>
+</ul>
+<p>Le laboratoire détient la base génétique, la Ville ne détient que la correspondance prélèvement -&gt; propriétaire, pour la durée de l'expérimentation.</p>
+<blockquote>C'est la contrainte d'architecture principale, pas un détail de conformité : elle décide où vivent les données et qui peut interroger quoi.</blockquote>
+<ol>
+<li><strong>Une application terrain.</strong>
+</li>
+</ol>
+<ul>
+<li>Pour l'agent : numéroter un prélèvement, géolocaliser, photographier, horodater, imprimer ou transmettre l'étiquette.
+</li>
+<li>Pour le propriétaire : s'enregistrer, prendre rendez-vous, télécharger l'attestation, voir ses droits (transports, espaces).
+</li>
+<li>Pour la mairie : compter, suivre les taux d'aboutissement, éditer les chiffres de l'évaluation.
+</li>
+</ul>
+<h2 id="volumes-pour-dimensionner">Volumes, pour dimensionner</h2>
+<ul>
+<li><strong>Pilote</strong> : 2 ou 3 arrondissements, environ 9 700 chiens identifiés, 5 000 enregistrés en année 1.
+</li>
+<li><strong>Extension</strong> : 100 000 chiens, soit 100 000 prélèvements buccaux étalés sur deux à quatre ans.
+</li>
+<li><strong>Débit vétérinaire</strong> : à 200 cabinets parisiens, 500 prélèvements par cabinet sur la durée totale. Ce n'est pas un problème de débit, c'est un problème de rendez-vous, de kit et de saisie.
+</li>
+<li><strong>Analyses de déjections</strong> : de l'ordre de 500 par an au démarrage, 2 000 à 3 000 en régime établi.
+</li>
+<li><strong>Coût unitaire vérifié</strong> : 34,10 € HT facturés par le laboratoire de Saint-Omer pour une analyse (source : FAQ de la Ville de Saint-Omer), 60,43 € HT tout compris au coût marginal dans notre modèle. À 500 analyses par an, le coût complet monte à 260 € l'unité ; à 2 000, il descend à 70 €.
+</li>
+</ul>
+<h2 id="ce-quil-faut-attaquer-en-premier-par-ordre-de-risque">Ce qu'il faut attaquer en premier, par ordre de risque</h2>
+<ol>
+<li>La <strong>robustesse de l'ADN environnemental</strong> sur un trottoir. Une crotte ramassée reste-t-elle exploitable après une nuit de pluie, deux jours de soleil, un passage de balayeuse ? Personne ne le documente publiquement. C'est le risque numéro un du projet et il se teste en trois semaines, avec un laboratoire et vingt échantillons déposés dans des conditions contrôlées.
+</li>
+</ol>
+<ol>
+<li><strong>Le mélange et la contamination.</strong> Deux chiens sur le même trottoir, un prélèvement pris à la pince : quel taux de lecture, quel taux de fausse attribution ? La conséquence juridique d'une fausse attribution est un contentieux, pas une réclamation.
+</li>
+</ol>
+<ol>
+<li><strong>La chaîne de preuve.</strong>
+</li>
+</ol>
+<blockquote>Un prélèvement qui n'est pas traçable ne vaut rien devant un juge.</blockquote>
+<p>Il faut :</p>
+<ul>
+<li>un numéro unique,
+</li>
+<li>un scellé,
+</li>
+<li>un horodatage,
+</li>
+<li>un accusé de réception du laboratoire et une durée de conservation décidée à l'avance.
+</li>
+</ul>
+<ol>
+<li><strong>Le délai de rendu.</strong> Un propriétaire doit savoir dans quel délai la contravention peut tomber. Si le laboratoire rend en six semaines, l'effet pédagogique disparaît.
+</li>
+</ol>
+<ol>
+<li><strong>La conformité.</strong>
+</li>
+</ol>
+<ul>
+<li>Analyse d'impact relative à la protection des données,
+</li>
+<li>registre des traitements,
+</li>
+<li>durée de conservation,
+</li>
+<li>information des personnes,
+</li>
+<li>et la question du fichier de personnes morales ou physiques qui n'existe pas encore.
+</li>
+</ul>
+<p>Béziers a perdu sur la preuve de nécessité, pas sur la technique, mais la LDH attaque aussi sur les données.</p>
+<h2 id="ce-quon-ne-sait-pas-et-quil-faut-dire-avant-de-coder">Ce qu'on ne sait pas, et qu'il faut dire avant de coder</h2>
+<ul>
+<li>Combien de chiens vivent réellement à Paris : 100 000 selon la Ville, 300 000 selon le chiffre qui circule. Tout le dimensionnement change d'un facteur trois.
+</li>
+<li>Quel taux d'aboutissement est atteignable. Notre seuil d'autofinancement est de 20 % des analyses abouties pour couvrir le coût marginal, 33 % pour le coût complet. Ce sont des calculs.
+</li>
+<li>Le temps agent par prélèvement (20 minutes dans notre modèle, 8 € au coût marginal) : à mesurer.
+</li>
+<li>Les capacités réelles des laboratoires sur ce volume, et leurs délais.
+</li>
+</ul>
+<h2 id="le-test-à-trente-jours-sans-budget">Le test à trente jours, sans budget</h2>
+<ol>
+<li>Compter les déjections sur un périmètre de dix rues pendant deux semaines, matin et soir, avec un protocole écrit et deux compteurs. C'est ce que le tribunal a reproché à Béziers de ne pas avoir.
+</li>
+</ol>
+<ol>
+<li>Demander des devis à trois laboratoires (Antagene, Genindexe, Animagene) sur 500, 2 000 et 5 000 analyses, avec délai, taux de réussite annoncé et conditions de conservation.
+</li>
+</ol>
+<ol>
+<li>Demander les pièces du marché de Saint-Omer et le bilan de Reims : documents administratifs communicables, réponse en un mois.
+</li>
+</ol>
+<ol>
+<li>Déposer vingt échantillons témoins dans trois conditions (soleil, pluie simulée, deux jours d'attente) et faire analyser.
+</li>
+</ol>
+<h2 id="ce-quil-me-faut-de-toi">Ce qu'il me faut de toi</h2>
+<p>Deux personnes et un cahier des charges de données :</p>
+<ul>
+<li>quelqu'un qui sait interroger un laboratoire de génétique et lire un protocole de prélèvement,
+</li>
+<li>quelqu'un qui sait faire un registre avec des droits d'accès et une analyse d'impact.
+</li>
+</ul>
+<p>Le reste, comptage, dossier, courriers administratifs, je m'en occupe.</p>
+<p>Le budget d'entrée du test est de zéro euro ; le premier vrai poste de dépense est le laboratoire, et il n'a lieu qu'après le comptage et les devis.</p>
+<p>Détail des coûts : /root/chiens-paris/ADN-COUTS-FAISABILITE.md et section 7 du rapport complet.</p>
+<p>Ce qui est prouvé, ville par ville : /root/chiens-paris/AUDIT-SOURCES.md.</p>
+<h1 id="audit-anti-hallucination-du-dossier-chiens-paris">Audit anti-hallucination du dossier chiens-paris</h1>
+<p>Passé le 29 septembre 2026, en deux vagues : mes propres vérifications sur les affirmations qui portent le plus, puis cinq vérificateurs en parallèle sur 51 affirmations au total. Chaque URL citée ici a été ouverte, et les citations sont celles des pages.</p>
+<p><strong>Verdicts employés :</strong></p>
+<ul>
+<li><code>confirmé</code>,
+</li>
+<li><code>confirmé avec nuance</code>,
+</li>
+<li><code>partiellement confirmé</code>,
+</li>
+<li><code>non trouvé</code>,
+</li>
+<li><code>contredit</code>.
+</li>
+</ul>
+<h2 class="section" id="1-ce-qui-était-faux-et-qui-a-été-corrigé-dans-les-documents">1. Ce qui était faux, et qui a été corrigé dans les documents</h2>
+<ol>
+<li><strong>Transports franciliens.</strong> Le dossier disait « petit chien en contenant ≤ 45 × 30 cm avec un ticket à tarif réduit ». Faux sur deux points. La page RATP dit : « Les petits animaux (chats, petits chiens, lapins, rongeurs…) voyagent gratuitement sur tout le réseau, et doivent être transportés dans un sac, un panier ou une caisse fermée » et « Les chiens de plus grande taille sont acceptés uniquement dans le métro et le RER (pas dans les bus ni les tramways), gratuitement, et doivent être muselés et tenus en laisse ». Il n'y a plus de ticket animal depuis novembre 2019, et la dimension 45 × 30 × 25 cm est une règle SNCF pour les trains.
+</li>
+</ol>
+<p>Source : https://www.ratp.fr/aide-contact/questions/preparer-mon-trajet/voyage-en-regle/voyager-animal</p>
+<ol>
+<li><strong>Plafond de dépenses de campagne.</strong> Le dossier donnait « ~2,4-2,7 M€ ». La calculette officielle de la préfecture d'Île-de-France donne 2 062 183 € sur les deux tours, 1 457 245 € au premier tour, et un remboursement forfaitaire de 979 537 € ou 692 192 € (47,5 % si la liste atteint 5 %).
+</li>
+</ol>
+<p>Source : https://www.prefectures-regions.gouv.fr/ile-de-france/irecontenu/telechargement/134548/985594/file/MUN26%20-%20Outil%20calcul%20plafonds%20Paris%20Lyon%20Marseille.pdf</p>
+<ol>
+<li><strong>Poids moyen du chien parisien (11,6 kg).</strong> Aucune source. Le poids moyen national du fichier I-CAD est de 19,8 kg. Chiffre retiré du rapport, du pitch et de la note de cadrage ; seule la sur-représentation des petites races en ville est documentée.
+</li>
+</ol>
+<p>Source : https://www.i-cad.fr/articles/plus-de-la-moitie-des-fran%C3%A7ais-possede-un-chien-ou-un-chat</p>
+<ol>
+<li><strong>Densité de 2 857 chiens/km².</strong> Le chiffre circule, mais il est calculé sur ~300 000 chiens, alors que la Ville de Paris annonce 100 000 chiens. Les deux ne peuvent pas être vrais ensemble, et tout le calcul électoral dépend du dénominateur : c'est désormais écrit comme un point à trancher.
+</li>
+</ol>
+<p>Sources : https://www.paris.fr/pages/les-animaux-a-paris-6287 et https://www.lumpmedia.fr/blog/paris-capitale-mondiale-densite-chiens-kilometre-carre</p>
+<ol>
+<li><strong>Sphère espagnole.</strong> Torrevieja, citée comme ville pilote, n'apparaît dans aucune source primaire : retirée. Le « plus de 80 communes » et Málaga (pionnière en 2018) sont confirmés.
+</li>
+</ol>
+<p>Source : https://www.eldiario.es/catalunya/csi-cacas-perro-80-ciudades-rastrean-adn-heces-calle-multar-duenos_1_13056141.html</p>
+<ol>
+<li><strong>Barcelone.</strong> « Une moitié d'aires de 300 à 400 m² » n'est étayé nulle part. Les sources disent 116 espaces clôturés, dont environ 70 enclos de moins de 400 m² et une quarantaine de parcs de 400 à 2 500 m², plus une centaine de zones d'usage partagé.
+</li>
+</ol>
+<p>Sources : https://www.catalannews.com/society-science/item/interactive-map-barcelonas-220-dog-friendly-areas et https://udols.org/observatori-arees-gossos/</p>
+<ol>
+<li><strong>Berlin.</strong> « 100 000 chiens × 120 € = 12 M€ » : Berlin compte environ 130 000 chiens et a encaissé 12,6 M€ en 2023 (120 € le premier chien, 180 € les suivants). Arithmétique corrigée.
+</li>
+</ol>
+<p>Source : https://www.berlin.museum/artikel/preussische-hundesteuermarke</p>
+<ol>
+<li><strong>Article L. 2512-16-1 du CGCT</strong> : la rédaction citée dans la note juridique date de la loi du 15 novembre 2001 et ne figure plus dans le chapitre en vigueur (L. 2512-13 à L. 2512-16). Signalé comme à revérifier sur Légifrance avant toute citation publique. Le L. 2512-13, II, 1° est en revanche confirmé mot pour mot : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041587012
+</li>
+</ol>
+<h2 class="section" id="2-ce-que-javais-signalé-à-tort-au-premier-passage">2. Ce que j'avais signalé à tort au premier passage</h2>
+<p>Trois alertes de mon premier jet étaient fausses, je les corrige :</p>
+<ul>
+<li>« La zone de Monceau a été réduite de moitié en saison 2 » : <strong>CONFIRMÉ</strong>, Le Parisien écrit « sur une zone deux fois plus petite mais avec des horaires largement étendus ». Le dossier avait raison.
+</li>
+</ul>
+<p>Source : https://www.leparisien.fr/paris-75/paris-les-chiens-peuvent-gambader-toute-la-journee-sans-laisse-au-parc-monceau-08-07-2026-PPI4NMBIZJAFDPWCW5QQ56YSM4.php</p>
+<ul>
+<li>« Paris Habitat, 128 698 logements » : <strong>CONFIRMÉ</strong> sur la page officielle du bailleur, qui donne aussi 2 868 collaborateurs, 1 156 loges de gardiens et 108 hectares d'espaces verts.
+</li>
+</ul>
+<p>Source : https://parishabitat.fr/nous-connaitre/about-us</p>
+<ul>
+<li>« Référé du 27 juin 2025, n° 2504518 » : <strong>CONFIRMÉ</strong>, l'ordonnance existe et rejette la demande pour défaut d'urgence sans examiner la légalité.
+</li>
+</ul>
+<p>Source : https://justice.pappers.fr/decision/ef80fe451a46c1ba359dfe0ffeb9d94e3e3bdf4f</p>
+<h2 class="section" id="3-affirmations-confirmées-avec-la-source-qui-les-porte">3. Affirmations confirmées, avec la source qui les porte</h2>
+<h3 id="paris">Paris</h3>
+<div class="tw"><table>
+<thead><tr><th>Affirmation</th><th>Verdict</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>100 000 chiens identifiés</td><td>confirmé</td><td>https://www.paris.fr/pages/les-animaux-a-paris-6287</td></tr>
+<tr><td>45 espaces canins ; 135 € pour une déjection</td><td>confirmé</td><td>https://www.paris.fr/pages/les-chiens-a-paris-33527</td></tr>
+<tr><td>1 379 084 électeurs inscrits</td><td>confirmé</td><td>https://www.insee.fr/fr/statistiques/8276873?geo=COM-75056</td></tr>
+<tr><td>Vœu voté à l'unanimité en octobre 2025</td><td>confirmé</td><td>https://www.leparisien.fr/paris-75/je-ne-me-sens-pas-accepte-a-paris-les-proprietaires-de-chiens-plaident-pour-un-meilleur-vivre-ensemble-13-02-2026-PH662ICUXNC5BP4ZDOWZICYJSY.php</td></tr>
+<tr><td>163 sièges ; 5 % pour compter</td><td>confirmé</td><td>https://www.paris.fr/pages/municipales-2026-tous-les-elus-du-conseil-de-paris-et-de-la-metropole-du-grand-paris-34290</td></tr>
+<tr><td>Budget propreté ~800 M€, 6 300 agents</td><td>confirmé</td><td>https://www.leparisien.fr/elections/municipales/municipales-2026-vos-idees-pour-paris-et-si-le-budget-consacre-au-nettoyage-des-rues-etait-triple-27-02-2026-J5TW7S7MIFBHDH6DEW7DUZL7KQ.php</td></tr>
+<tr><td>Budget 2026 : 11,72 Md€, ~920 M€ Environnement</td><td>confirmé</td><td>https://franceopendata.org/fr/city/paris/budget</td></tr>
+<tr><td>Grégoire élu maire de Paris</td><td>confirmé</td><td>https://fr.wikipedia.org/wiki/%C3%89lections_municipales_de_2026_%C3%A0_Paris</td></tr>
+<tr><td>Dati : amende 300 €, « Paris 4 pattes », caniparcs labellisés</td><td>confirmé</td><td>https://www.leparisien.fr/elections/municipales/municipales-a-paris-rachida-dati-propose-une-amende-salee-a-300-euros-en-cas-de-dejections-canines-non-ramassees-15-01-2026-C46UJ3TEHRG5ZHVG7AIQNVJCCY.php</td></tr>
+<tr><td>Budget participatif 2024 : 142 938 votants, 121 projets, 83 M€ ; 2026 suspendue</td><td>confirmé</td><td>https://www.paris.fr/pages/budget-participatif-2024-decouvrez-les-121-projets-laureats-28844</td></tr>
+<tr><td>Dons plafonnés à 4 600 €</td><td>confirmé</td><td>https://www.vie-publique.fr/fiches/19431-election-presidentielle-comment-est-financee-la-campagne-electorale</td></tr>
+<tr><td>PARC.C : 11 associations, 12 arrondissements, ~50 000 sympathisants</td><td>confirmé (fédération annoncée en 2025, pas octobre)</td><td>https://fr.linkedin.com/posts/parisconditioncanine_2025-a-%C3%A9t%C3%A9-une-ann%C3%A9e-fondatrice-pour-la-condition-activity-7413992772472459264-Yir8</td></tr>
+<tr><td>Chiens par catégorie sociale : ouvriers 39 %, indépendants 42 %, cadres 34 %</td><td>confirmé</td><td>https://www.facco.fr/chiffres-cles/les-chiffres-de-la-population-animale-2/</td></tr>
+<tr><td>38 € (lâcher) et 150 € (chien catégorisé)</td><td>confirmé, mais source associative</td><td>https://nousleschiensdeparis.com/qui-sommes-nous/demande/</td></tr>
+<tr><td>Électorat concerné : 145 000-160 000</td><td>estimation dérivée, non sourcée ; PARC.C avance plutôt 170 000 voix</td><td>https://www.theguardian.com/world/2026/mar/21/doggy-drinks-and-subsidised-vet-visits-paris-mayoral-race-goes-canine-crazy</td></tr>
+</tbody></table></div>
+<h3 id="saint-omer">Saint-Omer</h3>
+<div class="tw"><table>
+<thead><tr><th>Affirmation</th><th>Verdict</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Arrêté de juin 2025, contrôle de légalité passé sans remarque</td><td>confirmé</td><td>https://www.ville-saint-omer.fr/sites/default/files/2025-09/FAQ%20ADN%20CANIN.pdf</td></tr>
+<tr><td>Marché de laboratoire</td><td>confirmé : 40 000 € sur deux ans selon la FAQ municipale, 42 000 € selon France 3, soit 2 % du budget propreté</td><td>FAQ + https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/saint-omer/operation-anti-crottes-de-chien-dans-les-rues-un-an-plus-tard-que-donne-le-deploiement-des-prelevements-adn-a-saint-omer-3364132.html</td></tr>
+<tr><td>868 chiens fichés ; -60 % en six mois</td><td>confirmé</td><td>https://www.ouest-france.fr/hauts-de-france/saint-omer-62500/a-saint-omer-contre-les-dejections-les-chiens-sont-desormais-fiches-eb64c5f0-d694-11f0-8fa7-06f366a2f70b</td></tr>
+<tr><td>34,10 € HT refacturés ; 72 h ; 150 € ; 267 € (135 + 132)</td><td>confirmé</td><td>https://www.ville-saint-omer.fr/actualite/stop-aux-dejections-canines</td></tr>
+<tr><td>80 000 sacs/an pour ~1 500 € ; 190 poubelles ; données chez le laboratoire ; vidéoprotection ponctuelle</td><td>confirmé</td><td>FAQ municipale</td></tr>
+<tr><td>Extension à tout le linéaire urbain en août 2026</td><td>confirmé, sauf le marais</td><td>France 3 ; https://www.nordlittoral.fr/289431/article/2026-06-21/dejections-canines-saint-omer-etend-son-dispositif-adn-toute-la-ville</td></tr>
+</tbody></table></div>
+<p>Nuances : 868 chiens au 12 décembre 2025 et « près de 1 000 » en juin 2026 ; une vingtaine de verbalisations en un an.</p>
+<h3 id="béziers-et-jurisprudence">Béziers et jurisprudence</h3>
+<div class="tw"><table>
+<thead><tr><th>Affirmation</th><th>Verdict</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Arrêté du 12 mai 2023 annulé le 6 mai 2025, trois motifs</td><td>confirmé, motifs cités textuellement</td><td>https://www.ldh-france.org/beziers-lidentification-genetique-des-chiens/</td></tr>
+<tr><td>Jugement au fond : TA Montpellier, 5e chambre, n° 2305799</td><td>confirmé</td><td>https://blog.landot-avocats.net/2025/05/20/fichage-le-droit-est-il-fait-pour-les-chiens/</td></tr>
+<tr><td>Réédition le jour même ; amende 35 € ; redevance 130 €</td><td>confirmé</td><td>https://echo-des-tribunes.com/herault-tribune/articles/beziers-le-fichage-adn-des-chiens-annule-par-la-justice-et-reintroduit-par-le-maire-robert-menard</td></tr>
+<tr><td>Référé rejeté le 27 juin 2025, légalité non tranchée, fond pendant</td><td>confirmé</td><td>https://www.ldh-france.org/beziers-lidentification-genetique-des-chiens/</td></tr>
+<tr><td>-85 % de déjections</td><td>chiffre revendiqué par la mairie dans son arrêté, jamais mesuré indépendamment</td><td>https://france3-regions.franceinfo.fr/occitanie/herault/beziers/robert-menard-nie-l-etat-de-droit-en-ignorant-l-annulation-de-son-arrete-sur-les-crottes-de-chiens-selon-la-ligue-des-droits-de-l-homme-3153818.html</td></tr>
+<tr><td>Plus de 80 villes espagnoles, Málaga pionnière</td><td>confirmé</td><td>https://www.eldiario.es/catalunya/csi-cacas-perro-80-ciudades-rastrean-adn-heces-calle-multar-duenos_1_13056141.html</td></tr>
+<tr><td>Torrevieja</td><td>non trouvé, retiré</td><td>aucune source primaire</td></tr>
+</tbody></table></div>
+<h3 id="adn-transports-permis-canins">ADN, transports, permis canins</h3>
+<div class="tw"><table>
+<thead><tr><th>Affirmation</th><th>Verdict</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Antagene 45 € TTC, 55 € avec parenté, -20 % clubs (36 €)</td><td>confirmé</td><td>https://antagene.com/pdf/ANTAGENE_tarifs.pdf ; https://cbf-asso.org</td></tr>
+<tr><td>Centrale Canine 38 € en ligne, 48 € papier</td><td>confirmé</td><td>https://support.centrale-canine.fr/hc/fr/articles/20693460947613-Combien-co%C3%BBte-l-identification-ADN</td></tr>
+<tr><td>Animagene, offre HyGene déployée à Reims et à l'Escarène</td><td>confirmé</td><td>https://www.animagene.fr/categorie/actualites-analyse-genetique-adn-animale/</td></tr>
+<tr><td>Prélèvement par frottis de la joue</td><td>confirmé</td><td>https://antagene.com/en/dog/german-shepherd-dog</td></tr>
+<tr><td>Monceau : 2 000 m² clôturés, éducateur de 7 h à 11 h financé par la mairie du 8e, chiens sociables, identifiables, vaccinés, catégorisés exclus</td><td>confirmé</td><td>https://mairie08.paris.fr/pages/parc-monceau-l-espace-de-liberte-canin-est-de-nouveau-accessible-35784</td></tr>
+<tr><td>Saison 1 « très positif », zone divisée par deux en saison 2, horaires étendus</td><td>confirmé</td><td>Le Parisien, 8 juillet 2026</td></tr>
+<tr><td>Brême : permis au 1er juillet 2026, 35 questions plus pratique, jusqu'à 50 000 € d'amende</td><td>confirmé</td><td>https://www.inneres.bremen.de/inneres/buerger-und-staat/hundefuehrerschein-30149 ; https://www.agrarheute.com/land-leben/50000-eur-bussgeld-hundefuehrerschein-pflicht-642459</td></tr>
+<tr><td>Basse-Saxe : depuis 2013, 162 800 personnes formées</td><td>confirmé ; « ~40 € » est un plancher par épreuve, donc ~80 € au total</td><td>https://www.zeit.de/news/2026-07/01/fuehrerschein-fuer-hunde-was-halter-wissen-muessen ; https://www.ml.niedersachsen.de/startseite/themen/tiergesundheit_tierschutz/tierschutz_allgemein/informationen-zum-hundegesetz-93854.html</td></tr>
+<tr><td>Autriche : obligation au 1er juillet 2026</td><td>confirmé</td><td>https://www.sozialministerium.gv.at/Services/Aktuelles/archiv-2026/sachkundenachweis-tierhalterinnen.html</td></tr>
+<tr><td>Munich : exonération de taxe canine ; Hambourg : dispense de laisse</td><td>confirmé</td><td>https://stadt.muenchen.de/buergerservice/freizeit-hobby/tiere/hundehaltung.html ; https://www.hamburg.de/service/info/11254324/n0</td></tr>
+<tr><td>France : pas de permis canin général ; certificat d'engagement depuis le 1er octobre 2022 ; permis pour chiens catégorisés</td><td>confirmé</td><td>https://agriculture.gouv.fr/animaux-de-compagnie-equides-tout-savoir-sur-le-certificat-dengagement-et-de-connaissance</td></tr>
+<tr><td>CGCT L. 2512-13, II, 1°</td><td>confirmé, texte exact</td><td>https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041587012</td></tr>
+<tr><td>Taxe canine abrogée par la loi du 7 juin 1971</td><td>confirmé</td><td>https://www.senat.fr/questions/base/1997/qSEQ970701798.html</td></tr>
+</tbody></table></div>
+<h3 id="partenariats-assurance-mécénat-bailleurs">Partenariats, assurance, mécénat, bailleurs</h3>
+<div class="tw"><table>
+<thead><tr><th>Affirmation</th><th>Verdict</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>5 à 7 % des animaux assurés (5 % tous animaux, 7 % des chiens), 91 % en Suède, 25 % au Royaume-Uni</td><td>confirmé</td><td>https://www.assuranceslabs.com/assurance-animaux/guide</td></tr>
+<tr><td>~600 M€ de primes en 2025, 1 Md€ visé en 2030, croissance de 8 à 20 %/an</td><td>confirmé</td><td>idem</td></tr>
+<tr><td>Primes de 12 à 25 €/mois ; 584 € de soins par an pour un chien</td><td>confirmé</td><td>idem</td></tr>
+<tr><td>Contrats conditionnés à l'identification, catégories 1 et 2 exclues ; MACIF, MAIF, GMF</td><td>confirmé</td><td>https://www.macif.fr/assurance/particuliers/assurance-habitation-et-vie-quotidienne/assurance-mutuelle-chien</td></tr>
+<tr><td>Loi Aillagon n° 2003-709, art. 238 bis CGI, 60 % puis 40 % au-delà de 2 M€</td><td>confirmé</td><td>https://www.culture.gouv.fr/thematiques/mecenat/qu-est-ce-que-le-mecenat/la-loi-aillagon-inciter-l-engagement-des-particuliers-et-des-entreprises</td></tr>
+<tr><td>Seuil de 153 000 € de dons ; fonds de dotation éligibles au mécénat</td><td>confirmé</td><td>https://www.senat.fr/rap/r25-860-1/r25-860-13.html</td></tr>
+<tr><td>Paris Habitat : 128 698 logements, 108 ha d'espaces verts, 2 868 collaborateurs, 1 156 gardiens</td><td>confirmé</td><td>https://parishabitat.fr/nous-connaitre/about-us</td></tr>
+<tr><td>Règlement intérieur : animaux interdits même en laisse dans espaces verts, aires de jeux et cours</td><td>confirmé (article 3)</td><td>https://www.parishabitat.fr/wp-content/uploads/2023/04/reglement-interieur-Paris-Habitat.pdf</td></tr>
+<tr><td>Quatre bailleurs : ~6 500 locaux en pied d'immeuble, 878 821 m²</td><td>confirmé</td><td>https://cdn.paris.fr/paris/2020/02/26/a54bda992b86993c02f129d95c08844d.pdf</td></tr>
+</tbody></table></div>
+<h3 id="divers">Divers</h3>
+<div class="tw"><table>
+<thead><tr><th>Affirmation</th><th>Verdict</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>8 896 distributeurs de sacs recensés</td><td>confirmé (jeu OSM/Animalert sur data.gouv.fr, qui compte aussi des poubelles)</td><td>https://wikipaw.animalert.app/fr/enquetes/distributeurs-sacs-canins-france-open-data</td></tr>
+<tr><td>Barcelone : zones d'usage partagé avec lâcher par créneaux horaires</td><td>confirmé</td><td>https://ajuntament.barcelona.cat/benestaranimal/ca/espais-gossos-deslligats-en-franges-horaries</td></tr>
+<tr><td>15 M€/an de propreté canine à Paris (KARTES)</td><td>non confirmé, et contredit par une autre estimation privée (~6 M€)</td><td>https://kartes.io/fr/intervention/sanitaires-canins</td></tr>
+<tr><td>15 000 m² cumulés d'espaces canins</td><td>non confirmé officiellement (vient d'un blog parlant d'une trentaine de parcs) : reste [E]</td><td>https://www.paris.fr/pages/les-chiens-a-paris-33527 pour les 45 espaces</td></tr>
+</tbody></table></div>
+<h2 class="section" id="4-ce-qui-reste-incertain-à-assumer-tel-quel">4. Ce qui reste incertain, à assumer tel quel</h2>
+<ol>
+<li>Le nombre réel de chiens à Paris : 100 000 (Ville de Paris) ou ~300 000 (chiffre derrière la densité de 2 857 par km²). Tout le calcul électoral en dépend. À trancher avant tout usage public, en demandant le chiffre I-CAD à jour à la Ville et à la profession vétérinaire.
+</li>
+</ol>
+<ol>
+<li>Le taux d'aboutissement des analyses (20 % pour couvrir le coût marginal, 33 % pour le coût complet) : un calcul, pas une mesure. Saint-Omer n'a attribué que trois déjections.
+</li>
+</ol>
+<ol>
+<li>Le coût terrain par prélèvement (8 € de temps agent) : hypothèse de modélisation.
+</li>
+</ol>
+<ol>
+<li>Les montants du fonds (158 k€, 826 k€, 2,64 M€) : projections sur des hypothèses d'adhésion.
+</li>
+</ol>
+<ol>
+<li>L'effet -85 % de Béziers : revendiqué par la mairie, jamais mesuré indépendamment.
+</li>
+</ol>
+<h2 class="section" id="5-corrections-appliquées-aux-fichiers">5. Corrections appliquées aux fichiers</h2>
+<ul>
+<li>RAPPORT-COMPLET-CHIENS-PARIS.md : densité incohérente signalée, poids moyen supprimé, Barcelone requalifié, transports réécrits selon la RATP, réserve sur l'article L. 2512-16-1, -85 % attribué à la mairie, KARTES requalifié, annexe E ajoutée avec toutes les URL.
+</li>
+<li>PITCH-ET-RESUME.md : transports, densité, poids, Barcelone, -85 %, et la section « Sources » qui manquait alors que le texte l'annonçait.
+</li>
+<li>PROJET-CHIENS-PARIS.md : densité et poids, plafond de campagne corrigé, Berlin corrigé.
+</li>
+<li>STATUT-CHIEN-CITOYEN.md : Torrevieja retiré, règles de transport réécrites.
+</li>
+<li>NOTE-JURIDIQUE-ARRETE-ADN.md et PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md : réserve sur la rédaction de l'article L. 2512-16-1.
+</li>
+<li>ADN-COUTS-FAISABILITE.md : -85 % attribué à la mairie.
+</li>
+</ul>
+<h1 id="note-juridique--larrêté-adn-canin--ce-qui-a-fait-annuler-béziers-et-la-recette-pour-un-arrêté-qui-tient-29092026">Note juridique — l'arrêté ADN canin : ce qui a fait annuler Béziers, et la recette pour un arrêté qui tient (29/09/2026)</h1>
+<h2 class="section" id="1-les-faits-de-béziers-précisément">1. Les faits de Béziers, précisément</h2>
+<ul>
+<li>Arrêté du maire de Béziers du 12 mai 2023 : à titre d'expérimentation, du 13 juillet 2023 au 23 juillet 2025, toute personne promenant son chien dans l'hypercentre doit pouvoir justifier de l'identification génétique de son animal.
+</li>
+<li>Jugement du tribunal administratif de Montpellier du 6 mai 2025 : ANNULATION. Motifs exacts du jugement (cités par la LDH qui reprend les termes du TA) :
+<ul>
+<li>« aucune pièce du dossier ne permet de corroborer les éléments indiqués dans l'exposé des motifs de l'arrêté », notamment l'atteinte à la sécurité et à la salubrité publique par le nombre de déjections ramassées en 2020, 2021 et 2022, ni l'inefficacité des mesures déjà prises par la commune ;
+</li>
+<li>« il ne ressort pas non plus des pièces du dossier que la méthode d'identification classique, telle que l'apposition d'un tatouage ou d'un marquage, obligatoire en vertu de l'article L. 212-10 du code rural et de la pêche maritime, n'est pas suffisante » pour identifier les animaux responsables ;
+</li>
+<li>« eu égard aux sujétions qu'elle impose aux propriétaires ou détenteurs de chiens, la mesure édictée n'est ni nécessaire, ni adaptée, ni proportionnée à sa finalité, et ce, alors même que l'arrêté concerne un territoire réduit. »
+</li></ul>
+<li>Le jour même, Robert Ménard a signé un nouvel arrêté identique, jusqu'au 31 décembre 2028 : amende de 35 € en cas de défaut d'identification génétique, redevance de 130 € « au titre des frais de nettoiement » pour une déjection non ramassée identifiée par le fichier. Il invoque une baisse de 85 % des déjections dans l'hypercentre entre septembre 2023 et avril 2025.
+</li>
+<li>LDH : référé-suspension rejeté le 27 juin 2025 pour DÉFAUT D'URGENCE — c'est-à-dire que le juge des référés ne s'est PAS prononcé sur la légalité de l'arrêté. Le recours au fond est toujours pendant.
+</li>
+<li>Conclusion : en France, la jurisprudence sur l'arrêté ADN canin n'est PAS stabilisée. Un jugement d'annulation existe (motifs ci-dessus), un deuxième contentieux est en cours, et Saint-Omer a un arrêté du même type passé sans remarque par le contrôle de légalité préfectoral (le contrôle de légalité n'est pas un jugement).
+</li>
+</ul>
+<h2 class="section" id="2-le-point-qui-change-tout-pour-paris">2. Le point qui change tout pour Paris</h2>
+<p>Selon le I de l'article L. 2512-13 du CGCT, à Paris le préfet de police exerce les pouvoirs de police générale, MAIS le II du même article dispose que « le maire de Paris est chargé de la police municipale en matière : 1° De salubrité sur la voie publique ».</p>
+<p>La salubrité de la voie publique — exactement le fondement de l'arrêté anti-déjections — EST donc bien dans la main du maire de Paris.</p>
+<p>C'est une base plus claire que celle dont disposaient Béziers ou Saint-Omer, où le maire agit au titre du droit commun (L. 2212-2 CGCT).</p>
+<p>Et <strong>l'exécution existe</strong> : l'article L. 2512-16-1 du CGCT — rédaction issue de la loi du 15 novembre 2001, qui ne figure plus dans le chapitre en vigueur du code (L. 2512-13 à L. 2512-16), à revérifier sur Légifrance avant citation — permet aux agents de surveillance de Paris (ASP) de verbaliser les contraventions aux arrêtés de police du maire de Paris relatifs au bon ordre, à la tranquillité, à la sécurité et à la salubrité sur la voie publique.</p>
+<p>La chaîne « arrêté -&gt; verbalisation » a donc un titulaire à Paris.</p>
+<blockquote><strong>À vérifier</strong> auprès de la direction des affaires juridiques de la Ville : le partage exact avec la préfecture de police pour les contrôles sur la voie publique, et la qualification des agents qui feraient les prélèvements sur les déjections.</blockquote>
+<h2 class="section" id="3-la-recette-pour-un-arrêté-qui-survit-à-un-recours-déduite-du-jugement-de-béziers">3. La recette pour un arrêté qui survit à un recours (déduite du jugement de Béziers)</h2>
+<p><strong>Chaque motif d'annulation</strong> indique ce qu'il faut prouver par pièces :</p>
+<ol>
+<li>Démontrer l'atteinte à la salubrité AVANT de réglementer. Comptage contradictoire des déjections (agents du service propreté, périmètre défini, plusieurs mois, protocole écrit), données de signalements DansMaRue, plaintes d'habitants et de commerçants. Béziers est tombé là-dessus : l'arrêté affirmait, le dossier ne prouvait pas.
+</li>
+<li>Démontrer l'insuffisance de l'identification classique (puce, tatouage). C'est l'argument de fond, et il est solide s'il est documenté : une puce électronique identifie un chien, mais elle ne relie pas une déjection à un chien. Aucun agent ne peut attribuer une crotte à un chien sans analyse génétique, et le flagrant délit est quasi impossible. Cette démonstration doit être écrite noir sur blanc dans l'arrêté, avec les pièces (retours d'expérience des agents, statistiques de verbalisation en flagrant délit : proche de zéro).
+</li>
+<li>Documenter la proportionnalité : périmètre restreint et justifié (rues les plus fréquentées), durée bornée, signalétique aux entrées de zone, gratuité totale de l'identification, 72 h pour se mettre en règle, tolérance pour les visiteurs occasionnels, évaluation publique avant toute extension. C'est le modèle Saint-Omer, et c'est l'inverse de la méthode Béziers.
+</li>
+<li>Sécuriser les données (moyens soulevés par la LDH, à anticiper) : analyse d'impact (AIPD) et déclaration/registre CNIL, base génétique conservée par le laboratoire seul, la Ville ne détenant que la correspondance prélèvement -&gt; propriétaire, durée de conservation définie, pas de surveillance vidéo permanente (Saint-Omer : vidéoprotection ponctuelle en temps réel uniquement), pas de consultation du fichier national I-CAD au-delà de son objet légal.
+</li>
+<li>Ne pas franchir la ligne du « fichage des personnes » : ne jamais conserver l'ADN, ne jamais croiser avec d'autres fichiers, ne pas conditionner l'accès à l'espace public en général.
+</li>
+</ol>
+<h2 class="section" id="4-ce-que-ça-implique-pour-le-projet--chien-citoyen-">4. Ce que ça implique pour le projet « chien citoyen »</h2>
+<ul>
+<li>Le bâton n'est pas interdit en France, mais il est contentieux. La stratégie la moins risquée est en deux temps : (1) phase volontaire non sanctionnante — enregistrement gratuit, badge, contreparties, comptage des déjections en parallèle ; (2) phase d'obligation bornée sur un périmètre, une fois les pièces réunies (baisse constatée, insuffisance de la puce démontrée, AIPD faite) et avec un arrêté écrit comme un dossier de preuve.
+</li>
+<li>Ne pas annoncer l'obligation sans les comptages : c'est le motif exact qui a coulé Béziers, et une annulation en pleine campagne est une défaite politique irrécupérable.
+</li>
+<li>Saint-Omer a un avantage que Paris aura aussi : la baisse constatée (-60 %) devient la preuve de l'utilité du dispositif pour la période suivante. Il faut donc mesurer dès le premier jour.
+</li>
+</ul>
+<h2 id="sources-1">Sources</h2>
+<ul>
+<li>TA Montpellier, jugement du 6 mai 2025 (arrêté du 12 mai 2023 annulé), motifs cités par la LDH ; ordonnance de référé du 27 juin 2025 (n° 2504518, rejet pour défaut d'urgence).
+</li>
+<li>Le Parisien, 14/05/2025 (nouvel arrêté du 6 mai 2025, amende 35 €, redevance 130 €, -85 %).
+</li>
+<li>LDH France et LDH Béziers (moyens soulevés : incompétence, AIPD et déclaration CNIL au titre des articles 27-28 de la directive (UE) 2016/680, fichage non encadré, consultation du fichier national hors objet de l'article L. 212-10 du code rural, vie privée, liberté d'aller et venir).
+</li>
+<li>CGCT, art. L. 2512-13 II 1° (police municipale de la salubrité sur la voie publique confiée au maire de Paris) et L. 2512-16-1 (verbalisation par les agents de surveillance de Paris).
+</li>
+<li>FAQ officielle « L'identification génétique des chiens » de la Ville de Saint-Omer.
+</li>
+</ul>
+<h1 id="tests-adn-canins--coûts-réels-facilité-de-mise-en-œuvre-et-chiffrage-pour-paris-29092026">Tests ADN canins : coûts réels, facilité de mise en œuvre, et chiffrage pour Paris (29/09/2026)</h1>
+<p>[E] = estimation ou calcul de l'auteur.</p>
+<p>Les tarifs labour sont publics et sourcés ci-dessous.</p>
+<h2 class="section" id="1-combien-coûte-un-test-concrètement">1. Combien coûte un test, concrètement</h2>
+<p>Prestataires français disponibles (tous font de l'identification génétique + matching) :</p>
+<div class="tw"><table>
+<thead><tr><th>Prestataire</th><th>Prestation</th><th>Tarif</th></tr></thead>
+<tbody>
+<tr><td>Antagene (La Tour de Salvagny, 69)</td><td>Identification génétique (profil ADN ISAG 2006)</td><td>45 € TTC</td></tr>
+<tr><td>Antagene</td><td>Profil ADN + vérification de parenté</td><td>55 € TTC</td></tr>
+<tr><td>Antagene</td><td>Tarif clubs de race (-20 %)</td><td>~36 €</td></tr>
+<tr><td>Centrale Canine (LOFConnect)</td><td>Identification ADN STR ou SNP, commande en ligne</td><td>38 €</td></tr>
+<tr><td>Centrale Canine</td><td>Même prestation, commande papier</td><td>48 €</td></tr>
+<tr><td>Genindexe (Bio Chêne vert / Finalab)</td><td>Identification génétique, kit envoyé gratuitement</td><td>sur devis, ordre de 40-50 € [E]</td></tr>
+<tr><td>Animagene</td><td>Solution clé en main pour collectivités (« HyGene »)</td><td>sur devis</td></tr>
+</tbody></table></div>
+<p><strong>Autres repères</strong> :</p>
+<ul>
+<li>Saint-Omer a signé un marché de 40 000 € (presse : 42 000 €) sur deux ans avec le laboratoire, pour 868 chiens fichés la première année -&gt; environ 46 € par chien fiché, tout compris (kits + analyses + logistique) [E].
+</li>
+<li>Analyse d'une déjection canine : 34,10 € HT (fourniture du matériel de prélèvement, analyse en laboratoire, transport et acheminement inclus), montant refacturé au propriétaire fautif à Saint-Omer.
+</li>
+<li>Les kits grand public à 35-150 € (Orivet, Wisdom Panel, Embark, EasyDNA…) sont des tests de race et de santé : ce ne sont pas les bons outils pour un matching crotte &lt;-&gt; chien.
+</li>
+<li>Effet d'échelle : à 100 000 chiens, une ville doit obtenir un tarif de marché, pas le tarif public. À titre indicatif, l'identification ADN est facturée 38 € en ligne par la Centrale Canine à un particulier, donc 25-35 € par chien [E] est un objectif réaliste en volume, hors logistique de kits.
+</li>
+</ul>
+<h2 class="section" id="2-est-ce-facile-à-faire--oui-techniquement-les-points-durs-sont-ailleurs">2. Est-ce facile à faire ? Oui, techniquement. Les points durs sont ailleurs.</h2>
+<p><strong>Ce qui est facile</strong> :</p>
+<ul>
+<li>Le prélèvement sur le chien : frottis à l'intérieur de la joue avec une petite brosse, rapide, simple et indolore, réalisé par le vétérinaire. Pas de prise de sang (l'exception : le test MDR1, qui demande un prélèvement sanguin EDTA pour les chiens de plus de 3 mois — sans intérêt ici). Le propriétaire repart avec une attestation provisoire.
+</li>
+<li>La logistique : kit à retirer en mairie (formulaire, notice, brosse, enveloppe prétimbrée), inscription en ligne, prélèvement chez le vétérinaire qui poste l'échantillon directement au laboratoire, carte reçue à domicile. Rien de nouveau à inventer : le circuit Saint-Omer existe.
+</li>
+<li>Le prélèvement sur la déjection : les agents utilisent un matériel spécifique (tige avec brosse), sans contact direct.
+</li>
+<li>Les délais : quelques jours à deux semaines pour un profil d'identification issu d'un laboratoire ; 72 h à 6 semaines pour les kits grand public.
+</li>
+<li>Le marché : au moins quatre laboratoires français se positionnent (Antagene, Genindexe, Animagene, Centrale Canine) et Animagene vend déjà une offre dédiée aux collectivités. Il y a de la concurrence, donc du prix négociable, et Reims ou l'Escarène ont déjà franchi le pas.
+</li>
+</ul>
+<p><strong>Ce qui est dur</strong> :</p>
+<ol>
+<li>Le taux de couverture, pas la technique. Une base génétique n'identifie une crotte que si le chien est déjà dans la base. À Saint-Omer, sur les prélèvements analysés, trois seulement correspondaient à des chiens enregistrés. Sous 50 % de couverture, le dispositif se retourne politiquement : seuls les propriétaires honnêtes sont tracés, et le bâton ne frappe jamais ceux qu'il visait. La campagne d'identification massive doit précéder la sanction.
+</li>
+<li>La fiabilité en conditions réelles. Un écouvillon buccal peut être contaminé (bactéries, ADN d'un autre animal) et l'ADN d'une déjection est un ADN environnemental, dégradé et parfois mélangé. Pour un usage sanctionnateur, il faut exiger du laboratoire des garanties de chaîne de conservation et de traçabilité, et prévoir la contestation du propriétaire (contre-analyse).
+</li>
+<li>Le cadre : aucun arrêté ADN canin n'est définitivement validé en France (voir la note juridique : Béziers annulé le 6 mai 2025, recours au fond pendant sur le nouvel arrêté, Saint-Omer passé au contrôle de légalité sans remarque).
+</li>
+<li>Le coût réel du contrôle humain : chaque crotte relevée demande un agent, un prélèvement, un envoi, une analyse et un traitement administratif. Ce n'est pas un coût de laboratoire, c'est un coût de terrain. À compter en jours-agent, pas en euros d'analyse.
+</li>
+</ol>
+<h2 class="section" id="3-chiffrage-pour-paris">3. Chiffrage pour Paris</h2>
+<p><strong>Hypothèses</strong> :</p>
+<ul>
+<li>Paris ~100 000 chiens identifiés ;
+</li>
+<li>périmètre pilote 20e + 10e = 9 713 chiens identifiés ;
+</li>
+<li>taux de couverture réaliste 50-60 % la première année ;
+</li>
+<li>coût public 45 € par chien fiché la première année (référence Saint-Omer) ;
+</li>
+<li>30 € en volume si tout Paris y passe [E].
+</li>
+</ul>
+<div class="tw"><table>
+<thead><tr><th>Scénario</th><th>Chiens identifiés</th><th>Coût public 1re année</th></tr></thead>
+<tbody>
+<tr><td>Journée d'identification gratuite (information + prélèvements)</td><td>200-400 chiens par journée</td><td>3 000-5 000 € par journée [E]</td></tr>
+<tr><td>Pilote périmètre 20e + 10e, obligatoire, gratuit</td><td>4 800-5 800 chiens fichés</td><td>220-260 k€ [E]</td></tr>
+<tr><td>Pilote + extension 18e (couverture 60 %)</td><td>~10 000 chiens</td><td>450-500 k€ [E]</td></tr>
+<tr><td>Paris entier, gratuit, étalé sur 4 ans</td><td>100 000 chiens</td><td>3,0-4,5 M€ [E] (le Parisien cite ~5 M€)</td></tr>
+<tr><td>Paris entier, identification payante par le propriétaire (38-48 €)</td><td>variable</td><td>quasi nul pour la Ville, mais couverture faible [E]</td></tr>
+</tbody></table></div>
+<p><strong>Coûts annexes</strong> [E] :</p>
+<ul>
+<li>portail web et registre municipal 30-60 k€ ;
+</li>
+<li>analyse d'impact et conformité RGPD 10-20 k€ ;
+</li>
+<li>formation des agents 5-10 k€ ;
+</li>
+<li>signalétique de périmètre 1-2 k€ par zone.
+</li>
+</ul>
+<p><strong>Recettes et refacturations</strong> (modèle Saint-Omer) :</p>
+<ul>
+<li>défaut de présentation de la carte ADN dans les 72 h : contravention de 2e classe, jusqu'à 150 € ;
+</li>
+<li>déjection identifiée : contravention applicable majorée des frais (Saint-Omer : 267 € au total, dont 132 € de frais de nettoiement) plus 34,10 € HT d'analyse refacturés ;
+</li>
+<li>rendement attendu : symbolique. À Béziers comme à Saint-Omer, l'effet mesuré est dissuasif (-60 % à Saint-Omer en six mois, confirmé par la ville ; -85 % à Béziers selon la mairie, non corroboré par une mesure indépendante), pas budgétaire. Ne jamais vendre ce dispositif comme une recette.
+</li>
+</ul>
+<h2 class="section" id="4-le-test-le-moins-cher-à-faire-maintenant-pour-aller-vite-sans-argent">4. Le test le moins cher à faire maintenant (pour aller vite sans argent)</h2>
+<ol>
+<li>Devis auprès de 3 laboratoires (Antagene, Genindexe, Animagene) sur un cahier des charges précis : identification de 10 000 puis 100 000 chiens, prélèvement buccal en vétérinaire, envoi, carte, plus analyse de déjections avec contre-analyse possible. Coût pour toi : 0 €.
+</li>
+<li>Appel à la Ville de Saint-Omer (service Ville Propre) et à la Ville de Reims : demander les pièces du marché et le bilan écrit. Ce sont des documents administratifs communicables. Coût : 0 €. C'est ce qui te donne les vrais coûts unitaires, pas les devis commerciaux.
+</li>
+<li>Comptage des déjections sur un périmètre test (20e), protocole simple, 3 semaines, avec des bénévoles et une fiche de relevé. Coût : 0 €. C'est la pièce qui manquait à Béziers, et c'est aussi l'argument public (le chiffre avant/après).
+</li>
+</ol>
+<h1 id="statut--chienne-citoyenne-de-paris---note-de-conception-29092026">Statut « chien·ne citoyen·ne de Paris » — note de conception (29/09/2026)</h1>
+<p>Idée de Pierre : créer un statut + un registre des chiens parisiens (ADN + propriétaire domicilié à Paris) ;</p>
+<ul>
+<li>bâton = campagnes de prélèvement ADN sur les crottes + amendes ;
+</li>
+<li>carotte = droits en plus pour les « vrais chiens parisiens » : tous les transports (bus et tram inclus), généralisation des zones sans laisse (modèle Parc Monceau, contrôlable et enforceable) ;
+</li>
+<li>partenariats assurances, programmes d'éducation canine, etc.
+</li>
+</ul>
+<p>[E] = estimation ou calcul de l'auteur, pas un chiffre sourcé.</p>
+<h2 class="section" id="0-le-verdict-dabord">0. Le verdict d'abord</h2>
+<p>Chaque brique de l'idée <strong>existe déjà</strong>, séparément, et fonctionne :</p>
+<ul>
+<li>le bâton ADN : arrêté municipal de Saint-Omer (juin 2025), validé par le contrôle de légalité, -60 % de déjections en 6 mois, extension à toute la ville en août 2026 ;
+</li>
+<li>la carotte conditionnelle : l'espace sans laisse du Parc Monceau (8e) est déjà réservé aux chiens sociables, identifiables (puce/tatouage), vaccinés — c'est un embryon de statut ;
+</li>
+<li>le mécanisme « licence = droits en plus » : Allemagne (Brême depuis le 1er juillet 2026, Basse-Saxe depuis 2013), où la licence canine donne une réduction de taxe (Munich) ou une exemption d'obligation de laisse (Hambourg, Schleswig-Holstein).
+</li>
+</ul>
+<blockquote>Ce qui n'existe nulle part : <strong>le paquet</strong>. Personne n'a encore lié registre ADN obligatoire + droits exclusifs de mobilité et d'espace libre. C'est là qu'est l'idée, et c'est cohérent : le statut est ce qui rend les droits défendables politiquement.</blockquote>
+<blockquote><strong>Blocage réel n° 1</strong> : les bus et tramways ne dépendent PAS de la Ville mais d'Île-de-France Mobilités (règlement des voyageurs applicable à tous les opérateurs). La Ville peut négocier, pas décréter.</blockquote>
+<h2 class="section" id="1-le-dispositif-brique-par-brique">1. Le dispositif, brique par brique</h2>
+<h3 id="11-registre-et-identification">1.1 Registre et identification</h3>
+<ul>
+<li>Étage 1 (national, existe) : puce électronique ou tatouage + fichier I-CAD. Obligatoire en France depuis 2012. C'est lui qui porte le propriétaire et son adresse.
+</li>
+<li>Étage 2 (local, à créer) : « passeport génétique » du chien = prélèvement salivaire chez le vétérinaire, analyse en laboratoire, carte d'identité ADN remise au propriétaire. Modèle Saint-Omer : kit gratuit retiré en mairie, inscription en ligne (laboratoire Antagene), prélèvement chez le véto, envoi direct au labo, attestation provisoire immédiate, carte définitive par courrier.
+</li>
+<li>Architecture des données (point RGPD central) : le laboratoire conserve la base génétique ; la Ville ne reçoit que la correspondance « prélèvement -&gt; propriétaire ». C'est le montage retenu à Saint-Omer et c'est ce qui rend le dispositif défendable.
+</li>
+<li>Condition de domiciliation : vérifiable via l'adresse I-CAD du propriétaire.
+</li>
+</ul>
+<h3 id="12-le-bâton">1.2 Le bâton</h3>
+<ul>
+<li>Obligation d'identification ADN sur un périmètre défini (type ZFE, comme à Saint-Omer) : contrôle par la police municipale, amende jusqu'à 150 € si le certificat ADN n'est pas présenté dans les 72 h (contravention de 2e classe), régularisation possible sous 10 jours.
+</li>
+<li>Prélèvement sur déjection non ramassée par la police municipale habilitée, analyse en labo, identification du propriétaire, puis sanction : Saint-Omer applique 267 €, soit 135 € de contravention + 132 € de frais de nettoyage, plus 34,10 € HT d'analyse refacturés au propriétaire indélicat.
+</li>
+<li>Vérité à assumer : le rendement financier est nul. Saint-Omer n'a eu que 3 crottes matchées sur la période. L'effet utile est dissuasif (-60 % de crottes) et politique (« on ne fait plus payer la collectivité »), pas budgétaire.
+</li>
+<li>Risque juridique à instruire : un arrêté équivalent à Béziers a été ANNULE. Saint-Omer a passé le contrôle de légalité de la préfecture, mais il n'y a pas de jurisprudence stabilisée en France. L'Espagne compte plus de 80 communes utilisant l'identification ADN des déjections, dont Málaga, pionnière depuis 2018 (Torrevieja, parfois citée, n'a pas été confirmée).
+</li>
+</ul>
+<h3 id="13-la-carotte">1.3 La carotte</h3>
+<ul>
+<li>Zones sans laisse généralisées, modèle Monceau 2026 : pelouse clôturée de 2 000 m², ouverte sur toute l'amplitude du parc (7 h - 22 h), avec un éducateur canin payé par la mairie présent 7 h - 11 h. Accès réservé aux chiens sociables, identifiables, vaccinés ; chiens catégorisés interdits. Saison 1 (16 avril - 14 octobre 2025, 2 h le matin) jugée très positive, avec des « effets de bord » (chiens détachés hors zone) ; la saison 2 a réduit la surface de moitié mais étendu les horaires. Leçon : c'est l'encadrement qui achète la tolérance, pas la surface.
+</li>
+<li>Transports : aujourd'hui, règlement IDFM = petit chien en contenant &lt;= 45x30 cm avec ticket réduit ; gros chien autorisé en métro/RER tenu en laisse ET muselé, mais interdit en bus et tramway ; amende jusqu'à 150 € (4e classe, code des transports). Lyon a créé un « ticket Waf » pour les chiens &gt; 6 kg. Le maire de Marseille, réélu, veut étendre aux grands chiens. Plus d'une dizaine de règles/tarifs coexistent en Île-de-France et des collectifs demandent l'uniformisation : le sujet est mûr, mais la décision est à IDFM.
+</li>
+<li>Passeport de droits (idée de Pierre, la plus forte) : badge/medaille « chien citoyen » donnant accès aux zones sans laisse de la Ville, à des fontaines, à des caniparcs labellisés, à des offres partenaires (assurance RC, éducation canine, toilettage, garde). En Allemagne, c'est déjà le couplage gagnant : licence -&gt; réduction de taxe ou dispense de laisse.
+</li>
+<li>Éducation canine : la Ville mandate déjà des éducateurs professionnels (paris.fr) ; le programme d'éducation devient la contrepartie obligatoire du statut (une séance validée).
+</li>
+</ul>
+<h3 id="14-gouvernance-et-sortie">1.4 Gouvernance et sortie</h3>
+<ul>
+<li>Comité de suivi (Ville, mairies d'arrondissement, associations type PARC.C, vétérinaires, laboratoire), rapport annuel public, évaluation par périmètre (modèle Saint-Omer : évaluation à l'automne, extension si positif).
+</li>
+<li>Sanction de l'adhérent : retrait ou suspension du statut, pas de sanction sur l'animal.
+</li>
+<li>Durée : statut attaché au chien (une fois le prélèvement fait, valable à vie, comme à Saint-Omer), adhésion annuelle à renouveler par le propriétaire.
+</li>
+</ul>
+<h2 class="section" id="2-qui-peut-faire-quoi-le-vrai-tableau-de-contraintes">2. Qui peut faire quoi (le vrai tableau de contraintes)</h2>
+<div class="tw"><table>
+<thead><tr><th>Brique</th><th>Autorité</th><th>Faisable sans loi ?</th></tr></thead>
+<tbody>
+<tr><td>Registre local + carte ADN</td><td>Ville (arrêté), contrôle de légalité préfecture</td><td>Oui, mais jurisprudence non stabilisée (Béziers annulé)</td></tr>
+<tr><td>Amendes déjections (135 -&gt; 300 €)</td><td>Ville / État selon la contravention visée</td><td>Oui pour la partie municipale</td></tr>
+<tr><td>Zones sans laisse dans les parcs</td><td>Ville (règlement des parcs) + préfet (RSD)</td><td>Oui, expérimentation validée à Monceau</td></tr>
+<tr><td>Accès bus et tramway</td><td>Île-de-France Mobilités + opérateurs</td><td>Non : négociation, pas décision municipale</td></tr>
+<tr><td>Métro/RER pour gros chiens (existant)</td><td>IDFM/RATP</td><td>Déjà en place sous conditions laisse+muselière</td></tr>
+<tr><td>Taxe chien, fichier national ADN</td><td>Loi nationale (abrogée en 1971)</td><td>Non</td></tr>
+<tr><td>Partenariats assurance / éducation</td><td>Ville + opérateurs privés</td><td>Oui, conventionnement simple</td></tr>
+</tbody></table></div>
+<h2 class="section" id="3-chiffrage">3. Chiffrage</h2>
+<h3 id="31-coûts-base-saint-omer-extrapolation-paris-e">3.1 Coûts (base Saint-Omer, extrapolation Paris [E])</h3>
+<ul>
+<li>Marché laboratoire : 42 000 € sur 2 ans pour une ville de 14 000 habitants (~868 chiens fichés la 1re année) -&gt; coût public ≈ 48 € par chien fiché la 1re année. À l'échelle Paris (100 000 chiens) : 2 à 5 M€ étalés [E], en supposant des kits gratuits et des journées d'identification ; le chiffre de ~5 M€ est celui avancé par Le Parisien.
+</li>
+<li>Analyse d'une déjection : 34,10 € HT (facturée au propriétaire fautif à Saint-Omer).
+</li>
+<li>Registre/portail web ville : 30-60 k€ de développement [E].
+</li>
+<li>Espace sans laisse : 60-150 k€ d'aménagement par site [E] + éducateur canin présent 4 h par jour (~50 k€/an [E]) — Monceau existe déjà, c'est le modèle à dupliquer.
+</li>
+<li>Police municipale : temps agent, pas de budget nouveau mais un arbitrage (ce temps n'est plus affecté ailleurs).
+</li>
+<li>Total d'un pilote crédible (2-3 arrondissements, 2 ans) : 300-600 k€ [E].
+</li>
+<li>Version Paris entier sur le mandat : 3-6 M€ d'investissement + fonctionnement [E], soit moins de 1 % du budget propreté (800 M€/an) et ~0,05 % du budget de la Ville (11,7 Md€).
+</li>
+</ul>
+<h3 id="32-recettes-et-transferts">3.2 Recettes et transferts</h3>
+<ul>
+<li>Amendes : symboliques (3 crottes matchées à Saint-Omer). À ne pas vendre comme recette.
+</li>
+<li>Refacturation des analyses au propriétaire fautif : 34,10 € HT l'unité, couvre le coût du contrôle.
+</li>
+<li>Cotisation d'adhésion au statut : 15-25 €/chien/an [E] -&gt; 5 000 adhérents = 75-125 k€/an ; 100 000 adhérents (utopique la 1re année) = 1,5-2,5 M€/an. Alternative : gratuité financée par les partenariats (assurance affinitaire : 5-15 €/adhérent/an de commission [E]).
+</li>
+<li>Transfert invisible mais réel : les 800 000 sacs/an distribués à Saint-Omer (80 000 là-bas) et les canisites ne coûtent plus rien à la collectivité si le réflexe de ramassage s'installe.
+</li>
+</ul>
+<h2 class="section" id="4-les-cinq-décisions-à-trancher-ce-sont-elles-le-projet-politique">4. Les cinq décisions à trancher (ce sont elles, le projet politique)</h2>
+<p>D1. Bâton universel ou contrat ? Obligation ADN sur périmètre (modèle Saint-Omer, forte couverture, jurisprudence fragile) vs statut volontaire (faible couverture, solide juridiquement). Recommandation : obligation sur un périmètre pilote + statut volontaire pour les droits. C'est le seul montage qui couvre les deux faces.</p>
+<p>D2. Quels droits pour l'adhérent ? Transports (négociation IDFM) ; zones sans laisse (pouvoir propre) ; équipements. Commencer par ce qui ne dépend que de la Ville.</p>
+<p>D3. Le prix d'entrée : gratuit (taux d'adhésion maximal, attaque « encore de l'argent pour les chiens ») ou cotisation (autofinancement, exclusion des plus modestes).</p>
+<p>D4. Couverture minimale : c'est LE paramètre critique. En dessous de ~50 % des chiens fichés, le dispositif se retourne (seuls les honnêtes sont tracés ; Saint-Omer plafonne à ~868 chiens, Malaga à ~50 % après deux ans). Il faut une campagne d'adhésion massive avant d'annoncer la sanction — sinon le premier billet de blog hostile tue le dispositif.</p>
+<p>D5. Le périmètre pilote : le 20e (6 133 chiens identifiés, 45 sièges de conseillers) ou le 10e (3 580 chiens, 19 sièges) ; le 8e a déjà l'infrastructure mais peu de chiens.</p>
+<h2 class="section" id="5-objections-à-anticiper-sinon-elles-tueront-le-projet">5. Objections à anticiper (sinon elles tueront le projet)</h2>
+<ol>
+<li>« Un péage pour riches. » Coût pour le propriétaire : véto + éventuelle assurance RC + cotisation. À Paris l'agglomération a le plus faible taux de possession (22 %), et la possession est plus forte chez les ouvriers (39 %) et les indépendants (42 %) que chez les cadres (34 %) [Facco] : l'attaque « riches » est fausse mais la barrière financière est réelle. Réponse obligatoire : kits gratuits, journées d'identification de quartier, exonérations, RC groupée à coût nul.
+</li>
+<li>« Fichage des gens. » L'ADN de l'animal identifie son maître : toute la com doit porter sur le stockage chez le laboratoire, la Ville ne gardant que la correspondance.
+</li>
+<li>« Les droits des chiens prennent la place des enfants. » Monceau l'a montré : la zone sans laisse a perdu la moitié de sa surface en saison 2. Réponse : horaires, encadrement par un éducateur, zones tournantes et partagées (le modèle des « zones d'usage partagé » de Barcelone, avec créneaux).
+</li>
+<li>« Le bâton ne frappe que les honnêtes. » Voir D4.
+</li>
+<li>« Attaque anti-chiens / anti-pauvres / anti-administration » : le dispositif doit être présenté comme un allègement de la dépense publique (800 M€ de propreté) et non comme une police des trottoirs.
+</li>
+</ol>
+<h2 class="section" id="6-positionnement--la-formulation-qui-peut-devenir-majoritaire">6. Positionnement : la formulation qui peut devenir majoritaire</h2>
+<p>L'intérêt politique de son idée est de dissoudre la contradiction identifiée dans la première note : « droits en plus pour les chiens » est minoritaire à Paris, « la propreté payée par les négligents » est majoritaire.</p>
+<blockquote>Le statut relie les deux et rend les droits défendables parce qu'ils sont conditionnés.</blockquote>
+<ul>
+<li>« Vos impôts ne paieront plus les crottes des autres. »
+</li>
+<li>« Un chien identifié, un maître responsable, des droits en plus. »
+</li>
+<li>« Paris ne donnera de nouveaux droits qu'aux chiens dont les maîtres en font la preuve. »
+</li>
+</ul>
+<p>Concurrence : la droite parisienne a déjà proposé la moitié (Dati : amende à 300 €, port de sacs obligatoire, caniparcs labellisés, sentiers Paris 4 pattes) et la majorité sortante a voté à l'unanimité le vœu sur la place du chien.</p>
+<blockquote>Le sujet est libre, mais pas longtemps.</blockquote>
+<p>Le créneau réaliste pour un acteur privé en 2026-2027 : porter le pilote via une association + le budget participatif, puis vendre le dispositif aux élus.</p>
+<h2 class="section" id="7-prochaines-étapes-coût-délai">7. Prochaines étapes (coût, délai)</h2>
+<ol>
+<li>Récupérer l'arrêté de Saint-Omer + sa FAQ (publics) et établir le sort de l'arrêté de Béziers (annulé par qui, sur quel motif) — 0 €, 1 jour. C'est LE point juridique.
+</li>
+<li>Appeler Antagene (laboratoire de Saint-Omer) et un second labo : coût unitaire par prélèvement et par analyse à l'échelle 100 000 chiens — 0 €, 2 jours.
+</li>
+<li>Rédiger le projet d'arrêté + le règlement du statut (2-3 pages) + la maquette du parcours propriétaire — 0 €, je peux le produire.
+</li>
+<li>Entretien PARC.C + une réunion publique dans le 20e pour tester la formulation et la disposition à adhérer — 0 €.
+</li>
+<li>Dossier budget participatif à la prochaine édition (2026 suspendue pour cause d'élections) pour financer un pilote d'identification : 0 € pour lui, effet de levier réel.
+</li>
+</ol>
+<h1 id="statut--chienne-citoyenne-de-paris---projet-darrêté-et-règlement-version-de-travail-29092026">Statut « chien·ne citoyen·ne de Paris » — projet d'arrêté et règlement (version de travail, 29/09/2026)</h1>
+<p>Document de travail destiné à être montré à un élu, à une mairie d'arrondissement ou à PARC.C.</p>
+<blockquote>Rien ici n'est un conseil juridique : les points marqués [A VÉRIFIER] doivent être validés par la direction des affaires juridiques de la Ville.</blockquote>
+<h2 id="a-projet-darrêté-expérimentation-de-24-mois">A. Projet d'arrêté (expérimentation de 24 mois)</h2>
+<p>ARRÊTÉ portant expérimentation de l'identification génétique des chiens dans un périmètre défini de la voie publique et création du statut « chien·ne citoyen·ne de Paris »</p>
+<p>Le maire de Paris,</p>
+<p>Vu le code général des collectivités territoriales, notamment son article L. 2512-13 (II, 1°) qui charge le maire de Paris de la police municipale en matière de salubrité sur la voie publique, et son article L. 2512-16-1 ;</p>
+<p>Vu le code rural et de la pêche maritime, notamment ses articles L. 212-2 et L. 212-10 ;</p>
+<p>Vu le code pénal, notamment les contraventions de 2e classe réprimant les atteintes à la salubrité publique ;</p>
+<p>Vu la loi n° 78-17 du 6 janvier 1978 et le règlement (UE) 2016/679 (RGPD) ;</p>
+<p>Vu le rapport de comptage des déjections canines réalisé par la direction de la propreté et de l'eau du [date] au [date] sur le périmètre défini à l'article 2, dont il résulte [n] déjections relevées et [n] signalements DansMaRue ;</p>
+<p>Vu l'avis de la CNIL / l'analyse d'impact relative à la protection des données réalisée le [date] [A VÉRIFIER] ;</p>
+<p>Vu l'avis du conseil d'arrondissement du [n]e arrondissement en date du [date] ;</p>
+<p>Considérant que l'identification par puce électronique ou tatouage, seule obligatoire en vertu de l'article L. 212-10 du code rural et de la pêche maritime, ne permet pas de rattacher une déjection canine abandonnée sur la voie publique à un animal déterminé, aucune lecture à distance n'étant possible, et que la constatation en flagrant délit est en pratique impossible ;</p>
+<p>Considérant que l'atteinte à la salubrité publique est établie par les comptages visés ci-dessus ;</p>
+<p>ARRÊTE</p>
+<p>Article 1er — Objet. Il est institué, à titre expérimental et pour une durée de vingt-quatre mois à compter du [date], un dispositif d'identification génétique des chiens et un statut « chien·ne citoyen·ne de Paris ».</p>
+<p>Article 2 — Périmètre. Le périmètre d'expérimentation est délimité par [liste des voies ou renvoi au plan annexé]. Il est signalé par panneaux aux entrées et sorties de zone. Les parcs, jardins et espaces verts n'y sont pas inclus.</p>
+<p>Article 3 — Obligation d'identification génétique. Toute personne promenant un chien dans le périmètre doit être en mesure de justifier de son identification génétique.</p>
+<p>L'identification est gratuite pour le propriétaire : kits disponibles en mairie, journées d'identification organisées par la Ville, prélèvement réalisé par un vétérinaire participant.</p>
+<p>Une attestation provisoire est délivrée sur place, valable en cas de contrôle.</p>
+<p>Article 4 — Contrôles. Les contrôles sont effectués par les agents habilités.</p>
+<p>En cas d'absence de justificatif, un délai de soixante-douze heures est laissé à l'intéressé pour le présenter.</p>
+<p>Article 5 — Sanctions. Le défaut de justification dans le délai de soixante-douze heures est passible de l'amende prévue pour les contraventions de 2e classe.</p>
+<p>Le non-ramassage d'une déjection identifiée génétiquement donne lieu à la contravention applicable, majorée des frais de prélèvement et d'analyse ainsi que des frais de nettoiement, dans la limite prévue par les textes.</p>
+<p>Article 6 — Pédagogie et visiteurs. Les personnes ne résidant pas à Paris et promenant occasionnellement un chien dans le périmètre font l'objet d'une information sans sanction.</p>
+<p>Article 7 — Statut « chien·ne citoyen·ne de Paris ». Les conditions, droits et obligations attachés au statut sont fixés par le règlement annexé au présent arrêté.</p>
+<p>Article 8 — Données personnelles. La base de données génétiques est constituée et conservée par le laboratoire titulaire du marché.</p>
+<p>La Ville ne dispose que des informations de correspondance entre un prélèvement et un propriétaire, pour la seule durée de l'expérimentation.</p>
+<p>Les modalités de conservation, d'accès et d'effacement sont décrites dans l'analyse d'impact.</p>
+<p>Article 9 — Évaluation. Un rapport d'évaluation est présenté au conseil de Paris et publié dans les six mois suivant le premier anniversaire de l'entrée en vigueur du présent arrêté.</p>
+<p>Toute extension du périmètre est subordonnée à ce rapport.</p>
+<p>Article 10 — Exécution. Le présent arrêté est transmis au représentant de l'État et affiché.</p>
+<p>Il peut faire l'objet d'un recours devant le tribunal administratif de Paris dans un délai de deux mois.</p>
+<h2 id="b-règlement-du-statut">B. Règlement du statut</h2>
+<p>Article 1 — Conditions d'accès (cumulatives)</p>
+<p>a) chien identifié par puce électronique ou tatouage, enregistré au fichier national I-CAD ;</p>
+<p>b) identification génétique réalisée et enregistrée ;</p>
+<p>c) propriétaire ou détenteur domicilié à Paris (vérifié via l'adresse I-CAD) ;</p>
+<p>d) vaccinations à jour et attestation de bonne santé ;</p>
+<p>e) assurance responsabilité civile couvrant les dommages causés par l'animal ;</p>
+<p>f) suivi d'une séance d'éducation canine validée auprès d'un éducateur agréé ou d'un module du programme municipal d'éducation canine ;</p>
+<p>g) signature de la charte du chien citoyen (ramassage systématique, laisse hors zones autorisées, respect des autres usagers, pas d'abandon).</p>
+<p>Article 2 — Droits conférés par le statut</p>
+<p>a) accès au réseau d'« espaces de liberté » de la Ville (zones clôturées sans laisse), dont l'accès est réservé aux titulaires du statut, dans le respect des règles de chaque site ;</p>
+<p>b) accès aux parcs et jardins de la Ville dans les allées autorisées, laisse tenue ;</p>
+<p>c) accès prioritaire aux animations canines, aux ateliers municipaux et aux consultations vétérinaires solidaires de la Maison de l'animal en ville – Jane Goodall ;</p>
+<p>d) badge et carte de statut, à présenter en cas de contrôle ;</p>
+<p>e) offres partenaires négociées par la Ville : assurance responsabilité civile de groupe, éducation canine, toilettage, garde, identification ;</p>
+<p>f) pour les transports en commun : la Ville porte le statut auprès d'Île-de-France Mobilités et des opérateurs, en demandant une expérimentation d'accès des chiens titulaires dans les bus et tramways, tenus en laisse courte et muselés [ne dépend PAS de la Ville] ;</p>
+<p>g) droit d'usage des fontaines à eau adaptées et des canisites.</p>
+<p>Article 3 — Obligations</p>
+<p>a) ramasser systématiquement les déjections et disposer d'un moyen de ramassage en promenade ;</p>
+<p>b) tenir le chien en laisse hors zones et créneaux autorisés ;</p>
+<p>c) signaler tout changement de domicile ou de détenteur ;</p>
+<p>d) ne pas laisser divaguer l'animal ; respecter les interdictions applicables aux chiens catégorisés.</p>
+<p>Article 4 — Sanctions du statut</p>
+<p>avertissement écrit, suspension d'un à six mois, puis retrait du statut pour : déjection non ramassée objectivée par analyse génétique, chien détaché hors zone, défaut de mise à jour du dossier, comportement dangereux.</p>
+<p>Le retrait du statut ne prive pas le propriétaire des droits reconnus par la loi ; il supprime les droits spécifiques créés par le présent règlement.</p>
+<p>Article 5 — Gouvernance</p>
+<p>Comité de suivi : Ville (propreté, espaces verts, condition animale), mairies d'arrondissement concernées, associations de propriétaires (dont PARC.C), vétérinaires, laboratoire.</p>
+<p>Réunion semestrielle, compte rendu public.</p>
+<p>Deux indicateurs obligatoires : nombre de chiens identifiés dans le périmètre rapporté à l'estimation du nombre de chiens qui y circulent ; nombre de déjections relevées par agent et par semaine.</p>
+<p>Article 6 — Sortie du dispositif</p>
+<p>À l'échéance de l'expérimentation : publication du rapport, débat au conseil de Paris, décision motivée d'extension, d'ajustement ou d'abandon.</p>
+<p>Effacement des correspondances détenues par la Ville à la fin du dispositif.</p>
+<h2 id="c-le-parcours-propriétaire-en-cinq-étapes-le-point-qui-décide-du-taux-dadhésion">C. Le parcours propriétaire, en cinq étapes (le point qui décide du taux d'adhésion)</h2>
+<ol>
+<li>Je retire un kit gratuitement en mairie d'arrondissement ou dans un canisite.
+</li>
+<li>Je m'inscris en ligne (laboratoire) et je prends rendez-vous chez un vétérinaire participant.
+</li>
+<li>Le vétérinaire fait un frottis de joue (rapide, indolore, sans prise de sang), met l'échantillon et le formulaire dans l'enveloppe prétimbrée et l'envoie au laboratoire.
+</li>
+<li>Je repars avec une attestation provisoire valable en contrôle ; je reçois ma carte à domicile.
+</li>
+<li>Je reçois mon badge « chien·ne citoyen·ne » (droits) en même temps que la carte génétique, et je coche la séance d'éducation canine.
+</li>
+</ol>
+<h2 id="d-maquette-de-données-à-valider-par-le-dpo-de-la-ville">D. Maquette de données (à valider par le DPO de la Ville)</h2>
+<ul>
+<li>Laboratoire : identité génétique du chien, fichier de profils ADN, durée de conservation définie contractuellement.
+</li>
+<li>Ville : nom, adresse parisienne, identifiant I-CAD, numéro de dossier, statut (actif, suspendu), historique des contrôles. Aucune donnée génétique, aucun ADN.
+</li>
+<li>Base légale, durées, droits d'accès et d'effacement, sous-traitance : à documenter dans l'AIPD avant tout lancement.
+</li>
+</ul>
+<h1 id="projet--chiens-de-paris---creusage-du-29092026">Projet « chiens de Paris » — creusage du 29/09/2026</h1>
+<p>Demande :</p>
+<ul>
+<li>problème = Paris et les chiens ;
+</li>
+<li>cible = propriétaires de chiens parisiens ;
+</li>
+<li>objet = projet politique (à définir) ;
+</li>
+<li>livrables = positionnement + chiffrage.
+</li>
+</ul>
+<p>Toutes les lignes marquées [E] sont mes estimations/calculs, pas des chiffres sourcés.</p>
+<h2 class="section" id="1-état-des-lieux-chiffré">1. État des lieux chiffré</h2>
+<ul>
+<li><strong>100 000 chiens</strong> identifiés à Paris (chiffre de la Ville de Paris et du fichier I-CAD). ~1 chien pour 21 habitants.
+</li>
+<li>Attention : la densité de ~2 857 chiens/km² qui circule (ProtectMyPaws 2023) est calculée sur ~300 000 chiens, pas sur 100 000 — les deux ne peuvent pas être vrais ensemble, à trancher.
+</li>
+<li>Poids moyen : aucune source (le poids moyen national I-CAD est de 19,8 kg) ; seule la sur-représentation des petites races en ville est documentée.
+</li>
+<li>Paris : 105,4 km², 2 103 778 habitants, 1 379 084 électeurs inscrits (INSEE/REU 2026) ; 1 405 432 inscrits au 1er tour des municipales 2026, 815 448 suffrages exprimés.
+</li>
+<li>Espaces canins : 45 au total (paris.fr, 2026), ~15 000 m² cumulés [E] -&gt; ~0,15 m² de liberté par chien. Repère Barcelone : &gt;100 zones pour chiens, dont ~la moitié d'aires de 300-400 m²,
+<ul>
+<li>des « zones d'usage partagé » où le lâcher est autorisé par créneaux.
+</li></ul>
+<li>Règles actuelles : laisse obligatoire partout hors espaces canins ; lâcher = contravention 38 € (1re classe), jusqu'à 150 € si chien catégorisé ; bus et tram interdits au chien non transporté dans un sac.
+</li>
+<li>Accès parcs : chiens en laisse dans les jardins sans aire de jeux depuis l'article 11 du règlement (2018).
+</li>
+<li>Déjections : 135 € de contravention à Paris (les campagnes de la Ville affichent ce montant ; une source commerciale parle de 68 €). Dati proposait 300 € + port obligatoire des sacs (janvier 2026). Signalement via DansMaRue.
+</li>
+<li>Budget : propreté Paris ≈ 800 M€/an, 6 300 agents de terrain, 3 000 t de déchets/jour. Budget 2026 de la Ville : 11,72 Md€ dont 917,8 M€ « Environnement » (8,3 %).
+</li>
+<li>Dépense liée aux chiens : &gt;15 M€/an selon une source privée (KARTES) — non confirmé officiellement, à prendre avec des pincettes.
+</li>
+<li>Oct. 2025 : un vœu « place du chien à Paris » voté à l'unanimité au Conseil de Paris.
+</li>
+</ul>
+<h2 class="section" id="2-la-cible-vaut-elle-un-électorat--le-calcul-qui-décide-de-tout">2. La cible vaut-elle un électorat ? (le calcul qui décide de tout)</h2>
+<ul>
+<li>100 000 chiens ≈ 85 000-95 000 foyers propriétaires [E, ~1,1 chien/foyer] ≈ 145 000-160 000 électeurs [E, 1,7 électeur/foyer] ≈ 10-11 % du corps électoral parisien.
+</li>
+<li>Seuil qui compte : 5 % des suffrages exprimés ≈ 41 000 voix (base 815 448 au T1 2026) = ticket d'entrée pour avoir des sièges ET un remboursement de campagne.
+</li>
+<li>Conclusion dure : la cible est ~3,5 fois plus large que le seuil. Mais « possède un chien » ≠ « vote chien » (piège classique de tout vote catégoriel).
+</li>
+</ul>
+<h2 class="section" id="3-le-problème-politique--le-sujet-est-déjà-occupé">3. Le problème politique : le sujet est déjà occupé</h2>
+<ul>
+<li>PARC.C – Paris Condition Canine, créée en octobre 2025 : 11 associations parisiennes, ~50 000 sympathisants, couvre 12 arrondissements + 2 bois ; demande : 1 espace canin sécurisé par quartier, accès généralisé aux parcs avec laisse, accès aux transports.
+</li>
+<li>Assos historiques par arrondissement (Nous les Chiens de Paris, Monceau Dog Club, Les Chiens du Canal, Les Truffes des Batignolles, Les Poilus de la Butte, etc.).
+</li>
+<li>Municipales 2026 : TOUS les candidats avaient un volet chien.
+<ul>
+<li>Grégoire (élu) : parcs ouverts aux chiens en laisse + consultations vétérinaires solidaires.
+</li>
+<li>Dati : amende 300 €, port de sacs obligatoire, « sentiers Paris 4 pattes », caniparcs labellisés.
+</li>
+<li>Bournazel : 1 000 distributeurs de sachets.
+</li>
+<li>Mariani : plus de fontaines à eau, transports plus tolérants.
+</li>
+<li>Chikirou : espaces sans laisse + charte + rapport annuel.
+</li></ul>
+<li>Conséquence : il n'y a plus de vide. Il y a un conflit de propriété du sujet. Un nouveau projet doit choisir : s'adosser à PARC.C, la challenger (plus radical), ou changer d'échelle (national).
+</li>
+</ul>
+<h2 class="section" id="4-trois-positionnements-à-trancher-avant-tout-chiffrage">4. Trois positionnements (à trancher AVANT tout chiffrage)</h2>
+<p>A. Pression / usagers — pas d'élection. ONG locale + lobby parisien face à la majorité Grégoire (mandat 2026-2032) et aux mairies d'arrondissement. Budget : 20-60 k€/an [E]. Délai : immédiat. Plafond de verre : un siège à la table, aucun pouvoir propre.</p>
+<p>B. Liste électorale canine — Paris ville entière (163 sièges au Conseil de Paris) en 2032, ou test plus petit (un arrondissement, ou une municipale partielle) avant. Budget campagne : 60-500 k€ [E]. Contraintes : plafond légal ≈ 2,4-2,7 M€ au T1, remboursement 47,5 % si ≥5 % [E, à vérifier calculette ministère], dons ≤4 600 € par personne physique, 150 € max en espèces, pas de personnes morales. Délai : 6 ans (moins si partielle). Plafond : ~6-10 conseillers de Paris à 5 % [E]. Risque : &lt;5 % = zéro siège, zéro remboursement, effet ridicule.</p>
+<p>C. Véhicule national « condition animale » (2027 : présidentielle + législatives, puis européennes 2029). C'est la seule échelle où les vrais leviers existent : taxe chien (loi nationale), transports, fourrières, élevage. Budget : 1-2 M€ [E]. Délai : 7 mois si 2027. Plafond : le Parti animaliste plafonne ~2-3 % en France depuis des années.</p>
+<p>D. Hors politique (service/association économique pour propriétaires) : non traité ici.</p>
+<h2 class="section" id="5-chiffrage">5. Chiffrage</h2>
+<h3 id="51-ce-que-coûterait-le-programme-ce-que-la-ville-paierait">5.1 Ce que coûterait le programme (ce que la Ville paierait)</h3>
+<div class="tw"><table>
+<thead><tr><th>Mesure</th><th>Coût unitaire</th><th>Volume</th><th>Investissement</th><th>Fonctionnement/an</th></tr></thead>
+<tbody>
+<tr><td>Espace canin clos type PARC.C (300-500 m² : clôture 1 m, sas double porte, sol stabilisé/copeaux, point d'eau, 2 poubelles, bancs, signalétique)</td><td>60-150 k€ [E]</td><td>45 -&gt; 80 (1/quartier) = +35</td><td>2,1-5,2 M€</td><td>150-350 k€</td></tr>
+<tr><td>Distributeurs de sacs</td><td>plusieurs centaines d'€/an/unité [E]</td><td>+1 000 (prop. Bournazel)</td><td>~0</td><td>300-500 k€</td></tr>
+<tr><td>Fichage ADN des chiens</td><td>Saint-Omer : 42 k€ sur 2 ans pour 14 000 hab.</td><td>Paris extrapolé</td><td>~5 M€ (chiffre Le Parisien)</td><td>inclus</td></tr>
+<tr><td>Accès parcs en laisse</td><td>décision réglementaire</td><td>—</td><td>~0</td><td>~0</td></tr>
+<tr><td>Accès bus/tram</td><td>compétence Île-de-France Mobilités, pas la Ville</td><td>—</td><td>~0</td><td>~0</td></tr>
+</tbody></table></div>
+<p><strong>Repères externes</strong> : caniparc de 400 m² à Cannes (clôturé, 2 zones, fontaine, canipoches) ; parc canin de Labelle (Québec) 49 697 $ CAD tout compris ; provision de renouvellement 8-12 %/an de la valeur d'investissement.</p>
+<p>Total volet « chien » du mandat [E] : 5-15 M€ d'investissement étalés, 1-2 M€/an de fonctionnement — soit ~0,1-0,2 % du budget propreté (800 M€/an) et ~0,05 % du budget total de la Ville (11,7 Md€). Argument politique rare : « 15 M€ pour 145 000 électeurs ».</p>
+<h3 id="52-comment-le-financer-et-ce-qui-est-légalement-possible">5.2 Comment le financer (et ce qui est légalement possible)</h3>
+<ul>
+<li>Redéploiement propreté (800 M€/an) : légal sans changer de loi, pur arbitrage politique. C'est le levier réaliste à Paris.
+</li>
+<li>Budget participatif parisien : ~5 % du budget d'investissement. Édition 2024 : 142 938 votants, 121 projets, ~83 M€ ; enveloppe par arrondissement jusqu'à 5,22 M€ (17e). Édition 2026 suspendue pour cause d'élections -&gt; la suivante est la fenêtre. Coût pour toi : 0 €, juste un dossier à porter.
+</li>
+<li>Taxe chien : ILLÉGALE aujourd'hui en France (abrogée par la loi 71-411 du 7 juin 1971). Il faut une loi nationale. Rendement d'un modèle allemand : Berlin compte environ 130 000 chiens et a encaissé 12,6 M€ en 2023, avec une taxe de 120 € pour le premier chien et 180 € pour les suivants. Transposé à Paris à 120 €, cela donnerait de l'ordre de 12 M€/an pour 100 000 chiens déclarés, mais la base déclarative est justement ce qui manque.
+</li>
+<li>Amendes : rendement faible et non pilotable (verbalisation rare, 135 €).
+</li>
+</ul>
+<h3 id="53-le-coût-de-la-machine-politique-elle-même">5.3 Le coût de la machine politique elle-même</h3>
+<ul>
+<li>Plafond de dépenses électorales : vérifié sur la calculette officielle de la préfecture d'Île-de-France pour Paris : 2 062 183 € sur les deux tours et 1 457 245 € au premier tour seul ; remboursement forfaitaire 47,5 % du plafond si la liste atteint 5 % au premier tour, soit 979 537 € (deux tours) ou 692 192 € (premier tour). Donc pas 2,4-2,7 M€ : la calculette tranche.
+</li>
+<li>Campagne réaliste non plafonnée : 60-150 k€ (militaire sérieuse) à 300-500 k€ (crédible, professionnelle, sur Paris) [E]. Plus mandataire financier, compte de campagne, expert-comptable : 2-5 k€.
+</li>
+<li>Coût non monétaire : 2-6 ans de militantisme (20-30 h/semaine) et ton exposition publique (ta parole, ta vie privée, ton nom sur les bulletins).
+</li>
+</ul>
+<h2 class="section" id="6-ce-qui-peut-tuer-lidée-hypothèses-à-tester-dabord">6. Ce qui peut tuer l'idée (hypothèses à tester d'abord)</h2>
+<ol>
+<li>Les propriétaires de chiens votent-ils en bloc ? Aucune donnée : aucune liste canine ne s'est présentée en 2026. Le Parti animaliste plafonne ~2-3 % au national. Test à faire.
+</li>
+<li>Propriété du sujet : PARC.C et les 11 assos ont la légitimité terrain. Si elles refusent un véhicule politique (elles veulent rester non partisanes), ton projet doit être autre chose qu'un parti.
+</li>
+<li>Intérêts contradictoires : ce sont les NON-propriétaires qui veulent la propreté, et les propriétaires qui ne veulent pas payer de taxe. On ne peut pas promettre les deux. Positionnement à trancher : « plus de droits pour les chiens » (cible propriétaires) ou « la propreté payée par les propriétaires » (cible majoritaire).
+</li>
+</ol>
+<h2 class="section" id="7-pas-suivants-pas-chers">7. Pas suivants pas chers</h2>
+<ul>
+<li>(a) Entretien de cadrage avec PARC.C (Aline Meynard / Loïc Amiot) : 1 h, 0 €. Question : qu'est-ce qui manque, et veulent-ils d'un véhicule politique ?
+</li>
+<li>(b) Test de demande : questionnaire 10 questions sur 300 propriétaires parisiens via les assos et les vétérinaires — disposition à voter pour une liste canine. ~2 jours, 0 €.
+</li>
+<li>(c) Dossier budget participatif (prochaine édition) pour un espace canin modèle dans un arrondissement test : 0 € et ça donne de la crédibilité + des données matérielles.
+</li>
+</ul>
+<p>Où tester en premier (densité canine + taille d'arrondissement) :</p>
+<ul>
+<li>20e (6 133 chiens identifiés, 45 sièges),
+</li>
+<li>10e (3 580 chiens, 19 sièges),
+</li>
+<li>18e (44 sièges).
+</li>
+</ul>
+<h2 id="sources-2">Sources</h2>
+<ul>
+<li>paris.fr « Les animaux à Paris » (100 000 chiens, 45 espaces canins, charte 2021)
+</li>
+<li>Le Parisien 13/10/2025 (densité, 11,6 kg, dépenses) ; 15/01/2026 (Dati) ; 27/02/2026 (budget propreté 800 M€) ; 12/03/2026 (mesures chiens des candidats, ADN, Saint-Omer, Malaga)
+</li>
+<li>INSEE/REU 2026 (électeurs) ; Wikipédia « Élections municipales de 2026 à Paris » (résultats)
+</li>
+<li>vie-publique.fr + CNCCFP + préfectures (plafonds et remboursement de campagne)
+</li>
+<li>paris.fr mode de scrutin PLM (163 sièges, prime 25 %, seuil 5 %)
+</li>
+<li>lumpmedia.fr / LinkedIn Amiot (PARC.C, 11 assos, 50 000 sympathisants)
+</li>
+<li>nousleschiensdeparis.com (demande détaillée, amendes 38 €/150 €)
+</li>
+<li>Barcelona Ajuntament espais verds (aires pour chiens)
+</li>
+<li>lejournaldugrandparis.fr + franceopendata + qipu (budget 2026 de Paris)
+</li>
+<li>KARTES (15 M€/an propreté canine à Paris — source privée, non confirmée)
+</li>
+<li>animalert / data.gouv (8 896 distributeurs recensés en France)
+</li>
+</ul>
+<h1 id="rapport--un-projet-politique--chiens-de-paris---statut-du-chien-citoyen-registre-adn-droits-et-chiffrage">RAPPORT — Un projet politique « chiens de Paris » : statut du chien citoyen, registre ADN, droits et chiffrage</h1>
+<p>Version du 29 septembre 2026. Rédigé pour Pierre Tsia.</p>
+<p>[E] = estimation ou calcul de l'auteur. Tout le reste est sourcé (sources en annexe D).</p>
+<hr>
+<h2 class="section" id="1-résumé-exécutif">1. Résumé exécutif</h2>
+<p>L'idée : créer à Paris un statut de « chien·ne citoyen·ne » — un registre des chiens parisiens (identification génétique + propriétaire domicilié à Paris) ; un bâton, avec campagnes de prélèvement ADN sur les déjections et verbalisation ; une carotte, avec des droits en plus réservés aux chiens enregistrés (accès aux espaces de liberté sans laisse, transports, offres partenaires, éducation canine).</p>
+<p>Ce que le travail de creusage établit :</p>
+<ol>
+<li>Chaque brique existe déjà et fonctionne séparément. Le paquet n'existe nulle part. C'est l'idée, et elle est défendable.
+</li>
+<li>Le bâton est juridiquement praticable à Paris, sur une base plus solide qu'ailleurs : le maire de Paris est chargé, par la loi, de la police municipale en matière de salubrité sur la voie publique (CGCT art. L. 2512-13, II, 1°).
+</li>
+<li>Mais un arrêté identique a été annulé à Béziers le 6 mai 2025, pour trois motifs précis que l'on peut neutraliser par méthode (section 5). La jurisprudence française n'est pas stabilisée.
+</li>
+<li>Analyser une déjection sur un trottoir coûte 60,43 € HT (≈ 72,50 € TTC) au coût marginal, entre 55 et 70 € HT selon le temps agent, et de 100 à 260 € HT l'unité une fois les frais fixes amortis selon le volume traité. Par identification réellement aboutie : 108 à 336 € HT. Le dispositif ne s'autofinance pas (section 7). Le rendement utile est dissuasif, pas budgétaire.
+</li>
+<li>La population cible (≈ 145 000-160 000 électeurs estimés) est environ 3,5 fois plus large que le seuil électoral de 5 % (~41 000 voix). Le sujet, lui, est déjà occupé : 11 associations fédérées dans PARC.C, et tous les candidats de 2026 avaient un volet chien.
+</li>
+</ol>
+<hr>
+<h2 class="section" id="2-le-problème-en-faits">2. Le problème, en faits</h2>
+<ul>
+<li>Paris compte environ 100 000 chiens identifiés (chiffre de la Ville de Paris et du fichier I-CAD), soit ~1 chien pour 21 habitants.
+</li>
+<li>Attention à un chiffre qui circule beaucoup : la densité de ~2 857 chiens/km², « record mondial », repose en réalité sur ~300 000 chiens et non sur 100 000 (300 000 / 105 km²) ; les deux chiffres sont incompatibles et doivent être tranchés avant tout usage public, car l'arithmétique électorale du projet repose sur le dénominateur.
+</li>
+<li>Poids moyen parisien : aucune source ne le donne (le poids moyen national du fichier I-CAD est de 19,8 kg) ; seule la sur-représentation des petites races en ville est documentée.
+</li>
+<li>Paris : 105,4 km², 2 103 778 habitants, 1 379 084 électeurs inscrits (INSEE/REU 2026) ; 1 405 432 inscrits et 815 448 suffrages exprimés au premier tour des municipales de mars 2026.
+</li>
+<li>Espaces de liberté : 45 espaces canins (paris.fr, 2026), soit environ 15 000 m² cumulés [E], c'est-à-dire de l'ordre de 0,15 m² par chien. Barcelone dispose de plus de 100 zones pour chiens, en réalité 116 espaces clôturés (dont environ 70 enclos de moins de 400 m² et une quarantaine de parcs de 400 à 2 500 m²) plus une centaine de « zones d'usage partagé » où le lâcher est autorisé par créneaux horaires, soit environ 225 espaces au total.
+</li>
+<li>Règles en vigueur : laisse obligatoire hors espaces canins ; lâcher = contravention de 1re classe, 38 €, jusqu'à 150 € pour un chien catégorisé ; déjection non ramassée : 135 € de contravention ; pour les transports, voir la section sur la carotte (les chiens voyagent gratuitement, mais les moyens et grands chiens sont interdits en bus et tramway).
+</li>
+<li>Budgets : propreté ≈ 800 M€ par an à Paris (6 300 agents de terrain, ~3 000 t de déchets collectées par jour) ; budget 2026 de la Ville : 11,72 Md€, dont 917,8 M€ pour la ligne « Environnement ». Une source privée (KARTES) avance plus de 15 M€ par an de dépense liée aux chiens, chiffre non confirmé officiellement et contredit par d'autres estimations privées (~6 M€ par an) : à ne pas utiliser sans source publique.
+</li>
+<li>Signal politique : en octobre 2025, le Conseil de Paris a voté à l'unanimité un vœu sur la place du chien à Paris. Aux municipales de mars 2026, tous les candidats avaient un volet chien (voir section 4).
+</li>
+</ul>
+<hr>
+<h2 class="section" id="3-la-cible--100-000-chiens-valent-ils-un-électorat-">3. La cible : 100 000 chiens valent-ils un électorat ?</h2>
+<p>Calcul d'ordre de grandeur [E] :</p>
+<ul>
+<li>100 000 chiens ≈ 85 000-95 000 foyers détenteurs (hypothèse 1,1 chien par foyer) ;
+</li>
+<li>≈ 145 000-160 000 électeurs si l'on compte 1,7 électeur par foyer ;
+</li>
+<li>soit ≈ 10-11 % du corps électoral parisien ;
+</li>
+<li>le seuil qui compte est le 5 % des suffrages exprimés, soit ≈ 41 000 voix sur la base de 2026 : c'est le ticket d'entrée pour obtenir des sièges au Conseil de Paris et un remboursement de campagne.
+</li>
+</ul>
+<p>La cible est donc ~3,5 fois plus large que le seuil. L'honnêteté oblige à ajouter immédiatement la réserve : posséder un chien ne signifie pas voter pour un chien.</p>
+<p>Tout vote catégoriel se juge sur sa capacité à faire voter une population pour un enjeu qui n'est pas son intérêt exclusif.</p>
+<hr>
+<h2 class="section" id="4-le-contexte-politique--le-sujet-est-déjà-occupé">4. Le contexte politique : le sujet est déjà occupé</h2>
+<ul>
+<li>PARC.C — Paris Condition Canine, créée en octobre 2025 : 11 associations parisiennes, ~50 000 sympathisants, 12 arrondissements et 2 bois couverts. Demandes : un espace canin sécurisé par quartier, accès généralisé aux parcs avec laisse, accès aux transports.
+</li>
+<li>Associations historiques par arrondissement : Nous les Chiens de Paris, Monceau Dog Club, Les Chiens du Canal, Chiens en Ville, Les Truffes des Batignolles, Les Poilus de la Butte, Les Cabotins de la Chapelle, Pat' Patrouilles, Les Chiens Libres de Paris, etc.
+</li>
+<li>Municipales 2026 :
+<ul>
+<li>Grégoire (élu) proposait l'ouverture de parcs aux chiens en laisse et des consultations vétérinaires solidaires ;
+</li>
+<li>Dati proposait l'amende à 300 €, le port obligatoire de sacs, des « sentiers Paris 4 pattes » et des caniparcs labellisés ;
+</li>
+<li>Bournazel, 1 000 distributeurs de sachets biodégradables ;
+</li>
+<li>Mariani, plus de fontaines à eau et des transports plus tolérants ;
+</li>
+<li>Chikirou, des espaces sans laisse et un rapport annuel.
+</li></ul>
+<li>Conséquence : il n'y a plus de vide thématique. Un nouveau projet doit soit s'adosser à PARC.C, soit la dépasser par une proposition qu'elle ne porte pas — et le statut conditionnel est précisément ce qu'elle ne porte pas, puisqu'elle refuse par principe la conditionnalité.
+</li>
+</ul>
+<hr>
+<h2 class="section" id="5-la-faisabilité-juridique">5. La faisabilité juridique</h2>
+<h3 id="51-ce-qui-sest-passé-à-béziers-et-ce-quil-faut-en-retenir">5.1 Ce qui s'est passé à Béziers (et ce qu'il faut en retenir)</h3>
+<p>Arrêté du maire de Béziers du 12 mai 2023 imposant, à titre d'expérimentation, de pouvoir justifier de l'identification génétique de son chien dans l'hypercentre.</p>
+<p>Annulé par jugement du tribunal administratif de Montpellier du 6 mai 2025, pour trois motifs :</p>
+<ol>
+<li>aucune pièce du dossier ne corroborait l'atteinte à la sécurité et à la salubrité publiques (nombre de déjections 2020-2022), ni l'inefficacité des mesures déjà prises ;
+</li>
+<li>il n'était pas démontré que la méthode d'identification classique (tatouage ou marquage, obligatoire au titre de l'article L. 212-10 du code rural et de la pêche maritime) était insuffisante ;
+</li>
+<li>eu égard aux sujétions imposées aux détenteurs, la mesure n'était « ni nécessaire, ni adaptée, ni proportionnée », et ce « alors même que l'arrêté concerne un territoire réduit ».
+</li>
+</ol>
+<p>Le maire a réédicté le même arrêté le jour même, jusqu'au 31 décembre 2028 (amende de 35 €, redevance de 130 € au titre des frais de nettoiement), en s'appuyant sur une baisse de 85 % des déjections dans l'hypercentre entre septembre 2023 et avril 2025 — chiffre revendiqué par la mairie dans son nouvel arrêté, repris par la presse, jamais corroboré par une mesure indépendante.</p>
+<p>La LDH a saisi le tribunal : son référé-suspension a été rejeté le 27 juin 2025 pour défaut d'urgence — le juge ne s'est donc pas prononcé sur la légalité — et le recours au fond est toujours pendant.</p>
+<h3 id="52-pourquoi-paris-est-mieux-placé">5.2 Pourquoi Paris est mieux placé</h3>
+<ul>
+<li>CGCT art. L. 2512-13, II : « le maire de Paris est chargé de la police municipale en matière : 1° De salubrité sur la voie publique ». Le fondement d'un arrêté anti-déjections est donc explicitement dans la main du maire de Paris, alors qu'à Béziers ou Saint-Omer le maire agit au titre du droit commun (L. 2212-2).
+</li>
+<li>CGCT art. L. 2512-16-1 : les agents de surveillance de Paris peuvent verbaliser les contraventions aux arrêtés du maire de Paris relatifs au bon ordre, à la tranquillité, à la sécurité et à la salubrité sur la voie publique. Réserve de rédaction : cet article est celui issu de la loi du 15 novembre 2001 et il ne figure plus dans le chapitre en vigueur du code, qui va de L. 2512-13 à L. 2512-16 ; la rédaction actuelle est à vérifier sur Légifrance avant toute citation publique.
+</li>
+<li>À vérifier auprès de la direction des affaires juridiques de la Ville : le partage exact avec la préfecture de police sur les contrôles de voie publique, et la qualité des agents habilités à prélever sur les déjections.
+</li>
+</ul>
+<h3 id="53-la-recette-pour-un-arrêté-qui-survit-à-un-recours">5.3 La recette pour un arrêté qui survit à un recours</h3>
+<ol>
+<li>Prouver l'atteinte AVANT de réglementer : comptage contradictoire, protocole écrit, plusieurs mois, données DansMaRue à l'appui. C'est le motif d'annulation de Béziers.
+</li>
+<li>Démontrer par écrit l'insuffisance de la puce et du tatouage : ils identifient un chien mais ne relient pas une déjection à un chien, et le flagrant délit est en pratique impossible. Cette démonstration doit figurer dans les considérants, avec pièces.
+</li>
+<li>Documenter la proportionnalité : périmètre restreint et motivé, durée bornée, gratuité totale, 72 h pour se mettre en règle, tolérance pour les visiteurs occasionnels, évaluation publique avant toute extension, signalétique aux entrées de zone.
+</li>
+<li>Sécuriser les données : analyse d'impact (AIPD), registre et déclarations CNIL, base génétique conservée par le laboratoire seul, la Ville ne détenant que la correspondance prélèvement -&gt; propriétaire, durée de conservation définie, vidéoprotection ponctuelle uniquement (jamais permanente), pas de consultation du fichier national hors de son objet légal.
+</li>
+<li>Ne jamais franchir la ligne du fichage des personnes : pas de conservation d'ADN par la Ville, pas de croisement de fichiers, pas de conditionnement général de l'accès à l'espace public.
+</li>
+</ol>
+<p>Stratégie recommandée : deux temps.</p>
+<p>Phase 1 volontaire et non sanctionnante (enregistrement gratuit, badge, contreparties, comptage parallèle des déjections) ; phase 2 obligation bornée sur un périmètre, une fois les pièces réunies.</p>
+<p>Une annulation en pleine campagne électorale est une défaite politique irrécupérable.</p>
+<hr>
+<h2 class="section" id="6-le-dispositif--architecture-du-statut">6. Le dispositif : architecture du statut</h2>
+<h3 id="61-registre-et-identification">6.1 Registre et identification</h3>
+<ul>
+<li>Étage national existant : puce électronique ou tatouage et fichier I-CAD (obligation légale depuis 2012), qui porte l'identité du détenteur et son adresse.
+</li>
+<li>Étage local à créer : « carte d'identité génétique », kit gratuit retiré en mairie, inscription en ligne, prélèvement buccal chez le vétérinaire, envoi direct au laboratoire, attestation provisoire immédiate puis carte définitive par courrier.
+</li>
+<li>Données : base génétique chez le laboratoire ; la Ville ne reçoit que la correspondance.
+</li>
+</ul>
+<h3 id="62-bâton">6.2 Bâton</h3>
+<ul>
+<li>Obligation d'identification génétique sur un périmètre délimité, contrôles par les agents habilités, 72 h pour présenter le justificatif, contravention de 2e classe (jusqu'à 150 €) à défaut.
+</li>
+<li>Prélèvement sur déjection par les agents (tige et brosse, sans contact), analyse en laboratoire, identification du détenteur, puis contravention majorée des frais de prélèvement, d'analyse et de nettoiement.
+</li>
+</ul>
+<h3 id="63-carotte">6.3 Carotte</h3>
+<ul>
+<li>« Espaces de liberté » généralisés, sur le modèle du parc Monceau : 2 000 m² clôturés, ouverts sur toute l'amplitude horaire du parc (7 h - 22 h en 2026), avec un éducateur canin financé par la mairie présent chaque matin, accès réservé aux chiens sociables, identifiables et vaccinés, chiens catégorisés exclus.
+</li>
+<li>Transports : la Ville négocie avec Île-de-France Mobilités.
+</li>
+<li>Règle réelle, vérifiée sur la page RATP : les petits animaux voyagent gratuitement sur tout le réseau dans un contenant fermé adapté, bus et tramway compris ; les chiens de taille moyenne et grande sont acceptés gratuitement, muselés et tenus en laisse, mais uniquement dans le métro et le RER, jamais dans les bus ni les tramways ; les chiens catégorisés sont interdits partout.
+</li>
+<li>Depuis novembre 2019, il n'y a plus de ticket à tarif réduit pour les chiens. La dimension de 45 × 30 × 25 cm est une règle SNCF pour les trains, pas une règle francilienne.
+</li>
+<li>Lyon a créé un « ticket Waf » pour les chiens de plus de 6 kg ; le maire de Marseille veut étendre l'accès aux grands chiens. Honnêteté : ce droit ne dépend pas de la Ville.
+</li>
+<li>Partenariats : assurance responsabilité civile de groupe, éducation canine, toilettage, garde, identification ; accès prioritaire aux animations de la Maison de l'animal en ville – Jane Goodall et aux consultations vétérinaires solidaires.
+</li>
+<li>Éducation canine : la Ville mandate déjà des éducateurs professionnels ; la séance validée devient la contrepartie obligatoire du statut. C'est la brique qui existe déjà en Allemagne (permis pour chien), et c'est elle qui rend la carotte crédible auprès des non-propriétaires.
+</li>
+</ul>
+<h3 id="64-références-étrangères-du-mécanisme-carottebâton">6.4 Références étrangères du mécanisme carotte/bâton</h3>
+<ul>
+<li>Brême (Allemagne), depuis le 1er juillet 2026 : examen théorique de 35 questions avant l'acquisition, épreuve pratique dans l'année, puce, enregistrement, assurance RC jusqu'à 500 000 € ; infraction sanctionnée jusqu'à 50 000 €.
+</li>
+<li>Basse-Saxe, depuis 2013 : 162 800 personnes ont réussi le Hundeführerschein, ~40 € l'épreuve.
+</li>
+<li>Autriche, depuis le 1er juillet 2026 : formation obligatoire de 4 h de théorie et 2 h de pratique avant une première détention.
+</li>
+<li>Les droits en échange de la preuve existent déjà : à Munich, la licence canine donne une réduction de la taxe canine ; à Hambourg et dans le Schleswig-Holstein, elle dispense de l'obligation générale de laisse ; à Berlin elle ouvre des dérogations.
+</li>
+<li>En France, rien de tel : seul un certificat d'engagement et de connaissance signé au moins sept jours avant l'acquisition, sans examen, et un permis de détention pour les chiens catégorisés.
+</li>
+</ul>
+<hr>
+<h2 class="section" id="7-chiffrage--le-coût-danalyser-une-crotte-sur-un-trottoir">7. CHIFFRAGE — le coût d'analyser une crotte sur un trottoir</h2>
+<h3 id="70-lessentiel-en-un-tableau">7.0 L'essentiel, en un tableau</h3>
+<div class="tw"><table>
+<thead><tr><th>Question</th><th>Réponse</th></tr></thead>
+<tbody>
+<tr><td>Combien coûte une analyse, au coût marginal ?</td><td><strong>60,43 € HT (≈ 72,50 € TTC)</strong>, fourchette 55-70 € HT</td></tr>
+<tr><td>Combien coûte une analyse, frais fixes inclus ?</td><td>100 € HT (500 analyses/an), 160 € HT (200/an), 260 € HT (100/an), plancher 70 € HT</td></tr>
+<tr><td>Combien coûte une identification réellement aboutie ?</td><td>108 à 336 € HT selon la couverture de la base et la qualité de l'ADN</td></tr>
+<tr><td>Combien rapporte un dossier abouti ?</td><td>301,10 € (135 € de contravention + 132 € de frais de nettoiement + 34,10 € d'analyse refacturée)</td></tr>
+<tr><td>Quel taux d'aboutissement faut-il pour s'autofinancer ?</td><td>20 % pour couvrir le coût marginal, 33 % pour couvrir le coût complet (à 500 analyses/an)</td></tr>
+<tr><td>Et si le taux n'est pas atteint ?</td><td>Le dispositif coûte quelques dizaines de milliers d'euros par an, en échange de -60 % à -85 % de déjections constatées</td></tr>
+<tr><td>Combien coûte l'identification d'un chien ?</td><td>~46 € la première année (référence Saint-Omer) ; 38-48 € au tarif public ; 25-35 € visé en volume de marché</td></tr>
+</tbody></table></div>
+<blockquote>Trois phrases pour un élu : « analyser une crotte coûte une soixantaine d'euros ; faire identifier un chien coûte une cinquantaine d'euros une fois ; le dispositif ne rapporte rien, il fait disparaître les crottes et il ne coûte pas plus qu'un rond-point. »</blockquote>
+<h3 id="71-le-chiffre-réel-dont-on-dispose">7.1 Le chiffre réel dont on dispose</h3>
+<p>À Saint-Omer, la Ville a signé un marché de 40 000 € (42 000 € selon la presse) sur deux ans avec le laboratoire, et l'analyse d'une déjection canine — fourniture du matériel de prélèvement, analyse en laboratoire, transport et acheminement compris — est facturée <strong>34,10 € HT</strong>, montant refacturé au propriétaire indélicat. C'est le seul poste dont le prix est public et documenté.</p>
+<p>Tout ce qui suit ajoute ce que ce prix ne contient pas : le temps agent, le traitement administratif, l'affranchissement, et l'amortissement des frais fixes du dispositif.</p>
+<h3 id="72-décomposition-du-coût-unitaire-e">7.2 Décomposition du coût unitaire [E]</h3>
+<div class="tw"><table>
+<thead><tr><th>Poste</th><th>Base</th><th>Coût</th></tr></thead>
+<tbody>
+<tr><td>Prélèvement sur le trottoir (déplacement, tige et brosse, conditionnement)</td><td>20 min d'agent à 25 €/h chargé</td><td>8,33 € HT</td></tr>
+<tr><td>Laboratoire, matériel, transport, acheminement</td><td>tarif Saint-Omer</td><td>34,10 € HT</td></tr>
+<tr><td>Traitement administratif (saisie, PV, notification, suivi d'un recours éventuel)</td><td>45 min à 20 €/h chargé</td><td>15,00 € HT</td></tr>
+<tr><td>Affranchissement et envoi</td><td>forfait</td><td>3,00 € HT</td></tr>
+<tr><td><strong>Coût marginal d'une analyse</strong></td><td></td><td><strong>60,43 € HT (≈ 72,50 € TTC)</strong></td></tr>
+</tbody></table></div>
+<p>Fourchettes : le coût horaire chargé d'un agent de terrain va de 20 à 35 €/h, et le temps de prélèvement de 15 à 25 minutes, ce qui borne le poste terrain entre 5 € et 15 €. Le coût marginal raisonnable s'établit donc entre 55 € et 70 € HT par analyse.</p>
+<h3 id="73-coût-complet-frais-fixes-inclus">7.3 Coût complet, frais fixes inclus</h3>
+<p>Frais fixes annuels estimés : 20 000 € (moitié du marché de 40 000 € sur deux ans : kits, mise en place, communication), auxquels s'ajoutent un registre ou portail municipal (30-60 k€), la conformité RGPD (10-20 k€) et la formation des agents (5-10 k€) — amortissables sur plusieurs exercices [E].</p>
+<div class="tw"><table>
+<thead><tr><th>Nombre d'analyses par an</th><th>Coût complet par analyse</th></tr></thead>
+<tbody>
+<tr><td>100</td><td>260,43 € HT</td></tr>
+<tr><td>200</td><td>160,43 € HT</td></tr>
+<tr><td>500</td><td>100,43 € HT</td></tr>
+<tr><td>1 000</td><td>80,43 € HT</td></tr>
+<tr><td>2 000</td><td>70,43 € HT</td></tr>
+</tbody></table></div>
+<p>Autrement dit : plus la Ville analyse de crottes, moins chaque analyse coûte, et le plancher structurel reste d'environ 60 € HT, dominé par le laboratoire (34,10 €) et par le temps agent.</p>
+<h3 id="74-le-chiffre-qui-compte-vraiment--le-coût-par-identification-aboutie">7.4 Le chiffre qui compte vraiment : le coût par identification aboutie</h3>
+<p>Une analyse ne produit une sanction que si le chien est déjà dans la base (taux de couverture c) et si l'ADN environnemental prélevé est exploitable (taux q) : p = c × q. À Saint-Omer, sur les prélèvements analysés, trois seulement correspondaient à des chiens enregistrés — signe d'une couverture partielle, pas d'une défaillance du laboratoire.</p>
+<div class="tw"><table>
+<thead><tr><th>Couverture de la base</th><th>ADN exploitable</th><th>p</th><th>Coût par identification (marginal)</th><th>Coût par identification (complet, 500 analyses/an)</th></tr></thead>
+<tbody>
+<tr><td>30 %</td><td>60 %</td><td>18 %</td><td>336 € HT</td><td>558 € HT</td></tr>
+<tr><td>50 %</td><td>70 %</td><td>35 %</td><td>173 € HT</td><td>287 € HT</td></tr>
+<tr><td>70 %</td><td>80 %</td><td>56 %</td><td>108 € HT</td><td>179 € HT</td></tr>
+</tbody></table></div>
+<h3 id="75-autofinancement--la-réponse-honnête">7.5 Autofinancement : la réponse honnête</h3>
+<p>Recouvrement possible par dossier abouti (modèle Saint-Omer et Béziers) : 135 € de contravention</p>
+<ul>
+<li>132 € de frais de nettoiement + 34,10 € d'analyse refacturée = 301,10 €.
+</li>
+</ul>
+<ul>
+<li>Pour couvrir le seul coût marginal (60,43 €), il faut que <strong>20 %</strong> des crottes analysées aboutissent à une identification exploitable.
+</li>
+<li>Pour couvrir le coût complet à 500 analyses par an (100,43 €), il faut <strong>33 %</strong> d'aboutissement.
+</li>
+<li>À p = 35 %, le recouvrement espéré est de 105 € par analyse : positif face au coût marginal, à peine à l'équilibre face au coût complet.
+</li>
+</ul>
+<blockquote>Conclusion : ce dispositif ne s'autofinance pas significativement. Il n'est pas non plus ruineux : la dépense utile se compte en dizaines de milliers d'euros par an, à comparer aux 800 M€ de propreté parisienne. Ce qu'il achète, ce sont des comportements : -60 % de déjections constatées en six mois à Saint-Omer, -85 % dans l'hypercentre de Béziers entre septembre 2023 et avril 2025. Le rendement est dissuasif et politique, jamais budgétaire. Le vendre comme une recette serait une faute de communication immédiatement démontable.</blockquote>
+<h3 id="76-coût-de-la-campagne-didentification-lautre-poste">7.6 Coût de la campagne d'identification (l'autre poste)</h3>
+<p>Référence Saint-Omer : ~46 € par chien fiché la première année, tout compris (868 chiens pour un marché de 40 000 € sur deux ans) [E]. Tarifs publics de laboratoire : 38 € en ligne / 48 € papier à la Centrale Canine, 45 € TTC chez Antagene (36 € pour les clubs de race). En volume, un tarif de marché de 25-35 € par chien est un objectif réaliste [E].</p>
+<div class="tw"><table>
+<thead><tr><th>Scénario</th><th>Chiens</th><th>Coût public</th></tr></thead>
+<tbody>
+<tr><td>Journée d'identification gratuite en arrondissement</td><td>200-400 par journée</td><td>3 000-5 000 € par journée [E]</td></tr>
+<tr><td>Périmètre pilote 20e + 10e, obligation gratuite, couverture 50-60 %</td><td>4 800-5 800 fichés</td><td>220-260 k€ [E]</td></tr>
+<tr><td>Pilote étendu au 18e (couverture 60 %)</td><td>~10 000 fichés</td><td>460 k€ [E]</td></tr>
+<tr><td>Paris entier, gratuit, étalé sur quatre ans</td><td>100 000 chiens</td><td>3,0-4,6 M€ [E] (le Parisien cite ~5 M€)</td></tr>
+<tr><td>Paris entier, identification payante par le détenteur (38-48 €)</td><td>variable</td><td>quasi nul pour la Ville, mais couverture faible</td></tr>
+</tbody></table></div>
+<h3 id="77-coût-du-volet--droits--la-carotte">7.7 Coût du volet « droits » (la carotte)</h3>
+<div class="tw"><table>
+<thead><tr><th>Poste</th><th>Coût</th></tr></thead>
+<tbody>
+<tr><td>Espace de liberté clôturé (300-500 m² : clôture 1 m, sas double porte, sol stabilisé, point d'eau, poubelles, bancs, signalétique)</td><td>60-150 k€ par site [E]</td></tr>
+<tr><td>Éducateur canin présent chaque matin (4 h/jour, ~250 jours)</td><td>~50 k€/an [E]</td></tr>
+<tr><td>Distributeurs de sachets (+1 000)</td><td>300-500 k€/an de consommables et maintenance [E]</td></tr>
+<tr><td>Accès des parcs en laisse</td><td>~0 € (pur arbitrage réglementaire)</td></tr>
+<tr><td>Accès bus et tramways</td><td>~0 € pour la Ville, décision d'Île-de-France Mobilités</td></tr>
+<tr><td>Partenariats assurance et éducation</td><td>à financer par les partenaires</td></tr>
+</tbody></table></div>
+<h3 id="78-total-en-une-ligne">7.8 Total, en une ligne</h3>
+<p>Un dispositif crédible sur deux à trois arrondissements, sur deux ans, avec identification gratuite, un espace de liberté modèle, les analyses et leur traitement administratif, se situe entre 400 000 € et 700 000 € [E], soit moins de 1 % du budget annuel de propreté de Paris.</p>
+<hr>
+<h2 class="section" id="8-les-cinq-décisions-qui-sont-le-projet-politique">8. Les cinq décisions qui sont le projet politique</h2>
+<ul>
+<li><strong>D1.</strong> Bâton universel (obligation par arrêté sur un périmètre, à la Saint-Omer) ou statut volontaire ? Recommandation : obligation sur un périmètre pilote + adhésion volontaire pour les droits. Seul montage qui couvre les deux faces.
+</li>
+<li><strong>D2.</strong> Quels droits en premier ? Ceux que la Ville décide seule (espaces de liberté, équipements, animations), avant ceux qui se négocient (transports).
+</li>
+<li><strong>D3.</strong> Entrée gratuite ou payante ? La gratuité maximise le taux d'adhésion mais expose à l'attaque « encore de l'argent pour les chiens » ; la cotisation (15-25 €/an) autofinance mais exclut les plus modestes. Compensation obligatoire si cotisation : kits gratuits, journées d'identification, exonérations, assurance de groupe.
+</li>
+<li><strong>D4.</strong> Couverture minimale avant de sanctionner. En dessous de ~50 %, le dispositif se retourne politiquement : seuls les honnêtes sont tracés. La campagne d'identification doit précéder l'annonce de la sanction, jamais l'inverse.
+</li>
+<li><strong>D5.</strong> Périmètre pilote. Le 20e (6 133 chiens identifiés, 45 conseillers d'arrondissement) ou le 10e (3 580 chiens, 19 sièges) ; le 8e a déjà l'infrastructure (Monceau) mais peu de chiens.
+</li>
+</ul>
+<hr>
+<h2 class="section" id="9-objections-à-anticiper">9. Objections à anticiper</h2>
+<ol>
+<li>« Un péage pour riches. » La possession canine est plus fréquente chez les ouvriers (39 %) et les indépendants (42 %) que chez les cadres (34 %), et plus faible en agglomération parisienne (22 %) qu'ailleurs : l'attaque est fausse en cible, mais la barrière financière est réelle (vétérinaire, assurance, cotisation). Réponse : gratuité de l'identification, journées de quartier, exonérations, RC de groupe.
+</li>
+<li>« Fichage des gens. » L'ADN du chien identifie son détenteur. Réponse : base génétique chez le laboratoire, correspondance seule à la Ville, AIPD, durée bornée, pas de vidéosurveillance permanente.
+</li>
+<li>« Les droits des chiens prennent la place des enfants. » Monceau l'a montré : la zone sans laisse a été réduite de moitié en saison 2. Réponse : encadrement éducatif, créneaux, zones tournantes, modèle barcelonais d'usage partagé.
+</li>
+<li>« Le bâton ne frappe que les honnêtes. » Voir D4 et la section 7.4.
+</li>
+<li>« Police des trottoirs. » Présenter la mesure comme un allègement de la dépense publique et un contrat, non comme une surveillance.
+</li>
+</ol>
+<hr>
+<h2 class="section" id="10-positionnement-et-formulation">10. Positionnement et formulation</h2>
+<p>L'intérêt politique du statut est de dissoudre la contradiction : « plus de droits pour les chiens » est minoritaire à Paris, « la propreté payée par les négligents » est majoritaire. Le statut relie les deux et rend les droits défendables parce qu'ils sont conditionnés.</p>
+<p>Formulations testables :</p>
+<ul>
+<li>« Vos impôts ne paieront plus les crottes des autres. »
+</li>
+<li>« Un chien identifié, un maître responsable, des droits en plus. »
+</li>
+<li>« Paris ne donnera de nouveaux droits qu'aux chiens dont les maîtres en font la preuve. »
+</li>
+</ul>
+<p>Concurrence : la droite parisienne a déjà proposé la moitié du bâton (amende à 300 €, port de sacs obligatoire, caniparcs labellisés) ; la majorité sortante a voté le vœu à l'unanimité.</p>
+<p>Le créneau réaliste pour un acteur privé en 2026-2027 est de porter un pilote par une association et par le budget participatif, puis de vendre le dispositif aux élus.</p>
+<hr>
+<h2 class="section" id="11-feuille-de-route">11. Feuille de route</h2>
+<ul>
+<li><strong>Étape 0</strong> — faire, coût zéro, immédiat : devis à trois laboratoires ; demande des pièces du marché de Saint-Omer et du bilan de Reims (documents administratifs communicables) ; comptage des déjections sur un périmètre test.
+</li>
+<li><strong>Étape 1</strong> — 1 à 2 mois : test politique. Entretien avec PARC.C, une réunion publique dans le 20e, questionnaire à 300 détenteurs. Question à trancher : le statut intéresse-t-il sa cible ?
+</li>
+<li><strong>Étape 2</strong> — 2 à 4 mois : dossier de budget participatif pour un pilote d'identification et un espace de liberté modèle ; montage associatif.
+</li>
+<li><strong>Étape 3</strong> — 6 à 12 mois : phase volontaire non sanctionnante dans un arrondissement pilote, avec comptage avant/après publié. C'est la constitution du dossier de preuve exigé par le juge.
+</li>
+<li><strong>Étape 4</strong> — 12 à 24 mois : arrêté d'expérimentation borné, avec les pièces réunies, sur le modèle rédigé en annexe.
+</li>
+</ul>
+<hr>
+<h2 id="11-bis-tableau-de-bord-des-chiffres-clés">11 bis. Tableau de bord des chiffres clés</h2>
+<div class="tw"><table>
+<thead><tr><th>Indicateur</th><th>Valeur</th><th>Statut</th></tr></thead>
+<tbody>
+<tr><td>Chiens identifiés à Paris</td><td>~100 000 (≈ 1 pour 21 habitants)</td><td>sourcé (I-CAD / Ville de Paris)</td></tr>
+<tr><td>Électeurs parisiens inscrits</td><td>1 379 084 (REU 2026)</td><td>sourcé (INSEE)</td></tr>
+<tr><td>Suffrages exprimés au 1er tour 2026</td><td>815 448</td><td>sourcé</td></tr>
+<tr><td>Seuil électoral de 5 %</td><td>≈ 41 000 voix</td><td>calcul [E]</td></tr>
+<tr><td>Électorat potentiellement concerné</td><td>145 000-160 000 (10-11 % du corps électoral)</td><td>calcul [E]</td></tr>
+<tr><td>Espaces canins</td><td>45, ≈ 15 000 m²</td><td>sourcé / [E]</td></tr>
+<tr><td>Budget propreté de Paris</td><td>≈ 800 M€/an</td><td>sourcé (Le Parisien)</td></tr>
+<tr><td>Coût marginal d'une analyse de déjection</td><td>60,43 € HT (≈ 72,50 € TTC)</td><td>[E] sur poste labo sourcé</td></tr>
+<tr><td>Poste laboratoire tout compris</td><td>34,10 € HT</td><td>sourcé (Saint-Omer)</td></tr>
+<tr><td>Coût complet d'une analyse (500/an)</td><td>100,43 € HT</td><td>calcul [E]</td></tr>
+<tr><td>Coût par identification aboutie</td><td>108 à 336 € HT</td><td>calcul [E]</td></tr>
+<tr><td>Recouvrement par dossier abouti</td><td>301,10 €</td><td>sourcé (Saint-Omer, Béziers)</td></tr>
+<tr><td>Seuil d'autofinancement</td><td>20 % (marginal) / 33 % (complet) d'aboutissement</td><td>calcul [E]</td></tr>
+<tr><td>Coût d'identification d'un chien</td><td>~46 € la 1re année ; 38-48 € tarif public ; 25-35 € visé en volume</td><td>sourcé / [E]</td></tr>
+<tr><td>Effet constaté sur les déjections</td><td>-60 % (Saint-Omer, 6 mois) ; -85 % (Béziers, revendiqué par la mairie, non corroboré)</td><td>sourcé (mairies)</td></tr>
+<tr><td>Coût total pilote 2-3 arrondissements sur 2 ans</td><td>400 000-700 000 €</td><td>[E]</td></tr>
+<tr><td>Coût total Paris entier, étalé sur 4 ans</td><td>3,0-4,6 M€ (le Parisien : ~5 M€)</td><td>[E]</td></tr>
+<tr><td>Fonds « chiens citoyens », an 1 (5 000 adhérents)</td><td>158 k€/an</td><td>calcul [E]</td></tr>
+<tr><td>Fonds, an 3 (30 000 adhérents)</td><td>826 k€/an</td><td>calcul [E]</td></tr>
+<tr><td>Fonds, an 6 (100 000 adhérents)</td><td>2,64 M€/an</td><td>calcul [E]</td></tr>
+<tr><td>Pénétration de l'assurance chien en France</td><td>5-7 % (Suède 91 %, Royaume-Uni 25 %)</td><td>sourcé</td></tr>
+<tr><td>Marché français de l'assurance animale</td><td>~600 M€ de primes en 2025, 1 Md€ visé en 2030</td><td>sourcé</td></tr>
+<tr><td>Espaces verts gérés par Paris Habitat, interdits aux chiens</td><td>108 ha</td><td>sourcé (règlement intérieur)</td></tr>
+</tbody></table></div>
+<hr>
+<h2 class="section" id="12-partenariats-à-léchelle-de-paris-et-ce-quun-dispositif-qui-réussit-peut-financer">12. Partenariats à l'échelle de Paris, et ce qu'un dispositif qui réussit peut financer</h2>
+<h3 id="121-les-huit-familles-de-partenaires">12.1 Les huit familles de partenaires</h3>
+<ol>
+<li>Assureurs santé animale et responsabilité civile.
+<ol>
+<li>Privés : Santévet, Bulle Bleue, Dalma, Kozoo, Lassie, Filouzii, Acheel, Agria.
+</li>
+<li>Mutualistes ou parapublics : MACIF, MAIF, GMF, MAAF.
+</li>
+<li>Ce qu'ils apportent : un contrat de groupe « chien citoyen » (RC et/ou santé) avec une remise de 10 à 15 % pour les titulaires du badge, le tiers payant vétérinaire, et une commission affinitaire versée au fonds — jamais à la Ville, pour éviter tout conflit d'intérêts.
+</li>
+<li>Ce qu'ils y gagnent, et c'est le cœur du montage : un pool d'assurés identifiés, vaccinés et éduqués, donc moins sinistré. Les contrats exigent déjà que l'animal soit identifié : le badge n'est que l'extension logique.
+</li>
+<li>Contexte : 5 à 7 % des chiens français sont assurés, contre 91 % en Suède et 25 % au Royaume-Uni ; le marché pèse ~600 M€ de primes en 2025 et vise 1 Md€ en 2030, avec une croissance de 8 à 20 % par an.
+</li>
+<li>Un assureur a donc intérêt à financer la prévention : une remise de 15 % sur une prime de 240 €/an coûte 36 € par animal, qu'un seul accident évité (500 à 2 000 € de prise en charge) amortit 14 à 55 fois [E].
+</li></ol>
+<li>Vétérinaires.
+<ol>
+<li>Ordre régional d'Île-de-France, cliniques et réseaux, École nationale vétérinaire d'Alfort (envA).
+</li>
+<li>Ce qu'ils apportent : la capacité de prélèvement (100 000 frottis buccaux = 100 000 visites), la crédibilité scientifique, une clinique pédagogique à bas coût.
+</li>
+<li>À intégrer dans une convention respectant la déontologie (pas de publicité, mais un annuaire municipal des vétérinaires participants).
+</li></ol>
+<li>Laboratoires.
+<ol>
+<li>Antagene, Genindexe, Animagene, Centrale Canine : quatre acteurs français déjà positionnés, dont un (Animagene, solution HyGene) vend une offre clé en main aux collectivités.
+</li>
+<li>Le volume parisien (5 000 puis 100 000 chiens) est un argument de négociation direct.
+</li></ol>
+<li>Bailleurs sociaux parapublics.
+<ol>
+<li>Paris Habitat (128 700 logements, 108 hectares d'espaces verts, 1 156 gardiens), RIVP et Elogie-Siemp, tous liés à la Ville.
+</li>
+<li>C'est le partenaire le plus sous-estimé : à Paris, la ressource rare n'est pas l'argent, c'est le foncier. Or le règlement intérieur de Paris Habitat interdit aujourd'hui l'accès des animaux, même tenus en laisse, aux espaces verts, aires de jeux et cours d'immeuble.
+</li>
+<li>Ouvrir dix « jardins de liberté » en pied d'îlot, réservés aux titulaires du statut, coûte peu au bailleur, règle un conflit de voisinage récurrent et donne au statut un avantage concret que la Ville seule ne peut pas offrir à cette échelle.
+</li></ol>
+<li>Transporteurs parapublics.
+<ol>
+<li>Île-de-France Mobilités, RATP, SNCF (Transilien, Gares &amp; Connexions).
+</li>
+<li>Ce qu'ils apportent : l'accès des chiens titulaires dans les bus et tramways, plus des équipements en gare et aux arrêts (points d'eau, distributeurs de sachets, espaces d'attente canine).
+</li>
+<li>Ce qu'ils y gagnent : moins de fraude de contrôle, des gares plus accueillantes, une image de service public. Coût pour la Ville : nul.
+</li></ol>
+<li>Éducation canine et petcare privé.
+<ol>
+<li>Éducateurs et comportementalistes, toiletteurs, pensions, dog-sitters, animaleries.
+</li>
+<li>Modèle : un réseau labellisé « partenaire chien citoyen », adhérant à une charte, accordant une remise aux titulaires du badge et finançant une part du module d'éducation obligatoire.
+</li>
+<li>L'économie existante est réelle à Paris (balade professionnelle à 35 € par animal pour deux heures et demie, toilettage à plusieurs centaines d'euros, brunchs, spas, jouets).
+</li></ol>
+<li>Réseau de proximité pour la distribution.
+<ol>
+<li>Mairies d'arrondissement, bureaux de La Poste, pharmacies, animaleries : c'est le maillage qui permet de distribuer les kits gratuitement sans créer de structure.
+</li>
+<li>Saint-Omer a fait simple (accueil de la mairie, commissariat de police, journée d'identification) ; Paris a besoin de volume.
+</li></ol>
+<li>Institutions de savoir et de contrôle.
+<ol>
+<li>Muséum national d'histoire naturelle (calibrage des zones et créneaux dans les bois, biodiversité — neutralise l'objection « les chiens contre la faune »), envA (évaluation et formation), un laboratoire de police scientifique (validation de la méthode ADN environnemental, formation des agents préleveurs), ARS et DRAAF (zoonoses), Maison de l'animal en ville – Jane Goodall (accueil, consultations solidaires), préfecture de police (volet contrôle).
+</li>
+</ol>
+</ol>
+<p>À quoi s'ajoute le mécénat : fondations et fondations d'entreprise du secteur animalier (30 Millions d'Amis, fondations de marques d'alimentation animale), et le mécénat d'entreprise classique.</p>
+<p>Cadre juridique : loi Aillagon du 1er août 2003, réduction d'impôt de 60 % pour les entreprises (40 % au-delà de 2 M€), convention de mécénat formalisée (des modèles existent au ministère de la Culture) ; à distinguer strictement du parrainage, qui suppose une contrepartie commerciale et ne peut pas passer par l'espace public de la Ville sans autorisation.</p>
+<p>Véhicule adapté : le fonds de dotation, éligible au mécénat, ou une fondation abritée. Obligations : publicité et certification des comptes au-delà de 153 000 € de dons par an.</p>
+<h3 id="122-ce-quun-dispositif-qui-réussit-peut-financer-et-avec-quel-argent">12.2 Ce qu'un dispositif qui réussit peut financer, et avec quel argent</h3>
+<p>Recettes possibles : cotisation d'adhésion au statut (15-25 € par chien et par an), commission sur les contrats d'assurance de groupe, mécénat et parrainage d'équipements (sachets, fontaines, signalétique), recettes des analyses refacturées, subventions publiques (budget participatif parisien, Ville, métropole, Région), et, à terme, une dotation du fonds.</p>
+<div class="tw"><table>
+<thead><tr><th>Scénario</th><th>Adhésions (20 €)</th><th>Chiens assurés</th><th>Commission à 7 %</th><th>Mécénat</th><th>Total du fonds</th></tr></thead>
+<tbody>
+<tr><td>An 1, pilote 20e + 10e : 5 000 chiens</td><td>100 k€</td><td>500 (10 %)</td><td>8 k€</td><td>50 k€</td><td><strong>158 k€/an</strong></td></tr>
+<tr><td>An 3, 30 000 enregistrés</td><td>600 k€</td><td>4 500 (15 %)</td><td>76 k€</td><td>150 k€</td><td><strong>826 k€/an</strong></td></tr>
+<tr><td>An 6, 100 000 enregistrés</td><td>2,0 M€</td><td>20 000 (20 %)</td><td>336 k€</td><td>300 k€</td><td><strong>2,64 M€/an</strong></td></tr>
+</tbody></table></div>
+<p>Pour situer l'apport assurantiel : à Paris, une pénétration de 15 % représenterait 15 000 chiens assurés, 3,6 M€ de primes annuelles et ~252 k€ de commissions ; à 25 %, 6,0 M€ de primes et ~420 k€ de commissions [E, hypothèse 20 €/mois].</p>
+<p>Ce que ce budget achète : un espace canin coûte 60-150 k€, donc le fonds de l'an 3 finance 8 sites par an, celui de l'an 6 en finance une vingtaine et peut financer en plus le réseau d'éducateurs, les fontaines, les canisites, les campagnes d'identification et les bourses pour les propriétaires modestes.</p>
+<p>Autrement dit : la carotte devient autofinancée par ses bénéficiaires et ses partenaires, sans un euro de plus sur l'impôt local. C'est la réponse chiffrée à l'objection « encore de l'argent pour les chiens ».</p>
+<h3 id="123-qui-paie-qui-gagne-quel-risque">12.3 Qui paie, qui gagne, quel risque</h3>
+<div class="tw"><table>
+<thead><tr><th>Partenaire</th><th>Ce qu'il apporte</th><th>Ce qu'il y gagne</th><th>Risque à gérer</th></tr></thead>
+<tbody>
+<tr><td>Assureurs</td><td>Contrat de groupe, remise, commissions, cofinancement de l'éducation</td><td>Pool moins sinistré, croissance dans un marché à 5-7 % de pénétration</td><td>Conflit d'intérêts si la Ville encaisse ; imposer le libre choix de l'assureur (pas de vente liée)</td></tr>
+<tr><td>Vétérinaires</td><td>Prélèvements, crédibilité, clinique pédagogique</td><td>Flux de visites, rôle civique</td><td>Déontologie : pas de publicité, convention cadre</td></tr>
+<tr><td>Laboratoires</td><td>Analyses, base, traçabilité</td><td>Marché de 5 000 à 100 000 chiens</td><td>Fiabilité et contestation : exiger la contre-analyse</td></tr>
+<tr><td>Bailleurs sociaux</td><td>Foncier en pied d'îlot, 108 ha d'espaces verts à Paris Habitat</td><td>Moins de conflits de voisinage, meilleure image, sécurité des cours</td><td>Modifier les règlements intérieurs ; ne pas réserver le foncier aux seuls titulaires</td></tr>
+<tr><td>IDFM, RATP, SNCF</td><td>Accès bus et tramways, équipements</td><td>Moins de contrôle conflictuel, image</td><td>L'opposition d'une minorité d'usagers : tester par créneaux et lignes</td></tr>
+<tr><td>Petcare privé</td><td>Remises, modules d'éducation, visibilité</td><td>Clients nouveaux et fidélisés</td><td>Éviter la labelisation de façade : charte contrôlée</td></tr>
+<tr><td>Mécènes et fondations</td><td>Numéraire, dons en nature, compétences</td><td>Réduction d'impôt, image</td><td>Écarter tout exclusivité de marque sur un service public</td></tr>
+<tr><td>Institutions de savoir</td><td>Légitimité scientifique, formation, validation</td><td>Recherche appliquée, données</td><td>Indépendance de l'évaluation</td></tr>
+</tbody></table></div>
+<h3 id="124-le-véhicule-de-financement-et-sa-gouvernance">12.4 Le véhicule de financement et sa gouvernance</h3>
+<p>Recommandation : ne pas inscrire ces flux dans le budget de la Ville, mais créer un fonds de dotation « Chiens citoyens de Paris » (ou une fondation abritée), avec :</p>
+<ul>
+<li>un conseil d'administration où la Ville est minoritaire, avec PARC.C et les associations d'arrondissement, un collège vétérinaire et un collège usagers ;
+</li>
+<li>un comité scientifique (Muséum, envA) pour l'évaluation ;
+</li>
+<li>une règle d'or : aucun financeur ne peut dépasser 15-20 % des ressources du fonds, aucune marque n'apparaît sur un équipement public, aucune exclusivité n'est accordée ;
+</li>
+<li>transparence : compte rendu annuel public, allocation par appel à projets par quartier, publication du nombre d'adhérents, du taux de couverture et des déjections relevées ;
+</li>
+<li>une clause de sortie : si la couverture des chiens stagne sous 50 %, le dispositif est réévalué et le fonds redéployé (voir la décision D4).
+</li>
+</ul>
+<h3 id="125-les-deux-partenariats-à-ouvrir-en-premier-coût--zéro">12.5 Les deux partenariats à ouvrir en premier (coût : zéro)</h3>
+<ol>
+<li>Les bailleurs sociaux de la Ville. Demander à Paris Habitat, à la RIVP et à Elogie-Siemp une poignée de parcelles en pied d'îlot pour dix « jardins de liberté », et l'ouverture de négociations sur l'article « animaux » de leurs règlements intérieurs. C'est la seule façon d'obtenir du foncier à Paris, et cela transforme un conflit quotidien de voisinage en équipement.
+</li>
+<li>Un assureur mutualiste et un assureur privé en parallèle. Protocole simple : remise aux titulaires du badge, commission au fonds, cofinancement de l'éducation canine, libre choix de l'assureur garanti. Le dossier commercial s'écrit en une page : 100 000 chiens, 5 à 7 % de pénétration actuelle, des animaux identifiés et éduqués, donc un risque moindre — et la collectivité apporte la vérification du statut.
+</li>
+</ol>
+<h3 id="126-synthèse-par-ordre-dintérêt-réel">12.6 Synthèse, par ordre d'intérêt réel</h3>
+<ol>
+<li>Les assureurs : le seul partenaire qui a un intérêt économique mesurable à la prévention, dans un marché à 5-7 % de pénétration qui vise 1 Md€ de primes en 2030. Ils apportent la remise, la commission et le cofinancement de l'éducation.
+</li>
+<li>Les bailleurs sociaux de la Ville : 108 hectares d'espaces verts chez Paris Habitat, aujourd'hui interdits aux chiens. À Paris, la ressource rare n'est pas l'argent, c'est le foncier.
+</li>
+<li>Les laboratoires : quatre acteurs concurrents, le volume parisien fait le prix.
+</li>
+<li>Les transporteurs parapublics : le droit d'accès et les équipements, à coût nul pour la Ville.
+</li>
+<li>Le petcare privé : un réseau labellisé qui finance une part de lui-même.
+</li>
+<li>Le réseau de proximité (mairies, La Poste, pharmacies, animaleries) : la distribution à l'échelle de Paris sans structure nouvelle.
+</li>
+<li>Les institutions de savoir (Muséum, École vétérinaire d'Alfort, laboratoire de police scientifique) : la légitimité scientifique et la validation de la méthode.
+</li>
+<li>Le mécénat et les fondations : le complément, sous loi Aillagon, via un fonds de dotation.
+</li>
+</ol>
+<blockquote>Le point politique, en une phrase : un dispositif qui réussit fait financer la carotte par ses bénéficiaires et ses partenaires, sans un euro d'impôt local supplémentaire — ce qui répond, avec des chiffres, à l'objection « encore de l'argent pour les chiens ». Et comme le badge devient une ressource, chaque adhérent finance son propre espace de liberté : l'incitation est alignée.</blockquote>
+<hr>
+<h2 id="annexe-a--projet-darrêté-et-règlement-du-statut">Annexe A — Projet d'arrêté et règlement du statut</h2>
+<p>Voir le document complet : /root/chiens-paris/PROJET-ARRETE-STATUT-CHIEN-CITOYEN.md (10 articles d'arrêté, 6 articles de règlement, parcours du détenteur en 5 étapes, maquette de données RGPD).</p>
+<h2 id="annexe-b--cahier-des-charges-de-consultation-des-laboratoires">Annexe B — Cahier des charges de consultation des laboratoires</h2>
+<p>Objet : identification génétique des chiens d'un périmètre parisien et analyse de déjections canines prélevées sur la voie publique.</p>
+<ol>
+<li>Identification des chiens : prélèvement buccal par un vétérinaire participant, kit fourni par la Ville, enregistrement en ligne, attestation provisoire remise immédiatement, carte définitive adressée au domicile. Profil conforme aux normes ISAG en vigueur.
+</li>
+<li>Volumes à chiffrer en trois paliers : 5 000, 20 000 et 100 000 chiens, avec prix unitaire dégressif et coût de mise en place (plateforme, inscription en ligne, édition des cartes).
+</li>
+<li>Analyse de déjections : chiffrer le coût unitaire tout compris (kit de prélèvement sur la voie publique, transport, analyse, restitution) sur des volumes de 100, 500 et 2 000 analyses par an.
+</li>
+<li>Exigences : chaîne de conservation documentée, traçabilité des échantillons, taux de réussite annoncé sur ADN environnemental dégradé, procédure de contre-analyse contradictoire en cas de contestation du détenteur, engagement de confidentialité, hébergement des données en Union européenne, sous-traitance déclarée, durée de conservation paramétrable.
+</li>
+<li>Interdictions : aucune communication de données génétiques à la Ville, aucun usage commercial des profils, aucune cession à un tiers.
+</li>
+<li>Critères de sélection : fiabilité en conditions réelles, prix unitaire, délai de restitution, capacité à traiter un pic d'analyses, qualité du support juridique fourni à la collectivité (attestations exploitables devant un officier du ministère public).
+</li>
+</ol>
+<h2 id="annexe-c--protocole-de-comptage-des-déjections-pièce-manquante-à-béziers">Annexe C — Protocole de comptage des déjections (pièce manquante à Béziers)</h2>
+<ul>
+<li>Périmètre : définir des segments homogènes (par exemple 20 tronçons de 300 m dans le 20e), représentatifs des voies les plus fréquentées.
+</li>
+<li>Fréquence : deux passages par semaine, sur six semaines minimum, aux mêmes heures, par deux observateurs distincts.
+</li>
+<li>Relevé : date, heure, tronçon, nombre de déjections, position (trottoir, chaussée, entrée d'immeuble), photo horodatée, agent identifié.
+</li>
+<li>Compléments : extractions DansMaRue sur le secteur, courriers de signalement d'habitants et de commerçants.
+</li>
+<li>Livrable : tableau avant/après, méthode publiée, résultat présentable au conseil d'arrondissement et opposable en cas de contentieux. Coût : zéro euro, du temps bénévole.
+</li>
+</ul>
+<h2 id="annexe-d--sources-inventaire-par-organisme-sans-url--les-url-vérifiées-sont-à-lannexe-e">Annexe D — Sources (inventaire par organisme, sans URL ; les URL vérifiées sont à l'annexe E)</h2>
+<ul>
+<li>Ville de Paris, « Les animaux à Paris » (100 000 chiens et chats, 45 espaces canins, charte 2021 des espaces canins, éducation canine mandatée).
+</li>
+<li>Le Parisien : 13/10/2025 (densité, poids moyen, dépenses des détenteurs) ; 15/01/2026 (propositions de Rachida Dati) ; 27/02/2026 (budget propreté ≈ 800 M€) ; 12/03/2026 (mesures chiens des candidats, ADN, Saint-Omer, Malaga) ; 14/05/2025 (annulation à Béziers, nouvel arrêté) ; 08/07/2026 (Monceau, 2 000 m², horaires élargis) ; 18/08/2026 (patchwork des règles de transport en Île-de-France).
+</li>
+<li>INSEE, Répertoire électoral unique 2026 ; Wikipédia « Élections municipales de 2026 à Paris » (résultats, 163 sièges, corps électoral).
+</li>
+<li>Ville de Paris, mode de scrutin PLM (prime majoritaire, seuil de 5 %).
+</li>
+<li>Ville de Saint-Omer, FAQ « L'identification génétique des chiens » et page « Stop aux déjections canines » (marché de 40 000 € sur deux ans, 34,10 € HT l'analyse, 72 h, périmètre signalé, 80 000 sacs par an pour ~1 500 €, 190 poubelles, 5 canisites, données chez le laboratoire, vidéoprotection ponctuelle).
+</li>
+<li>France 3 Hauts-de-France, 2026 (« -60 % », 868 chiens fichés, extension à toute la ville) ; Ouest-France et ICI Nord (mêmes faits, amende de 150 € pour défaut de carte, 267 € pour déjection).
+</li>
+<li>LDH France et LDH Béziers (moyens soulevés et motifs du jugement) ; TA Montpellier, jugement du 6 mai 2025 et ordonnance de référé du 27 juin 2025 (n° 2504518).
+</li>
+<li>CGCT art. L. 2512-13 (II, 1°), L. 2512-14, L. 2512-16-1.
+</li>
+<li>Antagene, grille tarifaire (45 € TTC l'identification génétique, 55 € avec parenté, -20 % clubs de race) ; Centrale Canine (38 € en ligne, 48 € papier) ; Genindexe ; Animagene (solution HyGene pour collectivités, Reims et l'Escarène).
+</li>
+<li>PARC.C / LinkedIn Loïc Amiot et actu.fr (11 associations, ~50 000 sympathisants, demandes) ; nousleschiensdeparis.com (demande détaillée, amendes 38 €/150 €).
+</li>
+<li>Mairie du 8e, page « Espace de liberté pour les chiens au parc Monceau » ; memento.fr 07/07/2026.
+</li>
+<li>Barcelone, Ajuntament, espais verds (aires pour chiens, zones d'usage partagé).
+</li>
+<li>Brême, Basse-Saxe, Autriche : permis de détention canine (sources de presse spécialisée 2026).
+</li>
+<li>Facco, chiffres clés de la population animale (taux de possession par catégorie sociale et par taille d'agglomération).
+</li>
+<li>KARTES (15 M€/an de propreté canine à Paris — source privée, non confirmée) ; data.gouv / Animalert (8 896 distributeurs de sacs recensés en France).
+</li>
+<li>Marché de l'assurance santé animale : 5 à 7 % des chiens et chats assurés en France contre 91 % en Suède et 25 % au Royaume-Uni ; ~600 M€ de primes en 2025, projection à 1 Md€ en 2030, croissance de 8 à 20 % par an (sources professionnelles et de presse spécialisée 2025-2026) ; primes moyennes relevées autour de 12 à 25 € par mois pour un chien ; dépense moyenne de soins ~584 € par an et par chien ; contrats conditionnés à l'identification de l'animal et excluant les chiens de catégorie 1 et 2 (MACIF, MAIF, GMF Fidélio).
+</li>
+<li>Mécénat : loi n° 2003-709 du 1er août 2003 (« loi Aillagon »), article 238 bis du CGI (réduction d'impôt de 60 %, 40 % au-delà de 2 M€) ; modèles de conventions de mécénat et de parrainage du ministère de la Culture (2025) ; obligation de publicité et de certification des comptes des organismes bénéficiaires au-delà de 153 000 € de dons par an ; fonds de dotation éligibles.
+</li>
+<li>Bailleurs sociaux et foncier : Paris Habitat (128 698 logements, 108 hectares d'espaces verts, 2 868 collaborateurs dont 1 156 gardiens), RIVP, Elogie-Siemp, SGIM ; règlement intérieur de Paris Habitat interdisant l'accès des animaux, même en laisse, aux espaces verts, aires de jeux et cours ; rapport de la Ville actionnaire 2023 et étude de l'Inspection générale sur les locaux en pied d'immeuble (6 500 locaux gérés par les quatre bailleurs, ~879 000 m²).
+</li>
+</ul>
+<h2 id="annexe-e--sources-vérifiées-avec-url">Annexe E — Sources vérifiées, avec URL</h2>
+<p>Vérification du 29 septembre 2026. Toutes ces pages ont été ouvertes ; les citations exactes sont dans l'audit séparé (/root/chiens-paris/AUDIT-SOURCES.md).</p>
+<p>Paris et données municipales :</p>
+<ul>
+<li>Ville de Paris, « Les animaux à Paris » : https://www.paris.fr/pages/les-animaux-a-paris-6287
+</li>
+<li>Ville de Paris, « Les chiens à Paris » (45 espaces canins, amende de 135 €) : https://www.paris.fr/pages/les-chiens-a-paris-33527
+</li>
+<li>Résultats et 163 conseillers de Paris : https://www.paris.fr/pages/municipales-2026-tous-les-elus-du-conseil-de-paris-et-de-la-metropole-du-grand-paris-34290
+</li>
+<li>Nombre d'électeurs inscrits (1 379 084) : https://www.insee.fr/fr/statistiques/8276873?geo=COM-75056
+</li>
+<li>Vœu du Conseil de Paris d'octobre 2025 et climat général : https://www.leparisien.fr/paris-75/je-ne-me-sens-pas-accepte-a-paris-les-proprietaires-de-chiens-plaident-pour-un-meilleur-vivre-ensemble-13-02-2026-PH662ICUXNC5BP4ZDOWZICYJSY.php
+</li>
+<li>Budget propreté (~800 M€, 6 300 agents) : https://www.leparisien.fr/elections/municipales/municipales-2026-vos-idees-pour-paris-et-si-le-budget-consacre-au-nettoyage-des-rues-etait-triple-27-02-2026-J5TW7S7MIFBHDH6DEW7DUZL7KQ.php
+</li>
+<li>Propositions de Rachida Dati (amende 300 €, Paris 4 pattes, caniparcs labellisés) : https://www.leparisien.fr/elections/municipales/municipales-a-paris-rachida-dati-propose-une-amende-salee-a-300-euros-en-cas-de-dejections-canines-non-ramassees-15-01-2026-C46UJ3TEHRG5ZHVG7AIQNVJCCY.php
+</li>
+<li>Budget participatif 2024 (142 938 votants, 121 projets, 83 M€) : https://www.paris.fr/pages/budget-participatif-2024-decouvrez-les-121-projets-laureats-28844
+</li>
+<li>Plafonds de campagne de Paris (préfecture d'Île-de-France, outil de calcul MUN26) : https://www.prefectures-regions.gouv.fr/ile-de-france/irecontenu/telechargement/134548/985594/file/MUN26%20-%20Outil%20calcul%20plafonds%20Paris%20Lyon%20Marseille.pdf
+</li>
+<li>Dons plafonnés à 4 600 € : https://www.vie-publique.fr/fiches/19431-election-presidentielle-comment-est-financee-la-campagne-electorale
+</li>
+<li>Possession canine par catégorie sociale (FACCO) : https://www.facco.fr/chiffres-cles/les-chiffres-de-la-population-animale-2/
+</li>
+<li>PARC.C, 11 associations et 12 arrondissements : https://fr.linkedin.com/posts/parisconditioncanine_2025-a-%C3%A9t%C3%A9-une-ann%C3%A9e-fondatrice-pour-la-condition-activity-7413992772472459264-Yir8 et https://www.theguardian.com/world/2026/mar/21/doggy-drinks-and-subsidised-vet-visits-paris-mayoral-race-goes-canine-crazy
+</li>
+<li>Amendes 38 € et 150 € (source associative) : https://nousleschiensdeparis.com/qui-sommes-nous/demande/
+</li>
+</ul>
+<p>Saint-Omer :</p>
+<ul>
+<li>FAQ officielle de la Ville (arrêté et contrôle de légalité, marché de 40 000 € sur deux ans, 34,10 € HT, 72 h, 150 €, 80 000 sacs pour ~1 500 €, 190 poubelles, données chez le laboratoire, vidéoprotection ponctuelle) : https://www.ville-saint-omer.fr/sites/default/files/2025-09/FAQ%20ADN%20CANIN.pdf
+</li>
+<li>Page « Stop aux déjections canines » (267 € = 135 € + 132 €) : https://www.ville-saint-omer.fr/actualite/stop-aux-dejections-canines
+</li>
+<li>868 chiens, -60 % : https://www.ouest-france.fr/hauts-de-france/saint-omer-62500/a-saint-omer-contre-les-dejections-les-chiens-sont-desormais-fiches-eb64c5f0-d694-11f0-8fa7-06f366a2f70b
+</li>
+<li>Bilan à un an, marché de 42 000 € sur deux ans (2 % du budget propreté), extension en août 2026 : https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/saint-omer/operation-anti-crottes-de-chien-dans-les-rues-un-an-plus-tard-que-donne-le-deploiement-des-prelevements-adn-a-saint-omer-3364132.html
+</li>
+<li>Extension à toute la ville, près de 1 000 chiens enregistrés : https://www.nordlittoral.fr/289431/article/2026-06-21/dejections-canines-saint-omer-etend-son-dispositif-adn-toute-la-ville
+</li>
+</ul>
+<p>Béziers et jurisprudence :</p>
+<ul>
+<li>LDH France (motifs du jugement, référé du 27 juin 2025) : https://www.ldh-france.org/beziers-lidentification-genetique-des-chiens/
+</li>
+<li>Analyse juridique et numéro de la décision au fond (TA Montpellier, 5e chambre, 6 mai 2025, n° 2305799) : https://blog.landot-avocats.net/2025/05/20/fichage-le-droit-est-il-fait-pour-les-chiens/
+</li>
+<li>Nouvel arrêté du 6 mai 2025 (35 € d'amende, 130 € de redevance, -85 % revendiqué) : https://echo-des-tribunes.com/herault-tribune/articles/beziers-le-fichage-adn-des-chiens-annule-par-la-justice-et-reintroduit-par-le-maire-robert-menard et https://lepoing.net/beziers-tribunal-administratif-annule-larrete-de-menard-sur-lidentification-adn-des-chiens-il-reprend-le-meme-aussitot/
+</li>
+</ul>
+<p>ADN canin et transports :</p>
+<ul>
+<li>Tarifs Antagene : https://antagene.com/pdf/ANTAGENE_tarifs.pdf ; remise clubs de race : https://cbf-asso.org
+</li>
+<li>Tarifs Centrale Canine : https://support.centrale-canine.fr/hc/fr/articles/20693460947613-Combien-co%C3%BBte-l-identification-ADN
+</li>
+<li>Animagene et son offre HyGene (Reims, l'Escarène) : https://www.animagene.fr/categorie/actualites-analyse-genetique-adn-animale/
+</li>
+<li>RATP, voyage avec un animal : https://www.ratp.fr/aide-contact/questions/preparer-mon-trajet/voyage-en-regle/voyager-animal
+</li>
+<li>Dimensions 45 × 30 × 25 cm, règle SNCF : https://www.sncf-connect.com/fr-ch/aide/voyager-avec-un-animal
+</li>
+<li>Parc Monceau, saison 2 (mairie du 8e) : https://mairie08.paris.fr/pages/parc-monceau-l-espace-de-liberte-canin-est-de-nouveau-accessible-35784 et https://mairie08.paris.fr/pages/parc-monceau-reouverture-de-l-espace-de-liberte-pour-les-chiens-des-ce-mercredi-8-juillet-35763
+</li>
+<li>Zone deux fois plus petite en saison 2 : https://www.leparisien.fr/paris-75/paris-les-chiens-peuvent-gambader-toute-la-journee-sans-laisse-au-parc-monceau-08-07-2026-PPI4NMBIZJAFDPWCW5QQ56YSM4.php
+</li>
+<li>Permis canin de Brême : https://www.inneres.bremen.de/inneres/buerger-und-staat/hundefuehrerschein-30149 ; amende jusqu'à 50 000 € : https://www.agrarheute.com/land-leben/50000-eur-bussgeld-hundefuehrerschein-pflicht-642459
+</li>
+<li>Basse-Saxe, 162 800 personnes formées depuis 2013 : https://www.zeit.de/news/2026-07/01/fuehrerschein-fuer-hunde-was-halter-wissen-muessen ; coût de 40 € par épreuve : https://www.ml.niedersachsen.de/startseite/themen/tiergesundheit_tierschutz/tierschutz_allgemein/informationen-zum-hundegesetz-93854.html
+</li>
+<li>Autriche, obligation au 1er juillet 2026 : https://www.sozialministerium.gv.at/Services/Aktuelles/archiv-2026/sachkundenachweis-tierhalterinnen.html
+</li>
+<li>Munich, exonération de taxe canine : https://stadt.muenchen.de/buergerservice/freizeit-hobby/tiere/hundehaltung.html ; Hambourg, dispense de laisse : https://www.hamburg.de/service/info/11254324/n0
+</li>
+<li>Paris, base juridique (CGCT L. 2512-13, II, 1°) : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041587012
+</li>
+<li>Taxe canine abrogée par la loi du 7 juin 1971 (question écrite du Sénat) : https://www.senat.fr/questions/base/1997/qSEQ970701798.html
+</li>
+<li>Berlin, 130 000 chiens et 12,6 M€ en 2023, 120 €/180 € : https://www.berlin.museum/artikel/preussische-hundesteuermarke
+</li>
+</ul>
+<p>Partenariats et financement :</p>
+<ul>
+<li>Marché de l'assurance animale et taux d'équipement : https://www.assuranceslabs.com/assurance-animaux/guide
+</li>
+<li>Contrat chien MACIF (animal identifié, catégories 1 et 2 exclues) : https://www.macif.fr/assurance/particuliers/assurance-habitation-et-vie-quotidienne/assurance-mutuelle-chien
+</li>
+<li>Loi Aillagon et taux de réduction d'impôt : https://www.culture.gouv.fr/thematiques/mecenat/qu-est-ce-que-le-mecenat/la-loi-aillagon-inciter-l-engagement-des-particuliers-et-des-entreprises
+</li>
+<li>Seuil de 153 000 € et fonds de dotation éligibles au mécénat : https://www.senat.fr/rap/r25-860-1/r25-860-13.html
+</li>
+<li>Paris Habitat (128 698 logements, 108 hectares d'espaces verts, 2 868 collaborateurs, 1 156 gardiens) : https://parishabitat.fr/nous-connaitre/about-us et https://www.parishabitat.fr/nous-connaitre/notre-identite/
+</li>
+<li>Règlement intérieur Paris Habitat, article 3 (animaux interdits même en laisse) : https://www.parishabitat.fr/wp-content/uploads/2023/04/reglement-interieur-Paris-Habitat.pdf
+</li>
+<li>6 500 locaux en pied d'immeuble, 878 821 m² : https://cdn.paris.fr/paris/2020/02/26/a54bda992b86993c02f129d95c08844d.pdf
+</li>
+</ul>
+<p>Divers :</p>
+<ul>
+<li>Barcelone, espaces pour chiens (116 clôturés, ~225 au total) : https://www.catalannews.com/society-science/item/interactive-map-barcelonas-220-dog-friendly-areas et https://ajuntament.barcelona.cat/benestaranimal/ca/espais-gossos-deslligats-en-franges-horaries
+</li>
+<li>8 896 distributeurs de sacs recensés : https://wikipaw.animalert.app/fr/enquetes/distributeurs-sacs-canins-france-open-data
+</li>
+<li>15 M€/an de propreté canine à Paris (source privée, non confirmée) : https://kartes.io/fr/intervention/sanitaires-canins
+</li>
+</ul>
+</main>
+</body></html>
